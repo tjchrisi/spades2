@@ -1,0 +1,4 @@
+C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\bridge\3.10.1\adapters\polaris-policy-checker\versions\0.2.83/polaris-policy-checker C:\Spades\.bridge\polaris_policy_checker\data.json
+{"level":"info","logger":"Polaris Policy Checker","msg":"Checking for policy violations for \"SAST(sastFull)\" assessment...","time":"2026-01-06 12:23:21.7226 EST"}
+{"level":"info","logger":"Polaris Policy Checker","msg":"Checking for policy violations for \"SCA(scaPackage)\" assessment...","time":"2026-01-06 12:23:21.7270 EST"}
+{"level":"info","logger":"Polaris Policy Checker","msg":"no policies were violated to break the build","time":"2026-01-06 12:23:22.4472 EST"}

@@ -1,0 +1,550 @@
+2026-01-05T19:11:11.254378Z|cov-internal-capture-files|33944|info|> cov-internal-capture-files version 2025.3.0 on Windows 11 Enterprise, 64-bit (build 26100)
+2026-01-05T19:11:11.254890Z|cov-internal-capture-files|33944|info|> Internal version numbers: 393dab6634 p-2025.3-push-64
+2026-01-05T19:11:11.254997Z|cov-internal-capture-files|33944|info|> 
+2026-01-05T19:11:11.255075Z|cov-internal-capture-files|33944|info|> Dumping from hostname : BD-25171
+2026-01-05T19:11:11.255158Z|cov-internal-capture-files|33944|info|> 
+2026-01-05T19:11:11.255212Z|cov-internal-capture-files|33944|info|> Platform info: Windows 11 Enterprise, 64-bit (build 26100)
+2026-01-05T19:11:11.255752Z|cov-internal-capture-files|33944|info|> 
+2026-01-05T19:11:11.255857Z|cov-internal-capture-files|33944|info|> Buildless capture started.
+2026-01-05T19:11:11.259754Z|cov-internal-capture-files|33944|info|> xml.cpp:21:parse_xml_config_file: : Trying top-level configuration file C:/Spades/idir/coverity-cli/buildless-compiler-configs/coverity_config.xml
+2026-01-05T19:11:11.393460Z|cov-internal-capture-files|33944|info|> 'C:\Spades\idir\emit\BD-25171\emit-db' temp store dir =
+2026-01-05T19:11:11.393591Z|cov-internal-capture-files|33944|info|>    'C:\Users\TRACYC~1\AppData\Local\Temp\cov-TracyChrisinger\de20cb7f819e335a0665ff47feb065eb'
+2026-01-05T19:11:11.409983Z|cov-internal-capture-files|33944|info|> Emitting 25 Files.
+2026-01-05T19:11:11.414057Z|cov-internal-capture-files|33944|info|> Executing: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-translate.exe --dir C:\Spades\idir --config C:\Spades\idir\tmp\cicf-de20cb7f819e335a0665ff47feb065eb\top_config.xml cov-buildless-capture-capture-config-files-0 --coverity_resp_file=C:\Spades\idir\tmp\cicf-de20cb7f819e335a0665ff47feb065eb\cov-translate-resp-file1
+2026-01-05T19:11:11.414261Z|cov-internal-capture-files|33944|info|> pipe_commands starting: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-translate.exe --dir C:\Spades\idir --config C:\Spades\idir\tmp\cicf-de20cb7f819e335a0665ff47feb065eb\top_config.xml cov-buildless-capture-capture-config-files-0 --coverity_resp_file=C:\Spades\idir\tmp\cicf-de20cb7f819e335a0665ff47feb065eb\cov-translate-resp-file1 
+2026-01-05T19:11:11.444473Z|cov-internal-capture-files|33944|info|> Executing: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-translate.exe --dir C:\Spades\idir --config C:\Spades\idir\tmp\cicf-de20cb7f819e335a0665ff47feb065eb\top_config.xml cov-buildless-capture-javascript-0 --coverity_resp_file=C:\Spades\idir\tmp\cicf-de20cb7f819e335a0665ff47feb065eb\cov-translate-resp-file2
+2026-01-05T19:11:11.444610Z|cov-internal-capture-files|33944|info|> pipe_commands starting: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-translate.exe --dir C:\Spades\idir --config C:\Spades\idir\tmp\cicf-de20cb7f819e335a0665ff47feb065eb\top_config.xml cov-buildless-capture-javascript-0 --coverity_resp_file=C:\Spades\idir\tmp\cicf-de20cb7f819e335a0665ff47feb065eb\cov-translate-resp-file2 
+2026-01-05T19:11:11.467011Z|cov-internal-capture-files|33944|info|> Executing: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-translate.exe --dir C:\Spades\idir --config C:\Spades\idir\tmp\cicf-de20cb7f819e335a0665ff47feb065eb\top_config.xml cov-buildless-capture-html-0 --coverity_resp_file=C:\Spades\idir\tmp\cicf-de20cb7f819e335a0665ff47feb065eb\cov-translate-resp-file3
+2026-01-05T19:11:11.467197Z|cov-internal-capture-files|33944|info|> pipe_commands starting: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-translate.exe --dir C:\Spades\idir --config C:\Spades\idir\tmp\cicf-de20cb7f819e335a0665ff47feb065eb\top_config.xml cov-buildless-capture-html-0 --coverity_resp_file=C:\Spades\idir\tmp\cicf-de20cb7f819e335a0665ff47feb065eb\cov-translate-resp-file3 
+2026-01-05T19:11:11.489818Z|cov-internal-capture-files|33944|info|> Executing: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-translate.exe --dir C:\Spades\idir --config C:\Spades\idir\tmp\cicf-de20cb7f819e335a0665ff47feb065eb\top_config.xml cov-buildless-capture-jsx-0 --coverity_resp_file=C:\Spades\idir\tmp\cicf-de20cb7f819e335a0665ff47feb065eb\cov-translate-resp-file4
+2026-01-05T19:11:11.490847Z|cov-internal-capture-files|33944|info|> pipe_commands starting: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-translate.exe --dir C:\Spades\idir --config C:\Spades\idir\tmp\cicf-de20cb7f819e335a0665ff47feb065eb\top_config.xml cov-buildless-capture-jsx-0 --coverity_resp_file=C:\Spades\idir\tmp\cicf-de20cb7f819e335a0665ff47feb065eb\cov-translate-resp-file4 
+2026-01-05T19:11:11.522942Z|cov-internal-capture-files|33944|info|> Executing: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-translate.exe --dir C:\Spades\idir --config C:\Spades\idir\tmp\cicf-de20cb7f819e335a0665ff47feb065eb\top_config.xml cov-buildless-capture-python-0 --coverity_resp_file=C:\Spades\idir\tmp\cicf-de20cb7f819e335a0665ff47feb065eb\cov-translate-resp-file5
+2026-01-05T19:11:11.523085Z|cov-internal-capture-files|33944|info|> pipe_commands starting: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-translate.exe --dir C:\Spades\idir --config C:\Spades\idir\tmp\cicf-de20cb7f819e335a0665ff47feb065eb\top_config.xml cov-buildless-capture-python-0 --coverity_resp_file=C:\Spades\idir\tmp\cicf-de20cb7f819e335a0665ff47feb065eb\cov-translate-resp-file5 
+2026-01-05T19:11:14.156847Z|cov-translate|41700|info|> * Configuring JavaScript Buildless Capture (html)
+2026-01-05T19:11:14.163473Z|cov-translate|25940|info|> * Configuring Configuration Buildless Capture
+2026-01-05T19:11:14.172899Z|cov-translate|39328|info|> * Configuring Python Buildless Capture
+2026-01-05T19:11:14.185290Z|cov-translate|41700|info|> Added template compiler configuration instance C:/Spades/idir/emit/BD-25171/config/8b03158932539812c9e2c4ed8d3785e9/coverity_config.xml
+2026-01-05T19:11:14.204466Z|cov-translate|25940|info|> Added template compiler configuration instance C:/Spades/idir/emit/BD-25171/config/13bc78efb2e5f3f921412d776f9828bb/coverity_config.xml
+2026-01-05T19:11:14.218119Z|cov-translate|39328|info|> Added template compiler configuration instance C:/Spades/idir/emit/BD-25171/config/db451006e657808962db5d9fbd94fc77/coverity_config.xml
+2026-01-05T19:11:14.219574Z|cov-translate|41700|info|> Configuration read from: C:\Spades\idir\emit\BD-25171\config\8b03158932539812c9e2c4ed8d3785e9\coverity_config.xml
+2026-01-05T19:11:14.219771Z|cov-translate|41700|info|> Node: coverity
+2026-01-05T19:11:14.219818Z|cov-translate|41700|info|>   Node: cit_version Value: 1
+2026-01-05T19:11:14.219850Z|cov-translate|41700|info|>   Node: config
+2026-01-05T19:11:14.219883Z|cov-translate|41700|info|>     Node: include Value: C:\Spades\idir\emit\BD-25171\config\8b03158932539812c9e2c4ed8d3785e9\html-config-0\coverity_config.xml
+2026-01-05T19:11:14.219915Z|cov-translate|41700|info|> Configuration read from: C:\Spades\idir\emit\BD-25171\config\8b03158932539812c9e2c4ed8d3785e9\html-config-0\coverity_config.xml
+2026-01-05T19:11:14.219946Z|cov-translate|41700|info|> Node: coverity
+2026-01-05T19:11:14.219977Z|cov-translate|41700|info|>   Node: cit_version Value: 1
+2026-01-05T19:11:14.220007Z|cov-translate|41700|info|>   Node: config
+2026-01-05T19:11:14.220039Z|cov-translate|41700|info|>     Node: build
+2026-01-05T19:11:14.220070Z|cov-translate|41700|info|>       Node: compiler
+2026-01-05T19:11:14.220100Z|cov-translate|41700|info|>         Node: comp_name Value: cov-buildless-capture-html-0
+2026-01-05T19:11:14.220133Z|cov-translate|41700|info|>         Node: comp_translator Value: html
+2026-01-05T19:11:14.220448Z|cov-translate|41700|info|>         Node: comp_lang Value: Non Compiled
+2026-01-05T19:11:14.220513Z|cov-translate|41700|info|>         Node: comp_front_end Value: cov-internal-emit-misc
+2026-01-05T19:11:14.220547Z|cov-translate|41700|info|>         Node: comp_desc Value: JavaScript Buildless Capture (html)
+2026-01-05T19:11:14.220582Z|cov-translate|41700|info|>         Node: comp_generic Value: javascript
+2026-01-05T19:11:14.220650Z|cov-translate|41700|info|>         Node: id Value: html-cov-buildless-capture-html-0-8b03158932539812c9e2c4ed8d3785e9-0
+2026-01-05T19:11:14.220689Z|cov-translate|41700|info|>         Node: is_compiler Value: true
+2026-01-05T19:11:14.220723Z|cov-translate|41700|info|>         Node: is_linker Value: false
+2026-01-05T19:11:14.220755Z|cov-translate|41700|info|>       Node: options
+2026-01-05T19:11:14.220832Z|cov-translate|41700|info|>         Node: id Value: html-cov-buildless-capture-html-0-8b03158932539812c9e2c4ed8d3785e9-0
+2026-01-05T19:11:14.220872Z|cov-translate|41700|info|>         Node: template_config_option_id Value: html-cov-buildless-capture-html-0-.*
+2026-01-05T19:11:14.220906Z|cov-translate|41700|info|>         Node: compile_options
+2026-01-05T19:11:14.220940Z|cov-translate|41700|info|>         Node: prepend_arg Value: --language=html
+2026-01-05T19:11:14.220973Z|cov-translate|41700|info|>         Node: split
+2026-01-05T19:11:14.221004Z|cov-translate|41700|info|>           Node: options
+2026-01-05T19:11:14.221037Z|cov-translate|41700|info|>             Node: prepend_arg Value: -coverity_source=non_compiled
+2026-01-05T19:11:14.221070Z|cov-translate|41700|info|>         Node: expand
+2026-01-05T19:11:14.221101Z|cov-translate|41700|info|>           Node: options
+2026-01-05T19:11:14.221133Z|cov-translate|41700|info|>             Node: intern_split_response_file_fn Value: line_split
+2026-01-05T19:11:14.221167Z|cov-translate|41700|info|>         Node: begin_command_line_config
+2026-01-05T19:11:14.221201Z|cov-translate|41700|info|>   Node: md5 Value: 27ca0c55ddf7111b563178af87833eb4
+2026-01-05T19:11:14.229876Z|cov-translate|25940|info|> Configuration read from: C:\Spades\idir\emit\BD-25171\config\13bc78efb2e5f3f921412d776f9828bb\coverity_config.xml
+2026-01-05T19:11:14.230115Z|cov-translate|25940|info|> Node: coverity
+2026-01-05T19:11:14.230184Z|cov-translate|25940|info|>   Node: cit_version Value: 1
+2026-01-05T19:11:14.230220Z|cov-translate|25940|info|>   Node: config
+2026-01-05T19:11:14.230259Z|cov-translate|25940|info|>     Node: include Value: C:\Spades\idir\emit\BD-25171\config\13bc78efb2e5f3f921412d776f9828bb\capture-config-files-config-0\coverity_config.xml
+2026-01-05T19:11:14.230298Z|cov-translate|25940|info|> Configuration read from: C:\Spades\idir\emit\BD-25171\config\13bc78efb2e5f3f921412d776f9828bb\capture-config-files-config-0\coverity_config.xml
+2026-01-05T19:11:14.230343Z|cov-translate|25940|info|> Node: coverity
+2026-01-05T19:11:14.230376Z|cov-translate|25940|info|>   Node: cit_version Value: 1
+2026-01-05T19:11:14.230427Z|cov-translate|25940|info|>   Node: config
+2026-01-05T19:11:14.230464Z|cov-translate|25940|info|>     Node: build
+2026-01-05T19:11:14.230497Z|cov-translate|25940|info|>       Node: compiler
+2026-01-05T19:11:14.230531Z|cov-translate|25940|info|>         Node: comp_name Value: cov-buildless-capture-capture-config-files-0
+2026-01-05T19:11:14.230565Z|cov-translate|25940|info|>         Node: comp_translator Value: capture-config-files
+2026-01-05T19:11:14.230596Z|cov-translate|25940|info|>         Node: comp_lang Value: Non Compiled
+2026-01-05T19:11:14.230628Z|cov-translate|25940|info|>         Node: comp_front_end Value: cov-internal-emit-misc
+2026-01-05T19:11:14.230659Z|cov-translate|25940|info|>         Node: comp_desc Value: Configuration Buildless Capture
+2026-01-05T19:11:14.230691Z|cov-translate|25940|info|>         Node: comp_generic Value: capture_config_files
+2026-01-05T19:11:14.230723Z|cov-translate|25940|info|>         Node: id Value: capture-config-files-cov-buildless-capture-capture-config-files-0-13bc78efb2e5f3f921412d776f9828bb-0
+2026-01-05T19:11:14.230775Z|cov-translate|25940|info|>         Node: is_compiler Value: true
+2026-01-05T19:11:14.230816Z|cov-translate|25940|info|>         Node: is_linker Value: false
+2026-01-05T19:11:14.230898Z|cov-translate|25940|info|>       Node: options
+2026-01-05T19:11:14.230936Z|cov-translate|25940|info|>         Node: id Value: capture-config-files-cov-buildless-capture-capture-config-files-0-13bc78efb2e5f3f921412d776f9828bb-0
+2026-01-05T19:11:14.230970Z|cov-translate|25940|info|>         Node: template_config_option_id Value: capture-config-files-cov-buildless-capture-capture-config-files-0-.*
+2026-01-05T19:11:14.231005Z|cov-translate|25940|info|>         Node: compile_options
+2026-01-05T19:11:14.231037Z|cov-translate|25940|info|>         Node: prepend_arg Value: --language=capture-config-files
+2026-01-05T19:11:14.231068Z|cov-translate|25940|info|>         Node: split
+2026-01-05T19:11:14.231108Z|cov-translate|25940|info|>           Node: options
+2026-01-05T19:11:14.231141Z|cov-translate|25940|info|>             Node: prepend_arg Value: -coverity_source=non_compiled
+2026-01-05T19:11:14.231173Z|cov-translate|25940|info|>         Node: expand
+2026-01-05T19:11:14.231205Z|cov-translate|25940|info|>           Node: options
+2026-01-05T19:11:14.231238Z|cov-translate|25940|info|>             Node: intern_split_response_file_fn Value: line_split
+2026-01-05T19:11:14.231271Z|cov-translate|25940|info|>         Node: begin_command_line_config
+2026-01-05T19:11:14.231303Z|cov-translate|25940|info|>   Node: md5 Value: 4b6bcbcd3090220a04c9ccd1777b3a92
+2026-01-05T19:11:14.245040Z|cov-translate|39328|info|> Configuration read from: C:\Spades\idir\emit\BD-25171\config\db451006e657808962db5d9fbd94fc77\coverity_config.xml
+2026-01-05T19:11:14.245276Z|cov-translate|39328|info|> Node: coverity
+2026-01-05T19:11:14.245337Z|cov-translate|39328|info|>   Node: cit_version Value: 1
+2026-01-05T19:11:14.245373Z|cov-translate|39328|info|>   Node: config
+2026-01-05T19:11:14.245407Z|cov-translate|39328|info|>     Node: include Value: C:\Spades\idir\emit\BD-25171\config\db451006e657808962db5d9fbd94fc77\python-config-0\coverity_config.xml
+2026-01-05T19:11:14.245446Z|cov-translate|39328|info|> Configuration read from: C:\Spades\idir\emit\BD-25171\config\db451006e657808962db5d9fbd94fc77\python-config-0\coverity_config.xml
+2026-01-05T19:11:14.245478Z|cov-translate|39328|info|> Node: coverity
+2026-01-05T19:11:14.245509Z|cov-translate|39328|info|>   Node: cit_version Value: 1
+2026-01-05T19:11:14.245540Z|cov-translate|39328|info|>   Node: config
+2026-01-05T19:11:14.245571Z|cov-translate|39328|info|>     Node: build
+2026-01-05T19:11:14.245602Z|cov-translate|39328|info|>       Node: compiler
+2026-01-05T19:11:14.245635Z|cov-translate|39328|info|>         Node: comp_name Value: cov-buildless-capture-python-0
+2026-01-05T19:11:14.245666Z|cov-translate|39328|info|>         Node: comp_translator Value: python
+2026-01-05T19:11:14.245697Z|cov-translate|39328|info|>         Node: comp_lang Value: Non Compiled
+2026-01-05T19:11:14.245728Z|cov-translate|39328|info|>         Node: comp_front_end Value: cov-internal-emit-misc
+2026-01-05T19:11:14.245760Z|cov-translate|39328|info|>         Node: comp_desc Value: Python Buildless Capture
+2026-01-05T19:11:14.245790Z|cov-translate|39328|info|>         Node: comp_generic Value: python
+2026-01-05T19:11:14.245824Z|cov-translate|39328|info|>         Node: id Value: python-cov-buildless-capture-python-0-db451006e657808962db5d9fbd94fc77-0
+2026-01-05T19:11:14.245856Z|cov-translate|39328|info|>         Node: is_compiler Value: true
+2026-01-05T19:11:14.245888Z|cov-translate|39328|info|>         Node: is_linker Value: false
+2026-01-05T19:11:14.245919Z|cov-translate|39328|info|>       Node: options
+2026-01-05T19:11:14.245998Z|cov-translate|39328|info|>         Node: id Value: python-cov-buildless-capture-python-0-db451006e657808962db5d9fbd94fc77-0
+2026-01-05T19:11:14.246056Z|cov-translate|39328|info|>         Node: template_config_option_id Value: python-cov-buildless-capture-python-0-.*
+2026-01-05T19:11:14.246314Z|cov-translate|39328|info|>         Node: compile_options
+2026-01-05T19:11:14.246401Z|cov-translate|39328|info|>         Node: prepend_arg Value: --language=python
+2026-01-05T19:11:14.246445Z|cov-translate|39328|info|>         Node: split
+2026-01-05T19:11:14.246556Z|cov-translate|39328|info|>           Node: options
+2026-01-05T19:11:14.246623Z|cov-translate|39328|info|>             Node: prepend_arg Value: -coverity_source=non_compiled
+2026-01-05T19:11:14.246669Z|cov-translate|39328|info|>         Node: expand
+2026-01-05T19:11:14.246712Z|cov-translate|39328|info|>           Node: options
+2026-01-05T19:11:14.246752Z|cov-translate|39328|info|>             Node: intern_split_response_file_fn Value: line_split
+2026-01-05T19:11:14.246793Z|cov-translate|39328|info|>         Node: begin_command_line_config
+2026-01-05T19:11:14.246843Z|cov-translate|39328|info|>   Node: md5 Value: 42786631f8dbde0c1ec718293ded892a
+2026-01-05T19:11:14.271227Z|cov-translate|41700|info|> [STATUS] Compiling 2 Non compiled source files.
+2026-01-05T19:11:14.271453Z|cov-translate|41700|info|> [STATUS] Compiling C:\Spades\index.html, C:\Spades\dist\index.html
+2026-01-05T19:11:14.271531Z|cov-translate|41700|info|> C:/Users/TracyChrisinger/AppData/Roaming/BlackDuck/desktop/controller/installedtools/coverity-analysis/2025.3.0/bin/cov-internal-emit-misc.exe --dir=C:\Spades\idir --language=html C:/Spades/index.html C:/Spades/dist/index.html 
+2026-01-05T19:11:14.276466Z|cov-translate|41700|info|> Command line with response file: C:/Users/TracyChrisinger/AppData/Roaming/BlackDuck/desktop/controller/installedtools/coverity-analysis/2025.3.0/bin/cov-internal-emit-misc.exe @utf8@C:\Spades\idir\tmp\cov-internal-emit-misc-e6a93ef02d407cfb34b6866cdd4e9512-0.cmd_args.txt
+2026-01-05T19:11:14.293954Z|cov-translate|25940|info|> [STATUS] Compiling 8 Non compiled source files.
+2026-01-05T19:11:14.294190Z|cov-translate|25940|info|> [STATUS] Compiling C:\Spades\dist\assets\index-UTpEpuTW.css, C:\Spades\src\App.css, C:\Spades\src\index.css, C:\Spades\package-lock.json, C:\Spades\BIDDING_TROUBLESHOOTING.md, C:\Spades\GAME_START_GUIDE.md, C:\Spades\README.md, C:\Spades\package.json
+2026-01-05T19:11:14.294257Z|cov-translate|25940|info|> C:/Users/TracyChrisinger/AppData/Roaming/BlackDuck/desktop/controller/installedtools/coverity-analysis/2025.3.0/bin/cov-internal-emit-misc.exe --dir=C:\Spades\idir --language=capture-config-files C:/Spades/dist/assets/index-UTpEpuTW.css C:/Spades/src/App.css C:/Spades/src/index.css C:/Spades/package-lock.json C:/Spades/BIDDING_TROUBLESHOOTING.md C:/Spades/GAME_START_GUIDE.md C:/Spades/README.md C:/Spades/package.json 
+2026-01-05T19:11:14.300644Z|cov-translate|25940|info|> Command line with response file: C:/Users/TracyChrisinger/AppData/Roaming/BlackDuck/desktop/controller/installedtools/coverity-analysis/2025.3.0/bin/cov-internal-emit-misc.exe @utf8@C:\Spades\idir\tmp\cov-internal-emit-misc-07c1b347df030cd7391721d90eced87f-0.cmd_args.txt
+2026-01-05T19:11:14.302550Z|cov-translate|58024|info|> * Configuring JavaScript Buildless Capture (javascript)
+2026-01-05T19:11:14.313067Z|cov-translate|39328|info|> [STATUS] Compiling 2 Non compiled source files.
+2026-01-05T19:11:14.313301Z|cov-translate|39328|info|> [STATUS] Compiling C:\Spades\spades_cutthroat.py, C:\Spades\src\spades_cutthroat.py
+2026-01-05T19:11:14.313365Z|cov-translate|39328|info|> C:/Users/TracyChrisinger/AppData/Roaming/BlackDuck/desktop/controller/installedtools/coverity-analysis/2025.3.0/bin/cov-internal-emit-misc.exe --dir=C:\Spades\idir --language=python C:/Spades/spades_cutthroat.py C:/Spades/src/spades_cutthroat.py 
+2026-01-05T19:11:14.318275Z|cov-translate|39328|info|> Command line with response file: C:/Users/TracyChrisinger/AppData/Roaming/BlackDuck/desktop/controller/installedtools/coverity-analysis/2025.3.0/bin/cov-internal-emit-misc.exe @utf8@C:\Spades\idir\tmp\cov-internal-emit-misc-aa0b25bc85cbb9da4380b6d9e76bf0f6-0.cmd_args.txt
+2026-01-05T19:11:14.370877Z|cov-translate|58024|info|> Added template compiler configuration instance C:/Spades/idir/emit/BD-25171/config/ce14c1c78630bed0ad0b9ba5366f8dd8/coverity_config.xml
+2026-01-05T19:11:14.401177Z|cov-translate|58024|info|> Configuration read from: C:\Spades\idir\emit\BD-25171\config\ce14c1c78630bed0ad0b9ba5366f8dd8\coverity_config.xml
+2026-01-05T19:11:14.401446Z|cov-translate|58024|info|> Node: coverity
+2026-01-05T19:11:14.401516Z|cov-translate|58024|info|>   Node: cit_version Value: 1
+2026-01-05T19:11:14.401555Z|cov-translate|58024|info|>   Node: config
+2026-01-05T19:11:14.401590Z|cov-translate|58024|info|>     Node: include Value: C:\Spades\idir\emit\BD-25171\config\ce14c1c78630bed0ad0b9ba5366f8dd8\javascript-config-0\coverity_config.xml
+2026-01-05T19:11:14.401628Z|cov-translate|58024|info|> Configuration read from: C:\Spades\idir\emit\BD-25171\config\ce14c1c78630bed0ad0b9ba5366f8dd8\javascript-config-0\coverity_config.xml
+2026-01-05T19:11:14.401659Z|cov-translate|58024|info|> Node: coverity
+2026-01-05T19:11:14.401690Z|cov-translate|58024|info|>   Node: cit_version Value: 1
+2026-01-05T19:11:14.401727Z|cov-translate|58024|info|>   Node: config
+2026-01-05T19:11:14.401758Z|cov-translate|58024|info|>     Node: build
+2026-01-05T19:11:14.401789Z|cov-translate|58024|info|>       Node: compiler
+2026-01-05T19:11:14.401820Z|cov-translate|58024|info|>         Node: comp_name Value: cov-buildless-capture-javascript-0
+2026-01-05T19:11:14.401851Z|cov-translate|58024|info|>         Node: comp_translator Value: javascript
+2026-01-05T19:11:14.401883Z|cov-translate|58024|info|>         Node: comp_lang Value: Non Compiled
+2026-01-05T19:11:14.401935Z|cov-translate|58024|info|>         Node: comp_front_end Value: cov-internal-emit-misc
+2026-01-05T19:11:14.401968Z|cov-translate|58024|info|>         Node: comp_desc Value: JavaScript Buildless Capture (javascript)
+2026-01-05T19:11:14.401999Z|cov-translate|58024|info|>         Node: comp_generic Value: javascript
+2026-01-05T19:11:14.402031Z|cov-translate|58024|info|>         Node: id Value: javascript-cov-buildless-capture-javascript-0-ce14c1c78630bed0ad0b9ba5366f8dd8-0
+2026-01-05T19:11:14.402063Z|cov-translate|58024|info|>         Node: is_compiler Value: true
+2026-01-05T19:11:14.402094Z|cov-translate|58024|info|>         Node: is_linker Value: false
+2026-01-05T19:11:14.402126Z|cov-translate|58024|info|>       Node: options
+2026-01-05T19:11:14.402203Z|cov-translate|58024|info|>         Node: id Value: javascript-cov-buildless-capture-javascript-0-ce14c1c78630bed0ad0b9ba5366f8dd8-0
+2026-01-05T19:11:14.402241Z|cov-translate|58024|info|>         Node: template_config_option_id Value: javascript-cov-buildless-capture-javascript-0-.*
+2026-01-05T19:11:14.402274Z|cov-translate|58024|info|>         Node: compile_options
+2026-01-05T19:11:14.402306Z|cov-translate|58024|info|>         Node: prepend_arg Value: --language=javascript
+2026-01-05T19:11:14.402339Z|cov-translate|58024|info|>         Node: split
+2026-01-05T19:11:14.402370Z|cov-translate|58024|info|>           Node: options
+2026-01-05T19:11:14.402402Z|cov-translate|58024|info|>             Node: prepend_arg Value: -coverity_source=non_compiled
+2026-01-05T19:11:14.402434Z|cov-translate|58024|info|>         Node: expand
+2026-01-05T19:11:14.402465Z|cov-translate|58024|info|>           Node: options
+2026-01-05T19:11:14.402495Z|cov-translate|58024|info|>             Node: intern_split_response_file_fn Value: line_split
+2026-01-05T19:11:14.402527Z|cov-translate|58024|info|>         Node: begin_command_line_config
+2026-01-05T19:11:14.402559Z|cov-translate|58024|info|>   Node: md5 Value: 7158154da47c61d368173de835ded988
+2026-01-05T19:11:14.412236Z|cov-translate|75320|info|> * Configuring JavaScript Buildless Capture (JSX)
+2026-01-05T19:11:14.422546Z|cov-translate|41700|info|> Coverity Internal Misc Emit version 2025.3.0 on Windows 11 Enterprise, 64-bit (build 26100)
+2026-01-05T19:11:14.422704Z|cov-translate|41700|info|> Internal version numbers: 393dab6634 p-2025.3-push-64
+2026-01-05T19:11:14.422759Z|cov-translate|41700|info|> 
+2026-01-05T19:11:14.440339Z|cov-translate|25940|info|> Coverity Internal Misc Emit version 2025.3.0 on Windows 11 Enterprise, 64-bit (build 26100)
+2026-01-05T19:11:14.440506Z|cov-translate|25940|info|> Internal version numbers: 393dab6634 p-2025.3-push-64
+2026-01-05T19:11:14.440556Z|cov-translate|25940|info|> 
+2026-01-05T19:11:14.441000Z|cov-translate|75320|info|> Added template compiler configuration instance C:/Spades/idir/emit/BD-25171/config/be8f7b871a4db944b13a23e3d41f10f7/coverity_config.xml
+2026-01-05T19:11:14.441670Z|cov-translate|39328|info|> Coverity Internal Misc Emit version 2025.3.0 on Windows 11 Enterprise, 64-bit (build 26100)
+2026-01-05T19:11:14.441769Z|cov-translate|39328|info|> Internal version numbers: 393dab6634 p-2025.3-push-64
+2026-01-05T19:11:14.441811Z|cov-translate|39328|info|> 
+2026-01-05T19:11:14.452691Z|cov-translate|58024|info|> [STATUS] Compiling 8 Non compiled source files.
+2026-01-05T19:11:14.452910Z|cov-translate|58024|info|> [STATUS] Compiling C:\Spades\vite.config.js, C:\Spades\dist\assets\index-PxGgEJaR.js, C:\Spades\src\utils\aiLogic.js, C:\Spades\src\utils\biddingLogic.test.js, C:\Spades\src\utils\deck.js, C:\Spades\src\utils\gameLogic.js, C:\Spades\src\utils\gameLogic.test.js, C:\Spades\src\utils\spadesLogic.js
+2026-01-05T19:11:14.453002Z|cov-translate|58024|info|> C:/Users/TracyChrisinger/AppData/Roaming/BlackDuck/desktop/controller/installedtools/coverity-analysis/2025.3.0/bin/cov-internal-emit-misc.exe --dir=C:\Spades\idir --language=javascript C:/Spades/vite.config.js C:/Spades/dist/assets/index-PxGgEJaR.js C:/Spades/src/utils/aiLogic.js C:/Spades/src/utils/biddingLogic.test.js C:/Spades/src/utils/deck.js C:/Spades/src/utils/gameLogic.js C:/Spades/src/utils/gameLogic.test.js C:/Spades/src/utils/spadesLogic.js 
+2026-01-05T19:11:14.458086Z|cov-translate|58024|info|> Command line with response file: C:/Users/TracyChrisinger/AppData/Roaming/BlackDuck/desktop/controller/installedtools/coverity-analysis/2025.3.0/bin/cov-internal-emit-misc.exe @utf8@C:\Spades\idir\tmp\cov-internal-emit-misc-50023405331546a326cf53c9b4f8def4-0.cmd_args.txt
+2026-01-05T19:11:14.465376Z|cov-translate|75320|info|> Configuration read from: C:\Spades\idir\emit\BD-25171\config\be8f7b871a4db944b13a23e3d41f10f7\coverity_config.xml
+2026-01-05T19:11:14.466450Z|cov-translate|75320|info|> Node: coverity
+2026-01-05T19:11:14.466677Z|cov-translate|75320|info|>   Node: cit_version Value: 1
+2026-01-05T19:11:14.466762Z|cov-translate|75320|info|>   Node: config
+2026-01-05T19:11:14.466804Z|cov-translate|75320|info|>     Node: include Value: C:\Spades\idir\emit\BD-25171\config\be8f7b871a4db944b13a23e3d41f10f7\jsx-config-0\coverity_config.xml
+2026-01-05T19:11:14.466842Z|cov-translate|75320|info|> Configuration read from: C:\Spades\idir\emit\BD-25171\config\be8f7b871a4db944b13a23e3d41f10f7\jsx-config-0\coverity_config.xml
+2026-01-05T19:11:14.466877Z|cov-translate|75320|info|> Node: coverity
+2026-01-05T19:11:14.467018Z|cov-translate|75320|info|>   Node: cit_version Value: 1
+2026-01-05T19:11:14.467074Z|cov-translate|75320|info|>   Node: config
+2026-01-05T19:11:14.467113Z|cov-translate|75320|info|>     Node: build
+2026-01-05T19:11:14.467148Z|cov-translate|75320|info|>       Node: compiler
+2026-01-05T19:11:14.467179Z|cov-translate|75320|info|>         Node: comp_name Value: cov-buildless-capture-jsx-0
+2026-01-05T19:11:14.467212Z|cov-translate|75320|info|>         Node: comp_translator Value: jsx
+2026-01-05T19:11:14.467245Z|cov-translate|75320|info|>         Node: comp_lang Value: Non Compiled
+2026-01-05T19:11:14.467277Z|cov-translate|75320|info|>         Node: comp_front_end Value: cov-internal-emit-misc
+2026-01-05T19:11:14.467309Z|cov-translate|75320|info|>         Node: comp_desc Value: JavaScript Buildless Capture (JSX)
+2026-01-05T19:11:14.467341Z|cov-translate|75320|info|>         Node: comp_generic Value: javascript
+2026-01-05T19:11:14.467372Z|cov-translate|75320|info|>         Node: id Value: jsx-cov-buildless-capture-jsx-0-be8f7b871a4db944b13a23e3d41f10f7-0
+2026-01-05T19:11:14.467404Z|cov-translate|75320|info|>         Node: is_compiler Value: true
+2026-01-05T19:11:14.467446Z|cov-translate|75320|info|>         Node: is_linker Value: false
+2026-01-05T19:11:14.467484Z|cov-translate|75320|info|>       Node: options
+2026-01-05T19:11:14.467517Z|cov-translate|75320|info|>         Node: id Value: jsx-cov-buildless-capture-jsx-0-be8f7b871a4db944b13a23e3d41f10f7-0
+2026-01-05T19:11:14.467625Z|cov-translate|75320|info|>         Node: template_config_option_id Value: jsx-cov-buildless-capture-jsx-0-.*
+2026-01-05T19:11:14.467671Z|cov-translate|75320|info|>         Node: compile_options
+2026-01-05T19:11:14.467716Z|cov-translate|75320|info|>         Node: prepend_arg Value: --language=jsx
+2026-01-05T19:11:14.467751Z|cov-translate|75320|info|>         Node: split
+2026-01-05T19:11:14.467787Z|cov-translate|75320|info|>           Node: options
+2026-01-05T19:11:14.467827Z|cov-translate|75320|info|>             Node: prepend_arg Value: -coverity_source=non_compiled
+2026-01-05T19:11:14.467871Z|cov-translate|75320|info|>         Node: expand
+2026-01-05T19:11:14.467916Z|cov-translate|75320|info|>           Node: options
+2026-01-05T19:11:14.467959Z|cov-translate|75320|info|>             Node: intern_split_response_file_fn Value: line_split
+2026-01-05T19:11:14.468002Z|cov-translate|75320|info|>         Node: begin_command_line_config
+2026-01-05T19:11:14.468041Z|cov-translate|75320|info|>   Node: md5 Value: 1b8e7af96dee49cb8a084a02b02bad52
+2026-01-05T19:11:14.497059Z|cov-translate|41700|info|> [INFO] Extracting JavaScript from 2 HTML files.
+2026-01-05T19:11:14.497225Z|cov-translate|41700|info|> [INFO] Extracting JavaScript from C:\Spades\index.html C:\Spades\dist\index.html
+2026-01-05T19:11:14.539432Z|cov-translate|41700|info|> [INFO] Expanded command line: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-internal-extract-javascript-from-html.exe --input-html-file C:\Spades\index.html --output-file C:\Spades\idir\tmp\xjs-ca93f249adeb37673dec45a38fb2380a\index.html_000.js --language html 
+2026-01-05T19:11:14.539583Z|cov-translate|41700|info|> [INFO] Command line with response file: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-internal-extract-javascript-from-html.exe @utf8@C:/Spades/idir/tmp/xjs-ca93f249adeb37673dec45a38fb2380a/extract-js-from-html-argfile-0.txt 
+2026-01-05T19:11:14.565492Z|cov-translate|75320|info|> [STATUS] Compiling 5 Non compiled source files.
+2026-01-05T19:11:14.565775Z|cov-translate|75320|info|> [STATUS] Compiling C:\Spades\src\App.jsx, C:\Spades\src\main.jsx, C:\Spades\src\components\BiddingPhase.jsx, C:\Spades\src\components\Card.jsx, C:\Spades\src\components\GameBoard.jsx
+2026-01-05T19:11:14.565851Z|cov-translate|75320|info|> C:/Users/TracyChrisinger/AppData/Roaming/BlackDuck/desktop/controller/installedtools/coverity-analysis/2025.3.0/bin/cov-internal-emit-misc.exe --dir=C:\Spades\idir --language=jsx C:/Spades/src/App.jsx C:/Spades/src/main.jsx C:/Spades/src/components/BiddingPhase.jsx C:/Spades/src/components/Card.jsx C:/Spades/src/components/GameBoard.jsx 
+2026-01-05T19:11:14.573965Z|cov-translate|75320|info|> Command line with response file: C:/Users/TracyChrisinger/AppData/Roaming/BlackDuck/desktop/controller/installedtools/coverity-analysis/2025.3.0/bin/cov-internal-emit-misc.exe @utf8@C:\Spades\idir\tmp\cov-internal-emit-misc-a853f918514516c0e5a54a0d2aceb7a9-0.cmd_args.txt
+2026-01-05T19:11:14.582938Z|cov-translate|25940|info|> [INFO] Expanded command line: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-emit-text.exe --dir C:\Spades\idir -- C:\Spades\dist\assets\index-UTpEpuTW.css C:\Spades\src\App.css C:\Spades\src\index.css C:\Spades\package-lock.json C:\Spades\BIDDING_TROUBLESHOOTING.md C:\Spades\GAME_START_GUIDE.md C:\Spades\README.md C:\Spades\package.json 
+2026-01-05T19:11:14.583114Z|cov-translate|25940|info|> [INFO] Command line with response file: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-emit-text.exe --dir C:\Spades\idir @utf8@C:/Spades/idir/tmp/cejf-3cb283ccd77c37f80464d001fd71de5e/emit-text-argfile-0.txt 
+2026-01-05T19:11:14.583394Z|cov-translate|39328|info|> [INFO] Compiling C:\Spades\spades_cutthroat.py as Python 3
+2026-01-05T19:11:14.588225Z|cov-translate|39328|info|> [INFO] Expanded command line: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-internal-python3-fe.exe --dir C:/Spades/idir --cov-emit-invocation-id 2 --link-file C:/Spades/idir/tmp/cejf-4e745fa7ff10b9bdf94d7dbb3865e0bf/frontend-emit-0.link C:/Spades/spades_cutthroat.py 
+2026-01-05T19:11:14.588386Z|cov-translate|39328|info|> [INFO] Command line with response file: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-internal-python3-fe.exe @utf8@C:/Spades/idir/tmp/cejf-4e745fa7ff10b9bdf94d7dbb3865e0bf/fe-to-json-argfile-0.txt 
+2026-01-05T19:11:14.637422Z|cov-translate|58024|info|> Coverity Internal Misc Emit version 2025.3.0 on Windows 11 Enterprise, 64-bit (build 26100)
+2026-01-05T19:11:14.637590Z|cov-translate|58024|info|> Internal version numbers: 393dab6634 p-2025.3-push-64
+2026-01-05T19:11:14.637653Z|cov-translate|58024|info|> 
+2026-01-05T19:11:14.711769Z|cov-translate|41700|info|> Coverity Internal Extract JavaScript From HTML version 2025.3.0 on Windows 11 Enterprise, 64-bit (build 26100)
+2026-01-05T19:11:14.711943Z|cov-translate|41700|info|> Internal version numbers: 393dab6634 p-2025.3-push-64
+2026-01-05T19:11:14.711992Z|cov-translate|41700|info|> 
+2026-01-05T19:11:14.743255Z|cov-translate|75320|info|> Coverity Internal Misc Emit version 2025.3.0 on Windows 11 Enterprise, 64-bit (build 26100)
+2026-01-05T19:11:14.743421Z|cov-translate|75320|info|> Internal version numbers: 393dab6634 p-2025.3-push-64
+2026-01-05T19:11:14.743477Z|cov-translate|75320|info|> 
+2026-01-05T19:11:14.757887Z|cov-translate|41700|info|> No JavaScript to extract from C:/Spades/index.html
+2026-01-05T19:11:14.758056Z|cov-translate|41700|info|> 
+2026-01-05T19:11:14.776782Z|cov-translate|58024|info|> [INFO] Expanded command line: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-internal-js-fe.exe --dir C:/Spades/idir --cov-emit-invocation-id 3 --link-file C:/Spades/idir/tmp/cejf-0799de43c98db23f6a30caa960b3226c/frontend-emit-0.link C:/Spades/vite.config.js 
+2026-01-05T19:11:14.776936Z|cov-translate|58024|info|> [INFO] Command line with response file: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-internal-js-fe.exe @utf8@C:/Spades/idir/tmp/cejf-0799de43c98db23f6a30caa960b3226c/fe-to-json-argfile-0.txt 
+2026-01-05T19:11:14.777648Z|cov-translate|41700|info|> [INFO] Expanded command line: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-emit-text.exe --dir C:\Spades\idir --html --cov-emit-invocation-id 1 -- C:\Spades\index.html 
+2026-01-05T19:11:14.777890Z|cov-translate|41700|info|> [INFO] Command line with response file: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-emit-text.exe --dir C:\Spades\idir --html --cov-emit-invocation-id 1 @utf8@C:/Spades/idir/tmp/xjs-ca93f249adeb37673dec45a38fb2380a/emit-text-argfile-0.txt 
+2026-01-05T19:11:14.859832Z|cov-translate|75320|info|> [INFO] Transpiling 5 JSX files with the TypeScript compiler.
+2026-01-05T19:11:14.859980Z|cov-translate|75320|info|> [INFO] Transpiling C:\Spades\src\App.jsx C:\Spades\src\main.jsx C:\Spades\src\components\BiddingPhase.jsx C:\Spades\src\components\Card.jsx C:\Spades\src\components\GameBoard.jsx
+2026-01-05T19:11:14.878334Z|cov-translate|75320|info|> [INFO] Expanded command line: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\node\node.exe --max-old-space-size=28990 C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\node\lib\node_modules\cov-typescript-native --summarize-files --system-encoding=windows-1252 "--outDir" "C:\Spades\idir\tmp\jsxjs-cdf433c1854374cae8897e6342fd2b52\jsxjs-output-6f4e419fad12aa8610f51b0120b2eb8b" "--lib" "ES5,DOM,ES6,DOM.Iterable,ScriptHost" "--moduleResolution" "node" "--target" "ES2020" "--jsx" "react" "--sourceMap" "--noEmitHelpers" "--allowUnreachableCode" "--allowUnusedLabels" "--disableSizeLimit" "--suppressExcessPropertyErrors" "--suppressImplicitAnyIndexErrors" "--noErrorTruncation" "--noImplicitUseStrict" "--noStrictGenericChecks" "--ignoreDeprecations" "5.0" "--allowJs" "--noResolve" "--forceJSX" "C:\Spades\src\App.jsx" "C:\Spades\src\main.jsx" "C:\Spades\src\components\BiddingPhase.jsx" "C:\Spades\src\components\Card.jsx" "C:\Spades\src\components\GameBoard.jsx" 
+2026-01-05T19:11:14.878594Z|cov-translate|75320|info|> [INFO] Command line with response file: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\node\node.exe --max-old-space-size=28990 C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\node\lib\node_modules\cov-typescript-native --summarize-files --system-encoding=windows-1252 @C:/Spades/idir/tmp/jsxjs-cdf433c1854374cae8897e6342fd2b52/transpile-to-js-argfile-0.txt 
+2026-01-05T19:11:14.959986Z|cov-translate|58024|info|> [INFO] JavaScript source file: 'C:/Spades/vite.config.js'
+2026-01-05T19:11:14.963384Z|cov-translate|39328|info|> [INFO] Successfully compiled C:\Spades\spades_cutthroat.py as Python 3
+2026-01-05T19:11:14.964143Z|cov-translate|39328|info|> [INFO] Compiling C:\Spades\src\spades_cutthroat.py as Python 3
+2026-01-05T19:11:14.966711Z|cov-translate|39328|info|> [INFO] Expanded command line: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-internal-python3-fe.exe --dir C:/Spades/idir --cov-emit-invocation-id 2 --link-file C:/Spades/idir/tmp/cejf-4e745fa7ff10b9bdf94d7dbb3865e0bf/frontend-emit-1.link C:/Spades/src/spades_cutthroat.py 
+2026-01-05T19:11:14.966878Z|cov-translate|39328|info|> [INFO] Command line with response file: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-internal-python3-fe.exe @utf8@C:/Spades/idir/tmp/cejf-4e745fa7ff10b9bdf94d7dbb3865e0bf/fe-to-json-argfile-1.txt 
+2026-01-05T19:11:14.975717Z|cov-translate|25940|info|> Detected ISO-8859-1 encoding for C:/Spades/dist/assets/index-UTpEpuTW.css
+2026-01-05T19:11:14.986574Z|cov-translate|25940|info|> Detected ISO-8859-1 encoding for C:/Spades/src/App.css
+2026-01-05T19:11:14.993668Z|cov-translate|58024|info|> [WARNING] Unable to resolve ES6 module 'vite'
+2026-01-05T19:11:14.994671Z|cov-translate|58024|info|> [WARNING] Unable to resolve ES6 module '@vitejs/plugin-react'
+2026-01-05T19:11:14.995125Z|cov-translate|58024|info|> [INFO] Total functions: 1
+2026-01-05T19:11:14.995941Z|cov-translate|25940|info|> Detected ISO-8859-1 encoding for C:/Spades/src/index.css
+2026-01-05T19:11:15.006958Z|cov-translate|25940|info|> Detected ISO-8859-1 encoding for C:/Spades/package-lock.json
+2026-01-05T19:11:15.016144Z|cov-translate|25940|info|> Detected UTF-8 encoding for C:/Spades/BIDDING_TROUBLESHOOTING.md
+2026-01-05T19:11:15.021861Z|cov-translate|25940|info|> Detected UTF-8 encoding for C:/Spades/GAME_START_GUIDE.md
+2026-01-05T19:11:15.028860Z|cov-translate|25940|info|> Detected UTF-8 encoding for C:/Spades/README.md
+2026-01-05T19:11:15.033404Z|cov-translate|25940|info|> Detected ISO-8859-1 encoding for C:/Spades/package.json
+2026-01-05T19:11:15.078313Z|cov-translate|41700|info|> Detected ISO-8859-1 encoding for C:/Spades/index.html
+2026-01-05T19:11:15.094381Z|cov-translate|58024|info|> [INFO] Expanded command line: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-internal-js-fe.exe --dir C:/Spades/idir --cov-emit-invocation-id 3 --link-file C:/Spades/idir/tmp/cejf-0799de43c98db23f6a30caa960b3226c/frontend-emit-1.link C:/Spades/dist/assets/index-PxGgEJaR.js 
+2026-01-05T19:11:15.094569Z|cov-translate|58024|info|> [INFO] Command line with response file: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-internal-js-fe.exe @utf8@C:/Spades/idir/tmp/cejf-0799de43c98db23f6a30caa960b3226c/fe-to-json-argfile-1.txt 
+2026-01-05T19:11:15.111187Z|cov-translate|41700|info|> [INFO] Expanded command line: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-internal-extract-javascript-from-html.exe --input-html-file C:\Spades\dist\index.html --output-file C:\Spades\idir\tmp\xjs-ca93f249adeb37673dec45a38fb2380a\index.html_000.js --language html 
+2026-01-05T19:11:15.111338Z|cov-translate|41700|info|> [INFO] Command line with response file: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-internal-extract-javascript-from-html.exe @utf8@C:/Spades/idir/tmp/xjs-ca93f249adeb37673dec45a38fb2380a/extract-js-from-html-argfile-1.txt 
+2026-01-05T19:11:15.115073Z|cov-translate|25940|info|> cov-internal-emit-misc.exe took 1s
+2026-01-05T19:11:15.115219Z|cov-translate|25940|info|> 
+2026-01-05T19:11:15.195994Z|cov-internal-capture-files|33944|info|> cov-translate with PID 25940 exited with code 0
+2026-01-05T19:11:15.235213Z|cov-translate|39328|info|> [INFO] Successfully compiled C:\Spades\src\spades_cutthroat.py as Python 3
+2026-01-05T19:11:15.235752Z|cov-translate|41700|info|> Coverity Internal Extract JavaScript From HTML version 2025.3.0 on Windows 11 Enterprise, 64-bit (build 26100)
+2026-01-05T19:11:15.235867Z|cov-translate|41700|info|> Internal version numbers: 393dab6634 p-2025.3-push-64
+2026-01-05T19:11:15.235914Z|cov-translate|41700|info|> 
+2026-01-05T19:11:15.254285Z|cov-translate|39328|info|> cov-internal-emit-misc.exe took 1s
+2026-01-05T19:11:15.254452Z|cov-translate|39328|info|> 
+2026-01-05T19:11:15.264015Z|cov-translate|58024|info|> [INFO] JavaScript source file: 'C:/Spades/dist/assets/index-PxGgEJaR.js'
+2026-01-05T19:11:15.268394Z|cov-translate|41700|info|> No JavaScript to extract from C:/Spades/dist/index.html
+2026-01-05T19:11:15.268562Z|cov-translate|41700|info|> 
+2026-01-05T19:11:15.281433Z|cov-translate|41700|info|> [INFO] Expanded command line: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-emit-text.exe --dir C:\Spades\idir --html --cov-emit-invocation-id 1 -- C:\Spades\dist\index.html 
+2026-01-05T19:11:15.281594Z|cov-translate|41700|info|> [INFO] Command line with response file: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-emit-text.exe --dir C:\Spades\idir --html --cov-emit-invocation-id 1 @utf8@C:/Spades/idir/tmp/xjs-ca93f249adeb37673dec45a38fb2380a/emit-text-argfile-1.txt 
+2026-01-05T19:11:15.332697Z|cov-internal-capture-files|33944|info|> cov-translate with PID 39328 exited with code 0
+2026-01-05T19:11:15.523229Z|cov-translate|41700|info|> Detected ISO-8859-1 encoding for C:/Spades/dist/index.html
+2026-01-05T19:11:15.573001Z|cov-translate|41700|info|> cov-internal-emit-misc.exe took 1s
+2026-01-05T19:11:15.573254Z|cov-translate|41700|info|> 
+2026-01-05T19:11:15.647127Z|cov-internal-capture-files|33944|info|> cov-translate with PID 41700 exited with code 0
+2026-01-05T19:11:15.768538Z|cov-translate|58024|info|> [INFO] Total functions: 693
+2026-01-05T19:11:15.797437Z|cov-translate|58024|info|> [INFO] Minified, human-unreadable
+2026-01-05T19:11:16.141669Z|cov-translate|58024|info|> [INFO] Expanded command line: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-internal-js-fe.exe --dir C:/Spades/idir --cov-emit-invocation-id 3 --link-file C:/Spades/idir/tmp/cejf-0799de43c98db23f6a30caa960b3226c/frontend-emit-2.link C:/Spades/src/utils/aiLogic.js 
+2026-01-05T19:11:16.141833Z|cov-translate|58024|info|> [INFO] Command line with response file: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-internal-js-fe.exe @utf8@C:/Spades/idir/tmp/cejf-0799de43c98db23f6a30caa960b3226c/fe-to-json-argfile-2.txt 
+2026-01-05T19:11:16.317957Z|cov-translate|58024|info|> [INFO] JavaScript source file: 'C:/Spades/src/utils/aiLogic.js'
+2026-01-05T19:11:16.352549Z|cov-translate|58024|info|> [INFO] Resolved ECMAScript module './spadesLogic.js' to file 'C:/Spades/src/utils/spadesLogic.js'
+2026-01-05T19:11:16.353339Z|cov-translate|58024|info|> [INFO] Resolved ECMAScript module './gameLogic.js' to file 'C:/Spades/src/utils/gameLogic.js'
+2026-01-05T19:11:16.358193Z|cov-translate|58024|info|> [INFO] Total functions: 35
+2026-01-05T19:11:16.431346Z|cov-translate|58024|info|> [INFO] Expanded command line: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-internal-js-fe.exe --dir C:/Spades/idir --cov-emit-invocation-id 3 --link-file C:/Spades/idir/tmp/cejf-0799de43c98db23f6a30caa960b3226c/frontend-emit-3.link C:/Spades/src/utils/biddingLogic.test.js 
+2026-01-05T19:11:16.431484Z|cov-translate|58024|info|> [INFO] Command line with response file: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-internal-js-fe.exe @utf8@C:/Spades/idir/tmp/cejf-0799de43c98db23f6a30caa960b3226c/fe-to-json-argfile-3.txt 
+2026-01-05T19:11:16.593684Z|cov-translate|58024|info|> [INFO] JavaScript source file: 'C:/Spades/src/utils/biddingLogic.test.js'
+2026-01-05T19:11:16.622481Z|cov-translate|58024|info|> [INFO] Resolved ECMAScript module './gameLogic.js' to file 'C:/Spades/src/utils/gameLogic.js'
+2026-01-05T19:11:16.623605Z|cov-translate|58024|info|> [INFO] Total functions: 2
+2026-01-05T19:11:16.687567Z|cov-translate|58024|info|> [INFO] Expanded command line: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-internal-js-fe.exe --dir C:/Spades/idir --cov-emit-invocation-id 3 --link-file C:/Spades/idir/tmp/cejf-0799de43c98db23f6a30caa960b3226c/frontend-emit-4.link C:/Spades/src/utils/deck.js 
+2026-01-05T19:11:16.687717Z|cov-translate|58024|info|> [INFO] Command line with response file: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-internal-js-fe.exe @utf8@C:/Spades/idir/tmp/cejf-0799de43c98db23f6a30caa960b3226c/fe-to-json-argfile-4.txt 
+2026-01-05T19:11:16.877123Z|cov-translate|58024|info|> [INFO] JavaScript source file: 'C:/Spades/src/utils/deck.js'
+2026-01-05T19:11:16.916700Z|cov-translate|58024|info|> [INFO] Total functions: 8
+2026-01-05T19:11:16.983056Z|cov-translate|58024|info|> [INFO] Expanded command line: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-internal-js-fe.exe --dir C:/Spades/idir --cov-emit-invocation-id 3 --link-file C:/Spades/idir/tmp/cejf-0799de43c98db23f6a30caa960b3226c/frontend-emit-5.link C:/Spades/src/utils/gameLogic.js 
+2026-01-05T19:11:16.983237Z|cov-translate|58024|info|> [INFO] Command line with response file: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-internal-js-fe.exe @utf8@C:/Spades/idir/tmp/cejf-0799de43c98db23f6a30caa960b3226c/fe-to-json-argfile-5.txt 
+2026-01-05T19:11:17.161732Z|cov-translate|58024|info|> [INFO] JavaScript source file: 'C:/Spades/src/utils/gameLogic.js'
+2026-01-05T19:11:17.195508Z|cov-translate|58024|info|> [INFO] Resolved ECMAScript module './deck.js' to file 'C:/Spades/src/utils/deck.js'
+2026-01-05T19:11:17.196199Z|cov-translate|58024|info|> [INFO] Resolved ECMAScript module './spadesLogic.js' to file 'C:/Spades/src/utils/spadesLogic.js'
+2026-01-05T19:11:17.200551Z|cov-translate|58024|info|> [INFO] Total functions: 23
+2026-01-05T19:11:17.273725Z|cov-translate|58024|info|> [INFO] Expanded command line: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-internal-js-fe.exe --dir C:/Spades/idir --cov-emit-invocation-id 3 --link-file C:/Spades/idir/tmp/cejf-0799de43c98db23f6a30caa960b3226c/frontend-emit-6.link C:/Spades/src/utils/gameLogic.test.js 
+2026-01-05T19:11:17.273907Z|cov-translate|58024|info|> [INFO] Command line with response file: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-internal-js-fe.exe @utf8@C:/Spades/idir/tmp/cejf-0799de43c98db23f6a30caa960b3226c/fe-to-json-argfile-6.txt 
+2026-01-05T19:11:17.477657Z|cov-translate|58024|info|> [INFO] JavaScript source file: 'C:/Spades/src/utils/gameLogic.test.js'
+2026-01-05T19:11:17.509229Z|cov-translate|58024|info|> [INFO] Resolved ECMAScript module './gameLogic.js' to file 'C:/Spades/src/utils/gameLogic.js'
+2026-01-05T19:11:17.513599Z|cov-translate|58024|info|> [INFO] Total functions: 1
+2026-01-05T19:11:17.602921Z|cov-translate|58024|info|> [INFO] Expanded command line: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-internal-js-fe.exe --dir C:/Spades/idir --cov-emit-invocation-id 3 --link-file C:/Spades/idir/tmp/cejf-0799de43c98db23f6a30caa960b3226c/frontend-emit-7.link C:/Spades/src/utils/spadesLogic.js 
+2026-01-05T19:11:17.603101Z|cov-translate|58024|info|> [INFO] Command line with response file: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-internal-js-fe.exe @utf8@C:/Spades/idir/tmp/cejf-0799de43c98db23f6a30caa960b3226c/fe-to-json-argfile-7.txt 
+2026-01-05T19:11:18.058311Z|cov-translate|58024|info|> [INFO] JavaScript source file: 'C:/Spades/src/utils/spadesLogic.js'
+2026-01-05T19:11:18.127796Z|cov-translate|58024|info|> [INFO] Total functions: 7
+2026-01-05T19:11:18.293666Z|cov-translate|58024|info|> [INFO] Expanded command line: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-internal-js-fe.exe --encoding US-ASCII --dir C:/Spades/idir --cov-emit-invocation-id 3 --extern --link-file C:/Spades/idir/tmp/cejf-0799de43c98db23f6a30caa960b3226c/frontend-emit-8.link C:/Users/TracyChrisinger/AppData/Roaming/BlackDuck/desktop/controller/installedtools/coverity-analysis/2025.3.0/closure-compiler/externs/es3.js 
+2026-01-05T19:11:18.293828Z|cov-translate|58024|info|> [INFO] Command line with response file: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-internal-js-fe.exe @utf8@C:/Spades/idir/tmp/cejf-0799de43c98db23f6a30caa960b3226c/fe-to-json-argfile-8.txt 
+2026-01-05T19:11:18.585120Z|cov-translate|58024|info|> [INFO] Expanded command line: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-internal-js-fe.exe --encoding US-ASCII --dir C:/Spades/idir --cov-emit-invocation-id 3 --extern --link-file C:/Spades/idir/tmp/cejf-0799de43c98db23f6a30caa960b3226c/frontend-emit-9.link C:/Users/TracyChrisinger/AppData/Roaming/BlackDuck/desktop/controller/installedtools/coverity-analysis/2025.3.0/closure-compiler/externs/es5.js 
+2026-01-05T19:11:18.585282Z|cov-translate|58024|info|> [INFO] Command line with response file: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-internal-js-fe.exe @utf8@C:/Spades/idir/tmp/cejf-0799de43c98db23f6a30caa960b3226c/fe-to-json-argfile-9.txt 
+2026-01-05T19:11:18.826888Z|cov-translate|58024|info|> [INFO] Expanded command line: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-internal-js-fe.exe --encoding US-ASCII --dir C:/Spades/idir --cov-emit-invocation-id 3 --extern --link-file C:/Spades/idir/tmp/cejf-0799de43c98db23f6a30caa960b3226c/frontend-emit-10.link C:/Users/TracyChrisinger/AppData/Roaming/BlackDuck/desktop/controller/installedtools/coverity-analysis/2025.3.0/closure-compiler/externs/fileapi.js 
+2026-01-05T19:11:18.827071Z|cov-translate|58024|info|> [INFO] Command line with response file: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-internal-js-fe.exe @utf8@C:/Spades/idir/tmp/cejf-0799de43c98db23f6a30caa960b3226c/fe-to-json-argfile-10.txt 
+2026-01-05T19:11:19.095980Z|cov-translate|58024|info|> [INFO] Expanded command line: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-internal-js-fe.exe --encoding US-ASCII --dir C:/Spades/idir --cov-emit-invocation-id 3 --extern --link-file C:/Spades/idir/tmp/cejf-0799de43c98db23f6a30caa960b3226c/frontend-emit-11.link C:/Users/TracyChrisinger/AppData/Roaming/BlackDuck/desktop/controller/installedtools/coverity-analysis/2025.3.0/closure-compiler/externs/html5.js 
+2026-01-05T19:11:19.096147Z|cov-translate|58024|info|> [INFO] Command line with response file: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-internal-js-fe.exe @utf8@C:/Spades/idir/tmp/cejf-0799de43c98db23f6a30caa960b3226c/fe-to-json-argfile-11.txt 
+2026-01-05T19:11:19.448169Z|cov-translate|58024|info|> [INFO] Expanded command line: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-internal-js-fe.exe --encoding US-ASCII --dir C:/Spades/idir --cov-emit-invocation-id 3 --extern --link-file C:/Spades/idir/tmp/cejf-0799de43c98db23f6a30caa960b3226c/frontend-emit-12.link C:/Users/TracyChrisinger/AppData/Roaming/BlackDuck/desktop/controller/installedtools/coverity-analysis/2025.3.0/closure-compiler/externs/w3c_css.js 
+2026-01-05T19:11:19.448369Z|cov-translate|58024|info|> [INFO] Command line with response file: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-internal-js-fe.exe @utf8@C:/Spades/idir/tmp/cejf-0799de43c98db23f6a30caa960b3226c/fe-to-json-argfile-12.txt 
+2026-01-05T19:11:19.904087Z|cov-translate|58024|info|> [INFO] Expanded command line: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-internal-js-fe.exe --encoding US-ASCII --dir C:/Spades/idir --cov-emit-invocation-id 3 --extern --link-file C:/Spades/idir/tmp/cejf-0799de43c98db23f6a30caa960b3226c/frontend-emit-13.link C:/Users/TracyChrisinger/AppData/Roaming/BlackDuck/desktop/controller/installedtools/coverity-analysis/2025.3.0/closure-compiler/externs/w3c_dom1.js 
+2026-01-05T19:11:19.904263Z|cov-translate|58024|info|> [INFO] Command line with response file: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-internal-js-fe.exe @utf8@C:/Spades/idir/tmp/cejf-0799de43c98db23f6a30caa960b3226c/fe-to-json-argfile-13.txt 
+2026-01-05T19:11:20.300711Z|cov-translate|58024|info|> [INFO] Expanded command line: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-internal-js-fe.exe --encoding US-ASCII --dir C:/Spades/idir --cov-emit-invocation-id 3 --extern --link-file C:/Spades/idir/tmp/cejf-0799de43c98db23f6a30caa960b3226c/frontend-emit-14.link C:/Users/TracyChrisinger/AppData/Roaming/BlackDuck/desktop/controller/installedtools/coverity-analysis/2025.3.0/closure-compiler/externs/window.js 
+2026-01-05T19:11:20.300861Z|cov-translate|58024|info|> [INFO] Command line with response file: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-internal-js-fe.exe @utf8@C:/Spades/idir/tmp/cejf-0799de43c98db23f6a30caa960b3226c/fe-to-json-argfile-14.txt 
+2026-01-05T19:11:20.610344Z|cov-translate|58024|info|> cov-internal-emit-misc.exe took 6s
+2026-01-05T19:11:20.610487Z|cov-translate|58024|info|> 
+2026-01-05T19:11:20.853422Z|cov-internal-capture-files|33944|info|> cov-translate with PID 58024 exited with code 0
+2026-01-05T19:11:21.725002Z|cov-translate|75320|info|> [INFO] tsc exited with code 0.
+2026-01-05T19:11:21.755816Z|cov-translate|75320|info|> [INFO] Expanded command line: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-internal-js-fe.exe --dir C:/Spades/idir --cov-emit-invocation-id 4 --link-file C:/Spades/idir/tmp/jsxjs-cdf433c1854374cae8897e6342fd2b52/frontend-emit-0.link --transpiled-from-language jsx --x-use-filename-minification-hint C:/Spades/idir/tmp/jsxjs-cdf433c1854374cae8897e6342fd2b52/jsxjs-output-6f4e419fad12aa8610f51b0120b2eb8b/App.js 
+2026-01-05T19:11:21.755970Z|cov-translate|75320|info|> [INFO] Command line with response file: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-internal-js-fe.exe @utf8@C:/Spades/idir/tmp/jsxjs-cdf433c1854374cae8897e6342fd2b52/fe-to-json-argfile-0.txt 
+2026-01-05T19:11:21.924985Z|cov-translate|75320|info|> [INFO] JavaScript transpiled from source file: 'C:/Spades/src/App.jsx'
+2026-01-05T19:11:21.956601Z|cov-translate|75320|info|> [WARNING] Unable to resolve ES6 module 'react'
+2026-01-05T19:11:21.957599Z|cov-translate|75320|info|> [INFO] Resolved ECMAScript module './App.css' to file 'C:/Spades/src/App.css'
+2026-01-05T19:11:21.959135Z|cov-translate|75320|info|> [INFO] Resolved ECMAScript module './utils/gameLogic.js' to file 'C:/Spades/src/utils/gameLogic.js'
+2026-01-05T19:11:21.964974Z|cov-translate|75320|info|> [INFO] Resolved ECMAScript module './components/GameBoard.jsx' to file 'C:/Spades/src/components/GameBoard.jsx'
+2026-01-05T19:11:21.966596Z|cov-translate|75320|info|> [INFO] Resolved ECMAScript module './components/BiddingPhase.jsx' to file 'C:/Spades/src/components/BiddingPhase.jsx'
+2026-01-05T19:11:21.968680Z|cov-translate|75320|info|> [INFO] Total functions: 5
+2026-01-05T19:11:22.035782Z|cov-translate|75320|info|> [INFO] Expanded command line: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-internal-js-fe.exe --dir C:/Spades/idir --cov-emit-invocation-id 4 --link-file C:/Spades/idir/tmp/jsxjs-cdf433c1854374cae8897e6342fd2b52/frontend-emit-1.link --transpiled-from-language jsx --x-use-filename-minification-hint C:/Spades/idir/tmp/jsxjs-cdf433c1854374cae8897e6342fd2b52/jsxjs-output-6f4e419fad12aa8610f51b0120b2eb8b/main.js 
+2026-01-05T19:11:22.035934Z|cov-translate|75320|info|> [INFO] Command line with response file: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-internal-js-fe.exe @utf8@C:/Spades/idir/tmp/jsxjs-cdf433c1854374cae8897e6342fd2b52/fe-to-json-argfile-1.txt 
+2026-01-05T19:11:22.182675Z|cov-translate|75320|info|> [INFO] JavaScript transpiled from source file: 'C:/Spades/src/main.jsx'
+2026-01-05T19:11:22.208708Z|cov-translate|75320|info|> [WARNING] Unable to resolve ES6 module 'react'
+2026-01-05T19:11:22.209409Z|cov-translate|75320|info|> [WARNING] Unable to resolve ES6 module 'react-dom/client'
+2026-01-05T19:11:22.210092Z|cov-translate|75320|info|> [INFO] Resolved ECMAScript module './App.jsx' to file 'C:/Spades/src/App.jsx'
+2026-01-05T19:11:22.211280Z|cov-translate|75320|info|> [INFO] Resolved ECMAScript module './index.css' to file 'C:/Spades/src/index.css'
+2026-01-05T19:11:22.211824Z|cov-translate|75320|info|> [INFO] Total functions: 1
+2026-01-05T19:11:22.275192Z|cov-translate|75320|info|> [INFO] Expanded command line: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-internal-js-fe.exe --dir C:/Spades/idir --cov-emit-invocation-id 4 --link-file C:/Spades/idir/tmp/jsxjs-cdf433c1854374cae8897e6342fd2b52/frontend-emit-2.link --transpiled-from-language jsx --x-use-filename-minification-hint C:/Spades/idir/tmp/jsxjs-cdf433c1854374cae8897e6342fd2b52/jsxjs-output-6f4e419fad12aa8610f51b0120b2eb8b/components/BiddingPhase.js 
+2026-01-05T19:11:22.275355Z|cov-translate|75320|info|> [INFO] Command line with response file: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-internal-js-fe.exe @utf8@C:/Spades/idir/tmp/jsxjs-cdf433c1854374cae8897e6342fd2b52/fe-to-json-argfile-2.txt 
+2026-01-05T19:11:22.435788Z|cov-translate|75320|info|> [INFO] JavaScript transpiled from source file: 'C:/Spades/src/components/BiddingPhase.jsx'
+2026-01-05T19:11:22.466628Z|cov-translate|75320|info|> [WARNING] Unable to resolve ES6 module 'react'
+2026-01-05T19:11:22.467719Z|cov-translate|75320|info|> [INFO] Resolved ECMAScript module './Card.jsx' to file 'C:/Spades/src/components/Card.jsx'
+2026-01-05T19:11:22.468558Z|cov-translate|75320|info|> [INFO] Resolved ECMAScript module '../utils/gameLogic.js' to file 'C:/Spades/src/utils/gameLogic.js'
+2026-01-05T19:11:22.474208Z|cov-translate|75320|info|> [INFO] Total functions: 19
+2026-01-05T19:11:22.546207Z|cov-translate|75320|info|> [INFO] Expanded command line: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-internal-js-fe.exe --dir C:/Spades/idir --cov-emit-invocation-id 4 --link-file C:/Spades/idir/tmp/jsxjs-cdf433c1854374cae8897e6342fd2b52/frontend-emit-3.link --transpiled-from-language jsx --x-use-filename-minification-hint C:/Spades/idir/tmp/jsxjs-cdf433c1854374cae8897e6342fd2b52/jsxjs-output-6f4e419fad12aa8610f51b0120b2eb8b/components/Card.js 
+2026-01-05T19:11:22.546357Z|cov-translate|75320|info|> [INFO] Command line with response file: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-internal-js-fe.exe @utf8@C:/Spades/idir/tmp/jsxjs-cdf433c1854374cae8897e6342fd2b52/fe-to-json-argfile-3.txt 
+2026-01-05T19:11:22.696382Z|cov-translate|75320|info|> [INFO] JavaScript transpiled from source file: 'C:/Spades/src/components/Card.jsx'
+2026-01-05T19:11:22.725519Z|cov-translate|75320|info|> [WARNING] Unable to resolve ES6 module 'react'
+2026-01-05T19:11:22.726444Z|cov-translate|75320|info|> [INFO] Resolved ECMAScript module '../utils/gameLogic.js' to file 'C:/Spades/src/utils/gameLogic.js'
+2026-01-05T19:11:22.728255Z|cov-translate|75320|info|> [INFO] Total functions: 3
+2026-01-05T19:11:22.798863Z|cov-translate|75320|info|> [INFO] Expanded command line: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-internal-js-fe.exe --dir C:/Spades/idir --cov-emit-invocation-id 4 --link-file C:/Spades/idir/tmp/jsxjs-cdf433c1854374cae8897e6342fd2b52/frontend-emit-4.link --transpiled-from-language jsx --x-use-filename-minification-hint C:/Spades/idir/tmp/jsxjs-cdf433c1854374cae8897e6342fd2b52/jsxjs-output-6f4e419fad12aa8610f51b0120b2eb8b/components/GameBoard.js 
+2026-01-05T19:11:22.799030Z|cov-translate|75320|info|> [INFO] Command line with response file: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-internal-js-fe.exe @utf8@C:/Spades/idir/tmp/jsxjs-cdf433c1854374cae8897e6342fd2b52/fe-to-json-argfile-4.txt 
+2026-01-05T19:11:22.940035Z|cov-translate|75320|info|> [INFO] JavaScript transpiled from source file: 'C:/Spades/src/components/GameBoard.jsx'
+2026-01-05T19:11:22.970591Z|cov-translate|75320|info|> [WARNING] Unable to resolve ES6 module 'react'
+2026-01-05T19:11:22.971867Z|cov-translate|75320|info|> [INFO] Resolved ECMAScript module './Card.jsx' to file 'C:/Spades/src/components/Card.jsx'
+2026-01-05T19:11:22.973254Z|cov-translate|75320|info|> [INFO] Resolved ECMAScript module '../utils/gameLogic.js' to file 'C:/Spades/src/utils/gameLogic.js'
+2026-01-05T19:11:22.974055Z|cov-translate|75320|info|> [INFO] Resolved ECMAScript module '../utils/aiLogic.js' to file 'C:/Spades/src/utils/aiLogic.js'
+2026-01-05T19:11:22.981589Z|cov-translate|75320|info|> [INFO] Total functions: 23
+2026-01-05T19:11:23.158246Z|cov-translate|75320|info|> cov-internal-emit-misc.exe took 9s
+2026-01-05T19:11:23.158408Z|cov-translate|75320|info|> 
+2026-01-05T19:11:23.271824Z|cov-internal-capture-files|33944|info|> cov-translate with PID 75320 exited with code 0
+2026-01-05T19:11:23.282710Z|cov-internal-capture-files|33944|info|> Buildless capture completed.
+2026-01-06T14:55:32.267326Z|cov-internal-capture-files|62632|info|> cov-internal-capture-files version 2025.3.0 on Windows 11 Enterprise, 64-bit (build 26100)
+2026-01-06T14:55:32.268100Z|cov-internal-capture-files|62632|info|> Internal version numbers: 393dab6634 p-2025.3-push-64
+2026-01-06T14:55:32.268158Z|cov-internal-capture-files|62632|info|> 
+2026-01-06T14:55:32.268197Z|cov-internal-capture-files|62632|info|> Dumping from hostname : BD-25171
+2026-01-06T14:55:32.268224Z|cov-internal-capture-files|62632|info|> 
+2026-01-06T14:55:32.268249Z|cov-internal-capture-files|62632|info|> Platform info: Windows 11 Enterprise, 64-bit (build 26100)
+2026-01-06T14:55:32.268273Z|cov-internal-capture-files|62632|info|> 
+2026-01-06T14:55:32.268295Z|cov-internal-capture-files|62632|info|> Buildless capture started.
+2026-01-06T14:55:32.269829Z|cov-internal-capture-files|62632|info|> xml.cpp:21:parse_xml_config_file: : Trying top-level configuration file C:/Spades/idir/coverity-cli/buildless-compiler-configs/coverity_config.xml
+2026-01-06T14:55:32.300329Z|cov-internal-capture-files|62632|info|> 'C:\Spades\idir\emit\BD-25171\emit-db' temp store dir =
+2026-01-06T14:55:32.300370Z|cov-internal-capture-files|62632|info|>    'C:\Users\TRACYC~1\AppData\Local\Temp\cov-TracyChrisinger\f4d9502c9dd24d05523419ab01cafa66'
+2026-01-06T14:55:32.305863Z|cov-internal-capture-files|62632|info|> Emitting 25 Files.
+2026-01-06T14:55:32.306759Z|cov-internal-capture-files|62632|info|> Executing: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-translate.exe --dir C:\Spades\idir --config C:\Spades\idir\tmp\cicf-f4d9502c9dd24d05523419ab01cafa66\top_config.xml cov-buildless-capture-capture-config-files-0 --coverity_resp_file=C:\Spades\idir\tmp\cicf-f4d9502c9dd24d05523419ab01cafa66\cov-translate-resp-file1
+2026-01-06T14:55:32.306800Z|cov-internal-capture-files|62632|info|> pipe_commands starting: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-translate.exe --dir C:\Spades\idir --config C:\Spades\idir\tmp\cicf-f4d9502c9dd24d05523419ab01cafa66\top_config.xml cov-buildless-capture-capture-config-files-0 --coverity_resp_file=C:\Spades\idir\tmp\cicf-f4d9502c9dd24d05523419ab01cafa66\cov-translate-resp-file1 
+2026-01-06T14:55:32.317434Z|cov-internal-capture-files|62632|info|> Executing: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-translate.exe --dir C:\Spades\idir --config C:\Spades\idir\tmp\cicf-f4d9502c9dd24d05523419ab01cafa66\top_config.xml cov-buildless-capture-javascript-0 --coverity_resp_file=C:\Spades\idir\tmp\cicf-f4d9502c9dd24d05523419ab01cafa66\cov-translate-resp-file2
+2026-01-06T14:55:32.317510Z|cov-internal-capture-files|62632|info|> pipe_commands starting: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-translate.exe --dir C:\Spades\idir --config C:\Spades\idir\tmp\cicf-f4d9502c9dd24d05523419ab01cafa66\top_config.xml cov-buildless-capture-javascript-0 --coverity_resp_file=C:\Spades\idir\tmp\cicf-f4d9502c9dd24d05523419ab01cafa66\cov-translate-resp-file2 
+2026-01-06T14:55:32.326357Z|cov-internal-capture-files|62632|info|> Executing: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-translate.exe --dir C:\Spades\idir --config C:\Spades\idir\tmp\cicf-f4d9502c9dd24d05523419ab01cafa66\top_config.xml cov-buildless-capture-html-0 --coverity_resp_file=C:\Spades\idir\tmp\cicf-f4d9502c9dd24d05523419ab01cafa66\cov-translate-resp-file3
+2026-01-06T14:55:32.326493Z|cov-internal-capture-files|62632|info|> pipe_commands starting: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-translate.exe --dir C:\Spades\idir --config C:\Spades\idir\tmp\cicf-f4d9502c9dd24d05523419ab01cafa66\top_config.xml cov-buildless-capture-html-0 --coverity_resp_file=C:\Spades\idir\tmp\cicf-f4d9502c9dd24d05523419ab01cafa66\cov-translate-resp-file3 
+2026-01-06T14:55:32.336453Z|cov-internal-capture-files|62632|info|> Executing: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-translate.exe --dir C:\Spades\idir --config C:\Spades\idir\tmp\cicf-f4d9502c9dd24d05523419ab01cafa66\top_config.xml cov-buildless-capture-jsx-0 --coverity_resp_file=C:\Spades\idir\tmp\cicf-f4d9502c9dd24d05523419ab01cafa66\cov-translate-resp-file4
+2026-01-06T14:55:32.336550Z|cov-internal-capture-files|62632|info|> pipe_commands starting: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-translate.exe --dir C:\Spades\idir --config C:\Spades\idir\tmp\cicf-f4d9502c9dd24d05523419ab01cafa66\top_config.xml cov-buildless-capture-jsx-0 --coverity_resp_file=C:\Spades\idir\tmp\cicf-f4d9502c9dd24d05523419ab01cafa66\cov-translate-resp-file4 
+2026-01-06T14:55:32.346628Z|cov-internal-capture-files|62632|info|> Executing: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-translate.exe --dir C:\Spades\idir --config C:\Spades\idir\tmp\cicf-f4d9502c9dd24d05523419ab01cafa66\top_config.xml cov-buildless-capture-python-0 --coverity_resp_file=C:\Spades\idir\tmp\cicf-f4d9502c9dd24d05523419ab01cafa66\cov-translate-resp-file5
+2026-01-06T14:55:32.346693Z|cov-internal-capture-files|62632|info|> pipe_commands starting: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-translate.exe --dir C:\Spades\idir --config C:\Spades\idir\tmp\cicf-f4d9502c9dd24d05523419ab01cafa66\top_config.xml cov-buildless-capture-python-0 --coverity_resp_file=C:\Spades\idir\tmp\cicf-f4d9502c9dd24d05523419ab01cafa66\cov-translate-resp-file5 
+2026-01-06T14:55:32.401384Z|cov-translate|38860|info|> Using cached template compiler configuration instance C:/Spades/idir/emit/BD-25171/config/13bc78efb2e5f3f921412d776f9828bb/coverity_config.xml
+2026-01-06T14:55:32.412436Z|cov-translate|33304|info|> Using cached template compiler configuration instance C:/Spades/idir/emit/BD-25171/config/ce14c1c78630bed0ad0b9ba5366f8dd8/coverity_config.xml
+2026-01-06T14:55:32.421681Z|cov-translate|38860|info|> [STATUS] Compiling 8 Non compiled source files.
+2026-01-06T14:55:32.421812Z|cov-translate|38860|info|> [STATUS] Compiling C:\Spades\dist\assets\index-UTpEpuTW.css, C:\Spades\src\App.css, C:\Spades\src\index.css, C:\Spades\BIDDING_TROUBLESHOOTING.md, C:\Spades\GAME_START_GUIDE.md, C:\Spades\README.md, C:\Spades\package-lock.json, C:\Spades\package.json
+2026-01-06T14:55:32.421875Z|cov-translate|38860|info|> C:/Users/TracyChrisinger/AppData/Roaming/BlackDuck/desktop/controller/installedtools/coverity-analysis/2025.3.0/bin/cov-internal-emit-misc.exe --dir=C:\Spades\idir --language=capture-config-files C:/Spades/dist/assets/index-UTpEpuTW.css C:/Spades/src/App.css C:/Spades/src/index.css C:/Spades/BIDDING_TROUBLESHOOTING.md C:/Spades/GAME_START_GUIDE.md C:/Spades/README.md C:/Spades/package-lock.json C:/Spades/package.json 
+2026-01-06T14:55:32.423463Z|cov-translate|38860|info|> Command line with response file: C:/Users/TracyChrisinger/AppData/Roaming/BlackDuck/desktop/controller/installedtools/coverity-analysis/2025.3.0/bin/cov-internal-emit-misc.exe @utf8@C:\Spades\idir\tmp\cov-internal-emit-misc-3b0a8f38aa2e2350243c4490e14b8043-0.cmd_args.txt
+2026-01-06T14:55:32.427394Z|cov-translate|71660|info|> Using cached template compiler configuration instance C:/Spades/idir/emit/BD-25171/config/8b03158932539812c9e2c4ed8d3785e9/coverity_config.xml
+2026-01-06T14:55:32.436907Z|cov-translate|58616|info|> Using cached template compiler configuration instance C:/Spades/idir/emit/BD-25171/config/db451006e657808962db5d9fbd94fc77/coverity_config.xml
+2026-01-06T14:55:32.437007Z|cov-translate|33304|info|> [STATUS] Compiling 8 Non compiled source files.
+2026-01-06T14:55:32.437040Z|cov-translate|33304|info|> [STATUS] Compiling C:\Spades\vite.config.js, C:\Spades\dist\assets\index-PxGgEJaR.js, C:\Spades\src\utils\aiLogic.js, C:\Spades\src\utils\biddingLogic.test.js, C:\Spades\src\utils\deck.js, C:\Spades\src\utils\gameLogic.js, C:\Spades\src\utils\gameLogic.test.js, C:\Spades\src\utils\spadesLogic.js
+2026-01-06T14:55:32.437060Z|cov-translate|33304|info|> C:/Users/TracyChrisinger/AppData/Roaming/BlackDuck/desktop/controller/installedtools/coverity-analysis/2025.3.0/bin/cov-internal-emit-misc.exe --dir=C:\Spades\idir --language=javascript C:/Spades/vite.config.js C:/Spades/dist/assets/index-PxGgEJaR.js C:/Spades/src/utils/aiLogic.js C:/Spades/src/utils/biddingLogic.test.js C:/Spades/src/utils/deck.js C:/Spades/src/utils/gameLogic.js C:/Spades/src/utils/gameLogic.test.js C:/Spades/src/utils/spadesLogic.js 
+2026-01-06T14:55:32.438616Z|cov-translate|33304|info|> Command line with response file: C:/Users/TracyChrisinger/AppData/Roaming/BlackDuck/desktop/controller/installedtools/coverity-analysis/2025.3.0/bin/cov-internal-emit-misc.exe @utf8@C:\Spades\idir\tmp\cov-internal-emit-misc-276b2ab2e82a94de9451d6a61394ea4c-0.cmd_args.txt
+2026-01-06T14:55:32.444863Z|cov-translate|29704|info|> Using cached template compiler configuration instance C:/Spades/idir/emit/BD-25171/config/be8f7b871a4db944b13a23e3d41f10f7/coverity_config.xml
+2026-01-06T14:55:32.448440Z|cov-translate|71660|info|> [STATUS] Compiling 2 Non compiled source files.
+2026-01-06T14:55:32.448583Z|cov-translate|71660|info|> [STATUS] Compiling C:\Spades\index.html, C:\Spades\dist\index.html
+2026-01-06T14:55:32.448629Z|cov-translate|71660|info|> C:/Users/TracyChrisinger/AppData/Roaming/BlackDuck/desktop/controller/installedtools/coverity-analysis/2025.3.0/bin/cov-internal-emit-misc.exe --dir=C:\Spades\idir --language=html C:/Spades/index.html C:/Spades/dist/index.html 
+2026-01-06T14:55:32.450772Z|cov-translate|71660|info|> Command line with response file: C:/Users/TracyChrisinger/AppData/Roaming/BlackDuck/desktop/controller/installedtools/coverity-analysis/2025.3.0/bin/cov-internal-emit-misc.exe @utf8@C:\Spades\idir\tmp\cov-internal-emit-misc-20f4a7cf3a478e16efd2f1d72407e906-0.cmd_args.txt
+2026-01-06T14:55:32.469788Z|cov-translate|38860|info|> Coverity Internal Misc Emit version 2025.3.0 on Windows 11 Enterprise, 64-bit (build 26100)
+2026-01-06T14:55:32.469909Z|cov-translate|38860|info|> Internal version numbers: 393dab6634 p-2025.3-push-64
+2026-01-06T14:55:32.469943Z|cov-translate|38860|info|> 
+2026-01-06T14:55:32.475213Z|cov-translate|58616|info|> [STATUS] Compiling 2 Non compiled source files.
+2026-01-06T14:55:32.475340Z|cov-translate|58616|info|> [STATUS] Compiling C:\Spades\spades_cutthroat.py, C:\Spades\src\spades_cutthroat.py
+2026-01-06T14:55:32.475380Z|cov-translate|58616|info|> C:/Users/TracyChrisinger/AppData/Roaming/BlackDuck/desktop/controller/installedtools/coverity-analysis/2025.3.0/bin/cov-internal-emit-misc.exe --dir=C:\Spades\idir --language=python C:/Spades/spades_cutthroat.py C:/Spades/src/spades_cutthroat.py 
+2026-01-06T14:55:32.476760Z|cov-translate|58616|info|> Command line with response file: C:/Users/TracyChrisinger/AppData/Roaming/BlackDuck/desktop/controller/installedtools/coverity-analysis/2025.3.0/bin/cov-internal-emit-misc.exe @utf8@C:\Spades\idir\tmp\cov-internal-emit-misc-1ecef5bb38899ea8032143e9f2055610-0.cmd_args.txt
+2026-01-06T14:55:32.485091Z|cov-translate|33304|info|> Coverity Internal Misc Emit version 2025.3.0 on Windows 11 Enterprise, 64-bit (build 26100)
+2026-01-06T14:55:32.485191Z|cov-translate|33304|info|> Internal version numbers: 393dab6634 p-2025.3-push-64
+2026-01-06T14:55:32.485231Z|cov-translate|33304|info|> 
+2026-01-06T14:55:32.496235Z|cov-translate|29704|info|> [STATUS] Compiling 5 Non compiled source files.
+2026-01-06T14:55:32.496366Z|cov-translate|29704|info|> [STATUS] Compiling C:\Spades\src\App.jsx, C:\Spades\src\main.jsx, C:\Spades\src\components\BiddingPhase.jsx, C:\Spades\src\components\Card.jsx, C:\Spades\src\components\GameBoard.jsx
+2026-01-06T14:55:32.496428Z|cov-translate|29704|info|> C:/Users/TracyChrisinger/AppData/Roaming/BlackDuck/desktop/controller/installedtools/coverity-analysis/2025.3.0/bin/cov-internal-emit-misc.exe --dir=C:\Spades\idir --language=jsx C:/Spades/src/App.jsx C:/Spades/src/main.jsx C:/Spades/src/components/BiddingPhase.jsx C:/Spades/src/components/Card.jsx C:/Spades/src/components/GameBoard.jsx 
+2026-01-06T14:55:32.497244Z|cov-translate|71660|info|> Coverity Internal Misc Emit version 2025.3.0 on Windows 11 Enterprise, 64-bit (build 26100)
+2026-01-06T14:55:32.497321Z|cov-translate|71660|info|> Internal version numbers: 393dab6634 p-2025.3-push-64
+2026-01-06T14:55:32.497349Z|cov-translate|71660|info|> 
+2026-01-06T14:55:32.498425Z|cov-translate|29704|info|> Command line with response file: C:/Users/TracyChrisinger/AppData/Roaming/BlackDuck/desktop/controller/installedtools/coverity-analysis/2025.3.0/bin/cov-internal-emit-misc.exe @utf8@C:\Spades\idir\tmp\cov-internal-emit-misc-89bf54b5a5aad47216f9f8392bd71fb9-0.cmd_args.txt
+2026-01-06T14:55:32.506126Z|cov-translate|38860|info|> [INFO] Expanded command line: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-emit-text.exe --dir C:\Spades\idir -- C:\Spades\dist\assets\index-UTpEpuTW.css C:\Spades\src\App.css C:\Spades\src\index.css C:\Spades\BIDDING_TROUBLESHOOTING.md C:\Spades\GAME_START_GUIDE.md C:\Spades\README.md C:\Spades\package-lock.json C:\Spades\package.json 
+2026-01-06T14:55:32.506215Z|cov-translate|38860|info|> [INFO] Command line with response file: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-emit-text.exe --dir C:\Spades\idir @utf8@C:/Spades/idir/tmp/cejf-65b7ea8aa27be64121f3cc8370cf6cfc/emit-text-argfile-0.txt 
+2026-01-06T14:55:32.520836Z|cov-translate|58616|info|> Coverity Internal Misc Emit version 2025.3.0 on Windows 11 Enterprise, 64-bit (build 26100)
+2026-01-06T14:55:32.520923Z|cov-translate|58616|info|> Internal version numbers: 393dab6634 p-2025.3-push-64
+2026-01-06T14:55:32.520955Z|cov-translate|58616|info|> 
+2026-01-06T14:55:32.527377Z|cov-translate|71660|info|> [INFO] Extracting JavaScript from 2 HTML files.
+2026-01-06T14:55:32.527472Z|cov-translate|71660|info|> [INFO] Extracting JavaScript from C:\Spades\index.html C:\Spades\dist\index.html
+2026-01-06T14:55:32.540408Z|cov-translate|29704|info|> Coverity Internal Misc Emit version 2025.3.0 on Windows 11 Enterprise, 64-bit (build 26100)
+2026-01-06T14:55:32.540505Z|cov-translate|29704|info|> Internal version numbers: 393dab6634 p-2025.3-push-64
+2026-01-06T14:55:32.540537Z|cov-translate|29704|info|> 
+2026-01-06T14:55:32.582051Z|cov-translate|58616|info|> cov-internal-emit-misc.exe took 0s
+2026-01-06T14:55:32.582141Z|cov-translate|58616|info|> 
+2026-01-06T14:55:32.585254Z|cov-translate|71660|info|> cov-internal-emit-misc.exe took 0s
+2026-01-06T14:55:32.585330Z|cov-translate|71660|info|> 
+2026-01-06T14:55:32.588317Z|cov-translate|29704|info|> cov-internal-emit-misc.exe took 0s
+2026-01-06T14:55:32.588409Z|cov-translate|29704|info|> 
+2026-01-06T14:55:32.592817Z|cov-translate|33304|info|> cov-internal-emit-misc.exe took 0s
+2026-01-06T14:55:32.592906Z|cov-translate|33304|info|> 
+2026-01-06T14:55:32.605239Z|cov-internal-capture-files|62632|info|> cov-translate with PID 58616 exited with code 0
+2026-01-06T14:55:32.625479Z|cov-internal-capture-files|62632|info|> cov-translate with PID 33304 exited with code 0
+2026-01-06T14:55:32.625882Z|cov-internal-capture-files|62632|info|> cov-translate with PID 71660 exited with code 0
+2026-01-06T14:55:32.626164Z|cov-internal-capture-files|62632|info|> cov-translate with PID 29704 exited with code 0
+2026-01-06T14:55:32.627473Z|cov-translate|38860|info|> cov-internal-emit-misc.exe took 0s
+2026-01-06T14:55:32.627540Z|cov-translate|38860|info|> 
+2026-01-06T14:55:32.645804Z|cov-internal-capture-files|62632|info|> cov-translate with PID 38860 exited with code 0
+2026-01-06T14:55:32.649318Z|cov-internal-capture-files|62632|info|> Buildless capture completed.
+2026-01-06T16:47:26.398495Z|cov-internal-capture-files|46960|info|> cov-internal-capture-files version 2025.3.0 on Windows 11 Enterprise, 64-bit (build 26100)
+2026-01-06T16:47:26.398609Z|cov-internal-capture-files|46960|info|> Internal version numbers: 393dab6634 p-2025.3-push-64
+2026-01-06T16:47:26.398628Z|cov-internal-capture-files|46960|info|> 
+2026-01-06T16:47:26.398644Z|cov-internal-capture-files|46960|info|> Dumping from hostname : BD-25171
+2026-01-06T16:47:26.398655Z|cov-internal-capture-files|46960|info|> 
+2026-01-06T16:47:26.398665Z|cov-internal-capture-files|46960|info|> Platform info: Windows 11 Enterprise, 64-bit (build 26100)
+2026-01-06T16:47:26.398675Z|cov-internal-capture-files|46960|info|> 
+2026-01-06T16:47:26.398685Z|cov-internal-capture-files|46960|info|> Buildless capture started.
+2026-01-06T16:47:26.399557Z|cov-internal-capture-files|46960|info|> xml.cpp:21:parse_xml_config_file: : Trying top-level configuration file C:/Spades/idir/coverity-cli/buildless-compiler-configs/coverity_config.xml
+2026-01-06T16:47:26.434714Z|cov-internal-capture-files|46960|info|> 'C:\Spades\idir\emit\BD-25171\emit-db' temp store dir =
+2026-01-06T16:47:26.434756Z|cov-internal-capture-files|46960|info|>    'C:\Users\TRACYC~1\AppData\Local\Temp\cov-TracyChrisinger\bc22178dc911d030111276bf3ec22331'
+2026-01-06T16:47:26.440616Z|cov-internal-capture-files|46960|info|> Emitting 25 Files.
+2026-01-06T16:47:26.441625Z|cov-internal-capture-files|46960|info|> Executing: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-translate.exe --dir C:\Spades\idir --config C:\Spades\idir\tmp\cicf-bc22178dc911d030111276bf3ec22331\top_config.xml cov-buildless-capture-capture-config-files-0 --coverity_resp_file=C:\Spades\idir\tmp\cicf-bc22178dc911d030111276bf3ec22331\cov-translate-resp-file1
+2026-01-06T16:47:26.441676Z|cov-internal-capture-files|46960|info|> pipe_commands starting: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-translate.exe --dir C:\Spades\idir --config C:\Spades\idir\tmp\cicf-bc22178dc911d030111276bf3ec22331\top_config.xml cov-buildless-capture-capture-config-files-0 --coverity_resp_file=C:\Spades\idir\tmp\cicf-bc22178dc911d030111276bf3ec22331\cov-translate-resp-file1 
+2026-01-06T16:47:26.453090Z|cov-internal-capture-files|46960|info|> Executing: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-translate.exe --dir C:\Spades\idir --config C:\Spades\idir\tmp\cicf-bc22178dc911d030111276bf3ec22331\top_config.xml cov-buildless-capture-javascript-0 --coverity_resp_file=C:\Spades\idir\tmp\cicf-bc22178dc911d030111276bf3ec22331\cov-translate-resp-file2
+2026-01-06T16:47:26.453168Z|cov-internal-capture-files|46960|info|> pipe_commands starting: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-translate.exe --dir C:\Spades\idir --config C:\Spades\idir\tmp\cicf-bc22178dc911d030111276bf3ec22331\top_config.xml cov-buildless-capture-javascript-0 --coverity_resp_file=C:\Spades\idir\tmp\cicf-bc22178dc911d030111276bf3ec22331\cov-translate-resp-file2 
+2026-01-06T16:47:26.463315Z|cov-internal-capture-files|46960|info|> Executing: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-translate.exe --dir C:\Spades\idir --config C:\Spades\idir\tmp\cicf-bc22178dc911d030111276bf3ec22331\top_config.xml cov-buildless-capture-html-0 --coverity_resp_file=C:\Spades\idir\tmp\cicf-bc22178dc911d030111276bf3ec22331\cov-translate-resp-file3
+2026-01-06T16:47:26.463561Z|cov-internal-capture-files|46960|info|> pipe_commands starting: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-translate.exe --dir C:\Spades\idir --config C:\Spades\idir\tmp\cicf-bc22178dc911d030111276bf3ec22331\top_config.xml cov-buildless-capture-html-0 --coverity_resp_file=C:\Spades\idir\tmp\cicf-bc22178dc911d030111276bf3ec22331\cov-translate-resp-file3 
+2026-01-06T16:47:26.472626Z|cov-internal-capture-files|46960|info|> Executing: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-translate.exe --dir C:\Spades\idir --config C:\Spades\idir\tmp\cicf-bc22178dc911d030111276bf3ec22331\top_config.xml cov-buildless-capture-jsx-0 --coverity_resp_file=C:\Spades\idir\tmp\cicf-bc22178dc911d030111276bf3ec22331\cov-translate-resp-file4
+2026-01-06T16:47:26.472717Z|cov-internal-capture-files|46960|info|> pipe_commands starting: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-translate.exe --dir C:\Spades\idir --config C:\Spades\idir\tmp\cicf-bc22178dc911d030111276bf3ec22331\top_config.xml cov-buildless-capture-jsx-0 --coverity_resp_file=C:\Spades\idir\tmp\cicf-bc22178dc911d030111276bf3ec22331\cov-translate-resp-file4 
+2026-01-06T16:47:26.483647Z|cov-internal-capture-files|46960|info|> Executing: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-translate.exe --dir C:\Spades\idir --config C:\Spades\idir\tmp\cicf-bc22178dc911d030111276bf3ec22331\top_config.xml cov-buildless-capture-python-0 --coverity_resp_file=C:\Spades\idir\tmp\cicf-bc22178dc911d030111276bf3ec22331\cov-translate-resp-file5
+2026-01-06T16:47:26.483728Z|cov-internal-capture-files|46960|info|> pipe_commands starting: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-translate.exe --dir C:\Spades\idir --config C:\Spades\idir\tmp\cicf-bc22178dc911d030111276bf3ec22331\top_config.xml cov-buildless-capture-python-0 --coverity_resp_file=C:\Spades\idir\tmp\cicf-bc22178dc911d030111276bf3ec22331\cov-translate-resp-file5 
+2026-01-06T16:47:26.551292Z|cov-translate|39592|info|> Using cached template compiler configuration instance C:/Spades/idir/emit/BD-25171/config/ce14c1c78630bed0ad0b9ba5366f8dd8/coverity_config.xml
+2026-01-06T16:47:26.558123Z|cov-translate|58164|info|> Using cached template compiler configuration instance C:/Spades/idir/emit/BD-25171/config/13bc78efb2e5f3f921412d776f9828bb/coverity_config.xml
+2026-01-06T16:47:26.572847Z|cov-translate|39592|info|> [STATUS] Compiling 8 Non compiled source files.
+2026-01-06T16:47:26.572971Z|cov-translate|39592|info|> [STATUS] Compiling C:\Spades\vite.config.js, C:\Spades\dist\assets\index-PxGgEJaR.js, C:\Spades\src\utils\aiLogic.js, C:\Spades\src\utils\biddingLogic.test.js, C:\Spades\src\utils\deck.js, C:\Spades\src\utils\gameLogic.js, C:\Spades\src\utils\gameLogic.test.js, C:\Spades\src\utils\spadesLogic.js
+2026-01-06T16:47:26.573012Z|cov-translate|39592|info|> C:/Users/TracyChrisinger/AppData/Roaming/BlackDuck/desktop/controller/installedtools/coverity-analysis/2025.3.0/bin/cov-internal-emit-misc.exe --dir=C:\Spades\idir --language=javascript C:/Spades/vite.config.js C:/Spades/dist/assets/index-PxGgEJaR.js C:/Spades/src/utils/aiLogic.js C:/Spades/src/utils/biddingLogic.test.js C:/Spades/src/utils/deck.js C:/Spades/src/utils/gameLogic.js C:/Spades/src/utils/gameLogic.test.js C:/Spades/src/utils/spadesLogic.js 
+2026-01-06T16:47:26.574965Z|cov-translate|39592|info|> Command line with response file: C:/Users/TracyChrisinger/AppData/Roaming/BlackDuck/desktop/controller/installedtools/coverity-analysis/2025.3.0/bin/cov-internal-emit-misc.exe @utf8@C:\Spades\idir\tmp\cov-internal-emit-misc-77e22be944ede91caf7dc4bbcafae10d-0.cmd_args.txt
+2026-01-06T16:47:26.575619Z|cov-translate|59452|info|> Using cached template compiler configuration instance C:/Spades/idir/emit/BD-25171/config/8b03158932539812c9e2c4ed8d3785e9/coverity_config.xml
+2026-01-06T16:47:26.577181Z|cov-translate|51044|info|> Using cached template compiler configuration instance C:/Spades/idir/emit/BD-25171/config/be8f7b871a4db944b13a23e3d41f10f7/coverity_config.xml
+2026-01-06T16:47:26.581352Z|cov-translate|48204|info|> Using cached template compiler configuration instance C:/Spades/idir/emit/BD-25171/config/db451006e657808962db5d9fbd94fc77/coverity_config.xml
+2026-01-06T16:47:26.582176Z|cov-translate|58164|info|> [STATUS] Compiling 8 Non compiled source files.
+2026-01-06T16:47:26.582303Z|cov-translate|58164|info|> [STATUS] Compiling C:\Spades\dist\assets\index-UTpEpuTW.css, C:\Spades\src\App.css, C:\Spades\src\index.css, C:\Spades\package-lock.json, C:\Spades\BIDDING_TROUBLESHOOTING.md, C:\Spades\GAME_START_GUIDE.md, C:\Spades\README.md, C:\Spades\package.json
+2026-01-06T16:47:26.582345Z|cov-translate|58164|info|> C:/Users/TracyChrisinger/AppData/Roaming/BlackDuck/desktop/controller/installedtools/coverity-analysis/2025.3.0/bin/cov-internal-emit-misc.exe --dir=C:\Spades\idir --language=capture-config-files C:/Spades/dist/assets/index-UTpEpuTW.css C:/Spades/src/App.css C:/Spades/src/index.css C:/Spades/package-lock.json C:/Spades/BIDDING_TROUBLESHOOTING.md C:/Spades/GAME_START_GUIDE.md C:/Spades/README.md C:/Spades/package.json 
+2026-01-06T16:47:26.584061Z|cov-translate|58164|info|> Command line with response file: C:/Users/TracyChrisinger/AppData/Roaming/BlackDuck/desktop/controller/installedtools/coverity-analysis/2025.3.0/bin/cov-internal-emit-misc.exe @utf8@C:\Spades\idir\tmp\cov-internal-emit-misc-b1651fe8e4ece79fba8f470bfecd1564-0.cmd_args.txt
+2026-01-06T16:47:26.603337Z|cov-translate|51044|info|> [STATUS] Compiling 5 Non compiled source files.
+2026-01-06T16:47:26.603461Z|cov-translate|51044|info|> [STATUS] Compiling C:\Spades\src\App.jsx, C:\Spades\src\main.jsx, C:\Spades\src\components\BiddingPhase.jsx, C:\Spades\src\components\Card.jsx, C:\Spades\src\components\GameBoard.jsx
+2026-01-06T16:47:26.603497Z|cov-translate|51044|info|> C:/Users/TracyChrisinger/AppData/Roaming/BlackDuck/desktop/controller/installedtools/coverity-analysis/2025.3.0/bin/cov-internal-emit-misc.exe --dir=C:\Spades\idir --language=jsx C:/Spades/src/App.jsx C:/Spades/src/main.jsx C:/Spades/src/components/BiddingPhase.jsx C:/Spades/src/components/Card.jsx C:/Spades/src/components/GameBoard.jsx 
+2026-01-06T16:47:26.604859Z|cov-translate|51044|info|> Command line with response file: C:/Users/TracyChrisinger/AppData/Roaming/BlackDuck/desktop/controller/installedtools/coverity-analysis/2025.3.0/bin/cov-internal-emit-misc.exe @utf8@C:\Spades\idir\tmp\cov-internal-emit-misc-ce48f66b86d2525cf2cc6894ef864c09-0.cmd_args.txt
+2026-01-06T16:47:26.607142Z|cov-translate|59452|info|> [STATUS] Compiling 2 Non compiled source files.
+2026-01-06T16:47:26.607241Z|cov-translate|59452|info|> [STATUS] Compiling C:\Spades\index.html, C:\Spades\dist\index.html
+2026-01-06T16:47:26.607268Z|cov-translate|59452|info|> C:/Users/TracyChrisinger/AppData/Roaming/BlackDuck/desktop/controller/installedtools/coverity-analysis/2025.3.0/bin/cov-internal-emit-misc.exe --dir=C:\Spades\idir --language=html C:/Spades/index.html C:/Spades/dist/index.html 
+2026-01-06T16:47:26.608687Z|cov-translate|59452|info|> Command line with response file: C:/Users/TracyChrisinger/AppData/Roaming/BlackDuck/desktop/controller/installedtools/coverity-analysis/2025.3.0/bin/cov-internal-emit-misc.exe @utf8@C:\Spades\idir\tmp\cov-internal-emit-misc-4d0fc1f3e4d369e040c10d8f73ad2e34-0.cmd_args.txt
+2026-01-06T16:47:26.623035Z|cov-translate|58164|info|> Coverity Internal Misc Emit version 2025.3.0 on Windows 11 Enterprise, 64-bit (build 26100)
+2026-01-06T16:47:26.623141Z|cov-translate|58164|info|> Internal version numbers: 393dab6634 p-2025.3-push-64
+2026-01-06T16:47:26.623182Z|cov-translate|58164|info|> 
+2026-01-06T16:47:26.623948Z|cov-translate|48204|info|> [STATUS] Compiling 2 Non compiled source files.
+2026-01-06T16:47:26.624076Z|cov-translate|48204|info|> [STATUS] Compiling C:\Spades\spades_cutthroat.py, C:\Spades\src\spades_cutthroat.py
+2026-01-06T16:47:26.624124Z|cov-translate|48204|info|> C:/Users/TracyChrisinger/AppData/Roaming/BlackDuck/desktop/controller/installedtools/coverity-analysis/2025.3.0/bin/cov-internal-emit-misc.exe --dir=C:\Spades\idir --language=python C:/Spades/spades_cutthroat.py C:/Spades/src/spades_cutthroat.py 
+2026-01-06T16:47:26.626233Z|cov-translate|48204|info|> Command line with response file: C:/Users/TracyChrisinger/AppData/Roaming/BlackDuck/desktop/controller/installedtools/coverity-analysis/2025.3.0/bin/cov-internal-emit-misc.exe @utf8@C:\Spades\idir\tmp\cov-internal-emit-misc-bb4bc98c9a099da439ef36afee4a66d5-0.cmd_args.txt
+2026-01-06T16:47:26.633257Z|cov-translate|39592|info|> Coverity Internal Misc Emit version 2025.3.0 on Windows 11 Enterprise, 64-bit (build 26100)
+2026-01-06T16:47:26.633352Z|cov-translate|39592|info|> Internal version numbers: 393dab6634 p-2025.3-push-64
+2026-01-06T16:47:26.633390Z|cov-translate|39592|info|> 
+2026-01-06T16:47:26.655846Z|cov-translate|59452|info|> Coverity Internal Misc Emit version 2025.3.0 on Windows 11 Enterprise, 64-bit (build 26100)
+2026-01-06T16:47:26.655941Z|cov-translate|59452|info|> Internal version numbers: 393dab6634 p-2025.3-push-64
+2026-01-06T16:47:26.655971Z|cov-translate|59452|info|> 
+2026-01-06T16:47:26.657194Z|cov-translate|51044|info|> Coverity Internal Misc Emit version 2025.3.0 on Windows 11 Enterprise, 64-bit (build 26100)
+2026-01-06T16:47:26.657272Z|cov-translate|51044|info|> Internal version numbers: 393dab6634 p-2025.3-push-64
+2026-01-06T16:47:26.657325Z|cov-translate|51044|info|> 
+2026-01-06T16:47:26.659070Z|cov-translate|58164|info|> [INFO] Expanded command line: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-emit-text.exe --dir C:\Spades\idir -- C:\Spades\dist\assets\index-UTpEpuTW.css C:\Spades\src\App.css C:\Spades\src\index.css C:\Spades\package-lock.json C:\Spades\BIDDING_TROUBLESHOOTING.md C:\Spades\GAME_START_GUIDE.md C:\Spades\README.md C:\Spades\package.json 
+2026-01-06T16:47:26.659153Z|cov-translate|58164|info|> [INFO] Command line with response file: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-emit-text.exe --dir C:\Spades\idir @utf8@C:/Spades/idir/tmp/cejf-8913271666472bd31f85b1c2f9b445fd/emit-text-argfile-0.txt 
+2026-01-06T16:47:26.679097Z|cov-translate|48204|info|> Coverity Internal Misc Emit version 2025.3.0 on Windows 11 Enterprise, 64-bit (build 26100)
+2026-01-06T16:47:26.679187Z|cov-translate|48204|info|> Internal version numbers: 393dab6634 p-2025.3-push-64
+2026-01-06T16:47:26.679218Z|cov-translate|48204|info|> 
+2026-01-06T16:47:26.687273Z|cov-translate|59452|info|> [INFO] Extracting JavaScript from 2 HTML files.
+2026-01-06T16:47:26.687361Z|cov-translate|59452|info|> [INFO] Extracting JavaScript from C:\Spades\index.html C:\Spades\dist\index.html
+2026-01-06T16:47:26.736357Z|cov-translate|48204|info|> cov-internal-emit-misc.exe took 0s
+2026-01-06T16:47:26.736451Z|cov-translate|48204|info|> 
+2026-01-06T16:47:26.746602Z|cov-translate|51044|info|> cov-internal-emit-misc.exe took 0s
+2026-01-06T16:47:26.746701Z|cov-translate|51044|info|> 
+2026-01-06T16:47:26.779509Z|cov-translate|39592|info|> cov-internal-emit-misc.exe took 0s
+2026-01-06T16:47:26.779556Z|cov-translate|39592|info|> 
+2026-01-06T16:47:26.779747Z|cov-internal-capture-files|46960|info|> cov-translate with PID 51044 exited with code 0
+2026-01-06T16:47:26.780194Z|cov-internal-capture-files|46960|info|> cov-translate with PID 48204 exited with code 0
+2026-01-06T16:47:26.793382Z|cov-translate|59452|info|> cov-internal-emit-misc.exe took 0s
+2026-01-06T16:47:26.793427Z|cov-translate|59452|info|> 
+2026-01-06T16:47:26.793512Z|cov-internal-capture-files|46960|info|> cov-translate with PID 39592 exited with code 0
+2026-01-06T16:47:26.808390Z|cov-internal-capture-files|46960|info|> cov-translate with PID 59452 exited with code 0
+2026-01-06T16:47:26.818607Z|cov-translate|58164|info|> cov-internal-emit-misc.exe took 0s
+2026-01-06T16:47:26.818706Z|cov-translate|58164|info|> 
+2026-01-06T16:47:26.838055Z|cov-internal-capture-files|46960|info|> cov-translate with PID 58164 exited with code 0
+2026-01-06T16:47:26.841407Z|cov-internal-capture-files|46960|info|> Buildless capture completed.

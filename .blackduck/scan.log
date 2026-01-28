@@ -1,0 +1,16 @@
+INFO:__main__:Logging at level INFO to .blackduck/scan.log
+INFO:__main__:Using local caching: pigeon-cache.db
+ERROR:utils:Authentication error: Verify your LLM API Key and retry.
+ERROR:utils:Exiting...
+INFO:__main__:Logging at level INFO to .blackduck/scan.log
+INFO:__main__:Using local caching: pigeon-cache.db
+ERROR:utils:Authentication error: Verify your LLM API Key and retry.
+ERROR:utils:Exiting...
+INFO:__main__:Logging at level INFO to .blackduck/scan.log
+INFO:__main__:Using local caching: pigeon-cache.db
+ERROR:utils:Authentication error: Verify your LLM API Key and retry.
+ERROR:utils:Exiting...
+INFO:__main__:Logging at level INFO to .blackduck/scan.log
+INFO:__main__:Using local caching: pigeon-cache.db
+ERROR:utils:Authentication error: Verify your LLM API Key and retry.
+ERROR:utils:Exiting...

@@ -1,0 +1,8 @@
+Native Compiler invocation: ./ --coverity_resp_file=C:\Spades\idir\tmp\cicf-de20cb7f819e335a0665ff47feb065eb\cov-translate-resp-file5
+Working directory: C:\Spades
+Comptype: python
+* Configuring Python Buildless Capture
+Checking for 'mount' command
+Checking for Cygwin registry keys
+           * HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Cygnus Solutions\Cygwin
+           * HKEY_CURRENT_USER\SOFTWARE\Wow6432Node\Cygnus Solutions\Cygwin

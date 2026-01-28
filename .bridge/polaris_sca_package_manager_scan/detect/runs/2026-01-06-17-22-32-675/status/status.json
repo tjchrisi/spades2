@@ -1,0 +1,80 @@
+{
+  "formatVersion": "0.5.0",
+  "detectVersion": "10.4.0",
+  "projectName": "tic-tac-toe",
+  "projectVersion": "0.0.0",
+  "detectors": [
+    {
+      "folder": "C:\\Spades",
+      "detectorType": "NPM",
+      "detectorName": "NPM Package Lock",
+      "detectorAccuracy": "HIGH",
+      "extracted": true,
+      "status": "SUCCESS",
+      "statusCode": "PASSED",
+      "statusReason": "Passed",
+      "relevantFiles": [],
+      "explanations": [
+        "Found file: C:\\Spades\\package-lock.json",
+        "Found file: C:\\Spades\\package.json"
+      ],
+      "projectName": "tic-tac-toe",
+      "projectVersion": "0.0.0",
+      "codeLocationCount": 1
+    }
+  ],
+  "status": [
+    {
+      "key": "NPM",
+      "status": "SUCCESS"
+    }
+  ],
+  "issues": [],
+  "overallStatus": [
+    {
+      "key": "SUCCESS",
+      "status": "Detect exited successfully."
+    }
+  ],
+  "results": [
+    {
+      "location": "C:\\Spades\\.bridge\\polaris_sca_package_manager_scan\\detect\\runs\\2026-01-06-17-22-32-675\\scan/components-with-locations.json",
+      "message": "Component Location Analysis File: C:\\Spades\\.bridge\\polaris_sca_package_manager_scan\\detect\\runs\\2026-01-06-17-22-32-675\\scan/components-with-locations.json",
+      "sub_messages": []
+    }
+  ],
+  "unrecognizedPaths": {},
+  "codeLocations": [],
+  "propertyValues": {
+    "blackduck.offline.mode": "true",
+    "blackduck.offline.mode.force.bdio": "true",
+    "detect.bdio.file.name": "scan",
+    "detect.bdio.output.path": "C:\\Spades\\.bridge\\polaris_sca_package_manager_scan\\detect\\bdio\\blackduck_artifact",
+    "detect.cleanup": "false",
+    "detect.component.location.analysis.enabled": "true",
+    "detect.excluded.directories": "C:\\Spades\\.bridge",
+    "detect.maven.path": "c:\\Program Files\\Apache\\Maven\\apache-maven-3.9.11\\bin\\mvn.cmd",
+    "detect.output.path": "C:\\Spades\\.bridge\\polaris_sca_package_manager_scan\\detect",
+    "detect.tools": "DETECTOR"
+  },
+  "operations": [
+    {
+      "startTimestamp": "2026-01-06 17:22:33.264",
+      "endTimestamp": "2026-01-06 17:22:33.805",
+      "descriptionKey": "Execute Detectors",
+      "status": "SUCCESS"
+    },
+    {
+      "startTimestamp": "2026-01-06 17:22:33.808",
+      "endTimestamp": "2026-01-06 17:22:33.835",
+      "descriptionKey": "SubProject Aggregate",
+      "status": "SUCCESS"
+    },
+    {
+      "startTimestamp": "2026-01-06 17:22:34.032",
+      "endTimestamp": "2026-01-06 17:22:36.134",
+      "descriptionKey": "Generating Component Location Analysis File for All Components",
+      "status": "SUCCESS"
+    }
+  ]
+}

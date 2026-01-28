@@ -1,0 +1,15 @@
+C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\bridge\3.10.1\adapters\polaris-artifacts-uploader\versions\0.2.131/polaris-artifacts-uploader C:\Spades\.bridge\polaris_artifacts_uploader\data.json
+{"level":"info","logger":"Polaris Artifacts Uploader","msg":"uploading artifact for \"SAST(sastFull)\" assessment with id \"88de2eb7-9e7f-4afd-8d2a-4133c4683962\"","time":"2026-01-06 12:22:36.6154 EST"}
+{"level":"info","logger":"Polaris Artifacts Uploader","msg":"uploading artifact for \"SCA(scaPackage)\" assessment with id \"5deae467-c821-4aef-b943-f724f863a678\"","time":"2026-01-06 12:22:36.6174 EST"}
+{"level":"info","logger":"Polaris Artifacts Uploader","msg":"Uploading artifact C:\\Spades\\.bridge\\polaris_coverity_capture\\idir.zip for \"SAST(sastFull)\" assessment","time":"2026-01-06 12:22:37.8255 EST"}
+{"level":"info","logger":"Polaris Artifacts Uploader","msg":"Uploading artifact C:\\Spades\\.bridge\\polaris_sca_package_manager_scan\\blackduck-sca-artifacts.zip for \"SCA(scaPackage)\" assessment","time":"2026-01-06 12:22:37.8279 EST"}
+{"level":"info","logger":"Polaris Artifacts Uploader","msg":"Uploading Progress of \"SAST(sastFull)\" artifact:   5%  16384/317285","time":"2026-01-06 12:22:38.1066 EST"}
+{"level":"info","logger":"Polaris Artifacts Uploader","msg":"Uploading Progress of \"SCA(scaPackage)\" artifact: 100%  10978/10978","time":"2026-01-06 12:22:38.1122 EST"}
+{"level":"info","logger":"Polaris Artifacts Uploader","msg":"Uploading Progress of \"SAST(sastFull)\" artifact:  30%  98304/317285","time":"2026-01-06 12:22:38.1568 EST"}
+{"level":"info","logger":"Polaris Artifacts Uploader","msg":"Uploading Progress of \"SAST(sastFull)\" artifact:  56%  180224/317285","time":"2026-01-06 12:22:38.1588 EST"}
+{"level":"info","logger":"Polaris Artifacts Uploader","msg":"Uploading Progress of \"SAST(sastFull)\" artifact:  82%  262144/317285","time":"2026-01-06 12:22:38.1648 EST"}
+{"level":"info","logger":"Polaris Artifacts Uploader","msg":"Uploading Progress of \"SAST(sastFull)\" artifact: 100%  317285/317285","time":"2026-01-06 12:22:38.1677 EST"}
+{"level":"info","logger":"Polaris Artifacts Uploader","msg":"successfully uploaded artifact \"C:\\\\Spades\\\\.bridge\\\\polaris_sca_package_manager_scan\\\\blackduck-sca-artifacts.zip\"","time":"2026-01-06 12:22:38.6026 EST"}
+{"level":"info","logger":"Polaris Artifacts Uploader","msg":"successfully uploaded artifact \"C:\\\\Spades\\\\.bridge\\\\polaris_coverity_capture\\\\idir.zip\"","time":"2026-01-06 12:22:38.6912 EST"}
+{"level":"info","logger":"Polaris Artifacts Uploader","msg":"successfully resumed \"SCA(scaPackage)\" assessment with id \"5deae467-c821-4aef-b943-f724f863a678\"","time":"2026-01-06 12:22:38.9935 EST"}
+{"level":"info","logger":"Polaris Artifacts Uploader","msg":"successfully resumed \"SAST(sastFull)\" assessment with id \"88de2eb7-9e7f-4afd-8d2a-4133c4683962\"","time":"2026-01-06 12:22:39.0568 EST"}

@@ -1,0 +1,23 @@
+Running Sigma.
+C:\Users\TracyChrisinger\.blackduck\bridge\tools\sigma\2025.11.0\sigma.exe --config C:\Spades\.bridge\polaris_coverity_capture\2025.9.1\idir\sigma\sigma-config.json --internal-polaris-scan-log C:\Spades\.bridge\polaris_coverity_capture\2025.9.1\idir\sigma\sigma-log.json --internal-coverity-config C:\Users\TRACYC~1\AppData\Local\Temp\cov-run-sigma-config-786707080\coverity.yaml analyze C:\Spades
+
+Importing sources...
+Detected UTF-8 encoding for C:/Spades/src/App.jsx
+Detected ISO-8859-2 encoding for C:/Spades/src/utils/aiLogic.js
+Detected ISO-8859-1 encoding for C:/Spades/src/main.jsx
+Detected ISO-8859-1 encoding for C:/Spades/src/components/GameBoard.jsx
+Detected ISO-8859-1 encoding for C:/Spades/.codesight/scan_configs/Black_Duck_SCA.json
+Detected ISO-8859-1 encoding for C:/Spades/.codesight/scan_configs/Polaris.json
+Detected UTF-8 encoding for C:/Spades/src/utils/gameLogic.test.js
+Detected ISO-8859-1 encoding for C:/Spades/src/utils/spadesLogic.js
+Detected ISO-8859-1 encoding for C:/Spades/vite.config.js
+Detected ISO-8859-1 encoding for C:/Spades/.codesight/scan_configs/Coverity.json
+Detected ISO-8859-1 encoding for C:/Spades/.codesight/scan_configs/Rapid_Scan_Static.json
+Detected UTF-8 encoding for C:/Spades/src/utils/biddingLogic.test.js
+Detected ISO-8859-1 encoding for C:/Spades/src/utils/deck.js
+Detected ISO-8859-1 encoding for C:/Spades/src/components/BiddingPhase.jsx
+Detected ISO-8859-2 encoding for C:/Spades/src/components/Card.jsx
+Detected ISO-8859-1 encoding for C:/Spades/coverity.yaml
+Detected UTF-8 encoding for C:/Spades/dist/assets/index-PxGgEJaR.js
+Detected UTF-8 encoding for C:/Spades/src/utils/gameLogic.js
+Completed source import.

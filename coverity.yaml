@@ -1,0 +1,6 @@
+analyze:
+  location: local
+commit:
+  connect:
+    stream: Spades
+    url: https://coverity.field-test.blackduck.com

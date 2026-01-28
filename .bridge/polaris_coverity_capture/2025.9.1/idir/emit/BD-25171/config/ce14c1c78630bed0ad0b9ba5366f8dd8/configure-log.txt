@@ -1,0 +1,8 @@
+Native Compiler invocation: ./ --coverity_resp_file=C:\Spades\.bridge\polaris_coverity_capture\2025.9.1\idir\tmp\cicf-bde00a5b713f832b35d54863b00dcec6\cov-translate-resp-file2
+Working directory: C:\Spades
+Comptype: javascript
+* Configuring JavaScript Buildless Capture (javascript)
+Checking for 'mount' command
+Checking for Cygwin registry keys
+           * HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Cygnus Solutions\Cygwin
+           * HKEY_CURRENT_USER\SOFTWARE\Wow6432Node\Cygnus Solutions\Cygwin

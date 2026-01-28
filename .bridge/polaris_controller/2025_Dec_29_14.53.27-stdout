@@ -1,0 +1,18 @@
+C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\bridge\3.10.1\adapters\polaris-controller\versions\0.2.239/polaris-controller C:\Spades\.bridge\polaris_controller\data.json
+{"level":"info","logger":"Polaris Controller","msg":"Running for \"sast\" assessment with scan type \"sastFull\"","time":"2025-12-29 14:53:27.2297 EST"}
+{"level":"info","logger":"Polaris Controller","msg":"checking \"coverity\" tool installation inside bridge home directory: C:\\Users\\TracyChrisinger\\.blackduck\\bridge\\tools\\cov-thin-client\\2025.9.1","time":"2025-12-29 14:53:27.2308 EST"}
+{"level":"info","logger":"Polaris Controller","msg":"Checking tool version for \"cov_thin_client\" in \"C:\\\\Users\\\\TracyChrisinger\\\\.blackduck\\\\bridge\\\\tools\\\\cov-thin-client\\\\2025.9.1\"","time":"2025-12-29 14:53:27.2308 EST"}
+{"level":"info","logger":"Polaris Controller","msg":"Running command:C:\\Users\\TracyChrisinger\\.blackduck\\bridge\\tools\\cov-thin-client\\2025.9.1\\bin\\coverity.exe --version","time":"2025-12-29 14:53:27.2313 EST"}
+{"level":"info","logger":"Polaris Controller","msg":"Got tool version for \"cov_thin_client\": 2025.9.1","time":"2025-12-29 14:53:30.0978 EST"}
+{"level":"info","logger":"Polaris Controller","msg":"\"coverity\" tool is already installed...","time":"2025-12-29 14:53:30.4757 EST"}
+{"level":"info","logger":"Polaris Controller","msg":"checking \"Sigma\" tool installation inside bridge home directory: C:\\Users\\TracyChrisinger\\.blackduck\\bridge\\tools\\sigma\\2025.11.0","time":"2025-12-29 14:53:30.4757 EST"}
+{"level":"info","logger":"Polaris Controller","msg":"Checking tool version for \"sigma\" in \"C:\\\\Users\\\\TracyChrisinger\\\\.blackduck\\\\bridge\\\\tools\\\\sigma\\\\2025.11.0\"","time":"2025-12-29 14:53:30.4757 EST"}
+{"level":"info","logger":"Polaris Controller","msg":"Running command:C:\\Users\\TracyChrisinger\\.blackduck\\bridge\\tools\\sigma\\2025.11.0\\sigma.exe --version","time":"2025-12-29 14:53:30.4763 EST"}
+{"level":"info","logger":"Polaris Controller","msg":"Got tool version for \"sigma\": 2025.11.0","time":"2025-12-29 14:53:30.5504 EST"}
+{"level":"info","logger":"Polaris Controller","msg":"\"Sigma\" tool is already installed...","time":"2025-12-29 14:53:30.8317 EST"}
+{"level":"info","logger":"Polaris Controller","msg":"Running for \"sca\" assessment with scan type \"scaPackage\"","time":"2025-12-29 14:53:30.8322 EST"}
+{"level":"info","logger":"Polaris Controller","msg":"checking \"detect\" tool installation inside bridge home directory: C:\\Users\\TracyChrisinger\\.blackduck\\bridge\\tools\\blackduck-detect\\10.4.0","time":"2025-12-29 14:53:30.8322 EST"}
+{"level":"info","logger":"Polaris Controller","msg":"Running command:C:\\Program Files\\Java\\jdk-21\\bin\\java -version","time":"2025-12-29 14:53:30.8331 EST"}
+{"level":"info","logger":"Polaris Controller","msg":"Checking tool version for \"detect\" in \"C:\\\\Users\\\\TracyChrisinger\\\\.blackduck\\\\bridge\\\\tools\\\\blackduck-detect\\\\10.4.0\"","time":"2025-12-29 14:53:31.1526 EST"}
+{"level":"info","logger":"Polaris Controller","msg":"Got tool version for \"detect\": 10.4.0","time":"2025-12-29 14:53:31.1553 EST"}
+{"level":"info","logger":"Polaris Controller","msg":"\"detect\" tool is already installed...","time":"2025-12-29 14:53:31.4361 EST"}

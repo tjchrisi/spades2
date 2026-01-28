@@ -1,0 +1,4 @@
+Native Compiler invocation: ./ --coverity_resp_file=C:\Spades\.bridge\polaris_coverity_capture\2025.9.1\idir\tmp\cicf-bde00a5b713f832b35d54863b00dcec6\cov-translate-resp-file1
+Working directory: C:\Spades
+Comptype: capture-config-files
+* Configuring Configuration Buildless Capture

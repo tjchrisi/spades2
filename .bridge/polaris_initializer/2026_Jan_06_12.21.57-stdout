@@ -1,0 +1,5 @@
+C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\bridge\3.10.1\adapters\polaris-initializer\versions\1.0.215/polaris-initializer C:\Spades\.bridge\polaris_initializer\data.json
+{"level":"info","logger":"Polaris Initializer","msg":"No version specified for cov_thin_client, using recommended version: 2025.9.1","time":"2026-01-06 12:21:59.5469 EST"}
+{"level":"info","logger":"Polaris Initializer","msg":"No version specified for detect, using recommended version: 10.4.0","time":"2026-01-06 12:21:59.5469 EST"}
+{"level":"info","logger":"Polaris Initializer","msg":"Successfully created test for \"SCA(scaPackage)\" assessment. The short test ID is \"UNJNN4A\"","time":"2026-01-06 12:22:00.1524 EST"}
+{"level":"info","logger":"Polaris Initializer","msg":"Successfully created test for \"SAST(sastFull)\" assessment. The short test ID is \"MDVF5BG\"","time":"2026-01-06 12:22:00.3948 EST"}

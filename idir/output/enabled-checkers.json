@@ -1,0 +1,1628 @@
+{
+  "ALLOC_FREE_MISMATCH" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "ANDROID_CAPABILITY_LEAK" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "ANGULAR_EXPRESSION_INJECTION" : {
+    "enabled" : [
+      "JavaScript"
+    ],
+    "unsupported" : [
+      "Python 3",
+      "Text"
+    ]
+  },
+  "ANGULAR_SCE_DISABLED" : {
+    "enabled" : [
+      "JavaScript"
+    ],
+    "unsupported" : [
+      "Python 3",
+      "Text"
+    ]
+  },
+  "ANONYMOUS_DB_CONNECTION" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "ARRAY_VS_SINGLETON" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "ASPNET_MVC_VERSION_HEADER" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "ASSERT_SIDE_EFFECT" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "ATTRIBUTE_NAME_CONFLICT" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "AUTO_CAUSES_COPY" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "BAD_ALLOC_ARITHMETIC" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "BAD_ALLOC_STRLEN" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "BAD_CERT_VERIFICATION" : {
+    "enabled" : [
+      "JavaScript",
+      "Python 3"
+    ],
+    "unsupported" : [
+      "Text"
+    ]
+  },
+  "BAD_CHECK_OF_WAIT_COND" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "BAD_COMPARE" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "BAD_EQ" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "BAD_EQ_TYPES" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "BAD_FREE" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "BAD_LOCK_OBJECT" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "BAD_OVERRIDE" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "BAD_SHIFT" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "BAD_SIZEOF" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "CALL_SUPER" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "CHAR_IO" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "CHECKED_RETURN" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "COM.BAD_FREE" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "COM.BSTR.CONV" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "CONFIG.ANDROID_GRADLE_OBFUSCATION_NOT_ENABLED" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "CONFIG.ASP_VIEWSTATE_MAC" : {
+    "enabled" : [
+      "Text"
+    ],
+    "unsupported" : [
+      "JavaScript",
+      "Python 3"
+    ]
+  },
+  "CONFIG.BEEGO_CSRF_PROTECTION_DISABLED" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "CONFIG.COOKIE_SIGNING_DISABLED" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "CONFIG.DEAD_AUTHORIZATION_RULE" : {
+    "enabled" : [
+      "Text"
+    ],
+    "unsupported" : [
+      "JavaScript",
+      "Python 3"
+    ]
+  },
+  "CONFIG.DYNAMIC_DATA_HTML_COMMENT" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "CONFIG.ENABLED_DEBUG_MODE" : {
+    "disabled" : [
+      "JavaScript"
+    ],
+    "enabled" : [
+      "Text"
+    ],
+    "unsupported" : [
+      "Python 3"
+    ]
+  },
+  "CONFIG.ENABLED_TRACE_MODE" : {
+    "enabled" : [
+      "Text"
+    ],
+    "unsupported" : [
+      "JavaScript",
+      "Python 3"
+    ]
+  },
+  "CONFIG.HANA_XS_PREVENT_XSRF_DISABLED" : {
+    "enabled" : [
+      "JavaScript",
+      "Text"
+    ],
+    "unsupported" : [
+      "Python 3"
+    ]
+  },
+  "CONFIG.UNSAFE_SESSION_TIMEOUT" : {
+    "enabled" : [
+      "Text"
+    ],
+    "unsupported" : [
+      "JavaScript",
+      "Python 3"
+    ]
+  },
+  "CONSTANT_EXPRESSION_RESULT" : {
+    "enabled" : [
+      "JavaScript",
+      "Python 3"
+    ],
+    "unsupported" : [
+      "Text"
+    ]
+  },
+  "COOKIE_INJECTION" : {
+    "enabled" : [
+      "JavaScript",
+      "Python 3"
+    ],
+    "unsupported" : [
+      "Text"
+    ]
+  },
+  "COOKIE_SERIALIZER_CONFIG" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "COPY_INSTEAD_OF_MOVE" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "COPY_PASTE_ERROR" : {
+    "enabled" : [
+      "JavaScript",
+      "Python 3"
+    ],
+    "unsupported" : [
+      "Text"
+    ]
+  },
+  "CORS_MISCONFIGURATION" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "CORS_MISCONFIGURATION_AUDIT" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "CSRF" : {
+    "enabled" : [
+      "JavaScript",
+      "Python 3"
+    ],
+    "unsupported" : [
+      "Text"
+    ]
+  },
+  "CSS_INJECTION" : {
+    "enabled" : [
+      "JavaScript"
+    ],
+    "unsupported" : [
+      "Python 3",
+      "Text"
+    ]
+  },
+  "CTOR_DTOR_LEAK" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "CUDA.COLLECTIVE_WARP_SHUFFLE_WIDTH" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "CUDA.CUDEVICE_HANDLES" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "CUDA.DEVICE_DEPENDENT" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "CUDA.DEVICE_DEPENDENT_CALLBACKS" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "CUDA.DIVERGENCE_AT_COLLECTIVE_OPERATION" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "CUDA.ERROR_INTERFACE" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "CUDA.ERROR_KERNEL_LAUNCH" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "CUDA.FORK" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "CUDA.INACTIVE_THREAD_AT_COLLECTIVE_WARP" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "CUDA.INITIATION_OBJECT_DEVICE_THREAD_BLOCK" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "CUDA.INVALID_MEMORY_ACCESS" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "CUDA.SHARE_FUNCTION" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "CUDA.SHARE_OBJECT_STREAM_ASSOCIATED" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "CUDA.SPECIFIERS_INCONSISTENCY" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "CUDA.SYNCHRONIZE_CALLBACKS" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "CUDA.SYNCHRONIZE_TERMINATION" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "DC.DANGEROUS" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "DC.DEADLOCK" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "DEADCODE" : {
+    "enabled" : [
+      "JavaScript",
+      "Python 3"
+    ],
+    "unsupported" : [
+      "Text"
+    ]
+  },
+  "DELETE_ARRAY" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "DELETE_VOID" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "DENY_LIST_FOR_AUTHN" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "DIVIDE_BY_ZERO" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "DOM_XSS" : {
+    "enabled" : [
+      "JavaScript"
+    ],
+    "unsupported" : [
+      "Python 3",
+      "Text"
+    ]
+  },
+  "DYNAMIC_OBJECT_ATTRIBUTES" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "EL_INJECTION" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "END_OF_LIFE_RAILS" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "END_OF_LIFE_RUBY" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "EVALUATION_ORDER" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "EXPOSED_DIRECTORY_LISTING" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "FORWARD_NULL" : {
+    "enabled" : [
+      "JavaScript",
+      "Python 3"
+    ],
+    "unsupported" : [
+      "Text"
+    ]
+  },
+  "GLOBAL_INIT_ORDER" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "GUARDED_BY_VIOLATION" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "HARDCODED_CREDENTIALS" : {
+    "enabled" : [
+      "JavaScript",
+      "Python 3"
+    ],
+    "unsupported" : [
+      "Text"
+    ]
+  },
+  "HEADER_INJECTION" : {
+    "enabled" : [
+      "JavaScript",
+      "Python 3"
+    ],
+    "unsupported" : [
+      "Text"
+    ]
+  },
+  "HIBERNATE_BAD_HASHCODE" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "IDENTICAL_BRANCHES" : {
+    "enabled" : [
+      "JavaScript",
+      "Python 3"
+    ],
+    "unsupported" : [
+      "Text"
+    ]
+  },
+  "IDENTIFIER_TYPO" : {
+    "enabled" : [
+      "JavaScript",
+      "Python 3"
+    ],
+    "unsupported" : [
+      "Text"
+    ]
+  },
+  "IMPLICIT_INTENT" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "INCOMPATIBLE_CAST" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "INEFFICIENT_RESERVE" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "INFINITE_LOOP" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "INSECURE_COMMUNICATION" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "INSECURE_COOKIE" : {
+    "disabled" : [
+      "Python 3"
+    ],
+    "unsupported" : [
+      "JavaScript",
+      "Text"
+    ]
+  },
+  "INSECURE_CSP" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "INSECURE_FILE_PERMISSIONS" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "INSECURE_NETWORK_BIND" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "INSECURE_RANDOM" : {
+    "enabled" : [
+      "JavaScript",
+      "Python 3"
+    ],
+    "unsupported" : [
+      "Text"
+    ]
+  },
+  "INSECURE_SALT" : {
+    "enabled" : [
+      "JavaScript",
+      "Python 3"
+    ],
+    "unsupported" : [
+      "Text"
+    ]
+  },
+  "INSUFFICIENT_LOGGING" : {
+    "enabled" : [
+      "JavaScript",
+      "Python 3"
+    ],
+    "unsupported" : [
+      "Text"
+    ]
+  },
+  "INVALIDATE_ITERATOR" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "JAVA_CODE_INJECTION" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "JCR_INJECTION" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "JSONWEBTOKEN_UNTRUSTED_DECODE" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "JSP_DYNAMIC_INCLUDE" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "JSP_SQL_INJECTION" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "LDAP_INJECTION" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "LOCALSTORAGE_MANIPULATION" : {
+    "enabled" : [
+      "JavaScript"
+    ],
+    "unsupported" : [
+      "Python 3",
+      "Text"
+    ]
+  },
+  "LOCK_EVASION" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "LOCK_INVERSION" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "MASS_ASSIGNMENT" : {
+    "enabled" : [
+      "JavaScript"
+    ],
+    "unsupported" : [
+      "Python 3",
+      "Text"
+    ]
+  },
+  "MISMATCHED_ITERATOR" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "MISSING_AUTHZ" : {
+    "enabled" : [
+      "JavaScript",
+      "Python 3"
+    ],
+    "unsupported" : [
+      "Text"
+    ]
+  },
+  "MISSING_BREAK" : {
+    "enabled" : [
+      "JavaScript"
+    ],
+    "unsupported" : [
+      "Python 3",
+      "Text"
+    ]
+  },
+  "MISSING_COMMA" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "MISSING_IFRAME_SANDBOX" : {
+    "enabled" : [
+      "JavaScript"
+    ],
+    "unsupported" : [
+      "Python 3",
+      "Text"
+    ]
+  },
+  "MISSING_MOVE_ASSIGNMENT" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "MISSING_PERMISSION_FOR_BROADCAST" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "MISSING_RESTORE" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "MISSING_RETURN" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "MISSING_THROW" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "MOBILE_ID_MISUSE" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "MULTIPLE_INIT_SMART_PTRS" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "NEGATIVE_RETURNS" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "NESTING_INDENT_MISMATCH" : {
+    "enabled" : [
+      "JavaScript"
+    ],
+    "unsupported" : [
+      "Python 3",
+      "Text"
+    ]
+  },
+  "NON_STATIC_GUARDING_STATIC" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "NOSQL_QUERY_INJECTION" : {
+    "enabled" : [
+      "JavaScript",
+      "Python 3"
+    ],
+    "unsupported" : [
+      "Text"
+    ]
+  },
+  "NO_EFFECT" : {
+    "enabled" : [
+      "JavaScript"
+    ],
+    "unsupported" : [
+      "Python 3",
+      "Text"
+    ]
+  },
+  "NULL_FIELD" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "NULL_RETURNS" : {
+    "enabled" : [
+      "JavaScript"
+    ],
+    "unsupported" : [
+      "Python 3",
+      "Text"
+    ]
+  },
+  "OAUTH2_MISCONFIGURATION" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "OGNL_INJECTION" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "OPEN_REDIRECT" : {
+    "enabled" : [
+      "JavaScript",
+      "Python 3"
+    ],
+    "unsupported" : [
+      "Text"
+    ]
+  },
+  "ORM_LOAD_NULL_CHECK" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "ORM_UNNECESSARY_GET" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "OS_CMD_INJECTION" : {
+    "enabled" : [
+      "JavaScript",
+      "Python 3"
+    ],
+    "unsupported" : [
+      "Text"
+    ]
+  },
+  "OVERFLOW_BEFORE_WIDEN" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "OVERLAPPING_COPY" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "OVERRUN" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "PASS_BY_VALUE" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "PATH_MANIPULATION" : {
+    "enabled" : [
+      "JavaScript",
+      "Python 3"
+    ],
+    "unsupported" : [
+      "Text"
+    ]
+  },
+  "PRECEDENCE_ERROR" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "PREDICTABLE_RANDOM_SEED" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "PRINTF_ARGS" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "PROPERTY_MIXUP" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "RAILS_DEFAULT_ROUTES" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "RAILS_DEVISE_CONFIG" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "RAILS_MISSING_FILTER_ACTION" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "READLINK" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "REGEX_CONFUSION" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "REGEX_INJECTION" : {
+    "enabled" : [
+      "JavaScript",
+      "Python 3"
+    ],
+    "unsupported" : [
+      "Text"
+    ]
+  },
+  "REGEX_MISSING_ANCHOR" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "RESOURCE_LEAK" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "RETURN_LOCAL" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "REVERSE_INULL" : {
+    "enabled" : [
+      "JavaScript",
+      "Python 3"
+    ],
+    "unsupported" : [
+      "Text"
+    ]
+  },
+  "REVERSE_NEGATIVE" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "REVERSE_TABNABBING" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "RISKY_CRYPTO" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "RUBY_VULNERABLE_LIBRARY" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "SCRIPT_CODE_INJECTION" : {
+    "enabled" : [
+      "JavaScript",
+      "Python 3"
+    ],
+    "unsupported" : [
+      "Text"
+    ]
+  },
+  "SEALED_JAR_ESCAPE" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "SENSITIVE_DATA_LEAK" : {
+    "enabled" : [
+      "JavaScript",
+      "Python 3"
+    ],
+    "unsupported" : [
+      "Text"
+    ]
+  },
+  "SERVLET_ATOMICITY" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "SESSIONSTORAGE_MANIPULATION" : {
+    "enabled" : [
+      "JavaScript"
+    ],
+    "unsupported" : [
+      "Python 3",
+      "Text"
+    ]
+  },
+  "SESSION_FIXATION" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "SESSION_MANIPULATION" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "SIGN_EXTENSION" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "SIZEOF_MISMATCH" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "SOCKET_ACCEPT_ALL_ORIGINS" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "SQLI" : {
+    "enabled" : [
+      "JavaScript",
+      "Python 3"
+    ],
+    "unsupported" : [
+      "Text"
+    ]
+  },
+  "STATIC_API_KEY" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "STRAY_SEMICOLON" : {
+    "enabled" : [
+      "JavaScript"
+    ],
+    "unsupported" : [
+      "Python 3",
+      "Text"
+    ]
+  },
+  "STREAM_FORMAT_STATE" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "STRICT_TRANSPORT_SECURITY" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "SUPPRESSED_ERROR" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "SWAPPED_ARGUMENTS" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "TAINTED_ENVIRONMENT_WITH_EXECUTION" : {
+    "enabled" : [
+      "JavaScript"
+    ],
+    "unsupported" : [
+      "Python 3",
+      "Text"
+    ]
+  },
+  "TAINT_ASSERT" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "TEMPLATE_INJECTION" : {
+    "enabled" : [
+      "JavaScript",
+      "Python 3"
+    ],
+    "unsupported" : [
+      "Text"
+    ]
+  },
+  "TRUST_BOUNDARY_VIOLATION" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "UNCAUGHT_EXCEPT" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "UNCHECKED_ORIGIN" : {
+    "enabled" : [
+      "JavaScript"
+    ],
+    "unsupported" : [
+      "Python 3",
+      "Text"
+    ]
+  },
+  "UNENCRYPTED_SENSITIVE_DATA" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "UNEXPECTED_CONTROL_FLOW" : {
+    "enabled" : [
+      "JavaScript"
+    ],
+    "unsupported" : [
+      "Python 3",
+      "Text"
+    ]
+  },
+  "UNINIT" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "UNINIT_CTOR" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "UNINTENDED_GLOBAL" : {
+    "enabled" : [
+      "JavaScript"
+    ],
+    "unsupported" : [
+      "Python 3",
+      "Text"
+    ]
+  },
+  "UNINTENDED_INTEGER_DIVISION" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "UNKNOWN_LANGUAGE_INJECTION" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "UNLESS_CASE_SENSITIVE_ROUTE_MATCHING" : {
+    "enabled" : [
+      "JavaScript"
+    ],
+    "unsupported" : [
+      "Python 3",
+      "Text"
+    ]
+  },
+  "UNLOCKED_ACCESS" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "UNLOGGED_SECURITY_EXCEPTION" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "UNREACHABLE" : {
+    "enabled" : [
+      "JavaScript",
+      "Python 3"
+    ],
+    "unsupported" : [
+      "Text"
+    ]
+  },
+  "UNRESTRICTED_ACCESS_TO_FILE" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "UNRESTRICTED_DISPATCH" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "UNSAFE_BASIC_AUTH" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "UNSAFE_DESERIALIZATION" : {
+    "enabled" : [
+      "JavaScript",
+      "Python 3"
+    ],
+    "unsupported" : [
+      "Text"
+    ]
+  },
+  "UNSAFE_FUNCTIONALITY" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "UNSAFE_JNI" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "UNSAFE_NAMED_QUERY" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "UNSAFE_REFLECTION" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "UNSAFE_SESSION_SETTING" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "UNUSED_VALUE" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "URL_MANIPULATION" : {
+    "enabled" : [
+      "JavaScript",
+      "Python 3"
+    ],
+    "unsupported" : [
+      "Text"
+    ]
+  },
+  "USELESS_CALL" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "USE_AFTER_FREE" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "USE_AFTER_MOVE" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "VARARGS" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "VIRTUAL_DTOR" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "VOLATILE_ATOMICITY" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "WEAK_GUARD" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "WEAK_PASSWORD_HASH" : {
+    "enabled" : [
+      "Python 3"
+    ],
+    "unsupported" : [
+      "JavaScript",
+      "Text"
+    ]
+  },
+  "WRAPPER_ESCAPE" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "WRITE_CONST_FIELD" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "WRONG_METHOD" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "XML_EXTERNAL_ENTITY" : {
+    "enabled" : [
+      "JavaScript"
+    ],
+    "unsupported" : [
+      "Python 3",
+      "Text"
+    ]
+  },
+  "XPATH_INJECTION" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  },
+  "XSS" : {
+    "enabled" : [
+      "JavaScript",
+      "Python 3"
+    ],
+    "unsupported" : [
+      "Text"
+    ]
+  },
+  "Y2K38_SAFETY" : {
+    "unsupported" : [
+      "JavaScript",
+      "Python 3",
+      "Text"
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-security-da --dir C:\Spades\idir --ticker-mode none 
+cov-security-da version 2025.3.0 on Windows 11 Enterprise, 64-bit (build 26100)
+Internal version numbers: 393dab6634 p-2025.3-push-64
+

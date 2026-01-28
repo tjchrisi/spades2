@@ -1,0 +1,309 @@
+2026-01-06 12:21:54.7829 EST [Bridge CLI] INFO: Using cache directory: C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\bridge\3.10.1
+2026-01-06 12:21:54.7864 EST [Bridge CLI] INFO: Found version "3.0.420" in registry for workflow "polaris", trying to load it from local cache
+2026-01-06 12:21:57.1205 EST [Bridge CLI] WARNING: resource not found: COVERITY.CONNECT.USER.NAME
+2026-01-06 12:21:57.1205 EST [Bridge CLI] WARNING: resource not found: COVERITY.CONNECT.USER.PASSWORD
+2026-01-06 12:21:57.1235 EST [Bridge CLI] INFO: Input Resources:
+2026-01-06 12:21:57.1235 EST [Bridge CLI] INFO: resource = value [source]
+2026-01-06 12:21:57.1240 EST [Bridge CLI] INFO: ------------------------------------------------------------
+2026-01-06 12:21:57.1240 EST [Bridge CLI] INFO: POLARIS.ACCESSTOKEN = ***************************************** [env]
+2026-01-06 12:21:57.1240 EST [Bridge CLI] INFO: POLARIS.application.name = TJC Test [cmd]
+2026-01-06 12:21:57.1240 EST [Bridge CLI] INFO: POLARIS.assessment.mode = IDE [cmd]
+2026-01-06 12:21:57.1240 EST [Bridge CLI] INFO: POLARIS.assessment.types = [SAST SCA] [cmd]
+2026-01-06 12:21:57.1240 EST [Bridge CLI] INFO: POLARIS.branch.name = CodeSight_tchrisinger+setest@blackduck.com [cmd]
+2026-01-06 12:21:57.1240 EST [Bridge CLI] INFO: POLARIS.onboarding = true [cmd]
+2026-01-06 12:21:57.1240 EST [Bridge CLI] INFO: POLARIS.project.name = TJC Test [cmd]
+2026-01-06 12:21:57.1240 EST [Bridge CLI] INFO: POLARIS.serverurl = https://poc.polaris.blackduck.com [cmd]
+2026-01-06 12:21:57.1240 EST [Bridge CLI] INFO: ------------------------------------------------------------
+2026-01-06 12:21:57.1240 EST [Bridge CLI] INFO: Starting adapters for stage polaris
+2026-01-06 12:21:57.1271 EST [Bridge CLI] INFO: Starting Adapter: Polaris Initializer
+2026-01-06 12:21:57.1271 EST [Bridge CLI] INFO: Starting Adapter: Polaris SCM Discovery
+2026-01-06 12:21:57.4368 EST [Polaris SCM Discovery] INFO: Adapter finished
+2026-01-06 12:21:59.5469 EST [Polaris Initializer] INFO: No version specified for cov_thin_client, using recommended version: 2025.9.1
+2026-01-06 12:21:59.5469 EST [Polaris Initializer] INFO: No version specified for detect, using recommended version: 10.4.0
+2026-01-06 12:22:00.1524 EST [Polaris Initializer] INFO: Successfully created test for "SCA(scaPackage)" assessment. The short test ID is "UNJNN4A"
+2026-01-06 12:22:00.3948 EST [Polaris Initializer] INFO: Successfully created test for "SAST(sastFull)" assessment. The short test ID is "MDVF5BG"
+2026-01-06 12:22:00.4264 EST [Polaris Initializer] INFO: Provided value for resource 'polaris.test.SAST.tests.sastFull.id'
+2026-01-06 12:22:00.4264 EST [Polaris Initializer] INFO: Provided value for resource 'polaris.test.SCA.tests.scaPackage.id'
+2026-01-06 12:22:00.4269 EST [Polaris Initializer] INFO: Provided value for resource 'polaris.test.SAST.tests.sastFull.shortId'
+2026-01-06 12:22:00.4269 EST [Polaris Initializer] INFO: Provided value for resource 'polaris.test.SCA.tests.scaPackage.shortId'
+2026-01-06 12:22:00.4269 EST [Polaris Initializer] INFO: Added entry to resource 'polaris.test.SAST.tests.sastFull.toolIds'
+2026-01-06 12:22:00.4274 EST [Polaris Initializer] INFO: Added entry to resource 'polaris.test.SCA.tests.scaPackage.toolIds'
+2026-01-06 12:22:00.4274 EST [Polaris Initializer] INFO: Provided value for resource 'polaris.test.SAST.tests.sastFull.streamId'
+2026-01-06 12:22:00.4274 EST [Polaris Initializer] INFO: Provided value for resource 'polaris.test.SAST.tests.sastFull.requested'
+2026-01-06 12:22:00.4280 EST [Polaris Initializer] INFO: Provided value for resource 'polaris.test.SCA.tests.scaPackage.requested'
+2026-01-06 12:22:00.4280 EST [Polaris Initializer] INFO: Provided value for resource 'polaris.project.id'
+2026-01-06 12:22:00.4280 EST [Polaris Initializer] INFO: Provided value for resource 'polaris.branch.id'
+2026-01-06 12:22:00.4280 EST [Polaris Initializer] INFO: Provided value for resource 'polaris.portfolioid'
+2026-01-06 12:22:00.4285 EST [Polaris Initializer] INFO: Provided value for resource 'polaris.tenant.id'
+2026-01-06 12:22:00.4285 EST [Polaris Initializer] INFO: Provided value for resource 'polaris.application.id'
+2026-01-06 12:22:00.4285 EST [Bridge CLI] INFO: Starting adapters for stage polaris-controller
+2026-01-06 12:22:00.4295 EST [Bridge CLI] INFO: Starting Adapter: Polaris Controller
+2026-01-06 12:22:00.4301 EST [Polaris Initializer] INFO: Adapter finished
+2026-01-06 12:22:00.4422 EST [Bridge CLI] INFO: Starting Adapter: Set Polaris Wait For Scan
+2026-01-06 12:22:00.4422 EST [Set Polaris Wait For Scan] INFO: Provided value for resource 'polaris.waitForScan'
+2026-01-06 12:22:00.4427 EST [Set Polaris Wait For Scan] INFO: Adapter finished
+2026-01-06 12:22:00.4954 EST [Bridge CLI] INFO: Starting Adapter: Check pull request
+2026-01-06 12:22:00.7229 EST [Check pull request] INFO: Provided value for resource 'environment.scan.pull'
+2026-01-06 12:22:00.7234 EST [Check pull request] INFO: Adapter finished
+2026-01-06 12:22:00.9721 EST [Polaris Controller] INFO: Running for "sast" assessment with scan type "sastFull"
+2026-01-06 12:22:00.9759 EST [Polaris Controller] INFO: checking "coverity" tool installation inside bridge home directory: C:\Users\TracyChrisinger\.blackduck\bridge\tools\cov-thin-client\2025.9.1
+2026-01-06 12:22:00.9759 EST [Polaris Controller] INFO: Checking tool version for "cov_thin_client" in "C:\\Users\\TracyChrisinger\\.blackduck\\bridge\\tools\\cov-thin-client\\2025.9.1"
+2026-01-06 12:22:00.9778 EST [Polaris Controller] INFO: Running command:C:\Users\TracyChrisinger\.blackduck\bridge\tools\cov-thin-client\2025.9.1\bin\coverity.exe --version
+2026-01-06 12:22:03.9771 EST [Polaris Controller] INFO: Got tool version for "cov_thin_client": 2025.9.1
+2026-01-06 12:22:04.3355 EST [Polaris Controller] INFO: "coverity" tool is already installed...
+2026-01-06 12:22:04.3355 EST [Polaris Controller] INFO: checking "Sigma" tool installation inside bridge home directory: C:\Users\TracyChrisinger\.blackduck\bridge\tools\sigma\2025.11.0
+2026-01-06 12:22:04.3355 EST [Polaris Controller] INFO: Checking tool version for "sigma" in "C:\\Users\\TracyChrisinger\\.blackduck\\bridge\\tools\\sigma\\2025.11.0"
+2026-01-06 12:22:04.3379 EST [Polaris Controller] INFO: Running command:C:\Users\TracyChrisinger\.blackduck\bridge\tools\sigma\2025.11.0\sigma.exe --version
+2026-01-06 12:22:04.8164 EST [Polaris Controller] INFO: Got tool version for "sigma": 2025.11.0
+2026-01-06 12:22:05.1555 EST [Polaris Controller] INFO: "Sigma" tool is already installed...
+2026-01-06 12:22:05.1555 EST [Polaris Controller] INFO: Running for "sca" assessment with scan type "scaPackage"
+2026-01-06 12:22:05.1565 EST [Polaris Controller] INFO: checking "detect" tool installation inside bridge home directory: C:\Users\TracyChrisinger\.blackduck\bridge\tools\blackduck-detect\10.4.0
+2026-01-06 12:22:05.1582 EST [Polaris Controller] INFO: Running command:C:\Program Files\Java\jdk-21\bin\java -version
+2026-01-06 12:22:05.4564 EST [Polaris Controller] INFO: Checking tool version for "detect" in "C:\\Users\\TracyChrisinger\\.blackduck\\bridge\\tools\\blackduck-detect\\10.4.0"
+2026-01-06 12:22:05.4646 EST [Polaris Controller] INFO: Got tool version for "detect": 10.4.0
+2026-01-06 12:22:05.8154 EST [Polaris Controller] INFO: "detect" tool is already installed...
+2026-01-06 12:22:05.8416 EST [Polaris Controller] INFO: Provided value for resource 'coverity.id'
+2026-01-06 12:22:05.8421 EST [Polaris Controller] INFO: Provided value for resource 'sigma.id'
+2026-01-06 12:22:05.8421 EST [Polaris Controller] INFO: Provided value for resource 'detect.id'
+2026-01-06 12:22:05.8426 EST [Bridge CLI] INFO: Starting adapters for stage polaris-sast
+2026-01-06 12:22:05.8426 EST [Bridge CLI] INFO: Starting adapters for stage polaris-sca-package
+2026-01-06 12:22:05.8426 EST [Bridge CLI] INFO: Starting adapters for stage polaris-artifacts-uploader
+2026-01-06 12:22:05.8426 EST [Bridge CLI] INFO: Starting adapters for stage polaris-post-processing
+2026-01-06 12:22:05.8426 EST [Bridge CLI] INFO: Starting adapters for stage polaris-status
+2026-01-06 12:22:05.8459 EST [Bridge CLI] INFO: Starting Adapter: Polaris SCA Package Manager Scan
+2026-01-06 12:22:05.8459 EST [Bridge CLI] INFO: Starting Adapter: Polaris Coverity Capture
+2026-01-06 12:22:05.8459 EST [Bridge CLI] INFO: Starting Adapter: Polaris Artifacts Uploader
+2026-01-06 12:22:05.8459 EST [Bridge CLI] INFO: Starting Adapter: Polaris Waiter
+2026-01-06 12:22:05.8459 EST [Bridge CLI] INFO: Starting Adapter: Polaris Issues Fetcher
+2026-01-06 12:22:05.8459 EST [Bridge CLI] INFO: Starting Adapter: Polaris Status Provider
+2026-01-06 12:22:05.8459 EST [Bridge CLI] INFO: Starting Adapter: Polaris Policy Checker
+2026-01-06 12:22:05.8479 EST [Polaris Controller] INFO: Adapter finished
+2026-01-06 12:22:06.5303 EST [Bridge CLI] INFO: Starting Adapter: Default Adapter for execution path
+2026-01-06 12:22:06.5314 EST [Default Adapter for execution path] INFO: Provided value for resource 'coverity.execution.path'
+2026-01-06 12:22:06.5314 EST [Default Adapter for execution path] INFO: Adapter finished
+2026-01-06 12:22:06.5652 EST [Bridge CLI] INFO: Starting Adapter: Default Adapter for execution path
+2026-01-06 12:22:06.5685 EST [Default Adapter for execution path] INFO: Provided value for resource 'sigma.execution.path'
+2026-01-06 12:22:06.5685 EST [Default Adapter for execution path] INFO: Adapter finished
+2026-01-06 12:22:06.8355 EST [Polaris Coverity Capture] INFO: Identified workflow: Polaris
+2026-01-06 12:22:06.8395 EST [Polaris Coverity Capture] INFO: command: C:\Users\TracyChrisinger\.blackduck\bridge\tools\cov-thin-client\2025.9.1\bin\coverity.exe capture --dir C:\Spades\.bridge\polaris_coverity_capture\2025.9.1\idir -o analyze.location=connect
+2026-01-06 12:22:06.8807 EST [Polaris Coverity Capture] INFO: coverity 2025.9.1 covcli-2025.9-push-13
+2026-01-06 12:22:06.8807 EST [Polaris Coverity Capture] INFO: envvar: COVERITY_CACHE_API_TOKEN_FILE=C:\Users\TRACYC~1\AppData\Local\Temp\polaris_coverity_cache2318104393\.authKey
+2026-01-06 12:22:06.8807 EST [Polaris Coverity Capture] INFO: envvar: COVERITY_CACHE_KEY=ef468091-28be-476c-af46-8f189bc496e7
+2026-01-06 12:22:06.8807 EST [Polaris Coverity Capture] INFO: envvar: COVERITY_CACHE_URL=https://poc.polaris.blackduck.com/api/cache
+2026-01-06 12:22:06.8807 EST [Polaris Coverity Capture] INFO: envvar: COVERITY_CLI_CAPTURE_ZIP_ARCHIVE=C:\Spades\.bridge\polaris_coverity_capture\idir.zip
+2026-01-06 12:22:06.8807 EST [Polaris Coverity Capture] INFO: envvar: COVERITY_CLI_POLARIS_CLIENT=true
+2026-01-06 12:22:06.8807 EST [Polaris Coverity Capture] INFO: Loaded configuration file 'C:\Spades\coverity.yaml'
+2026-01-06 12:22:06.8833 EST [Polaris Coverity Capture] INFO: Executing command: C:\Users\TracyChrisinger\.blackduck\bridge\tools\cov-thin-client\2025.9.1\bin\cov-manage-emit --dir C:\Spades\.bridge\polaris_coverity_capture\2025.9.1\idir reset-host-name
+2026-01-06 12:22:09.4184 EST [Polaris Coverity Capture] INFO: Executing command: C:\Users\TracyChrisinger\.blackduck\bridge\tools\cov-thin-client\2025.9.1\bin\cov-manage-emit --dir C:\Spades\.bridge\polaris_coverity_capture\2025.9.1\idir check-compatible
+2026-01-06 12:22:09.4709 EST [Polaris Coverity Capture] INFO: Detected that stdout is not connected to a terminal.  Defaulting ticker mode to 'none'.
+2026-01-06 12:22:09.4709 EST [Polaris Coverity Capture] INFO: If this is not correct, explicitly set the ticker mode to the desired value using the '--ticker-mode' option.
+2026-01-06 12:22:09.4754 EST [Polaris Coverity Capture] INFO: Using lightweight capture with thin client.
+2026-01-06 12:22:09.4766 EST [Polaris Coverity Capture] INFO: Executing command: C:\Users\TracyChrisinger\.blackduck\bridge\tools\cov-thin-client\2025.9.1\bin\cov-internal-manage-cache check
+2026-01-06 12:22:13.1858 EST [Polaris Coverity Capture] INFO: Caching is enabled.
+2026-01-06 12:22:13.1918 EST [Polaris Coverity Capture] INFO: Telemetry is enabled
+2026-01-06 12:22:13.2757 EST [Polaris Coverity Capture] INFO: Executing command: C:\Users\TracyChrisinger\.blackduck\bridge\tools\cov-thin-client\2025.9.1\bin\cov-manage-emit --dir C:\Spades\.bridge\polaris_coverity_capture\2025.9.1\idir list-capture-diagnostics
+2026-01-06 12:22:13.3374 EST [Polaris Coverity Capture] INFO: Executing action no-op: nothing to do for initialization
+2026-01-06 12:22:13.4026 EST [Polaris Coverity Capture] INFO: Executing action no-op: skipping compiler configuration
+2026-01-06 12:22:13.5081 EST [Polaris Coverity Capture] INFO: Executing action no-op: no compilers need to be unconfigured
+2026-01-06 12:22:13.5835 EST [Polaris Coverity Capture] INFO: Executing action no-op: compiler configurations loaded
+2026-01-06 12:22:13.7245 EST [Polaris Coverity Capture] INFO: Executing action Emit files using buildless capture: C:\Users\TracyChrisinger\.blackduck\bridge\tools\cov-thin-client\2025.9.1\bin\cov-internal-capture-files --dir C:\Spades\.bridge\polaris_coverity_capture\2025.9.1\idir -c C:\Spades\.bridge\polaris_coverity_capture\2025.9.1\idir\coverity-cli\buildless-compiler-configs\coverity_config.xml --ticker-mode none --append-log --capture-list-file C:\Spades\.bridge\polaris_coverity_capture\2025.9.1\idir\coverity-cli\capture-file-list-1648752770 --record-with-source
+2026-01-06 12:22:15.7765 EST [Polaris Coverity Capture] INFO: Buildless capture started.
+2026-01-06 12:22:15.8031 EST [Polaris Coverity Capture] INFO: Emitting 25 Files.
+2026-01-06 12:22:22.7819 EST [Polaris Coverity Capture] INFO: Buildless capture completed.
+2026-01-06 12:22:22.7900 EST [Polaris Coverity Capture] INFO: Executing action Delete unwanted TUs: C:\Users\TracyChrisinger\.blackduck\bridge\tools\cov-thin-client\2025.9.1\bin\cov-manage-emit @@C:\Spades\.bridge\polaris_coverity_capture\2025.9.1\idir\coverity-cli\delete-unwanted-tus-action-3391134396
+2026-01-06 12:22:22.8517 EST [Polaris Coverity Capture] INFO: Executing action Action cleanup: Unwanted TUs action cleanup
+2026-01-06 12:22:22.8517 EST [Polaris Coverity Capture] INFO: Executing action deleteResidualTUs C:\Spades\.bridge\polaris_coverity_capture\2025.9.1\idir
+2026-01-06 12:22:22.8522 EST [Polaris Coverity Capture] INFO: Executing command: C:\Users\TracyChrisinger\.blackduck\bridge\tools\cov-thin-client\2025.9.1\bin\cov-manage-emit --dir C:\Spades\.bridge\polaris_coverity_capture\2025.9.1\idir list-capture-diagnostics
+2026-01-06 12:22:22.9086 EST [Polaris Coverity Capture] INFO: Executing action Invalidate capture results
+2026-01-06 12:22:22.9086 EST [Polaris Coverity Capture] INFO: Executing action Invoke cov-run-sigma: C:\Users\TracyChrisinger\.blackduck\bridge\tools\cov-thin-client\2025.9.1\bin\cov-run-sigma --project-dir C:\Spades --dir C:\Spades\.bridge\polaris_coverity_capture\2025.9.1\idir --coverity-config C:\Users\TRACYC~1\AppData\Local\Temp\cov-run-sigma-config-786707080\coverity.yaml --sigma-binary-path C:\Users\TracyChrisinger\.blackduck\bridge\tools\sigma\2025.11.0\sigma.exe --enable-telemetry
+2026-01-06 12:22:27.5306 EST [Polaris Coverity Capture] INFO: cov-run-sigma version 2025.9.1 on Windows 11 Enterprise, 64-bit (build 26100)
+2026-01-06 12:22:27.5306 EST [Polaris Coverity Capture] INFO: Internal version numbers: ea39687f36 p-2025.9-push-60
+2026-01-06 12:22:27.5306 EST [Polaris Coverity Capture] INFO: 
+2026-01-06 12:22:30.4651 EST [Polaris Coverity Capture] INFO: Executing action Action cleanup: Coverity configuration for Sigma
+2026-01-06 12:22:30.5391 EST [Polaris Coverity Capture] INFO: Executing command: C:\Users\TracyChrisinger\.blackduck\bridge\tools\cov-thin-client\2025.9.1\bin\cov-manage-emit --dir C:\Spades\.bridge\polaris_coverity_capture\2025.9.1\idir list-capture-diagnostics
+2026-01-06 12:22:30.6011 EST [Polaris Coverity Capture] INFO: Capture summary:
+2026-01-06 12:22:30.6011 EST [Polaris Coverity Capture] INFO:     SUCCEEDED: 30
+2026-01-06 12:22:30.6011 EST [Polaris Coverity Capture] INFO:     INCOMPLETE: 0
+2026-01-06 12:22:30.6011 EST [Polaris Coverity Capture] INFO:     FAILED: 0
+2026-01-06 12:22:30.6017 EST [Polaris Coverity Capture] INFO:     IGNORED: 35
+2026-01-06 12:22:30.6017 EST [Polaris Coverity Capture] INFO:     FILES CAPTURED: 30
+2026-01-06 12:22:30.6017 EST [Polaris Coverity Capture] INFO:     LINES OF CODE: 4410
+2026-01-06 12:22:30.6048 EST [Polaris Coverity Capture] INFO: Capture phase took 17.42s.
+2026-01-06 12:22:30.6632 EST [Polaris Coverity Capture] INFO: To analyze your project, type 'C:\Users\TracyChrisinger\.blackduck\bridge\tools\cov-thin-client\2025.9.1\bin\coverity.exe analyze --dir C:\Spades\.bridge\polaris_coverity_capture\2025.9.1\idir -o analyze.location=connect'.
+2026-01-06 12:22:30.6687 EST [Polaris Coverity Capture] INFO: Coverity Capture completed successfully
+2026-01-06 12:22:30.6838 EST [Polaris Coverity Capture] INFO: Provided value for resource 'coverity.completed'
+2026-01-06 12:22:30.6838 EST [Polaris Coverity Capture] INFO: Provided value for resource 'coverity.idir.output'
+2026-01-06 12:22:30.6843 EST [Polaris Coverity Capture] INFO: Provided value for resource 'polaris.test.sast.tests.sastFull.artifacts.path'
+2026-01-06 12:22:30.6849 EST [Polaris Coverity Capture] INFO: Adapter finished
+2026-01-06 12:22:30.6882 EST [Bridge CLI] INFO: Starting Adapter: Default Adapter for execution path
+2026-01-06 12:22:30.6882 EST [Default Adapter for execution path] INFO: Provided value for resource 'detect.execution.path'
+2026-01-06 12:22:30.6882 EST [Default Adapter for execution path] INFO: Adapter finished
+2026-01-06 12:22:31.2246 EST [Polaris SCA Package Manager Scan] INFO: Running command C:\Program Files\Java\jdk-21\bin\java -jar C:\Users\TracyChrisinger\.blackduck\bridge\tools\blackduck-detect\10.4.0\detect-10.4.0.jar --detect.cleanup=false --detect.bdio.file.name=scan --detect.bdio.output.path=C:\Spades\.bridge\polaris_sca_package_manager_scan\detect\bdio\blackduck_artifact --detect.output.path=C:\Spades\.bridge\polaris_sca_package_manager_scan\detect --detect.tools=DETECTOR --detect.component.location.analysis.enabled=true --blackduck.offline.mode=true --blackduck.offline.mode.force.bdio=true
+2026-01-06 12:22:32.0000 EST [Polaris SCA Package Manager Scan][main] WARNING: --- Detect-Self-Updater:  Self-Update feature is disabled because of the following reasons:
+2026-01-06 12:22:32.0000 EST [Polaris SCA Package Manager Scan][main] WARNING: --- Detect-Self-Updater:  Detect in offline mode is incompatible with the Self-Update feature.
+2026-01-06 12:22:32.0000 EST [Polaris SCA Package Manager Scan][main] WARNING: --- Detect-Self-Updater:  Black Duck URL is required for the Self-Update feature.
+2026-01-06 12:22:32.5545 EST [Polaris SCA Package Manager Scan] INFO: ______     _            _
+2026-01-06 12:22:32.5545 EST [Polaris SCA Package Manager Scan] INFO: |  _  \   | |          | |
+2026-01-06 12:22:32.5545 EST [Polaris SCA Package Manager Scan] INFO: | | | |___| |_ ___  ___| |_
+2026-01-06 12:22:32.5545 EST [Polaris SCA Package Manager Scan] INFO: | | | / _ \ __/ _ \/ __| __|
+2026-01-06 12:22:32.5545 EST [Polaris SCA Package Manager Scan] INFO: | |/ /  __/ ||  __/ (__| |_
+2026-01-06 12:22:32.5545 EST [Polaris SCA Package Manager Scan] INFO: |___/ \___|\__\___|\___|\__|
+2026-01-06 12:22:32.5545 EST [Polaris SCA Package Manager Scan] INFO: 
+2026-01-06 12:22:32.7622 EST [Polaris SCA Package Manager Scan] INFO: 
+2026-01-06 12:22:32.7655 EST [Polaris SCA Package Manager Scan] INFO: Detect Version: 10.4.0
+2026-01-06 12:22:32.7655 EST [Polaris SCA Package Manager Scan] INFO: 
+2026-01-06 12:22:32.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- 
+2026-01-06 12:22:32.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- Current property values:
+2026-01-06 12:22:32.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- --property = value [notes]
+2026-01-06 12:22:32.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- ------------------------------------------------------------
+2026-01-06 12:22:32.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- blackduck.offline.mode = true [cmd] 
+2026-01-06 12:22:32.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- blackduck.offline.mode.force.bdio = true [cmd] 
+2026-01-06 12:22:32.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- detect.bdio.file.name = scan [cmd] 
+2026-01-06 12:22:32.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- detect.bdio.output.path = C:\Spades\.bridge\polaris_sca_package_manager_scan\detect\bdio\blackduck_artifact [cmd] 
+2026-01-06 12:22:32.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- detect.cleanup = false [cmd] 
+2026-01-06 12:22:32.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- detect.component.location.analysis.enabled = true [cmd] 
+2026-01-06 12:22:32.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- detect.excluded.directories = C:\Spades\.bridge [env] 
+2026-01-06 12:22:32.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- detect.maven.path = c:\Program Files\Apache\Maven\apache-maven-3.9.11\bin\mvn.cmd [env] 
+2026-01-06 12:22:32.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- detect.output.path = C:\Spades\.bridge\polaris_sca_package_manager_scan\detect [cmd] 
+2026-01-06 12:22:32.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- detect.tools = DETECTOR [cmd] 
+2026-01-06 12:22:32.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- ------------------------------------------------------------
+2026-01-06 12:22:32.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- 
+2026-01-06 12:22:32.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- Detect build date: 2025-04-24
+2026-01-06 12:22:32.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- Source directory: C:\Spades
+2026-01-06 12:22:32.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- Output directory: C:\Spades\.bridge\polaris_sca_package_manager_scan\detect
+2026-01-06 12:22:32.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- Run directory: C:\Spades\.bridge\polaris_sca_package_manager_scan\detect\runs\2026-01-06-17-22-32-675
+2026-01-06 12:22:32.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- 
+2026-01-06 12:22:33.0000 EST [Polaris SCA Package Manager Scan][main] WARNING: --- Correlated Scanning is not available for Rapid/Stateless scan mode or offline scanning. A correlation ID will not be set.
+2026-01-06 12:22:33.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- ----------------------------------
+2026-01-06 12:22:33.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- Docker tool will not be run.
+2026-01-06 12:22:33.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- ----------------------------------
+2026-01-06 12:22:33.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- Bazel tool will not be run.
+2026-01-06 12:22:33.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- ----------------------------------
+2026-01-06 12:22:33.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- Will include the Detectors tool.
+2026-01-06 12:22:33.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- Searching for detectors.
+2026-01-06 12:22:33.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- Evaluating detectors. This may take a while.
+2026-01-06 12:22:33.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- ======================================================================================================
+2026-01-06 12:22:33.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- Detector Report
+2026-01-06 12:22:33.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- ======================================================================================================
+2026-01-06 12:22:33.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- 	C:\Spades (depth 0)
+2026-01-06 12:22:33.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- 		NPM Package Lock: SUCCESS
+2026-01-06 12:22:33.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- 			Found file: C:\Spades\package-lock.json
+2026-01-06 12:22:33.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- 			Found file: C:\Spades\package.json
+2026-01-06 12:22:33.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- ----------------------------------
+2026-01-06 12:22:33.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- Detectors actions finished.
+2026-01-06 12:22:33.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- ----------------------------------
+2026-01-06 12:22:33.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- Project name: tic-tac-toe
+2026-01-06 12:22:33.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- Project version: 0.0.0
+2026-01-06 12:22:34.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- ----------------------------------
+2026-01-06 12:22:34.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- Signature Scanner tool will not be run.
+2026-01-06 12:22:34.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- ----------------------------------
+2026-01-06 12:22:34.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- Vulnerability Impact Analysis tool will not be run.
+2026-01-06 12:22:34.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- ----------------------------------
+2026-01-06 12:22:34.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- IaC Scanner tool will not be run.
+2026-01-06 12:22:34.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- ----------------------------------
+2026-01-06 12:22:34.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- ##################################################################################################
+2026-01-06 12:22:34.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- #                                                                                                #
+2026-01-06 12:22:34.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- #  Product Notice                                                                                #
+2026-01-06 12:22:34.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- #  © 2024 Black Duck Software, Inc.                                                              #
+2026-01-06 12:22:34.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- #  This Black Duck Component Locator and all associated documentation are proprietary            #
+2026-01-06 12:22:34.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- #  to Black Duck Software, Inc. and may only be used pursuant to the terms and conditions of a   #
+2026-01-06 12:22:34.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- #  written license agreement with Black Duck Software, Inc. All other use, reproduction,         #
+2026-01-06 12:22:34.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- #  modification, or distribution of the Black Duck Component Locator or the associated           #
+2026-01-06 12:22:34.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- #  documentation is strictly prohibited.                                                         #
+2026-01-06 12:22:34.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- #                                                                                                #
+2026-01-06 12:22:34.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- ##################################################################################################
+2026-01-06 12:22:34.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- Running Component Locator v1.1.12 on C:\Spades
+2026-01-06 12:22:36.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- Component Location Analysis file saved at: C:\Spades\.bridge\polaris_sca_package_manager_scan\detect\runs\2026-01-06-17-22-32-675\scan/components-with-locations.json
+2026-01-06 12:22:36.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- ----------------------------------
+2026-01-06 12:22:36.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- 
+2026-01-06 12:22:36.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- 
+2026-01-06 12:22:36.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- Creating status file: C:\Spades\.bridge\polaris_sca_package_manager_scan\detect\runs\2026-01-06-17-22-32-675\status\status.json
+2026-01-06 12:22:36.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- 
+2026-01-06 12:22:36.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- Skipping cleanup, it is disabled.
+2026-01-06 12:22:36.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- 
+2026-01-06 12:22:36.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- 
+2026-01-06 12:22:36.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- ======== Detect Result ========
+2026-01-06 12:22:36.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- 
+2026-01-06 12:22:36.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- Component Location Analysis File: C:\Spades\.bridge\polaris_sca_package_manager_scan\detect\runs\2026-01-06-17-22-32-675\scan/components-with-locations.json
+2026-01-06 12:22:36.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- 
+2026-01-06 12:22:36.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- ======== Detect Status ========
+2026-01-06 12:22:36.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- 
+2026-01-06 12:22:36.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- NPM: SUCCESS
+2026-01-06 12:22:36.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- Overall Status: SUCCESS - Detect exited successfully.
+2026-01-06 12:22:36.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- 
+2026-01-06 12:22:36.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- ===============================
+2026-01-06 12:22:36.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- 
+2026-01-06 12:22:36.0000 EST [Polaris SCA Package Manager Scan][main] INFO: --- Detect duration: 00h 00m 04s 431ms
+2026-01-06 12:22:36.2555 EST [Polaris SCA Package Manager Scan] INFO: Provided value for resource 'detect.completed'
+2026-01-06 12:22:36.2555 EST [Polaris SCA Package Manager Scan] INFO: Provided value for resource 'polaris.test.sca.tests.scaPackage.artifacts.path'
+2026-01-06 12:22:36.2565 EST [Polaris SCA Package Manager Scan] INFO: Adapter finished
+2026-01-06 12:22:36.6154 EST [Polaris Artifacts Uploader] INFO: uploading artifact for "SAST(sastFull)" assessment with id "88de2eb7-9e7f-4afd-8d2a-4133c4683962"
+2026-01-06 12:22:36.6174 EST [Polaris Artifacts Uploader] INFO: uploading artifact for "SCA(scaPackage)" assessment with id "5deae467-c821-4aef-b943-f724f863a678"
+2026-01-06 12:22:37.8255 EST [Polaris Artifacts Uploader] INFO: Uploading artifact C:\Spades\.bridge\polaris_coverity_capture\idir.zip for "SAST(sastFull)" assessment
+2026-01-06 12:22:37.8279 EST [Polaris Artifacts Uploader] INFO: Uploading artifact C:\Spades\.bridge\polaris_sca_package_manager_scan\blackduck-sca-artifacts.zip for "SCA(scaPackage)" assessment
+2026-01-06 12:22:38.1066 EST [Polaris Artifacts Uploader] INFO: Uploading Progress of "SAST(sastFull)" artifact:   5%  16384/317285
+2026-01-06 12:22:38.1122 EST [Polaris Artifacts Uploader] INFO: Uploading Progress of "SCA(scaPackage)" artifact: 100%  10978/10978
+2026-01-06 12:22:38.1568 EST [Polaris Artifacts Uploader] INFO: Uploading Progress of "SAST(sastFull)" artifact:  30%  98304/317285
+2026-01-06 12:22:38.1588 EST [Polaris Artifacts Uploader] INFO: Uploading Progress of "SAST(sastFull)" artifact:  56%  180224/317285
+2026-01-06 12:22:38.1648 EST [Polaris Artifacts Uploader] INFO: Uploading Progress of "SAST(sastFull)" artifact:  82%  262144/317285
+2026-01-06 12:22:38.1677 EST [Polaris Artifacts Uploader] INFO: Uploading Progress of "SAST(sastFull)" artifact: 100%  317285/317285
+2026-01-06 12:22:38.6026 EST [Polaris Artifacts Uploader] INFO: successfully uploaded artifact "C:\\Spades\\.bridge\\polaris_sca_package_manager_scan\\blackduck-sca-artifacts.zip"
+2026-01-06 12:22:38.6912 EST [Polaris Artifacts Uploader] INFO: successfully uploaded artifact "C:\\Spades\\.bridge\\polaris_coverity_capture\\idir.zip"
+2026-01-06 12:22:38.9935 EST [Polaris Artifacts Uploader] INFO: successfully resumed "SCA(scaPackage)" assessment with id "5deae467-c821-4aef-b943-f724f863a678"
+2026-01-06 12:22:39.0568 EST [Polaris Artifacts Uploader] INFO: successfully resumed "SAST(sastFull)" assessment with id "88de2eb7-9e7f-4afd-8d2a-4133c4683962"
+2026-01-06 12:22:39.0887 EST [Polaris Artifacts Uploader] INFO: Provided value for resource 'polaris.test.sast.tests.sastFull.artifacts.uploadSuccessful'
+2026-01-06 12:22:39.0892 EST [Polaris Artifacts Uploader] INFO: Provided value for resource 'polaris.test.sca.tests.scaPackage.artifacts.uploadSuccessful'
+2026-01-06 12:22:39.0907 EST [Polaris Artifacts Uploader] INFO: Adapter finished
+2026-01-06 12:22:39.4827 EST [Polaris Waiter] INFO: Waiting for test with assessment type "SAST(sastFull)" and id "88de2eb7-9e7f-4afd-8d2a-4133c4683962"
+2026-01-06 12:22:39.4849 EST [Polaris Waiter] INFO: Waiting for test with assessment type "SCA(scaPackage)" and id "5deae467-c821-4aef-b943-f724f863a678"
+2026-01-06 12:22:39.8818 EST [Polaris Waiter] INFO: Polling Test Manager: state of test with assessment type "SCA(scaPackage)" and id "5deae467-c821-4aef-b943-f724f863a678" is "Waiting for Capture"
+2026-01-06 12:22:39.9145 EST [Polaris Waiter] INFO: Polling Test Manager: state of test with assessment type "SAST(sastFull)" and id "88de2eb7-9e7f-4afd-8d2a-4133c4683962" is "Waiting for Capture"
+2026-01-06 12:22:50.2539 EST [Polaris Waiter] INFO: Polling Test Manager: state of test with assessment type "SCA(scaPackage)" and id "5deae467-c821-4aef-b943-f724f863a678" is "Queuing"
+2026-01-06 12:22:50.2765 EST [Polaris Waiter] INFO: Polling Test Manager: state of test with assessment type "SAST(sastFull)" and id "88de2eb7-9e7f-4afd-8d2a-4133c4683962" is "Queuing"
+2026-01-06 12:23:00.5890 EST [Polaris Waiter] INFO: Polling Test Manager: state of test with assessment type "SCA(scaPackage)" and id "5deae467-c821-4aef-b943-f724f863a678" is "Scanning & Publishing"
+2026-01-06 12:23:00.5904 EST [Polaris Waiter] INFO: Polling Test Manager: state of test with assessment type "SAST(sastFull)" and id "88de2eb7-9e7f-4afd-8d2a-4133c4683962" is "Scanning"
+2026-01-06 12:23:21.2961 EST [Polaris Waiter] INFO: test with assessment type "SAST(sastFull)" and id "88de2eb7-9e7f-4afd-8d2a-4133c4683962" completed successfully
+2026-01-06 12:23:21.2961 EST [Polaris Waiter] INFO: test with assessment type "SCA(scaPackage)" and id "5deae467-c821-4aef-b943-f724f863a678" completed successfully
+2026-01-06 12:23:21.3554 EST [Polaris Waiter] INFO: Provided value for resource 'polaris.test.sast.tests.sastFull.completed'
+2026-01-06 12:23:21.3563 EST [Polaris Waiter] INFO: Provided value for resource 'polaris.test.sca.tests.scaPackage.completed'
+2026-01-06 12:23:21.3576 EST [Polaris Waiter] INFO: Adapter finished
+2026-01-06 12:23:21.7226 EST [Polaris Policy Checker] INFO: Checking for policy violations for "SAST(sastFull)" assessment...
+2026-01-06 12:23:21.7270 EST [Polaris Policy Checker] INFO: Checking for policy violations for "SCA(scaPackage)" assessment...
+2026-01-06 12:23:22.4472 EST [Polaris Policy Checker] INFO: no policies were violated to break the build
+2026-01-06 12:23:22.4807 EST [Polaris Policy Checker] INFO: Adapter finished
+2026-01-06 12:23:22.7297 EST [Polaris Issues Fetcher] INFO: Fetching issues for "SAST(sastFull)" assessment
+2026-01-06 12:23:22.7329 EST [Polaris Issues Fetcher] INFO: Fetching issues for "SCA(scaPackage)" assessment
+2026-01-06 12:23:23.2180 EST [Polaris Issues Fetcher] INFO: Successfully fetched issues for assessment type "SAST(sastFull)" with id "88de2eb7-9e7f-4afd-8d2a-4133c4683962"
+ {
+ "critical": 0,
+ "high": 0,
+ "informational": 0,
+ "low": 0,
+ "medium": 0
+}
+2026-01-06 12:23:23.2303 EST [Polaris Issues Fetcher] INFO: Successfully fetched issues for assessment type "SCA(scaPackage)" with id "5deae467-c821-4aef-b943-f724f863a678"
+ {
+ "critical": 0,
+ "high": 0,
+ "informational": 0,
+ "low": 0,
+ "medium": 1
+}
+2026-01-06 12:23:23.2593 EST [Polaris Issues Fetcher] INFO: Provided value for resource 'polaris.test.SCA.tests.scaPackage.issues.informational'
+2026-01-06 12:23:23.2593 EST [Polaris Issues Fetcher] INFO: Provided value for resource 'polaris.test.SCA.tests.scaPackage.issues.medium'
+2026-01-06 12:23:23.2598 EST [Polaris Issues Fetcher] INFO: Provided value for resource 'polaris.test.SCA.tests.scaPackage.issues.critical'
+2026-01-06 12:23:23.2598 EST [Polaris Issues Fetcher] INFO: Provided value for resource 'polaris.test.SCA.tests.scaPackage.issues.high'
+2026-01-06 12:23:23.2602 EST [Polaris Issues Fetcher] INFO: Provided value for resource 'polaris.test.SCA.tests.scaPackage.issues.low'
+2026-01-06 12:23:23.2602 EST [Polaris Issues Fetcher] INFO: Provided value for resource 'polaris.test.SAST.tests.sastFull.issues.high'
+2026-01-06 12:23:23.2608 EST [Polaris Issues Fetcher] INFO: Provided value for resource 'polaris.test.SAST.tests.sastFull.issues.informational'
+2026-01-06 12:23:23.2613 EST [Polaris Issues Fetcher] INFO: Provided value for resource 'polaris.test.SAST.tests.sastFull.issues.low'
+2026-01-06 12:23:23.2613 EST [Polaris Issues Fetcher] INFO: Provided value for resource 'polaris.test.SAST.tests.sastFull.issues.critical'
+2026-01-06 12:23:23.2619 EST [Polaris Issues Fetcher] INFO: Provided value for resource 'polaris.test.SAST.tests.sastFull.issues.medium'
+2026-01-06 12:23:23.2647 EST [Polaris Issues Fetcher] INFO: Adapter finished
+2026-01-06 12:23:23.5187 EST [Polaris Status Provider] INFO: Results for test "SAST(sastFull)" with ID "88de2eb7-9e7f-4afd-8d2a-4133c4683962" are available at https://poc.polaris.blackduck.com/portfolio/portfolios/567848cb-9ea0-4243-b3b4-0a08fed80507/portfolio-items/2b004a17-7777-4e5e-b3ce-f5e524f2c114/projects/7300bb0e-c339-4a8d-81e7-9cfc22dddd16/tests/88de2eb7-9e7f-4afd-8d2a-4133c4683962/detected-issues
+2026-01-06 12:23:23.5214 EST [Polaris Status Provider] INFO: Results for test "SCA(scaPackage)" with ID "5deae467-c821-4aef-b943-f724f863a678" are available at https://poc.polaris.blackduck.com/portfolio/portfolios/567848cb-9ea0-4243-b3b4-0a08fed80507/portfolio-items/2b004a17-7777-4e5e-b3ce-f5e524f2c114/projects/7300bb0e-c339-4a8d-81e7-9cfc22dddd16/tests/5deae467-c821-4aef-b943-f724f863a678/detected-issues
+2026-01-06 12:23:23.5214 EST [Polaris Status Provider] INFO: Polaris issues view for project "TJC Test", branch "CodeSight_tchrisinger+setest@blackduck.com" is available at https://poc.polaris.blackduck.com/portfolio/portfolios/567848cb-9ea0-4243-b3b4-0a08fed80507/portfolio-items/2b004a17-7777-4e5e-b3ce-f5e524f2c114/projects/7300bb0e-c339-4a8d-81e7-9cfc22dddd16/issues?branchId=d1e049c2-b632-403c-b529-6e71b053eb58
+2026-01-06 12:23:23.5530 EST [Polaris Status Provider] INFO: Provided value for resource 'polaris.test.SAST.tests.sastFull.summary.url'
+2026-01-06 12:23:23.5549 EST [Polaris Status Provider] INFO: Provided value for resource 'polaris.test.SCA.tests.scaPackage.summary.url'
+2026-01-06 12:23:23.5557 EST [Polaris Status Provider] INFO: Provided value for resource 'polaris.project.issues.url'
+2026-01-06 12:23:23.5571 EST [Polaris Status Provider] INFO: Adapter finished

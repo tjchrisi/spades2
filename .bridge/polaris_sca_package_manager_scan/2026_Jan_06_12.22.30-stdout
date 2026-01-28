@@ -1,0 +1,97 @@
+C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\bridge\3.10.1\adapters\detect-execution\versions\0.2.150/detect-execution package C:\Spades\.bridge\polaris_sca_package_manager_scan\data.json
+{"level":"info","logger":"Detect Execution","msg":"Running command C:\\Program Files\\Java\\jdk-21\\bin\\java -jar C:\\Users\\TracyChrisinger\\.blackduck\\bridge\\tools\\blackduck-detect\\10.4.0\\detect-10.4.0.jar --detect.cleanup=false --detect.bdio.file.name=scan --detect.bdio.output.path=C:\\Spades\\.bridge\\polaris_sca_package_manager_scan\\detect\\bdio\\blackduck_artifact --detect.output.path=C:\\Spades\\.bridge\\polaris_sca_package_manager_scan\\detect --detect.tools=DETECTOR --detect.component.location.analysis.enabled=true --blackduck.offline.mode=true --blackduck.offline.mode.force.bdio=true","time":"2026-01-06 12:22:31.2246 EST"}
+{"external_parsed":true,"extras":["main"],"level":"warning","logger":"Detect Execution","msg":"--- Detect-Self-Updater:  Self-Update feature is disabled because of the following reasons:\r","time":"2026-01-06 12:22:32.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"warning","logger":"Detect Execution","msg":"--- Detect-Self-Updater:  Detect in offline mode is incompatible with the Self-Update feature.\r","time":"2026-01-06 12:22:32.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"warning","logger":"Detect Execution","msg":"--- Detect-Self-Updater:  Black Duck URL is required for the Self-Update feature.\r","time":"2026-01-06 12:22:32.0000 EST"}
+{"external_parsed":true,"level":"info","logger":"Detect Execution","msg":"______     _            _","time":"2026-01-06 12:22:32.5545 EST"}
+{"external_parsed":true,"level":"info","logger":"Detect Execution","msg":"|  _  \\   | |          | |","time":"2026-01-06 12:22:32.5545 EST"}
+{"external_parsed":true,"level":"info","logger":"Detect Execution","msg":"| | | |___| |_ ___  ___| |_","time":"2026-01-06 12:22:32.5545 EST"}
+{"external_parsed":true,"level":"info","logger":"Detect Execution","msg":"| | | / _ \\ __/ _ \\/ __| __|","time":"2026-01-06 12:22:32.5545 EST"}
+{"external_parsed":true,"level":"info","logger":"Detect Execution","msg":"| |/ /  __/ ||  __/ (__| |_","time":"2026-01-06 12:22:32.5545 EST"}
+{"external_parsed":true,"level":"info","logger":"Detect Execution","msg":"|___/ \\___|\\__\\___|\\___|\\__|","time":"2026-01-06 12:22:32.5545 EST"}
+{"external_parsed":true,"level":"info","logger":"Detect Execution","msg":"\r","time":"2026-01-06 12:22:32.5545 EST"}
+{"external_parsed":true,"level":"info","logger":"Detect Execution","msg":"\r","time":"2026-01-06 12:22:32.7622 EST"}
+{"external_parsed":true,"level":"info","logger":"Detect Execution","msg":"Detect Version: 10.4.0\r","time":"2026-01-06 12:22:32.7655 EST"}
+{"external_parsed":true,"level":"info","logger":"Detect Execution","msg":"\r","time":"2026-01-06 12:22:32.7655 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \r","time":"2026-01-06 12:22:32.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Current property values:\r","time":"2026-01-06 12:22:32.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- --property = value [notes]\r","time":"2026-01-06 12:22:32.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ------------------------------------------------------------\r","time":"2026-01-06 12:22:32.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- blackduck.offline.mode = true [cmd] \r","time":"2026-01-06 12:22:32.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- blackduck.offline.mode.force.bdio = true [cmd] \r","time":"2026-01-06 12:22:32.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- detect.bdio.file.name = scan [cmd] \r","time":"2026-01-06 12:22:32.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- detect.bdio.output.path = C:\\Spades\\.bridge\\polaris_sca_package_manager_scan\\detect\\bdio\\blackduck_artifact [cmd] \r","time":"2026-01-06 12:22:32.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- detect.cleanup = false [cmd] \r","time":"2026-01-06 12:22:32.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- detect.component.location.analysis.enabled = true [cmd] \r","time":"2026-01-06 12:22:32.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- detect.excluded.directories = C:\\Spades\\.bridge [env] \r","time":"2026-01-06 12:22:32.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- detect.maven.path = c:\\Program Files\\Apache\\Maven\\apache-maven-3.9.11\\bin\\mvn.cmd [env] \r","time":"2026-01-06 12:22:32.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- detect.output.path = C:\\Spades\\.bridge\\polaris_sca_package_manager_scan\\detect [cmd] \r","time":"2026-01-06 12:22:32.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- detect.tools = DETECTOR [cmd] \r","time":"2026-01-06 12:22:32.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ------------------------------------------------------------\r","time":"2026-01-06 12:22:32.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \r","time":"2026-01-06 12:22:32.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Detect build date: 2025-04-24\r","time":"2026-01-06 12:22:32.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Source directory: C:\\Spades\r","time":"2026-01-06 12:22:32.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Output directory: C:\\Spades\\.bridge\\polaris_sca_package_manager_scan\\detect\r","time":"2026-01-06 12:22:32.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Run directory: C:\\Spades\\.bridge\\polaris_sca_package_manager_scan\\detect\\runs\\2026-01-06-17-22-32-675\r","time":"2026-01-06 12:22:32.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \r","time":"2026-01-06 12:22:32.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"warning","logger":"Detect Execution","msg":"--- Correlated Scanning is not available for Rapid/Stateless scan mode or offline scanning. A correlation ID will not be set.\r","time":"2026-01-06 12:22:33.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ----------------------------------\r","time":"2026-01-06 12:22:33.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Docker tool will not be run.\r","time":"2026-01-06 12:22:33.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ----------------------------------\r","time":"2026-01-06 12:22:33.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Bazel tool will not be run.\r","time":"2026-01-06 12:22:33.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ----------------------------------\r","time":"2026-01-06 12:22:33.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Will include the Detectors tool.\r","time":"2026-01-06 12:22:33.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Searching for detectors.\r","time":"2026-01-06 12:22:33.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Evaluating detectors. This may take a while.\r","time":"2026-01-06 12:22:33.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ======================================================================================================\r","time":"2026-01-06 12:22:33.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Detector Report\r","time":"2026-01-06 12:22:33.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ======================================================================================================\r","time":"2026-01-06 12:22:33.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \tC:\\Spades (depth 0)\r","time":"2026-01-06 12:22:33.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \t\tNPM Package Lock: SUCCESS\r","time":"2026-01-06 12:22:33.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \t\t\tFound file: C:\\Spades\\package-lock.json\r","time":"2026-01-06 12:22:33.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \t\t\tFound file: C:\\Spades\\package.json\r","time":"2026-01-06 12:22:33.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ----------------------------------\r","time":"2026-01-06 12:22:33.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Detectors actions finished.\r","time":"2026-01-06 12:22:33.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ----------------------------------\r","time":"2026-01-06 12:22:33.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Project name: tic-tac-toe\r","time":"2026-01-06 12:22:33.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Project version: 0.0.0\r","time":"2026-01-06 12:22:33.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ----------------------------------\r","time":"2026-01-06 12:22:34.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Signature Scanner tool will not be run.\r","time":"2026-01-06 12:22:34.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ----------------------------------\r","time":"2026-01-06 12:22:34.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Vulnerability Impact Analysis tool will not be run.\r","time":"2026-01-06 12:22:34.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ----------------------------------\r","time":"2026-01-06 12:22:34.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- IaC Scanner tool will not be run.\r","time":"2026-01-06 12:22:34.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ----------------------------------\r","time":"2026-01-06 12:22:34.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ##################################################################################################\r","time":"2026-01-06 12:22:34.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- #                                                                                                #\r","time":"2026-01-06 12:22:34.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- #  Product Notice                                                                                #\r","time":"2026-01-06 12:22:34.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- #  © 2024 Black Duck Software, Inc.                                                              #\r","time":"2026-01-06 12:22:34.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- #  This Black Duck Component Locator and all associated documentation are proprietary            #\r","time":"2026-01-06 12:22:34.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- #  to Black Duck Software, Inc. and may only be used pursuant to the terms and conditions of a   #\r","time":"2026-01-06 12:22:34.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- #  written license agreement with Black Duck Software, Inc. All other use, reproduction,         #\r","time":"2026-01-06 12:22:34.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- #  modification, or distribution of the Black Duck Component Locator or the associated           #\r","time":"2026-01-06 12:22:34.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- #  documentation is strictly prohibited.                                                         #\r","time":"2026-01-06 12:22:34.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- #                                                                                                #\r","time":"2026-01-06 12:22:34.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ##################################################################################################\r","time":"2026-01-06 12:22:34.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Running Component Locator v1.1.12 on C:\\Spades\r","time":"2026-01-06 12:22:34.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Component Location Analysis file saved at: C:\\Spades\\.bridge\\polaris_sca_package_manager_scan\\detect\\runs\\2026-01-06-17-22-32-675\\scan/components-with-locations.json\r","time":"2026-01-06 12:22:36.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ----------------------------------\r","time":"2026-01-06 12:22:36.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \r","time":"2026-01-06 12:22:36.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \r","time":"2026-01-06 12:22:36.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Creating status file: C:\\Spades\\.bridge\\polaris_sca_package_manager_scan\\detect\\runs\\2026-01-06-17-22-32-675\\status\\status.json\r","time":"2026-01-06 12:22:36.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \r","time":"2026-01-06 12:22:36.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Skipping cleanup, it is disabled.\r","time":"2026-01-06 12:22:36.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \r","time":"2026-01-06 12:22:36.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \r","time":"2026-01-06 12:22:36.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ======== Detect Result ========\r","time":"2026-01-06 12:22:36.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \r","time":"2026-01-06 12:22:36.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Component Location Analysis File: C:\\Spades\\.bridge\\polaris_sca_package_manager_scan\\detect\\runs\\2026-01-06-17-22-32-675\\scan/components-with-locations.json\r","time":"2026-01-06 12:22:36.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \r","time":"2026-01-06 12:22:36.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ======== Detect Status ========\r","time":"2026-01-06 12:22:36.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \r","time":"2026-01-06 12:22:36.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- NPM: SUCCESS\r","time":"2026-01-06 12:22:36.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Overall Status: SUCCESS - Detect exited successfully.\r","time":"2026-01-06 12:22:36.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \r","time":"2026-01-06 12:22:36.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ===============================\r","time":"2026-01-06 12:22:36.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \r","time":"2026-01-06 12:22:36.0000 EST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Detect duration: 00h 00m 04s 431ms\r","time":"2026-01-06 12:22:36.0000 EST"}

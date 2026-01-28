@@ -1,0 +1,4 @@
+Native Compiler invocation: ./ --coverity_resp_file=C:\Spades\idir\tmp\cicf-de20cb7f819e335a0665ff47feb065eb\cov-translate-resp-file1
+Working directory: C:\Spades
+Comptype: capture-config-files
+* Configuring Configuration Buildless Capture

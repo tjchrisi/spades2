@@ -1,0 +1,14 @@
+{
+  "header" : {
+    "format" : "commit preview report",
+    "version" : 2
+  },
+  "analysisInfo" : {
+    "ownerAssignmentRule" : "default_component_owner",
+    "comparisonSnapshotId" : null,
+    "reportTimestamp" : "2026-01-06T17:00:13.328Z",
+    "user" : "admin",
+    "command" : "C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-analyze --dir C:\\Spades\\idir --strip-path C:\\Spades --ticker-mode none --recommended-security-checkers --enable-scan-transparency-data"
+  },
+  "issueInfo" : [ ]
+}

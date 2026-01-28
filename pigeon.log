@@ -1,0 +1,232 @@
+INFO:__main__:Logging at level INFO to pigeon.log
+INFO:__main__:Using local caching: pigeon-cache.db
+ERROR:utils:Authentication error: Verify your LLM API Key and retry.
+ERROR:utils:Exiting...
+INFO:__main__:Logging at level INFO to pigeon.log
+INFO:__main__:Using local caching: pigeon-cache.db
+ERROR:utils:Authentication error: Verify your LLM API Key and retry.
+ERROR:utils:Exiting...
+INFO:__main__:Logging at level INFO to pigeon.log
+INFO:__main__:Using local caching: pigeon-cache.db
+ERROR:utils:Authentication error: Verify your LLM API Key and retry.
+ERROR:utils:Exiting...
+INFO:__main__:Logging at level INFO to pigeon.log
+INFO:__main__:Using local caching: pigeon-cache.db
+ERROR:utils:Authentication error: Verify your LLM API Key and retry.
+ERROR:utils:Exiting...
+INFO:__main__:Logging at level INFO to pigeon.log
+INFO:__main__:Using local caching: pigeon-cache.db
+ERROR:utils:Authentication error: Verify your LLM API Key and retry.
+ERROR:utils:Exiting...
+INFO:__main__:Logging at level INFO to pigeon.log
+INFO:__main__:Using local caching: pigeon-cache.db
+ERROR:utils:Authentication error: Verify your LLM API Key and retry.
+ERROR:utils:Exiting...
+INFO:__main__:Logging at level INFO to pigeon.log
+INFO:__main__:Using local caching: pigeon-cache.db
+ERROR:utils:Authentication error: Verify your LLM API Key and retry.
+ERROR:utils:Exiting...
+INFO:__main__:Logging at level INFO to pigeon.log
+INFO:__main__:Using local caching: pigeon-cache.db
+ERROR:utils:Authentication error: Verify your LLM API Key and retry.
+ERROR:utils:Exiting...
+INFO:__main__:Logging at level INFO to pigeon.log
+INFO:__main__:Using local caching: pigeon-cache.db
+ERROR:utils:Authentication error: Verify your LLM API Key and retry.
+ERROR:utils:Exiting...
+INFO:__main__:Logging at level INFO to pigeon.log
+INFO:__main__:Using local caching: pigeon-cache.db
+ERROR:utils:Authentication error: Verify your LLM API Key and retry.
+ERROR:utils:Exiting...
+INFO:__main__:Logging at level INFO to pigeon.log
+INFO:__main__:Using local caching: pigeon-cache.db
+ERROR:utils:Authentication error: Verify your LLM API Key and retry.
+ERROR:utils:Exiting...
+INFO:__main__:Logging at level INFO to pigeon.log
+INFO:__main__:Using local caching: pigeon-cache.db
+ERROR:utils:Authentication error: Verify your LLM API Key and retry.
+ERROR:utils:Exiting...
+INFO:__main__:Logging at level INFO to pigeon.log
+INFO:__main__:Using local caching: pigeon-cache.db
+ERROR:utils:Authentication error: Verify your LLM API Key and retry.
+ERROR:utils:Exiting...
+INFO:__main__:Logging at level INFO to pigeon.log
+INFO:__main__:Using local caching: pigeon-cache.db
+INFO:utils:Successful connection to the LLM endpoint.
+INFO:__main__:Using single-file LLM: claude-sonnet-4 at https://llm.labs.blackduck.com/
+INFO:__main__:Using agent LLM: o3-mini at https://llm.labs.blackduck.com/
+INFO:__main__:##########################################
+INFO:__main__:# SINGLE-FILE ANALYSIS
+INFO:__main__:##########################################
+INFO:__main__:Identified 0 files for analysis
+INFO:__main__:Default analysis enabled
+INFO:utils:Successfully analyzed 100.0% of files
+INFO:__main__:##########################################
+INFO:__main__:# DATAFLOW AGENT
+INFO:__main__:##########################################
+INFO:agents.sast:Running 0 tasks...
+INFO:__main__:##########################################
+INFO:__main__:# OVERSIGHT AGENT
+INFO:__main__:##########################################
+INFO:__main__:Performing additional triage for each result...
+INFO:agents.sast:Running 0 tasks...
+INFO:__main__:Reviewing content of each result...
+INFO:__main__:##########################################
+INFO:__main__:# REPORTING
+INFO:__main__:##########################################
+INFO:__main__:Generating SARIF report for 0 issues...
+ERROR:__main__:[Errno 2] No such file or directory: 'C:\\cpades\\report.json'
+INFO:__main__:Logging at level INFO to pigeon.log
+INFO:__main__:Using local caching: pigeon-cache.db
+INFO:utils:Successful connection to the LLM endpoint.
+INFO:__main__:Using single-file LLM: claude-sonnet-4 at https://llm.labs.blackduck.com/
+INFO:__main__:Using agent LLM: o3-mini at https://llm.labs.blackduck.com/
+INFO:__main__:##########################################
+INFO:__main__:# SINGLE-FILE ANALYSIS
+INFO:__main__:##########################################
+INFO:__main__:Identified 0 files for analysis
+INFO:__main__:Default analysis enabled
+INFO:utils:Successfully analyzed 100.0% of files
+INFO:__main__:##########################################
+INFO:__main__:# DATAFLOW AGENT
+INFO:__main__:##########################################
+INFO:agents.sast:Running 0 tasks...
+INFO:__main__:##########################################
+INFO:__main__:# OVERSIGHT AGENT
+INFO:__main__:##########################################
+INFO:__main__:Performing additional triage for each result...
+INFO:agents.sast:Running 0 tasks...
+INFO:__main__:Reviewing content of each result...
+INFO:__main__:##########################################
+INFO:__main__:# REPORTING
+INFO:__main__:##########################################
+INFO:__main__:Generating SARIF report for 0 issues...
+ERROR:__main__:[Errno 2] No such file or directory: 'C:\\cpades\\report.json'
+INFO:__main__:Logging at level INFO to pigeon.log
+INFO:__main__:Using local caching: pigeon-cache.db
+INFO:utils:Successful connection to the LLM endpoint.
+INFO:__main__:Using single-file LLM: claude-sonnet-4 at https://llm.labs.blackduck.com/
+INFO:__main__:Using agent LLM: o3-mini at https://llm.labs.blackduck.com/
+INFO:__main__:##########################################
+INFO:__main__:# SINGLE-FILE ANALYSIS
+INFO:__main__:##########################################
+INFO:__main__:Identified 0 files for analysis
+INFO:__main__:Default analysis enabled
+INFO:utils:Successfully analyzed 100.0% of files
+INFO:__main__:##########################################
+INFO:__main__:# DATAFLOW AGENT
+INFO:__main__:##########################################
+INFO:agents.sast:Running 0 tasks...
+INFO:__main__:##########################################
+INFO:__main__:# OVERSIGHT AGENT
+INFO:__main__:##########################################
+INFO:__main__:Performing additional triage for each result...
+INFO:agents.sast:Running 0 tasks...
+INFO:__main__:Reviewing content of each result...
+INFO:__main__:##########################################
+INFO:__main__:# REPORTING
+INFO:__main__:##########################################
+INFO:__main__:Generating SARIF report for 0 issues...
+INFO:__main__:Writing SARIF report to C:\spades\report.json
+INFO:__main__:Logging at level INFO to pigeon.log
+INFO:__main__:Using local caching: pigeon-cache.db
+INFO:utils:Successful connection to the LLM endpoint.
+INFO:__main__:Using single-file LLM: claude-sonnet-4 at https://llm.labs.blackduck.com/
+INFO:__main__:Using agent LLM: o3-mini at https://llm.labs.blackduck.com/
+INFO:__main__:##########################################
+INFO:__main__:# SINGLE-FILE ANALYSIS
+INFO:__main__:##########################################
+INFO:__main__:Identified 0 files for analysis
+INFO:__main__:Default analysis enabled
+INFO:utils:Successfully analyzed 100.0% of files
+INFO:__main__:##########################################
+INFO:__main__:# DATAFLOW AGENT
+INFO:__main__:##########################################
+INFO:agents.sast:Running 0 tasks...
+INFO:__main__:##########################################
+INFO:__main__:# OVERSIGHT AGENT
+INFO:__main__:##########################################
+INFO:__main__:Performing additional triage for each result...
+INFO:agents.sast:Running 0 tasks...
+INFO:__main__:Reviewing content of each result...
+INFO:__main__:##########################################
+INFO:__main__:# REPORTING
+INFO:__main__:##########################################
+INFO:__main__:Generating SARIF report for 0 issues...
+INFO:__main__:Writing SARIF report to C:\spades\report.json
+INFO:__main__:Logging at level INFO to pigeon.log
+INFO:__main__:Using local caching: pigeon-cache.db
+INFO:utils:Successful connection to the LLM endpoint.
+INFO:__main__:Using single-file LLM: claude-sonnet-4 at https://llm.labs.blackduck.com/
+INFO:__main__:Using agent LLM: o3-mini at https://llm.labs.blackduck.com/
+INFO:__main__:##########################################
+INFO:__main__:# SINGLE-FILE ANALYSIS
+INFO:__main__:##########################################
+INFO:__main__:Identified 0 files for analysis
+INFO:__main__:Default analysis enabled
+INFO:utils:Successfully analyzed 100.0% of files
+INFO:__main__:##########################################
+INFO:__main__:# DATAFLOW AGENT
+INFO:__main__:##########################################
+INFO:agents.sast:Running 0 tasks...
+INFO:__main__:##########################################
+INFO:__main__:# OVERSIGHT AGENT
+INFO:__main__:##########################################
+INFO:__main__:Performing additional triage for each result...
+INFO:agents.sast:Running 0 tasks...
+INFO:__main__:Reviewing content of each result...
+INFO:__main__:##########################################
+INFO:__main__:# REPORTING
+INFO:__main__:##########################################
+INFO:__main__:Generating SARIF report for 0 issues...
+INFO:__main__:Writing SARIF report to C:\spades\report.json
+INFO:__main__:Logging at level INFO to pigeon.log
+INFO:__main__:Using local caching: pigeon-cache.db
+INFO:utils:Successful connection to the LLM endpoint.
+INFO:__main__:Using single-file LLM: claude-sonnet-4 at https://llm.labs.blackduck.com/
+INFO:__main__:Using agent LLM: o3-mini at https://llm.labs.blackduck.com/
+INFO:__main__:##########################################
+INFO:__main__:# SINGLE-FILE ANALYSIS
+INFO:__main__:##########################################
+INFO:__main__:Identified 0 files for analysis
+INFO:__main__:Default analysis enabled
+INFO:utils:Successfully analyzed 100.0% of files
+INFO:__main__:##########################################
+INFO:__main__:# DATAFLOW AGENT
+INFO:__main__:##########################################
+INFO:agents.sast:Running 0 tasks...
+INFO:__main__:##########################################
+INFO:__main__:# OVERSIGHT AGENT
+INFO:__main__:##########################################
+INFO:__main__:Performing additional triage for each result...
+INFO:agents.sast:Running 0 tasks...
+INFO:__main__:Reviewing content of each result...
+INFO:__main__:##########################################
+INFO:__main__:# REPORTING
+INFO:__main__:##########################################
+INFO:__main__:Generating SARIF report for 0 issues...
+INFO:__main__:Writing SARIF report to C:\spades\report-summary
+INFO:__main__:Logging at level INFO to pigeon.log
+INFO:__main__:Using local caching: pigeon-cache.db
+ERROR:utils:Authentication error: Verify your LLM API Key and retry.
+ERROR:utils:Exiting...
+INFO:__main__:Logging at level INFO to pigeon.log
+INFO:__main__:Using local caching: pigeon-cache.db
+ERROR:utils:Authentication error: Verify your LLM API Key and retry.
+ERROR:utils:Exiting...
+INFO:__main__:Logging at level INFO to pigeon.log
+INFO:__main__:Using local caching: pigeon-cache.db
+ERROR:utils:Authentication error: Verify your LLM API Key and retry.
+ERROR:utils:Exiting...
+INFO:__main__:Logging at level INFO to pigeon.log
+INFO:__main__:Using local caching: pigeon-cache.db
+ERROR:utils:Authentication error: Verify your LLM API Key and retry.
+ERROR:utils:Exiting...
+INFO:__main__:Logging at level INFO to pigeon.log
+INFO:__main__:Using local caching: pigeon-cache.db
+ERROR:utils:Authentication error: Verify your LLM API Key and retry.
+ERROR:utils:Exiting...
+INFO:__main__:Logging at level INFO to pigeon.log
+INFO:__main__:Using local caching: pigeon-cache.db
+ERROR:utils:Authentication error: Verify your LLM API Key and retry.
+ERROR:utils:Exiting...

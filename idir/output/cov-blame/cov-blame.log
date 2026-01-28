@@ -1,0 +1,1 @@
+[LOG] Command line: C:/Users/TracyChrisinger/AppData/Roaming/BlackDuck/desktop/controller/installedtools/coverity-analysis/2025.3.0/bin/../bin/cov-blame.exe --dir C:/Spades/idir --preview-report C:/Spades/idir/output/preview-report.json --owner-assignment-rules default_component_owner --quiet --outputdir C:/Spades/idir/output

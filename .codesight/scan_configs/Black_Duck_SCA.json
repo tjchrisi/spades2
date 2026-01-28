@@ -1,0 +1,45 @@
+{
+  "configId": {
+    "id": "adc8f495-9a4b-4cc8-874e-9dbbd3b63976"
+  },
+  "scanType": {
+    "type": 4,
+    "name": "Black Duck SCA",
+    "description": "Scans open source components for known vulnerabilities, and policy violations."
+  },
+  "blackDuckConfig": {
+    "installationLocation": {
+      "source": {
+        "type": 8
+      }
+    },
+    "additionalArguments": {
+      "source": {
+        "type": 8
+      }
+    },
+    "configFilePath": {
+      "source": {
+        "type": 8
+      }
+    },
+    "searchDepth": {
+      "source": {
+        "type": 8
+      }
+    }
+  },
+  "bridgeConfig": {},
+  "buildConfig": {},
+  "workingDirectory": {
+    "value": "C:\\Spades",
+    "source": {
+      "type": 8
+    }
+  },
+  "path": {
+    "source": {
+      "type": 8
+    }
+  }
+}

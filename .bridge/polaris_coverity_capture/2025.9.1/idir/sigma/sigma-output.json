@@ -1,0 +1,4546 @@
+{
+  "header": {
+    "version": 1,
+    "format": "coverity-sigma-integration"
+  },
+  "sources": [
+    {
+      "file": "C:\\Spades\\src\\App.jsx",
+      "language": "jsx"
+    },
+    {
+      "file": "C:\\Spades\\src\\utils\\aiLogic.js",
+      "language": "javascript"
+    },
+    {
+      "file": "C:\\Spades\\dist\\index.html",
+      "language": "html"
+    },
+    {
+      "file": "C:\\Spades\\src\\main.jsx",
+      "language": "jsx"
+    },
+    {
+      "file": "C:\\Spades\\src\\components\\GameBoard.jsx",
+      "language": "jsx"
+    },
+    {
+      "file": "C:\\Spades\\dist\\assets\\index-UTpEpuTW.css",
+      "language": "text"
+    },
+    {
+      "file": "C:\\Spades\\.codesight\\scan_configs\\Black_Duck_SCA.json",
+      "language": "text"
+    },
+    {
+      "file": "C:\\Spades\\src\\index.css",
+      "language": "text"
+    },
+    {
+      "file": "C:\\Spades\\.codesight\\scan_configs\\Polaris.json",
+      "language": "text"
+    },
+    {
+      "file": "C:\\Spades\\src\\utils\\gameLogic.test.js",
+      "language": "javascript"
+    },
+    {
+      "file": "C:\\Spades\\README.md",
+      "language": "text"
+    },
+    {
+      "file": "C:\\Spades\\src\\utils\\spadesLogic.js",
+      "language": "javascript"
+    },
+    {
+      "file": "C:\\Spades\\vite.config.js",
+      "language": "javascript"
+    },
+    {
+      "file": "C:\\Spades\\.codesight\\scan_configs\\Coverity.json",
+      "language": "text"
+    },
+    {
+      "file": "C:\\Spades\\.codesight\\scan_configs\\Rapid_Scan_Static.json",
+      "language": "text"
+    },
+    {
+      "file": "C:\\Spades\\src\\utils\\biddingLogic.test.js",
+      "language": "javascript"
+    },
+    {
+      "file": "C:\\Spades\\src\\spades_cutthroat.py",
+      "language": "python 3"
+    },
+    {
+      "file": "C:\\Spades\\src\\utils\\deck.js",
+      "language": "javascript"
+    },
+    {
+      "file": "C:\\Spades\\src\\components\\BiddingPhase.jsx",
+      "language": "jsx"
+    },
+    {
+      "file": "C:\\Spades\\spades_cutthroat.py",
+      "language": "python 3"
+    },
+    {
+      "file": "C:\\Spades\\package.json",
+      "language": "text"
+    },
+    {
+      "file": "C:\\Spades\\src\\components\\Card.jsx",
+      "language": "jsx"
+    },
+    {
+      "file": "C:\\Spades\\index.html",
+      "language": "html"
+    },
+    {
+      "file": "C:\\Spades\\coverity.yaml",
+      "language": "text"
+    },
+    {
+      "file": "C:\\Spades\\dist\\assets\\index-PxGgEJaR.js",
+      "language": "javascript"
+    },
+    {
+      "file": "C:\\Spades\\src\\utils\\gameLogic.js",
+      "language": "javascript"
+    },
+    {
+      "file": "C:\\Spades\\src\\App.css",
+      "language": "text"
+    },
+    {
+      "file": "C:\\Spades\\BIDDING_TROUBLESHOOTING.md",
+      "language": "text"
+    },
+    {
+      "file": "C:\\Spades\\GAME_START_GUIDE.md",
+      "language": "text"
+    }
+  ],
+  "issues": [],
+  "scan_info": {
+    "enabled_checker_names": [
+      "DOM_XSS",
+      "EL_INJECTION",
+      "HEADER_INJECTION",
+      "JAVA_CODE_INJECTION",
+      "JCR_INJECTION",
+      "LDAP_INJECTION",
+      "NOSQL_QUERY_INJECTION",
+      "OGNL_INJECTION",
+      "OPEN_REDIRECT",
+      "OS_CMD_INJECTION",
+      "PATH_MANIPULATION",
+      "REGEX_INJECTION",
+      "SCRIPT_CODE_INJECTION",
+      "SENSITIVE_DATA_LEAK",
+      "SESSION_FIXATION",
+      "SIGMA.access_control_disabled",
+      "SIGMA.access_to_secret",
+      "SIGMA.admin_access_enabled",
+      "SIGMA.admin_dashboard_publicly_accessible",
+      "SIGMA.alias_ip_disabled",
+      "SIGMA.allow_all_authz_policy",
+      "SIGMA.allow_non_strict_processing",
+      "SIGMA.allow_self_signed_certificate",
+      "SIGMA.always_remember_me_enabled",
+      "SIGMA.anonymous_access_enabled",
+      "SIGMA.anti_spoofing_disabled",
+      "SIGMA.api_exposes_refresh_token",
+      "SIGMA.api_key_auth_enabled",
+      "SIGMA.api_key_in_query_string",
+      "SIGMA.apparmour_default_configuration_override",
+      "SIGMA.audio_recording_enabled",
+      "SIGMA.automatic_key_rotation_disabled",
+      "SIGMA.automatic_os_upgrade_disabled",
+      "SIGMA.automatic_repair_disabled",
+      "SIGMA.automatic_upgrade_disabled",
+      "SIGMA.automounting_service_account_token",
+      "SIGMA.azure_ad_authentication_disabled",
+      "SIGMA.azure_ad_managed_identities_disabled",
+      "SIGMA.backups_allowed",
+      "SIGMA.basic_auth_enabled",
+      "SIGMA.biometric_authentication_protection_disabled",
+      "SIGMA.broad_domain_attribute_cookie",
+      "SIGMA.broad_filesystem_access",
+      "SIGMA.cache_ttl_too_long",
+      "SIGMA.cbc_insecure_padding",
+      "SIGMA.certificate_rotation_disabled",
+      "SIGMA.certificate_verification_disabled",
+      "SIGMA.circuit_breaker_disabled",
+      "SIGMA.client_store_info_leak",
+      "SIGMA.cloud_database_deletion_protection_disabled",
+      "SIGMA.cloud_gateway_publicly_accessible",
+      "SIGMA.cloud_object_lock_disabled",
+      "SIGMA.cloud_resource_assigned_public_ip",
+      "SIGMA.cloud_resource_publicly_accessible",
+      "SIGMA.cloud_service_authn_disabled",
+      "SIGMA.cloud_service_authz_disabled",
+      "SIGMA.cloud_storage_allows_public_config",
+      "SIGMA.cloud_storage_default_allow_all",
+      "SIGMA.cloud_storage_encryption_disabled",
+      "SIGMA.cloud_storage_publicly_accessible",
+      "SIGMA.confidential_computing_disabled",
+      "SIGMA.config_browser_plugin_enabled",
+      "SIGMA.conflicting_names",
+      "SIGMA.connection_timeout_disabled",
+      "SIGMA.container_access_to_host_filesystem",
+      "SIGMA.container_daemon_socket_exposed",
+      "SIGMA.container_empty_security_context",
+      "SIGMA.container_filesystem_write",
+      "SIGMA.container_hostport_binding",
+      "SIGMA.container_insecure_bind_address",
+      "SIGMA.container_mapped_to_privileged_port",
+      "SIGMA.container_missing_cpu_limit",
+      "SIGMA.container_missing_memory_limit",
+      "SIGMA.container_privilege_escalation_allowed",
+      "SIGMA.container_requesting_net_raw",
+      "SIGMA.container_requesting_sys_admin",
+      "SIGMA.container_running_as_root",
+      "SIGMA.container_sharing_host_ipc_namespace",
+      "SIGMA.container_sharing_host_network_namespace",
+      "SIGMA.container_sharing_host_pid_namespace",
+      "SIGMA.container_sharing_mount_volumes",
+      "SIGMA.container_storing_secret_in_environment_variable",
+      "SIGMA.container_sudo_usage",
+      "SIGMA.content_isolation_disabled",
+      "SIGMA.content_security_policy_disabled",
+      "SIGMA.cookie_logging_enabled",
+      "SIGMA.cookie_session_signing_disabled",
+      "SIGMA.cors_configured_globally",
+      "SIGMA.cors_expose_sensitive_data",
+      "SIGMA.cors_no_credentials_permissive_origin",
+      "SIGMA.cors_origin_string",
+      "SIGMA.cors_permissive_methods",
+      "SIGMA.cors_preflight_age_too_long",
+      "SIGMA.cors_with_credentials_all_origin",
+      "SIGMA.cors_with_credentials_http_origin",
+      "SIGMA.cors_with_credentials_null_origin",
+      "SIGMA.cors_with_credentials_subdomain_origin",
+      "SIGMA.credentials_validation_disabled",
+      "SIGMA.credentials_without_keychain_protection",
+      "SIGMA.csp_frame_ancestors_disabled",
+      "SIGMA.csp_mixed_content",
+      "SIGMA.csp_permissive_source",
+      "SIGMA.csp_unsafe_eval",
+      "SIGMA.csp_unsafe_inline",
+      "SIGMA.csrf",
+      "SIGMA.csrf_protection_disabled",
+      "SIGMA.custom_cryptography",
+      "SIGMA.custom_keyboards_enabled",
+      "SIGMA.custom_resource_in_default_namespace",
+      "SIGMA.dangerous_oauth2_implicit_flow",
+      "SIGMA.dangerous_ropc_flow",
+      "SIGMA.dangerously_exposed_interface",
+      "SIGMA.data_exfiltration_protection_disabled",
+      "SIGMA.data_mask_obfuscation_disabled",
+      "SIGMA.data_sent_to_external_server",
+      "SIGMA.database_encryption_disabled",
+      "SIGMA.database_integrity_protection_disabled",
+      "SIGMA.database_repair_mode_enabled",
+      "SIGMA.ddos_protection_disabled",
+      "SIGMA.debug_enabled",
+      "SIGMA.debug_logging_enabled",
+      "SIGMA.default_allow_all_authz_policy",
+      "SIGMA.default_service_account_enabled",
+      "SIGMA.deletion_protection_disabled",
+      "SIGMA.deprecated_component_used",
+      "SIGMA.deprecated_http_client",
+      "SIGMA.deprecated_runtime_version",
+      "SIGMA.deprecated_xss_header",
+      "SIGMA.dev_mode_enabled",
+      "SIGMA.digest_auth_enabled",
+      "SIGMA.disk_encryption_disabled",
+      "SIGMA.dns_prefetch_control_disabled",
+      "SIGMA.dnssec_disabled",
+      "SIGMA.drop_invalid_header_disabled",
+      "SIGMA.duplicate_validation_forms",
+      "SIGMA.dynamic_method_invocation",
+      "SIGMA.dynamically_loading_extensions_enabled",
+      "SIGMA.el_injection",
+      "SIGMA.element_any",
+      "SIGMA.empty_encryption_key",
+      "SIGMA.empty_password",
+      "SIGMA.empty_salt",
+      "SIGMA.empty_signing_key",
+      "SIGMA.encryption_disabled",
+      "SIGMA.excessive_auth_attempts",
+      "SIGMA.excessive_buffer_size",
+      "SIGMA.excessive_connection_timeout",
+      "SIGMA.excessive_http_buffer_size",
+      "SIGMA.excessive_key_rotation_period",
+      "SIGMA.excessive_memory_limit",
+      "SIGMA.excessive_request_retries",
+      "SIGMA.excessive_request_size",
+      "SIGMA.excessive_session_lifetime",
+      "SIGMA.excessive_token_lifetime",
+      "SIGMA.excessive_ttl",
+      "SIGMA.expect_ct_disabled",
+      "SIGMA.experimental_features_enabled",
+      "SIGMA.exposed_directory_listing",
+      "SIGMA.exposed_privileged_account",
+      "SIGMA.exposed_secret",
+      "SIGMA.expression_escaping_disabled",
+      "SIGMA.external_storage_used",
+      "SIGMA.file_data_unprotected_on_device",
+      "SIGMA.file_header_crc_disabled",
+      "SIGMA.file_upload_misconfiguration",
+      "SIGMA.file_upload_misconfiguration_of_fields",
+      "SIGMA.file_upload_misconfiguration_of_file_path",
+      "SIGMA.file_upload_misconfiguration_of_filesize",
+      "SIGMA.file_upload_misconfiguration_of_safe_file_names",
+      "SIGMA.file_upload_misconfiguration_of_storage",
+      "SIGMA.file_upload_misconfiguration_of_temp_files",
+      "SIGMA.full_table_scan",
+      "SIGMA.gateway_exposes_all_hosts",
+      "SIGMA.general_pasteboard_used",
+      "SIGMA.geo_redundant_backup_disabled",
+      "SIGMA.graphiql_enabled",
+      "SIGMA.hardcoded_remember_me_key",
+      "SIGMA.hardcoded_secret",
+      "SIGMA.hardcoded_value",
+      "SIGMA.hardware_backed_security_disabled",
+      "SIGMA.healthcheck_disabled",
+      "SIGMA.hide_powered_by_disabled",
+      "SIGMA.host_header_validation_disabled",
+      "SIGMA.hpkp_max_age_too_long",
+      "SIGMA.hpkp_report_uri_missing_tls",
+      "SIGMA.hsts_disabled",
+      "SIGMA.hsts_http_header_short_max_age",
+      "SIGMA.hsts_http_header_subdomains_disabled",
+      "SIGMA.http_firewall_allow_any_http_method",
+      "SIGMA.http_firewall_allows_special_char",
+      "SIGMA.http_firewall_insecure_default",
+      "SIGMA.http_header_validation_disabled",
+      "SIGMA.http_method_missing_authz",
+      "SIGMA.http_verb_tampering_method_inclusion",
+      "SIGMA.http_verb_tampering_method_omission",
+      "SIGMA.ie_no_open_disabled",
+      "SIGMA.image_scanning_disabled",
+      "SIGMA.immutable_tag_disabled",
+      "SIGMA.improper_use_of_add_command",
+      "SIGMA.improper_use_of_symmetric_cryptography",
+      "SIGMA.incomplete_credential_removal",
+      "SIGMA.infrastructure_encryption_disabled",
+      "SIGMA.insecure_active_user_switch",
+      "SIGMA.insecure_argon2_parameters",
+      "SIGMA.insecure_block_cipher_algorithm",
+      "SIGMA.insecure_block_cipher_mode",
+      "SIGMA.insecure_cipher",
+      "SIGMA.insecure_cookie_storage",
+      "SIGMA.insecure_credential_use",
+      "SIGMA.insecure_dataframe",
+      "SIGMA.insecure_direct_object_reference",
+      "SIGMA.insecure_file_permission",
+      "SIGMA.insecure_iframe_sandbox",
+      "SIGMA.insecure_ipc",
+      "SIGMA.insecure_network_bind",
+      "SIGMA.insecure_permission_on_exported_component",
+      "SIGMA.insecure_random",
+      "SIGMA.insecure_random_seed",
+      "SIGMA.insecure_referrer_policy",
+      "SIGMA.insecure_samesite_attribute_cookie",
+      "SIGMA.insecure_stream_cipher_algorithm",
+      "SIGMA.insecure_temporary_file",
+      "SIGMA.insecure_tls_cipher_suite",
+      "SIGMA.insecure_tls_renegotiation",
+      "SIGMA.insecure_tls_version",
+      "SIGMA.insecure_xss_filter",
+      "SIGMA.insufficient_asymmetric_key_size",
+      "SIGMA.insufficient_brute_force_protection",
+      "SIGMA.insufficient_log_retention",
+      "SIGMA.insufficient_logging",
+      "SIGMA.insufficient_password_hash_iterations",
+      "SIGMA.insufficient_password_hash_key_length",
+      "SIGMA.insufficient_password_hash_salt_length",
+      "SIGMA.insufficient_presigned_url_timeout",
+      "SIGMA.insufficient_soft_delete_retention",
+      "SIGMA.insufficient_symmetric_key_size",
+      "SIGMA.insufficient_token_entropy",
+      "SIGMA.introspection_enabled",
+      "SIGMA.ip_forwarding_enabled",
+      "SIGMA.iptable_synchronization_disabled",
+      "SIGMA.javascript_code_in_description",
+      "SIGMA.jwt_algorithm_none",
+      "SIGMA.jwt_ignored_expiration_time",
+      "SIGMA.jwt_ignored_start_time",
+      "SIGMA.jwt_no_claims_validation",
+      "SIGMA.jwt_non_expiring_token",
+      "SIGMA.jwt_revoke_missing",
+      "SIGMA.jwt_untrusted_decode",
+      "SIGMA.kernel_protection_disabled",
+      "SIGMA.keyboard_cache_enabled",
+      "SIGMA.keychain_data_unprotected_after_device_powered_on",
+      "SIGMA.keychain_data_unprotected_after_first_login",
+      "SIGMA.keychain_data_unprotected_passcode_not_set",
+      "SIGMA.kms_encryption_service_disabled",
+      "SIGMA.kubernetes_dashboard_enabled",
+      "SIGMA.ldap_anonymous_authentication",
+      "SIGMA.ldap_entry_poisoning",
+      "SIGMA.least_privilege_violation",
+      "SIGMA.legacy_attribute_based_access_control",
+      "SIGMA.local_infile_enabled",
+      "SIGMA.location_tracking_enabled",
+      "SIGMA.log_file_validation_disabled",
+      "SIGMA.log_monitoring_disabled",
+      "SIGMA.logging_disabled",
+      "SIGMA.logging_request_parameters",
+      "SIGMA.login_over_http",
+      "SIGMA.lossy_encoding",
+      "SIGMA.malicious_url",
+      "SIGMA.markdown_allow_dangerous_html",
+      "SIGMA.message_encryption_disabled",
+      "SIGMA.microservice_authn_disabled",
+      "SIGMA.middleware_applied_globally",
+      "SIGMA.misconfigured_oauth2",
+      "SIGMA.missing_default_response_object",
+      "SIGMA.missing_exported_attribute",
+      "SIGMA.missing_global_exception_handler",
+      "SIGMA.missing_high_availability_support",
+      "SIGMA.missing_httponly_attribute",
+      "SIGMA.missing_httponly_attribute_csrf_cookie",
+      "SIGMA.missing_httponly_attribute_session_cookie",
+      "SIGMA.missing_iframe_sandbox",
+      "SIGMA.missing_load_balancer",
+      "SIGMA.missing_mfa",
+      "SIGMA.missing_min_sdk_version",
+      "SIGMA.missing_mtls",
+      "SIGMA.missing_network_security_policy",
+      "SIGMA.missing_perfect_forward_secrecy",
+      "SIGMA.missing_permission_on_exported_component",
+      "SIGMA.missing_samesite_attribute",
+      "SIGMA.missing_samesite_attribute_csrf_cookie",
+      "SIGMA.missing_samesite_attribute_session_cookie",
+      "SIGMA.missing_secure_attribute",
+      "SIGMA.missing_secure_attribute_csrf_cookie",
+      "SIGMA.missing_secure_attribute_remember_me_cookie",
+      "SIGMA.missing_secure_attribute_session_cookie",
+      "SIGMA.missing_security_constraint",
+      "SIGMA.missing_servlet_mapping",
+      "SIGMA.missing_target_sdk_version",
+      "SIGMA.missing_tls",
+      "SIGMA.missing_uses_sdk_version",
+      "SIGMA.missing_vpc",
+      "SIGMA.missing_x_frame_options_header",
+      "SIGMA.mixed_content_allowed",
+      "SIGMA.multi_region_configuration_aggregation_disabled",
+      "SIGMA.multi_region_logging_disabled",
+      "SIGMA.no_complexity_limit",
+      "SIGMA.no_depth_limit",
+      "SIGMA.no_password_change_on_first_login",
+      "SIGMA.no_rate_limiting",
+      "SIGMA.no_sniff_disabled",
+      "SIGMA.non_production_api_endpoint",
+      "SIGMA.non_production_route",
+      "SIGMA.null_cipher_used",
+      "SIGMA.oauth2_pkce_plaintext_challenge",
+      "SIGMA.oauth2_scope_in_token_request",
+      "SIGMA.open_smtp_relay",
+      "SIGMA.optimized_image_not_used",
+      "SIGMA.outdated_target_sdk_version",
+      "SIGMA.outdated_version_used",
+      "SIGMA.overwrite_unintended_variables",
+      "SIGMA.parameter_merging_enabled",
+      "SIGMA.parameters_validation_disabled",
+      "SIGMA.password_change_disallowed",
+      "SIGMA.password_change_without_old_password",
+      "SIGMA.password_stored_without_hash",
+      "SIGMA.permissive_intent_list",
+      "SIGMA.permissive_navigation_list",
+      "SIGMA.permissive_network_list",
+      "SIGMA.permitted_cross_domain_policies_disabled",
+      "SIGMA.persistent_cookie",
+      "SIGMA.plaintext_storage_sensitive_data",
+      "SIGMA.predictable_secret",
+      "SIGMA.privileged_connection_allowed",
+      "SIGMA.privileged_container_allowed",
+      "SIGMA.profiling_enabled",
+      "SIGMA.project_encryption_disabled",
+      "SIGMA.public_github_repository",
+      "SIGMA.publicly_accessible_serial_port_enabled",
+      "SIGMA.publicly_writable_directories_used",
+      "SIGMA.query_encryption_disabled",
+      "SIGMA.query_logging_enabled",
+      "SIGMA.referrer_policy_disabled",
+      "SIGMA.remote_access_via_guest_account",
+      "SIGMA.remote_application_enabled",
+      "SIGMA.remote_execution_enabled",
+      "SIGMA.remote_file_inclusion",
+      "SIGMA.request_allows_any_media_type",
+      "SIGMA.request_logging_enabled",
+      "SIGMA.request_tracing_disabled",
+      "SIGMA.request_validation_disabled",
+      "SIGMA.response_cache_encryption_disabled",
+      "SIGMA.response_cache_used_without_validation",
+      "SIGMA.response_caching_enabled",
+      "SIGMA.response_logging_enabled",
+      "SIGMA.reverse_tabnabbing",
+      "SIGMA.root_path_attribute_cookie",
+      "SIGMA.rsa_no_padding",
+      "SIGMA.safe_browsing_options_disabled",
+      "SIGMA.sasl_plain_enabled",
+      "SIGMA.screenshot_data_leak",
+      "SIGMA.script_checks_enabled",
+      "SIGMA.script_timeout_too_long",
+      "SIGMA.seccomp_disabled",
+      "SIGMA.security_alerts_disabled",
+      "SIGMA.security_alerts_notification_disabled",
+      "SIGMA.security_scanning_disabled",
+      "SIGMA.selinux_default_configuration_override",
+      "SIGMA.sensitive_data_in_cookie",
+      "SIGMA.sensitive_data_in_query_string",
+      "SIGMA.sensitive_data_in_response",
+      "SIGMA.server_side_request_unrestricted",
+      "SIGMA.service_account_lookup_disabled",
+      "SIGMA.session_cookie_misuse",
+      "SIGMA.session_fixation_protection_disabled",
+      "SIGMA.shared_preferences_data_exposure",
+      "SIGMA.shell_missing_pipefail",
+      "SIGMA.shielded_nodes_disabled",
+      "SIGMA.shielded_vm_disabled",
+      "SIGMA.socket_accepts_all_origins",
+      "SIGMA.ssh_port_exposed",
+      "SIGMA.ssh_publicly_accessible",
+      "SIGMA.ssl_pinning_disabled",
+      "SIGMA.ssrf_with_untrusted_callback",
+      "SIGMA.state_changing_get_request",
+      "SIGMA.static_iv",
+      "SIGMA.static_non_expiring_token",
+      "SIGMA.storage_versioning_disabled",
+      "SIGMA.stripe_validation_disabled",
+      "SIGMA.synchronized_credentials",
+      "SIGMA.tag_authorization_disabled",
+      "SIGMA.termination_protection_disabled",
+      "SIGMA.third_party_trusted",
+      "SIGMA.tiller_service_exposed",
+      "SIGMA.trace_mode_enabled",
+      "SIGMA.trojan_source",
+      "SIGMA.unauthenticated_readonly_access",
+      "SIGMA.unbounded_occurrences",
+      "SIGMA.uncontrolled_search_path",
+      "SIGMA.undefined_oauth2_scope",
+      "SIGMA.unfettered_resource_loading",
+      "SIGMA.unfiltered_html_allowed",
+      "SIGMA.unlimited_concurrent_sessions",
+      "SIGMA.unprotected_admin_operation",
+      "SIGMA.unprotected_master_key",
+      "SIGMA.unreliable_root_jailbreak_detection",
+      "SIGMA.unrestricted_database_access",
+      "SIGMA.unrestricted_egress",
+      "SIGMA.unrestricted_ingress",
+      "SIGMA.unrestricted_postmessage_target",
+      "SIGMA.unsafe_authentication_filter",
+      "SIGMA.unsafe_eval",
+      "SIGMA.unsafe_file_inclusion",
+      "SIGMA.unsafe_http_method",
+      "SIGMA.unsafe_innerhtml_manipulation",
+      "SIGMA.unsafe_language_feature",
+      "SIGMA.unsafe_min_os_version",
+      "SIGMA.unsafe_min_sdk_version",
+      "SIGMA.unsafe_os_command",
+      "SIGMA.unsafe_receipt_verification",
+      "SIGMA.unsafe_session_storage",
+      "SIGMA.unsafe_sms",
+      "SIGMA.unsafe_webview_usage",
+      "SIGMA.unsafe_xml_canonicalization",
+      "SIGMA.unspecified_cipher_transformation",
+      "SIGMA.unspecified_software_version",
+      "SIGMA.unused_form_bean",
+      "SIGMA.unused_security_control",
+      "SIGMA.update_command_runs_in_isolation",
+      "SIGMA.user_namespace_disabled",
+      "SIGMA.vendor_provided_encryption_key",
+      "SIGMA.verbose_error_message",
+      "SIGMA.verbose_server_banner",
+      "SIGMA.view_state_stored_on_client",
+      "SIGMA.vulnerable_software",
+      "SIGMA.waf_disabled",
+      "SIGMA.weak_auth_mechanism",
+      "SIGMA.weak_biometric_authentication",
+      "SIGMA.weak_hash",
+      "SIGMA.weak_password_hash",
+      "SIGMA.weak_password_policy",
+      "SIGMA.weak_security_constraint",
+      "SIGMA.weak_xss_protection",
+      "SIGMA.webview_file_access",
+      "SIGMA.webview_javascript_enabled",
+      "SIGMA.write_using_auxiliary_file",
+      "SIGMA.xml_entity_enabled",
+      "SIGMA.xml_external_entity_enabled",
+      "SIGMA.xss_filter_disabled",
+      "SQLI",
+      "TAINTED_ENVIRONMENT_WITH_EXECUTION",
+      "TRUST_BOUNDARY_VIOLATION",
+      "UNENCRYPTED_SENSITIVE_DATA",
+      "UNKNOWN_LANGUAGE_INJECTION",
+      "UNRESTRICTED_DISPATCH",
+      "UNSAFE_DESERIALIZATION",
+      "UNSAFE_JNI",
+      "UNSAFE_NAMED_QUERY",
+      "UNSAFE_REFLECTION",
+      "URL_MANIPULATION",
+      "XPATH_INJECTION",
+      "XSS"
+    ],
+    "enabled_checker_names_by_language": {
+      "DOM_XSS": {
+        "enabled": [
+          "JavaScript"
+        ],
+        "unsupported": [
+          "Python 3",
+          "Text"
+        ]
+      },
+      "EL_INJECTION": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "HEADER_INJECTION": {
+        "enabled": [
+          "JavaScript",
+          "Python 3"
+        ],
+        "unsupported": [
+          "Text"
+        ]
+      },
+      "JAVA_CODE_INJECTION": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "JCR_INJECTION": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "LDAP_INJECTION": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "NOSQL_QUERY_INJECTION": {
+        "enabled": [
+          "JavaScript"
+        ],
+        "unsupported": [
+          "Python 3",
+          "Text"
+        ]
+      },
+      "OGNL_INJECTION": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "OPEN_REDIRECT": {
+        "enabled": [
+          "JavaScript",
+          "Python 3"
+        ],
+        "unsupported": [
+          "Text"
+        ]
+      },
+      "OS_CMD_INJECTION": {
+        "enabled": [
+          "JavaScript",
+          "Python 3"
+        ],
+        "unsupported": [
+          "Text"
+        ]
+      },
+      "PATH_MANIPULATION": {
+        "enabled": [
+          "JavaScript",
+          "Python 3"
+        ],
+        "unsupported": [
+          "Text"
+        ]
+      },
+      "REGEX_INJECTION": {
+        "enabled": [
+          "JavaScript",
+          "Python 3"
+        ],
+        "unsupported": [
+          "Text"
+        ]
+      },
+      "SCRIPT_CODE_INJECTION": {
+        "enabled": [
+          "JavaScript",
+          "Python 3"
+        ],
+        "unsupported": [
+          "Text"
+        ]
+      },
+      "SENSITIVE_DATA_LEAK": {
+        "enabled": [
+          "JavaScript",
+          "Python 3"
+        ],
+        "unsupported": [
+          "Text"
+        ]
+      },
+      "SESSION_FIXATION": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.access_control_disabled": {
+        "enabled": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.access_to_secret": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.admin_access_enabled": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.admin_dashboard_publicly_accessible": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.alias_ip_disabled": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.allow_all_authz_policy": {
+        "enabled": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.allow_non_strict_processing": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.allow_self_signed_certificate": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.always_remember_me_enabled": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.anonymous_access_enabled": {
+        "enabled": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.anti_spoofing_disabled": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.api_exposes_refresh_token": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.api_key_auth_enabled": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.api_key_in_query_string": {
+        "enabled": [
+          "Python 3",
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript"
+        ]
+      },
+      "SIGMA.apparmour_default_configuration_override": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.audio_recording_enabled": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.automatic_key_rotation_disabled": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.automatic_os_upgrade_disabled": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.automatic_repair_disabled": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.automatic_upgrade_disabled": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.automounting_service_account_token": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.azure_ad_authentication_disabled": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.azure_ad_managed_identities_disabled": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.backups_allowed": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.basic_auth_enabled": {
+        "enabled": [
+          "Python 3",
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript"
+        ]
+      },
+      "SIGMA.biometric_authentication_protection_disabled": {
+        "enabled": [
+          "JavaScript"
+        ],
+        "unsupported": [
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.broad_domain_attribute_cookie": {
+        "enabled": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.broad_filesystem_access": {
+        "enabled": [
+          "Python 3",
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript"
+        ]
+      },
+      "SIGMA.cache_ttl_too_long": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.cbc_insecure_padding": {
+        "enabled": [
+          "JavaScript"
+        ],
+        "unsupported": [
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.certificate_rotation_disabled": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.certificate_verification_disabled": {
+        "enabled": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.circuit_breaker_disabled": {
+        "enabled": [
+          "JavaScript"
+        ],
+        "unsupported": [
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.client_store_info_leak": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.cloud_database_deletion_protection_disabled": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.cloud_gateway_publicly_accessible": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.cloud_object_lock_disabled": {
+        "enabled": [
+          "JavaScript"
+        ],
+        "unsupported": [
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.cloud_resource_assigned_public_ip": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.cloud_resource_publicly_accessible": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.cloud_service_authn_disabled": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.cloud_service_authz_disabled": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.cloud_storage_allows_public_config": {
+        "enabled": [
+          "Python 3",
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript"
+        ]
+      },
+      "SIGMA.cloud_storage_default_allow_all": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.cloud_storage_encryption_disabled": {
+        "enabled": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.cloud_storage_publicly_accessible": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.confidential_computing_disabled": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.config_browser_plugin_enabled": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.conflicting_names": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.connection_timeout_disabled": {
+        "enabled": [
+          "Python 3",
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript"
+        ]
+      },
+      "SIGMA.container_access_to_host_filesystem": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.container_cpu_share_unlimited": {
+        "disabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.container_daemon_socket_exposed": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.container_empty_security_context": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.container_excessive_restart_times": {
+        "disabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.container_filesystem_write": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.container_hostport_binding": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.container_insecure_bind_address": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.container_mapped_to_privileged_port": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.container_missing_cpu_limit": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.container_missing_memory_limit": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.container_missing_pids_limit": {
+        "disabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.container_privilege_escalation_allowed": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.container_requesting_net_raw": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.container_requesting_sys_admin": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.container_running_as_root": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.container_sharing_host_ipc_namespace": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.container_sharing_host_network_namespace": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.container_sharing_host_pid_namespace": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.container_sharing_mount_volumes": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.container_storing_secret_in_environment_variable": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.container_sudo_usage": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.content_isolation_disabled": {
+        "enabled": [
+          "JavaScript"
+        ],
+        "unsupported": [
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.content_security_policy_disabled": {
+        "enabled": [
+          "JavaScript"
+        ],
+        "unsupported": [
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.cookie_logging_enabled": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.cookie_session_signing_disabled": {
+        "enabled": [
+          "JavaScript"
+        ],
+        "unsupported": [
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.cors_configured_globally": {
+        "enabled": [
+          "JavaScript"
+        ],
+        "unsupported": [
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.cors_expose_sensitive_data": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.cors_no_credentials_permissive_origin": {
+        "enabled": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.cors_origin_string": {
+        "enabled": [
+          "JavaScript"
+        ],
+        "unsupported": [
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.cors_permissive_methods": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.cors_preflight_age_too_long": {
+        "enabled": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.cors_with_credentials_all_origin": {
+        "enabled": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.cors_with_credentials_http_origin": {
+        "enabled": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.cors_with_credentials_null_origin": {
+        "enabled": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.cors_with_credentials_subdomain_origin": {
+        "enabled": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.credentials_validation_disabled": {
+        "enabled": [
+          "JavaScript"
+        ],
+        "unsupported": [
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.credentials_without_keychain_protection": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.csp_frame_ancestors_disabled": {
+        "enabled": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.csp_mixed_content": {
+        "enabled": [
+          "Python 3",
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript"
+        ]
+      },
+      "SIGMA.csp_permissive_source": {
+        "enabled": [
+          "Python 3",
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript"
+        ]
+      },
+      "SIGMA.csp_unsafe_eval": {
+        "enabled": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.csp_unsafe_inline": {
+        "enabled": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.csrf": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.csrf_protection_disabled": {
+        "enabled": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.custom_cryptography": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.custom_keyboards_enabled": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.custom_resource_in_default_namespace": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.dangerous_oauth2_implicit_flow": {
+        "enabled": [
+          "Python 3",
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript"
+        ]
+      },
+      "SIGMA.dangerous_ropc_flow": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.dangerously_exposed_interface": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.data_exfiltration_protection_disabled": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.data_mask_obfuscation_disabled": {
+        "enabled": [
+          "JavaScript"
+        ],
+        "unsupported": [
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.data_sent_to_external_server": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.database_encryption_disabled": {
+        "enabled": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.database_integrity_protection_disabled": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.database_repair_mode_enabled": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.ddos_protection_disabled": {
+        "enabled": [
+          "JavaScript"
+        ],
+        "unsupported": [
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.debug_enabled": {
+        "enabled": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.debug_logging_enabled": {
+        "enabled": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.default_allow_all_authz_policy": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.default_service_account_enabled": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.deletion_protection_disabled": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.deprecated_component_used": {
+        "enabled": [
+          "JavaScript",
+          "Python 3"
+        ],
+        "unsupported": [
+          "Text"
+        ]
+      },
+      "SIGMA.deprecated_http_client": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.deprecated_runtime_version": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.deprecated_xss_header": {
+        "enabled": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.dev_mode_enabled": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.digest_auth_enabled": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.disk_encryption_disabled": {
+        "enabled": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.dns_prefetch_control_disabled": {
+        "enabled": [
+          "JavaScript"
+        ],
+        "unsupported": [
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.dnssec_disabled": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.drop_invalid_header_disabled": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.duplicate_validation_forms": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.dynamic_method_invocation": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.dynamically_loading_extensions_enabled": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.el_injection": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.element_any": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.empty_encryption_key": {
+        "enabled": [
+          "JavaScript"
+        ],
+        "unsupported": [
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.empty_password": {
+        "enabled": [
+          "JavaScript",
+          "Python 3"
+        ],
+        "unsupported": [
+          "Text"
+        ]
+      },
+      "SIGMA.empty_salt": {
+        "enabled": [
+          "JavaScript"
+        ],
+        "unsupported": [
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.empty_signing_key": {
+        "enabled": [
+          "JavaScript"
+        ],
+        "unsupported": [
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.encryption_disabled": {
+        "enabled": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.excessive_auth_attempts": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.excessive_buffer_size": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.excessive_connection_timeout": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.excessive_http_buffer_size": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.excessive_ingress": {
+        "disabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.excessive_key_rotation_period": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.excessive_memory_limit": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.excessive_request_retries": {
+        "enabled": [
+          "JavaScript",
+          "Python 3"
+        ],
+        "unsupported": [
+          "Text"
+        ]
+      },
+      "SIGMA.excessive_request_size": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.excessive_session_lifetime": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.excessive_token_lifetime": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.excessive_ttl": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.expect_ct_disabled": {
+        "enabled": [
+          "JavaScript"
+        ],
+        "unsupported": [
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.experimental_features_enabled": {
+        "enabled": [
+          "JavaScript"
+        ],
+        "unsupported": [
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.exposed_directory_listing": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.exposed_privileged_account": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.exposed_secret": {
+        "enabled": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.expression_escaping_disabled": {
+        "enabled": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.external_storage_used": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.file_data_unprotected_on_device": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.file_header_crc_disabled": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.file_upload_misconfiguration": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.file_upload_misconfiguration_of_fields": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.file_upload_misconfiguration_of_file_path": {
+        "enabled": [
+          "JavaScript"
+        ],
+        "unsupported": [
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.file_upload_misconfiguration_of_filesize": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.file_upload_misconfiguration_of_safe_file_names": {
+        "enabled": [
+          "JavaScript"
+        ],
+        "unsupported": [
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.file_upload_misconfiguration_of_storage": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.file_upload_misconfiguration_of_temp_files": {
+        "enabled": [
+          "JavaScript"
+        ],
+        "unsupported": [
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.full_table_scan": {
+        "enabled": [
+          "JavaScript"
+        ],
+        "unsupported": [
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.gateway_exposes_all_hosts": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.general_pasteboard_used": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.geo_redundant_backup_disabled": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.graphiql_enabled": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.hardcoded_remember_me_key": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.hardcoded_secret": {
+        "enabled": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.hardcoded_value": {
+        "enabled": [
+          "Python 3"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Text"
+        ]
+      },
+      "SIGMA.hardware_backed_security_disabled": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.healthcheck_disabled": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.hide_powered_by_disabled": {
+        "enabled": [
+          "JavaScript"
+        ],
+        "unsupported": [
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.host_header_validation_disabled": {
+        "enabled": [
+          "Python 3"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Text"
+        ]
+      },
+      "SIGMA.hpkp_max_age_too_long": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.hpkp_report_uri_missing_tls": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.hsts_disabled": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.hsts_http_header_short_max_age": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.hsts_http_header_subdomains_disabled": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.http_firewall_allow_any_http_method": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.http_firewall_allows_special_char": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.http_firewall_insecure_default": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.http_header_validation_disabled": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.http_method_missing_authz": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.http_verb_tampering_method_inclusion": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.http_verb_tampering_method_omission": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.ie_no_open_disabled": {
+        "enabled": [
+          "JavaScript"
+        ],
+        "unsupported": [
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.image_scanning_disabled": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.immutable_tag_disabled": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.improper_use_of_add_command": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.improper_use_of_symmetric_cryptography": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.incomplete_credential_removal": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.infrastructure_encryption_disabled": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.insecure_active_user_switch": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.insecure_argon2_parameters": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.insecure_block_cipher_algorithm": {
+        "enabled": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.insecure_block_cipher_mode": {
+        "enabled": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.insecure_cipher": {
+        "enabled": [
+          "JavaScript"
+        ],
+        "unsupported": [
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.insecure_cookie_storage": {
+        "enabled": [
+          "JavaScript"
+        ],
+        "unsupported": [
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.insecure_credential_use": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.insecure_dataframe": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.insecure_direct_object_reference": {
+        "enabled": [
+          "Python 3",
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript"
+        ]
+      },
+      "SIGMA.insecure_file_permission": {
+        "enabled": [
+          "Python 3",
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript"
+        ]
+      },
+      "SIGMA.insecure_iframe_sandbox": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.insecure_ipc": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.insecure_network_bind": {
+        "enabled": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.insecure_permission_on_exported_component": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.insecure_random": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.insecure_random_seed": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.insecure_referrer_policy": {
+        "enabled": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.insecure_samesite_attribute_cookie": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.insecure_stream_cipher_algorithm": {
+        "enabled": [
+          "JavaScript",
+          "Python 3"
+        ],
+        "unsupported": [
+          "Text"
+        ]
+      },
+      "SIGMA.insecure_temporary_file": {
+        "enabled": [
+          "Python 3"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Text"
+        ]
+      },
+      "SIGMA.insecure_tls_cipher_suite": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.insecure_tls_renegotiation": {
+        "enabled": [
+          "JavaScript"
+        ],
+        "unsupported": [
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.insecure_tls_version": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.insecure_xss_filter": {
+        "enabled": [
+          "JavaScript"
+        ],
+        "unsupported": [
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.insufficient_asymmetric_key_size": {
+        "enabled": [
+          "JavaScript",
+          "Python 3"
+        ],
+        "unsupported": [
+          "Text"
+        ]
+      },
+      "SIGMA.insufficient_brute_force_protection": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.insufficient_log_retention": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.insufficient_logging": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.insufficient_password_hash_iterations": {
+        "enabled": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.insufficient_password_hash_key_length": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.insufficient_password_hash_salt_length": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.insufficient_presigned_url_timeout": {
+        "enabled": [
+          "JavaScript"
+        ],
+        "unsupported": [
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.insufficient_soft_delete_retention": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.insufficient_symmetric_key_size": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.insufficient_token_entropy": {
+        "enabled": [
+          "JavaScript"
+        ],
+        "unsupported": [
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.introspection_enabled": {
+        "enabled": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.invalid_command_used": {
+        "disabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.ip_forwarding_enabled": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.iptable_synchronization_disabled": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.javascript_code_in_description": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.jwt_algorithm_none": {
+        "enabled": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.jwt_ignored_expiration_time": {
+        "enabled": [
+          "JavaScript"
+        ],
+        "unsupported": [
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.jwt_ignored_start_time": {
+        "enabled": [
+          "JavaScript"
+        ],
+        "unsupported": [
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.jwt_no_claims_validation": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.jwt_non_expiring_token": {
+        "enabled": [
+          "JavaScript"
+        ],
+        "unsupported": [
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.jwt_revoke_missing": {
+        "enabled": [
+          "JavaScript"
+        ],
+        "unsupported": [
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.jwt_untrusted_decode": {
+        "enabled": [
+          "JavaScript",
+          "Python 3"
+        ],
+        "unsupported": [
+          "Text"
+        ]
+      },
+      "SIGMA.kernel_protection_disabled": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.keyboard_cache_enabled": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.keychain_data_unprotected_after_device_powered_on": {
+        "enabled": [
+          "JavaScript"
+        ],
+        "unsupported": [
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.keychain_data_unprotected_after_first_login": {
+        "enabled": [
+          "JavaScript"
+        ],
+        "unsupported": [
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.keychain_data_unprotected_passcode_not_set": {
+        "enabled": [
+          "JavaScript"
+        ],
+        "unsupported": [
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.kms_encryption_service_disabled": {
+        "enabled": [
+          "Python 3",
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript"
+        ]
+      },
+      "SIGMA.kubernetes_dashboard_enabled": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.ldap_anonymous_authentication": {
+        "enabled": [
+          "Python 3",
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript"
+        ]
+      },
+      "SIGMA.ldap_entry_poisoning": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.least_privilege_violation": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.legacy_attribute_based_access_control": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.local_infile_enabled": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.location_tracking_enabled": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.log_file_validation_disabled": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.log_monitoring_disabled": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.logging_disabled": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.logging_request_parameters": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.login_over_http": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.lossy_encoding": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.malicious_url": {
+        "enabled": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.markdown_allow_dangerous_html": {
+        "enabled": [
+          "JavaScript"
+        ],
+        "unsupported": [
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.message_encryption_disabled": {
+        "enabled": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.microservice_authn_disabled": {
+        "enabled": [
+          "JavaScript"
+        ],
+        "unsupported": [
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.middleware_applied_globally": {
+        "enabled": [
+          "JavaScript"
+        ],
+        "unsupported": [
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.misconfigured_oauth2": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.missing_default_response_object": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.missing_exported_attribute": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.missing_global_exception_handler": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.missing_high_availability_support": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.missing_httponly_attribute": {
+        "enabled": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.missing_httponly_attribute_csrf_cookie": {
+        "enabled": [
+          "Python 3"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Text"
+        ]
+      },
+      "SIGMA.missing_httponly_attribute_session_cookie": {
+        "enabled": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.missing_iframe_sandbox": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.missing_load_balancer": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.missing_mfa": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.missing_min_sdk_version": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.missing_mtls": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.missing_network_security_policy": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.missing_perfect_forward_secrecy": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.missing_permission_on_exported_component": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.missing_samesite_attribute": {
+        "enabled": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.missing_samesite_attribute_csrf_cookie": {
+        "enabled": [
+          "Python 3"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Text"
+        ]
+      },
+      "SIGMA.missing_samesite_attribute_session_cookie": {
+        "enabled": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.missing_secure_attribute": {
+        "enabled": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.missing_secure_attribute_csrf_cookie": {
+        "enabled": [
+          "JavaScript",
+          "Python 3"
+        ],
+        "unsupported": [
+          "Text"
+        ]
+      },
+      "SIGMA.missing_secure_attribute_remember_me_cookie": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.missing_secure_attribute_session_cookie": {
+        "enabled": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.missing_security_constraint": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.missing_servlet_mapping": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.missing_target_sdk_version": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.missing_tls": {
+        "enabled": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.missing_uses_sdk_version": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.missing_vpc": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.missing_x_frame_options_header": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.mixed_content_allowed": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.multi_region_configuration_aggregation_disabled": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.multi_region_logging_disabled": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.no_complexity_limit": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.no_depth_limit": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.no_password_change_on_first_login": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.no_rate_limiting": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.no_sniff_disabled": {
+        "enabled": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.non_production_api_endpoint": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.non_production_route": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.null_cipher_used": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.oauth2_pkce_plaintext_challenge": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.oauth2_scope_in_token_request": {
+        "enabled": [
+          "Python 3"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Text"
+        ]
+      },
+      "SIGMA.open_smtp_relay": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.optimized_image_not_used": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.outdated_target_sdk_version": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.outdated_version_used": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.overwrite_unintended_variables": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.parameter_merging_enabled": {
+        "enabled": [
+          "JavaScript"
+        ],
+        "unsupported": [
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.parameters_validation_disabled": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.password_change_disallowed": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.password_change_without_old_password": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.password_stored_without_hash": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.permissive_intent_list": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.permissive_navigation_list": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.permissive_network_list": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.permitted_cross_domain_policies_disabled": {
+        "enabled": [
+          "JavaScript"
+        ],
+        "unsupported": [
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.persistent_cookie": {
+        "enabled": [
+          "Python 3",
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript"
+        ]
+      },
+      "SIGMA.plaintext_storage_sensitive_data": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.predictable_secret": {
+        "enabled": [
+          "Python 3"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Text"
+        ]
+      },
+      "SIGMA.privileged_connection_allowed": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.privileged_container_allowed": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.profiling_enabled": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.project_encryption_disabled": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.public_github_repository": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.publicly_accessible_serial_port_enabled": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.publicly_writable_directories_used": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.query_encryption_disabled": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.query_logging_enabled": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.referrer_policy_disabled": {
+        "enabled": [
+          "JavaScript"
+        ],
+        "unsupported": [
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.relative_path": {
+        "disabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.remote_access_via_guest_account": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.remote_application_enabled": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.remote_execution_enabled": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.remote_file_inclusion": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.request_allows_any_media_type": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.request_logging_enabled": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.request_tracing_disabled": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.request_validation_disabled": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.response_cache_encryption_disabled": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.response_cache_used_without_validation": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.response_caching_enabled": {
+        "enabled": [
+          "JavaScript"
+        ],
+        "unsupported": [
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.response_logging_enabled": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.reverse_tabnabbing": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.root_path_attribute_cookie": {
+        "enabled": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.rsa_no_padding": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.safe_browsing_options_disabled": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.sasl_plain_enabled": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.screenshot_data_leak": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.script_checks_enabled": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.script_timeout_too_long": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.seccomp_disabled": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.security_alerts_disabled": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.security_alerts_notification_disabled": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.security_scanning_disabled": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.selinux_default_configuration_override": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.sensitive_data_in_cookie": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.sensitive_data_in_query_string": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.sensitive_data_in_response": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.server_side_request_unrestricted": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.service_account_lookup_disabled": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.session_cookie_misuse": {
+        "enabled": [
+          "JavaScript"
+        ],
+        "unsupported": [
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.session_fixation_protection_disabled": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.shared_preferences_data_exposure": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.shell_missing_pipefail": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.shielded_nodes_disabled": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.shielded_vm_disabled": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.socket_accepts_all_origins": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.ssh_port_exposed": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.ssh_publicly_accessible": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.ssl_pinning_disabled": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.ssrf_with_untrusted_callback": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.state_changing_get_request": {
+        "enabled": [
+          "Python 3",
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript"
+        ]
+      },
+      "SIGMA.static_iv": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.static_non_expiring_token": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.storage_optimization_disabled": {
+        "disabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.storage_versioning_disabled": {
+        "enabled": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.stripe_validation_disabled": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.synchronized_credentials": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.tag_authorization_disabled": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.termination_protection_disabled": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.third_party_trusted": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.tiller_service_exposed": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.trace_mode_enabled": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.trojan_source": {
+        "enabled": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.unauthenticated_readonly_access": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.unbounded_occurrences": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.uncontrolled_search_path": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.undefined_oauth2_scope": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.unfettered_resource_loading": {
+        "enabled": [
+          "JavaScript"
+        ],
+        "unsupported": [
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.unfiltered_html_allowed": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.unlimited_concurrent_sessions": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.unprotected_admin_operation": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.unprotected_master_key": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.unreliable_root_jailbreak_detection": {
+        "enabled": [
+          "JavaScript"
+        ],
+        "unsupported": [
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.unrestricted_database_access": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.unrestricted_egress": {
+        "enabled": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.unrestricted_ingress": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.unrestricted_postmessage_target": {
+        "enabled": [
+          "JavaScript"
+        ],
+        "unsupported": [
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.unsafe_authentication_filter": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.unsafe_eval": {
+        "enabled": [
+          "JavaScript",
+          "Python 3"
+        ],
+        "unsupported": [
+          "Text"
+        ]
+      },
+      "SIGMA.unsafe_file_inclusion": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.unsafe_http_method": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.unsafe_innerhtml_manipulation": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.unsafe_language_feature": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.unsafe_min_os_version": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.unsafe_min_sdk_version": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.unsafe_os_command": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.unsafe_receipt_verification": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.unsafe_session_storage": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.unsafe_sms": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.unsafe_webview_usage": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.unsafe_xml_canonicalization": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.unspecified_cipher_transformation": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.unspecified_software_version": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.unused_form_bean": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.unused_security_control": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.update_command_runs_in_isolation": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.user_namespace_disabled": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.vendor_provided_encryption_key": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.verbose_error_message": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.verbose_server_banner": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.view_state_stored_on_client": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.vulnerable_software": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.waf_disabled": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.weak_auth_mechanism": {
+        "enabled": [
+          "JavaScript",
+          "Text"
+        ],
+        "unsupported": [
+          "Python 3"
+        ]
+      },
+      "SIGMA.weak_biometric_authentication": {
+        "enabled": [
+          "JavaScript"
+        ],
+        "unsupported": [
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.weak_hash": {
+        "enabled": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.weak_password_hash": {
+        "enabled": [
+          "Python 3",
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript"
+        ]
+      },
+      "SIGMA.weak_password_policy": {
+        "enabled": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.weak_security_constraint": {
+        "enabled": [
+          "Text"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Python 3"
+        ]
+      },
+      "SIGMA.weak_xss_protection": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.webview_file_access": {
+        "enabled": [
+          "JavaScript"
+        ],
+        "unsupported": [
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.webview_javascript_enabled": {
+        "enabled": [
+          "JavaScript"
+        ],
+        "unsupported": [
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.write_using_auxiliary_file": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SIGMA.xml_entity_enabled": {
+        "enabled": [
+          "Python 3"
+        ],
+        "unsupported": [
+          "JavaScript",
+          "Text"
+        ]
+      },
+      "SIGMA.xml_external_entity_enabled": {
+        "enabled": [
+          "JavaScript",
+          "Python 3"
+        ],
+        "unsupported": [
+          "Text"
+        ]
+      },
+      "SIGMA.xss_filter_disabled": {
+        "enabled": [
+          "JavaScript"
+        ],
+        "unsupported": [
+          "Python 3",
+          "Text"
+        ]
+      },
+      "SQLI": {
+        "enabled": [
+          "JavaScript",
+          "Python 3"
+        ],
+        "unsupported": [
+          "Text"
+        ]
+      },
+      "TAINTED_ENVIRONMENT_WITH_EXECUTION": {
+        "enabled": [
+          "JavaScript"
+        ],
+        "unsupported": [
+          "Python 3",
+          "Text"
+        ]
+      },
+      "TRUST_BOUNDARY_VIOLATION": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "UNENCRYPTED_SENSITIVE_DATA": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "UNKNOWN_LANGUAGE_INJECTION": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "UNRESTRICTED_DISPATCH": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "UNSAFE_DESERIALIZATION": {
+        "enabled": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "UNSAFE_JNI": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "UNSAFE_NAMED_QUERY": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "UNSAFE_REFLECTION": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "URL_MANIPULATION": {
+        "enabled": [
+          "JavaScript",
+          "Python 3"
+        ],
+        "unsupported": [
+          "Text"
+        ]
+      },
+      "XPATH_INJECTION": {
+        "unsupported": [
+          "JavaScript",
+          "Python 3",
+          "Text"
+        ]
+      },
+      "XSS": {
+        "enabled": [
+          "JavaScript",
+          "Python 3"
+        ],
+        "unsupported": [
+          "Text"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,801 @@
+{
+  "type": "Coverity CLI Diagnostics Data",
+  "version": 1,
+  "general": {
+    "coverity-static-analysis-version": "2025.3.0"
+  },
+  "capture": {
+    "primary-capture-mode": "Auto",
+    "command-line": "C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\coverity.exe --machine-readable-output json capture --project-dir C:\\Spades --dir C:\\Spades\\idir --config C:\\Spades\\coverity.yaml -o commit.connect.stream=Spades -o commit.connect.url=https://coverity.field-test.blackduck.com -o analyze.location=local -o commit.connect.auth-key-file=C:\\Users\\TRACYC~1\\AppData\\Local\\Temp\\113334567_auth_key",
+    "working-directory": "C:\\Spades",
+    "project-directory": "C:\\Spades",
+    "intermediate-directory": "C:\\Spades\\idir",
+    "configuration-file-path": "C:\\Spades\\coverity.yaml",
+    "configuration": {
+      "command-line-overrides": [
+        "--config-override",
+        "commit.connect.stream=Spades",
+        "--config-override",
+        "commit.connect.url=https://coverity.field-test.blackduck.com",
+        "--config-override",
+        "analyze.location=local",
+        "--config-override",
+        "commit.connect.auth-key-file=C:\\Users\\TRACYC~1\\AppData\\Local\\Temp\\113334567_auth_key"
+      ],
+      "file-configuration": {
+        "analyze": {
+          "location": "local"
+        },
+        "commit": {
+          "connect": {
+            "stream": "Spades",
+            "url": "https://coverity.field-test.blackduck.com"
+          }
+        }
+      },
+      "effective-configuration": {
+        "analyze": {
+          "location": "local"
+        },
+        "commit": {
+          "connect": {
+            "auth-key-file": "C:\\Users\\TRACYC~1\\AppData\\Local\\Temp\\113334567_auth_key",
+            "on-new-cert": "distrust",
+            "stream": "Spades",
+            "url": "https://coverity.field-test.blackduck.com:443"
+          }
+        },
+        "caching": {
+          "bytecode": true,
+          "tu": false,
+          "wur": true
+        }
+      },
+      "configuration-hash": "ac4d0f643c99071d6a36b77e13e33766ac8867c11a7476a8203c8ebbd8188009"
+    },
+    "capture-summary": {
+      "files-captured": 25,
+      "ignored": 36,
+      "lines-of-code": 4159,
+      "succeeded": 25
+    },
+    "capture-rate": 100,
+    "command-info": [
+      {
+        "command-line": "C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-manage-emit --dir C:\\Spades\\idir check-compatible",
+        "cwd": "C:\\Spades",
+        "env": {
+          "COVERITY_CLI_IGNORE_CONFIG": "commit.connect.ca-certs-file,capture.build.clean-command,capture.build.build-command",
+          "COVERITY_CONNECT_USER_NAME": "tjchrisi",
+          "COVERITY_CONNECT_USER_PASSWORD": "HP912dj!@#$%^"
+        },
+        "stdout-tail": [
+          "Intermediate directory C:/Spades/idir is compatible"
+        ],
+        "start-time": "2026-01-06T11:47:12.9578784-05:00",
+        "end-time": "2026-01-06T11:47:13.0253613-05:00",
+        "duration": 67482900
+      },
+      {
+        "command-line": "C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-manage-emit --dir C:\\Spades\\idir reset-host-name",
+        "cwd": "C:\\Spades",
+        "env": {
+          "COVERITY_CLI_IGNORE_CONFIG": "commit.connect.ca-certs-file,capture.build.clean-command,capture.build.build-command",
+          "COVERITY_CONNECT_USER_NAME": "tjchrisi",
+          "COVERITY_CONNECT_USER_PASSWORD": "HP912dj!@#$%^"
+        },
+        "start-time": "2026-01-06T11:47:12.8737633-05:00",
+        "end-time": "2026-01-06T11:47:12.9578784-05:00",
+        "duration": 84115100
+      },
+      {
+        "command-line": "C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-manage-emit --dir C:\\Spades\\idir create",
+        "cwd": "C:\\Spades",
+        "env": {
+          "COVERITY_CLI_IGNORE_CONFIG": "commit.connect.ca-certs-file,capture.build.clean-command,capture.build.build-command",
+          "COVERITY_CONNECT_USER_NAME": "tjchrisi",
+          "COVERITY_CONNECT_USER_PASSWORD": "HP912dj!@#$%^"
+        },
+        "start-time": "2026-01-06T11:47:13.8284192-05:00",
+        "end-time": "2026-01-06T11:47:13.9165579-05:00",
+        "duration": 88138700
+      },
+      {
+        "command-line": "C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-manage-emit --dir C:\\Spades\\idir list-capture-diagnostics",
+        "cwd": "C:\\Spades",
+        "env": {
+          "COVERITY_CLI_IGNORE_CONFIG": "commit.connect.ca-certs-file,capture.build.clean-command,capture.build.build-command",
+          "COVERITY_CONNECT_USER_NAME": "tjchrisi",
+          "COVERITY_CONNECT_USER_PASSWORD": "HP912dj!@#$%^"
+        },
+        "stdout-tail": [
+          "        \"id\" : 32,",
+          "        \"source-language\" : \"JavaScript JSX ES6 module\",",
+          "        \"capture-percentage\" : 100,",
+          "        \"had-failures\" : false,",
+          "        \"had-recoverable-errors\" : false,",
+          "        \"had-abstract-syntax-trees\" : true",
+          "      }",
+          "    }",
+          "  ]",
+          "}"
+        ],
+        "start-time": "2026-01-06T11:47:13.9202887-05:00",
+        "end-time": "2026-01-06T11:47:13.9873961-05:00",
+        "duration": 67107400
+      },
+      {
+        "command-line": "C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-configure -c C:\\Spades\\idir\\coverity-cli\\build-compiler-configs\\coverity_config.xml --compiler gcc --comptype gcc --template",
+        "cwd": "C:\\Spades",
+        "env": {
+          "COVERITY_CLI_IGNORE_CONFIG": "commit.connect.ca-certs-file,capture.build.clean-command,capture.build.build-command",
+          "COVERITY_CONNECT_USER_NAME": "tjchrisi",
+          "COVERITY_CONNECT_USER_PASSWORD": "HP912dj!@#$%^"
+        },
+        "stdout-tail": [
+          "",
+          "Generated coverity_config.xml at location C:/Spades/idir/coverity-cli/build-compiler-configs/coverity_config.xml",
+          "Successfully generated configuration for the compilers: *-g++ *-gcc ar g++ g++-* gcc gcc-* ld"
+        ],
+        "start-time": "2026-01-06T11:47:14.0447859-05:00",
+        "end-time": "2026-01-06T11:47:14.5887163-05:00",
+        "duration": 543930400
+      },
+      {
+        "command-line": "C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-configure -c C:\\Spades\\idir\\coverity-cli\\build-compiler-configs\\coverity_config.xml --compiler cc --comptype gcc --template",
+        "cwd": "C:\\Spades",
+        "env": {
+          "COVERITY_CLI_IGNORE_CONFIG": "commit.connect.ca-certs-file,capture.build.clean-command,capture.build.build-command",
+          "COVERITY_CONNECT_USER_NAME": "tjchrisi",
+          "COVERITY_CONNECT_USER_PASSWORD": "HP912dj!@#$%^"
+        },
+        "stdout-tail": [
+          "",
+          "Generated coverity_config.xml at location C:/Spades/idir/coverity-cli/build-compiler-configs/coverity_config.xml",
+          "Successfully generated configuration for the compilers: cc"
+        ],
+        "stderr-tail": [
+          "[WARNING] Template config template-gcc-config-1 already exists for gcc-* and will be reused. ",
+          "[WARNING] Template config template-gcc-config-2 already exists for *-gcc and will be reused. ",
+          "[WARNING] Template config template-g++-config-1 already exists for g++-* and will be reused. ",
+          "[WARNING] Template config template-g++-config-2 already exists for *-g++ and will be reused. ",
+          "[WARNING] Template config template-ld-config-0 already exists for ld and will be reused. ",
+          "[WARNING] Template config template-ar-config-0 already exists for ar and will be reused. "
+        ],
+        "start-time": "2026-01-06T11:47:14.5892643-05:00",
+        "end-time": "2026-01-06T11:47:15.0827372-05:00",
+        "duration": 493472900
+      },
+      {
+        "command-line": "C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-configure -c C:\\Spades\\idir\\coverity-cli\\build-compiler-configs\\coverity_config.xml --compiler c++ --comptype g++ --template",
+        "cwd": "C:\\Spades",
+        "env": {
+          "COVERITY_CLI_IGNORE_CONFIG": "commit.connect.ca-certs-file,capture.build.clean-command,capture.build.build-command",
+          "COVERITY_CONNECT_USER_NAME": "tjchrisi",
+          "COVERITY_CONNECT_USER_PASSWORD": "HP912dj!@#$%^"
+        },
+        "stdout-tail": [
+          "",
+          "Generated coverity_config.xml at location C:/Spades/idir/coverity-cli/build-compiler-configs/coverity_config.xml",
+          "Successfully generated configuration for the compilers: c++"
+        ],
+        "start-time": "2026-01-06T11:47:15.0832697-05:00",
+        "end-time": "2026-01-06T11:47:15.5833954-05:00",
+        "duration": 500125700
+      },
+      {
+        "command-line": "C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-configure -c C:\\Spades\\idir\\coverity-cli\\build-compiler-configs\\coverity_config.xml --compiler clang --comptype clangcc --template",
+        "cwd": "C:\\Spades",
+        "env": {
+          "COVERITY_CLI_IGNORE_CONFIG": "commit.connect.ca-certs-file,capture.build.clean-command,capture.build.build-command",
+          "COVERITY_CONNECT_USER_NAME": "tjchrisi",
+          "COVERITY_CONNECT_USER_PASSWORD": "HP912dj!@#$%^"
+        },
+        "stdout-tail": [
+          "",
+          "Generated coverity_config.xml at location C:/Spades/idir/coverity-cli/build-compiler-configs/coverity_config.xml",
+          "Successfully generated configuration for the compilers: clang clang++"
+        ],
+        "start-time": "2026-01-06T11:47:15.5840053-05:00",
+        "end-time": "2026-01-06T11:47:16.0995233-05:00",
+        "duration": 515518000
+      },
+      {
+        "command-line": "C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-configure -c C:\\Spades\\idir\\coverity-cli\\build-compiler-configs\\coverity_config.xml --compiler java --comptype java --template",
+        "cwd": "C:\\Spades",
+        "env": {
+          "COVERITY_CLI_IGNORE_CONFIG": "commit.connect.ca-certs-file,capture.build.clean-command,capture.build.build-command",
+          "COVERITY_CONNECT_USER_NAME": "tjchrisi",
+          "COVERITY_CONNECT_USER_PASSWORD": "HP912dj!@#$%^"
+        },
+        "stdout-tail": [
+          "",
+          "Generated coverity_config.xml at location C:/Spades/idir/coverity-cli/build-compiler-configs/coverity_config.xml",
+          "Successfully generated configuration for the compilers: apt java javac javaw",
+          "Successfully generated configuration for the buildless capture patterns: jar"
+        ],
+        "start-time": "2026-01-06T11:47:16.1000797-05:00",
+        "end-time": "2026-01-06T11:47:16.5934041-05:00",
+        "duration": 493324400
+      },
+      {
+        "command-line": "C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-configure -c C:\\Spades\\idir\\coverity-cli\\build-compiler-configs\\coverity_config.xml --compiler go --comptype go --template",
+        "cwd": "C:\\Spades",
+        "env": {
+          "COVERITY_CLI_IGNORE_CONFIG": "commit.connect.ca-certs-file,capture.build.clean-command,capture.build.build-command",
+          "COVERITY_CONNECT_USER_NAME": "tjchrisi",
+          "COVERITY_CONNECT_USER_PASSWORD": "HP912dj!@#$%^"
+        },
+        "stdout-tail": [
+          "",
+          "Generated coverity_config.xml at location C:/Spades/idir/coverity-cli/build-compiler-configs/coverity_config.xml",
+          "Successfully generated configuration for the compilers: go"
+        ],
+        "start-time": "2026-01-06T11:47:16.5934041-05:00",
+        "end-time": "2026-01-06T11:47:17.0879795-05:00",
+        "duration": 494575400
+      },
+      {
+        "command-line": "C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-configure -c C:\\Spades\\idir\\coverity-cli\\build-compiler-configs\\coverity_config.xml --compiler ccache --comptype prefix --template",
+        "cwd": "C:\\Spades",
+        "env": {
+          "COVERITY_CLI_IGNORE_CONFIG": "commit.connect.ca-certs-file,capture.build.clean-command,capture.build.build-command",
+          "COVERITY_CONNECT_USER_NAME": "tjchrisi",
+          "COVERITY_CONNECT_USER_PASSWORD": "HP912dj!@#$%^"
+        },
+        "stdout-tail": [
+          "",
+          "Generated coverity_config.xml at location C:/Spades/idir/coverity-cli/build-compiler-configs/coverity_config.xml",
+          "Successfully generated configuration for the compilers: ccache"
+        ],
+        "start-time": "2026-01-06T11:47:17.0879795-05:00",
+        "end-time": "2026-01-06T11:47:17.5941924-05:00",
+        "duration": 506212900
+      },
+      {
+        "command-line": "C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-configure -c C:\\Spades\\idir\\coverity-cli\\build-compiler-configs\\coverity_config.xml --compiler kotlinc --comptype kotlinc --template",
+        "cwd": "C:\\Spades",
+        "env": {
+          "COVERITY_CLI_IGNORE_CONFIG": "commit.connect.ca-certs-file,capture.build.clean-command,capture.build.build-command",
+          "COVERITY_CONNECT_USER_NAME": "tjchrisi",
+          "COVERITY_CONNECT_USER_PASSWORD": "HP912dj!@#$%^"
+        },
+        "stdout-tail": [
+          "",
+          "Generated coverity_config.xml at location C:/Spades/idir/coverity-cli/build-compiler-configs/coverity_config.xml",
+          "Successfully generated configuration for the compilers: kotlin kotlinc",
+          "Successfully generated configuration for the buildless capture patterns: android kotlin-module"
+        ],
+        "stderr-tail": [
+          "[WARNING] Template config template-java-config-0 already exists for java and will be reused. ",
+          "[WARNING] Template config template-apt-config-0 already exists for apt and will be reused. ",
+          "[WARNING] Template config template-javaw-config-0 already exists for javaw and will be reused. "
+        ],
+        "start-time": "2026-01-06T11:47:17.5941924-05:00",
+        "end-time": "2026-01-06T11:47:18.091123-05:00",
+        "duration": 496930600
+      },
+      {
+        "command-line": "C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-configure -c C:\\Spades\\idir\\coverity-cli\\build-compiler-configs\\coverity_config.xml --compiler csc --comptype csc --template",
+        "cwd": "C:\\Spades",
+        "env": {
+          "COVERITY_CLI_IGNORE_CONFIG": "commit.connect.ca-certs-file,capture.build.clean-command,capture.build.build-command",
+          "COVERITY_CONNECT_USER_NAME": "tjchrisi",
+          "COVERITY_CONNECT_USER_PASSWORD": "HP912dj!@#$%^"
+        },
+        "stdout-tail": [
+          "",
+          "Generated coverity_config.xml at location C:/Spades/idir/coverity-cli/build-compiler-configs/coverity_config.xml",
+          "Successfully generated configuration for the compilers: csc csc.dll csc2 devenv dotnet microsoft.aspnetcore.mvc.razor.viewcompilation microsoft.aspnetcore.mvc.razor.viewcompilation-x64 microsoft.aspnetcore.mvc.razor.viewcompilation-x64.dll microsoft.aspnetcore.mvc.razor.viewcompilation-x86 microsoft.aspnetcore.mvc.razor.viewcompilation-x86.dll microsoft.aspnetcore.mvc.razor.viewcompilation.dll msbuild razor"
+        ],
+        "start-time": "2026-01-06T11:47:18.091123-05:00",
+        "end-time": "2026-01-06T11:47:18.6128703-05:00",
+        "duration": 521747300
+      },
+      {
+        "command-line": "C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-configure -c C:\\Spades\\idir\\coverity-cli\\build-compiler-configs\\coverity_config.xml --compiler vbc --comptype vbc --template",
+        "cwd": "C:\\Spades",
+        "env": {
+          "COVERITY_CLI_IGNORE_CONFIG": "commit.connect.ca-certs-file,capture.build.clean-command,capture.build.build-command",
+          "COVERITY_CONNECT_USER_NAME": "tjchrisi",
+          "COVERITY_CONNECT_USER_PASSWORD": "HP912dj!@#$%^"
+        },
+        "stdout-tail": [
+          "",
+          "Generated coverity_config.xml at location C:/Spades/idir/coverity-cli/build-compiler-configs/coverity_config.xml",
+          "Successfully generated configuration for the compilers: vbc vbc.dll"
+        ],
+        "stderr-tail": [
+          "[WARNING] Template config template-dotnet-config-0 already exists for dotnet and will be reused. "
+        ],
+        "start-time": "2026-01-06T11:47:18.6134229-05:00",
+        "end-time": "2026-01-06T11:47:19.1518459-05:00",
+        "duration": 538423000
+      },
+      {
+        "command-line": "C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-configure -c C:\\Spades\\idir\\coverity-cli\\build-compiler-configs\\coverity_config.xml --compiler cl --comptype msvc --template",
+        "cwd": "C:\\Spades",
+        "env": {
+          "COVERITY_CLI_IGNORE_CONFIG": "commit.connect.ca-certs-file,capture.build.clean-command,capture.build.build-command",
+          "COVERITY_CONNECT_USER_NAME": "tjchrisi",
+          "COVERITY_CONNECT_USER_PASSWORD": "HP912dj!@#$%^"
+        },
+        "stdout-tail": [
+          "",
+          "Generated coverity_config.xml at location C:/Spades/idir/coverity-cli/build-compiler-configs/coverity_config.xml",
+          "Successfully generated configuration for the compilers: cl lib link"
+        ],
+        "start-time": "2026-01-06T11:47:19.1518459-05:00",
+        "end-time": "2026-01-06T11:47:19.6625741-05:00",
+        "duration": 510728200
+      },
+      {
+        "command-line": "C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-configure -c C:\\Spades\\idir\\coverity-cli\\build-compiler-configs\\coverity_config.xml --compiler i686-w64-mingw32-gcc --comptype gcc --template",
+        "cwd": "C:\\Spades",
+        "env": {
+          "COVERITY_CLI_IGNORE_CONFIG": "commit.connect.ca-certs-file,capture.build.clean-command,capture.build.build-command",
+          "COVERITY_CONNECT_USER_NAME": "tjchrisi",
+          "COVERITY_CONNECT_USER_PASSWORD": "HP912dj!@#$%^"
+        },
+        "stdout-tail": [
+          "",
+          "Generated coverity_config.xml at location C:/Spades/idir/coverity-cli/build-compiler-configs/coverity_config.xml",
+          "Successfully generated configuration for the compilers: i686-w64-mingw32-g++ i686-w64-mingw32-gcc"
+        ],
+        "stderr-tail": [
+          "[WARNING] Template config template-gcc-config-1 already exists for gcc-* and will be reused. ",
+          "[WARNING] Template config template-gcc-config-2 already exists for *-gcc and will be reused. ",
+          "[WARNING] Template config template-g++-config-1 already exists for g++-* and will be reused. ",
+          "[WARNING] Template config template-g++-config-2 already exists for *-g++ and will be reused. ",
+          "[WARNING] Template config template-ld-config-0 already exists for ld and will be reused. ",
+          "[WARNING] Template config template-ar-config-0 already exists for ar and will be reused. "
+        ],
+        "start-time": "2026-01-06T11:47:19.6633293-05:00",
+        "end-time": "2026-01-06T11:47:20.1815466-05:00",
+        "duration": 518217300
+      },
+      {
+        "command-line": "C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-configure -c C:\\Spades\\idir\\coverity-cli\\build-compiler-configs\\coverity_config.xml --compiler i686-w64-mingw32-c++ --comptype g++ --template",
+        "cwd": "C:\\Spades",
+        "env": {
+          "COVERITY_CLI_IGNORE_CONFIG": "commit.connect.ca-certs-file,capture.build.clean-command,capture.build.build-command",
+          "COVERITY_CONNECT_USER_NAME": "tjchrisi",
+          "COVERITY_CONNECT_USER_PASSWORD": "HP912dj!@#$%^"
+        },
+        "stdout-tail": [
+          "",
+          "Generated coverity_config.xml at location C:/Spades/idir/coverity-cli/build-compiler-configs/coverity_config.xml",
+          "Successfully generated configuration for the compilers: i686-w64-mingw32-c++"
+        ],
+        "start-time": "2026-01-06T11:47:20.1820734-05:00",
+        "end-time": "2026-01-06T11:47:20.7024033-05:00",
+        "duration": 520329900
+      },
+      {
+        "command-line": "C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-configure -c C:\\Spades\\idir\\coverity-cli\\build-compiler-configs\\coverity_config.xml --compiler mingw32-gcc --comptype gcc --template",
+        "cwd": "C:\\Spades",
+        "env": {
+          "COVERITY_CLI_IGNORE_CONFIG": "commit.connect.ca-certs-file,capture.build.clean-command,capture.build.build-command",
+          "COVERITY_CONNECT_USER_NAME": "tjchrisi",
+          "COVERITY_CONNECT_USER_PASSWORD": "HP912dj!@#$%^"
+        },
+        "stdout-tail": [
+          "",
+          "Generated coverity_config.xml at location C:/Spades/idir/coverity-cli/build-compiler-configs/coverity_config.xml",
+          "Successfully generated configuration for the compilers: mingw32-g++ mingw32-gcc"
+        ],
+        "stderr-tail": [
+          "[WARNING] Template config template-gcc-config-1 already exists for gcc-* and will be reused. ",
+          "[WARNING] Template config template-gcc-config-2 already exists for *-gcc and will be reused. ",
+          "[WARNING] Template config template-g++-config-1 already exists for g++-* and will be reused. ",
+          "[WARNING] Template config template-g++-config-2 already exists for *-g++ and will be reused. ",
+          "[WARNING] Template config template-ld-config-0 already exists for ld and will be reused. ",
+          "[WARNING] Template config template-ar-config-0 already exists for ar and will be reused. "
+        ],
+        "start-time": "2026-01-06T11:47:20.7029292-05:00",
+        "end-time": "2026-01-06T11:47:21.2391311-05:00",
+        "duration": 536201900
+      },
+      {
+        "command-line": "C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-configure -c C:\\Spades\\idir\\coverity-cli\\build-compiler-configs\\coverity_config.xml --compiler mingw32-c++ --comptype g++ --template",
+        "cwd": "C:\\Spades",
+        "env": {
+          "COVERITY_CLI_IGNORE_CONFIG": "commit.connect.ca-certs-file,capture.build.clean-command,capture.build.build-command",
+          "COVERITY_CONNECT_USER_NAME": "tjchrisi",
+          "COVERITY_CONNECT_USER_PASSWORD": "HP912dj!@#$%^"
+        },
+        "stdout-tail": [
+          "",
+          "Generated coverity_config.xml at location C:/Spades/idir/coverity-cli/build-compiler-configs/coverity_config.xml",
+          "Successfully generated configuration for the compilers: mingw32-c++"
+        ],
+        "start-time": "2026-01-06T11:47:21.2391311-05:00",
+        "end-time": "2026-01-06T11:47:21.7654864-05:00",
+        "duration": 526355300
+      },
+      {
+        "command-line": "C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-configure -c C:\\Spades\\idir\\coverity-cli\\build-compiler-configs\\coverity_config.xml --compiler x86_64-w64-mingw32-gcc --comptype gcc --template",
+        "cwd": "C:\\Spades",
+        "env": {
+          "COVERITY_CLI_IGNORE_CONFIG": "commit.connect.ca-certs-file,capture.build.clean-command,capture.build.build-command",
+          "COVERITY_CONNECT_USER_NAME": "tjchrisi",
+          "COVERITY_CONNECT_USER_PASSWORD": "HP912dj!@#$%^"
+        },
+        "stdout-tail": [
+          "",
+          "Generated coverity_config.xml at location C:/Spades/idir/coverity-cli/build-compiler-configs/coverity_config.xml",
+          "Successfully generated configuration for the compilers: x86_64-w64-mingw32-g++ x86_64-w64-mingw32-gcc"
+        ],
+        "stderr-tail": [
+          "[WARNING] Template config template-gcc-config-1 already exists for gcc-* and will be reused. ",
+          "[WARNING] Template config template-gcc-config-2 already exists for *-gcc and will be reused. ",
+          "[WARNING] Template config template-g++-config-1 already exists for g++-* and will be reused. ",
+          "[WARNING] Template config template-g++-config-2 already exists for *-g++ and will be reused. ",
+          "[WARNING] Template config template-ld-config-0 already exists for ld and will be reused. ",
+          "[WARNING] Template config template-ar-config-0 already exists for ar and will be reused. "
+        ],
+        "start-time": "2026-01-06T11:47:21.7660282-05:00",
+        "end-time": "2026-01-06T11:47:22.3251842-05:00",
+        "duration": 559156000
+      },
+      {
+        "command-line": "C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-configure -c C:\\Spades\\idir\\coverity-cli\\build-compiler-configs\\coverity_config.xml --compiler x86_64-w64-mingw32-c++ --comptype g++ --template",
+        "cwd": "C:\\Spades",
+        "env": {
+          "COVERITY_CLI_IGNORE_CONFIG": "commit.connect.ca-certs-file,capture.build.clean-command,capture.build.build-command",
+          "COVERITY_CONNECT_USER_NAME": "tjchrisi",
+          "COVERITY_CONNECT_USER_PASSWORD": "HP912dj!@#$%^"
+        },
+        "stdout-tail": [
+          "",
+          "Generated coverity_config.xml at location C:/Spades/idir/coverity-cli/build-compiler-configs/coverity_config.xml",
+          "Successfully generated configuration for the compilers: x86_64-w64-mingw32-c++"
+        ],
+        "start-time": "2026-01-06T11:47:22.3257504-05:00",
+        "end-time": "2026-01-06T11:47:22.8406251-05:00",
+        "duration": 514874700
+      },
+      {
+        "command-line": "C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-configure -c C:\\Spades\\idir\\coverity-cli\\buildless-compiler-configs\\coverity_config.xml --dart",
+        "cwd": "C:\\Spades",
+        "env": {
+          "COVERITY_CLI_IGNORE_CONFIG": "commit.connect.ca-certs-file,capture.build.clean-command,capture.build.build-command",
+          "COVERITY_CONNECT_USER_NAME": "tjchrisi",
+          "COVERITY_CONNECT_USER_PASSWORD": "HP912dj!@#$%^"
+        },
+        "stdout-tail": [
+          "",
+          "Generated coverity_config.xml at location C:/Spades/idir/coverity-cli/buildless-compiler-configs/coverity_config.xml",
+          "Successfully generated configuration for the buildless capture patterns: capture-config-files dart"
+        ],
+        "start-time": "2026-01-06T11:47:22.8406251-05:00",
+        "end-time": "2026-01-06T11:47:23.3097217-05:00",
+        "duration": 469096600
+      },
+      {
+        "command-line": "C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-configure -c C:\\Spades\\idir\\coverity-cli\\buildless-compiler-configs\\coverity_config.xml --javascript",
+        "cwd": "C:\\Spades",
+        "env": {
+          "COVERITY_CLI_IGNORE_CONFIG": "commit.connect.ca-certs-file,capture.build.clean-command,capture.build.build-command",
+          "COVERITY_CONNECT_USER_NAME": "tjchrisi",
+          "COVERITY_CONNECT_USER_PASSWORD": "HP912dj!@#$%^"
+        },
+        "stdout-tail": [
+          "",
+          "Generated coverity_config.xml at location C:/Spades/idir/coverity-cli/buildless-compiler-configs/coverity_config.xml",
+          "Successfully generated configuration for the buildless capture patterns: capture-config-files html javascript jsx typescript vue"
+        ],
+        "start-time": "2026-01-06T11:47:23.3097217-05:00",
+        "end-time": "2026-01-06T11:47:23.7927995-05:00",
+        "duration": 483077800
+      },
+      {
+        "command-line": "C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-configure -c C:\\Spades\\idir\\coverity-cli\\buildless-compiler-configs\\coverity_config.xml --php",
+        "cwd": "C:\\Spades",
+        "env": {
+          "COVERITY_CLI_IGNORE_CONFIG": "commit.connect.ca-certs-file,capture.build.clean-command,capture.build.build-command",
+          "COVERITY_CONNECT_USER_NAME": "tjchrisi",
+          "COVERITY_CONNECT_USER_PASSWORD": "HP912dj!@#$%^"
+        },
+        "stdout-tail": [
+          "",
+          "Generated coverity_config.xml at location C:/Spades/idir/coverity-cli/buildless-compiler-configs/coverity_config.xml",
+          "Successfully generated configuration for the buildless capture patterns: capture-config-files php"
+        ],
+        "start-time": "2026-01-06T11:47:23.7933577-05:00",
+        "end-time": "2026-01-06T11:47:24.2770326-05:00",
+        "duration": 483674900
+      },
+      {
+        "command-line": "C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-configure -c C:\\Spades\\idir\\coverity-cli\\buildless-compiler-configs\\coverity_config.xml --python",
+        "cwd": "C:\\Spades",
+        "env": {
+          "COVERITY_CLI_IGNORE_CONFIG": "commit.connect.ca-certs-file,capture.build.clean-command,capture.build.build-command",
+          "COVERITY_CONNECT_USER_NAME": "tjchrisi",
+          "COVERITY_CONNECT_USER_PASSWORD": "HP912dj!@#$%^"
+        },
+        "stdout-tail": [
+          "",
+          "Generated coverity_config.xml at location C:/Spades/idir/coverity-cli/buildless-compiler-configs/coverity_config.xml",
+          "Successfully generated configuration for the buildless capture patterns: capture-config-files python"
+        ],
+        "start-time": "2026-01-06T11:47:24.2770326-05:00",
+        "end-time": "2026-01-06T11:47:24.7793434-05:00",
+        "duration": 502310800
+      },
+      {
+        "command-line": "C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-configure -c C:\\Spades\\idir\\coverity-cli\\buildless-compiler-configs\\coverity_config.xml --ruby",
+        "cwd": "C:\\Spades",
+        "env": {
+          "COVERITY_CLI_IGNORE_CONFIG": "commit.connect.ca-certs-file,capture.build.clean-command,capture.build.build-command",
+          "COVERITY_CONNECT_USER_NAME": "tjchrisi",
+          "COVERITY_CONNECT_USER_PASSWORD": "HP912dj!@#$%^"
+        },
+        "stdout-tail": [
+          "",
+          "Generated coverity_config.xml at location C:/Spades/idir/coverity-cli/buildless-compiler-configs/coverity_config.xml",
+          "Successfully generated configuration for the buildless capture patterns: capture-config-files ruby"
+        ],
+        "start-time": "2026-01-06T11:47:24.7793434-05:00",
+        "end-time": "2026-01-06T11:47:25.2881731-05:00",
+        "duration": 508829700
+      },
+      {
+        "command-line": "C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-configure -c C:\\Spades\\idir\\coverity-cli\\buildless-compiler-configs\\coverity_config.xml --java-buildless",
+        "cwd": "C:\\Spades",
+        "env": {
+          "COVERITY_CLI_IGNORE_CONFIG": "commit.connect.ca-certs-file,capture.build.clean-command,capture.build.build-command",
+          "COVERITY_CONNECT_USER_NAME": "tjchrisi",
+          "COVERITY_CONNECT_USER_PASSWORD": "HP912dj!@#$%^"
+        },
+        "stdout-tail": [
+          "",
+          "Generated coverity_config.xml at location C:/Spades/idir/coverity-cli/buildless-compiler-configs/coverity_config.xml",
+          "Successfully generated configuration for the buildless capture patterns: android capture-config-files java-buildless jsp"
+        ],
+        "start-time": "2026-01-06T11:47:25.2881731-05:00",
+        "end-time": "2026-01-06T11:47:25.7840609-05:00",
+        "duration": 495887800
+      },
+      {
+        "command-line": "C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-configure -c C:\\Spades\\idir\\coverity-cli\\buildless-compiler-configs\\coverity_config.xml --comptype capture-config-files --file-regex $capture-config-files$ --template",
+        "cwd": "C:\\Spades",
+        "env": {
+          "COVERITY_CLI_IGNORE_CONFIG": "commit.connect.ca-certs-file,capture.build.clean-command,capture.build.build-command",
+          "COVERITY_CONNECT_USER_NAME": "tjchrisi",
+          "COVERITY_CONNECT_USER_PASSWORD": "HP912dj!@#$%^"
+        },
+        "stderr-tail": [
+          "[WARNING] Configuration already exists for file regex $capture-config-files$",
+          "          and it will not be updated."
+        ],
+        "start-time": "2026-01-06T11:47:25.7840609-05:00",
+        "end-time": "2026-01-06T11:47:25.8497807-05:00",
+        "duration": 65719800
+      },
+      {
+        "command-line": "C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-configure -c C:\\Spades\\idir\\coverity-cli\\buildless-compiler-configs\\coverity_config.xml --cs-buildless",
+        "cwd": "C:\\Spades",
+        "env": {
+          "COVERITY_CLI_IGNORE_CONFIG": "commit.connect.ca-certs-file,capture.build.clean-command,capture.build.build-command",
+          "COVERITY_CONNECT_USER_NAME": "tjchrisi",
+          "COVERITY_CONNECT_USER_PASSWORD": "HP912dj!@#$%^"
+        },
+        "stdout-tail": [
+          "",
+          "Generated coverity_config.xml at location C:/Spades/idir/coverity-cli/buildless-compiler-configs/coverity_config.xml",
+          "Successfully generated configuration for the buildless capture patterns: cs-buildless"
+        ],
+        "stderr-tail": [
+          "Skipping generation of coverity scan configuration because a configuration has already been generated"
+        ],
+        "start-time": "2026-01-06T11:47:25.8497807-05:00",
+        "end-time": "2026-01-06T11:47:26.3348272-05:00",
+        "duration": 485046500
+      },
+      {
+        "command-line": "C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-internal-capture-files --dir C:\\Spades\\idir -c C:\\Spades\\idir\\coverity-cli\\buildless-compiler-configs\\coverity_config.xml --ticker-mode none --append-log --capture-list-file C:\\Spades\\idir\\coverity-cli\\capture-file-list-1694476282",
+        "cwd": "C:\\Spades",
+        "env": {
+          "COVERITY_CLI_IGNORE_CONFIG": "commit.connect.ca-certs-file,capture.build.clean-command,capture.build.build-command",
+          "COVERITY_CONNECT_USER_NAME": "tjchrisi",
+          "COVERITY_CONNECT_USER_PASSWORD": "HP912dj!@#$%^"
+        },
+        "stdout-tail": [
+          "[INFO] Buildless capture started.",
+          "[INFO] Emitting 25 Files.",
+          "[INFO] Buildless capture completed."
+        ],
+        "start-time": "2026-01-06T11:47:26.3541317-05:00",
+        "end-time": "2026-01-06T11:47:26.8473975-05:00",
+        "duration": 493265800
+      },
+      {
+        "command-line": "C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-manage-emit --dir C:\\Spades\\idir list-capture-diagnostics",
+        "cwd": "C:\\Spades",
+        "env": {
+          "COVERITY_CLI_IGNORE_CONFIG": "commit.connect.ca-certs-file,capture.build.clean-command,capture.build.build-command",
+          "COVERITY_CONNECT_USER_NAME": "tjchrisi",
+          "COVERITY_CONNECT_USER_PASSWORD": "HP912dj!@#$%^"
+        },
+        "stdout-tail": [
+          "        \"id\" : 32,",
+          "        \"source-language\" : \"JavaScript JSX ES6 module\",",
+          "        \"capture-percentage\" : 100,",
+          "        \"had-failures\" : false,",
+          "        \"had-recoverable-errors\" : false,",
+          "        \"had-abstract-syntax-trees\" : true",
+          "      }",
+          "    }",
+          "  ]",
+          "}"
+        ],
+        "start-time": "2026-01-06T11:47:26.8479316-05:00",
+        "end-time": "2026-01-06T11:47:26.9091212-05:00",
+        "duration": 61189600
+      },
+      {
+        "command-line": "C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-security-da --dir C:\\Spades\\idir --ticker-mode none",
+        "cwd": "C:\\Spades",
+        "env": {
+          "COVERITY_CLI_IGNORE_CONFIG": "commit.connect.ca-certs-file,capture.build.clean-command,capture.build.build-command",
+          "COVERITY_CONNECT_USER_NAME": "tjchrisi",
+          "COVERITY_CONNECT_USER_PASSWORD": "HP912dj!@#$%^"
+        },
+        "start-time": "2026-01-06T11:47:26.9124114-05:00",
+        "end-time": "2026-01-06T11:47:26.9913363-05:00",
+        "duration": 78924900
+      },
+      {
+        "command-line": "C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-manage-emit --dir C:\\Spades\\idir list-capture-diagnostics",
+        "cwd": "C:\\Spades",
+        "env": {
+          "COVERITY_CLI_IGNORE_CONFIG": "commit.connect.ca-certs-file,capture.build.clean-command,capture.build.build-command",
+          "COVERITY_CONNECT_USER_NAME": "tjchrisi",
+          "COVERITY_CONNECT_USER_PASSWORD": "HP912dj!@#$%^"
+        },
+        "stdout-tail": [
+          "        \"id\" : 32,",
+          "        \"source-language\" : \"JavaScript JSX ES6 module\",",
+          "        \"capture-percentage\" : 100,",
+          "        \"had-failures\" : false,",
+          "        \"had-recoverable-errors\" : false,",
+          "        \"had-abstract-syntax-trees\" : true",
+          "      }",
+          "    }",
+          "  ]",
+          "}"
+        ],
+        "start-time": "2026-01-06T11:47:26.9968935-05:00",
+        "end-time": "2026-01-06T11:47:27.0624829-05:00",
+        "duration": 65589400
+      }
+    ]
+  },
+  "analysis": {
+    "command-line": "C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\coverity.exe --machine-readable-output json analyze --project-dir C:\\Spades --dir C:\\Spades\\idir --config C:\\Spades\\coverity.yaml -o commit.connect.stream=Spades -o commit.connect.url=https://coverity.field-test.blackduck.com -o analyze.location=local -o commit.connect.auth-key-file=C:\\Users\\TRACYC~1\\AppData\\Local\\Temp\\113334567_auth_key",
+    "working-directory": "C:\\Spades",
+    "project-directory": "C:\\Spades",
+    "intermediate-directory": "C:\\Spades\\idir",
+    "configuration-file-path": "C:\\Spades\\coverity.yaml",
+    "configuration": {
+      "command-line-overrides": [
+        "--config-override",
+        "commit.connect.stream=Spades",
+        "--config-override",
+        "commit.connect.url=https://coverity.field-test.blackduck.com",
+        "--config-override",
+        "analyze.location=local",
+        "--config-override",
+        "commit.connect.auth-key-file=C:\\Users\\TRACYC~1\\AppData\\Local\\Temp\\113334567_auth_key"
+      ],
+      "file-configuration": {
+        "analyze": {
+          "location": "local"
+        },
+        "commit": {
+          "connect": {
+            "stream": "Spades",
+            "url": "https://coverity.field-test.blackduck.com"
+          }
+        }
+      },
+      "effective-configuration": {
+        "analyze": {
+          "location": "local"
+        },
+        "commit": {
+          "connect": {
+            "auth-key-file": "C:\\Users\\TRACYC~1\\AppData\\Local\\Temp\\113334567_auth_key",
+            "on-new-cert": "distrust",
+            "stream": "Spades",
+            "url": "https://coverity.field-test.blackduck.com:443"
+          }
+        },
+        "caching": {
+          "bytecode": true,
+          "tu": false,
+          "wur": true
+        }
+      },
+      "configuration-hash": "ac4d0f643c99071d6a36b77e13e33766ac8867c11a7476a8203c8ebbd8188009"
+    },
+    "command-info": [
+      {
+        "command-line": "C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-manage-emit --dir C:\\Spades\\idir check-compatible",
+        "cwd": "C:\\Spades",
+        "env": {
+          "COVERITY_CLI_IGNORE_CONFIG": "commit.connect.ca-certs-file",
+          "COVERITY_CONNECT_USER_NAME": "tjchrisi",
+          "COVERITY_CONNECT_USER_PASSWORD": "HP912dj!@#$%^"
+        },
+        "stdout-tail": [
+          "Intermediate directory C:/Spades/idir is compatible"
+        ],
+        "start-time": "2026-01-06T11:47:27.5549177-05:00",
+        "end-time": "2026-01-06T11:47:27.6181863-05:00",
+        "duration": 63268600
+      },
+      {
+        "command-line": "C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-manage-emit --dir C:\\Spades\\idir reset-host-name",
+        "cwd": "C:\\Spades",
+        "env": {
+          "COVERITY_CLI_IGNORE_CONFIG": "commit.connect.ca-certs-file",
+          "COVERITY_CONNECT_USER_NAME": "tjchrisi",
+          "COVERITY_CONNECT_USER_PASSWORD": "HP912dj!@#$%^"
+        },
+        "start-time": "2026-01-06T11:47:27.4863003-05:00",
+        "end-time": "2026-01-06T11:47:27.5549177-05:00",
+        "duration": 68617400
+      },
+      {
+        "command-line": "C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-manage-emit --dir C:\\Spades\\idir list-capture-diagnostics",
+        "cwd": "C:\\Spades",
+        "env": {
+          "COVERITY_CLI_IGNORE_CONFIG": "commit.connect.ca-certs-file",
+          "COVERITY_CONNECT_USER_NAME": "tjchrisi",
+          "COVERITY_CONNECT_USER_PASSWORD": "HP912dj!@#$%^"
+        },
+        "stdout-tail": [
+          "        \"id\" : 32,",
+          "        \"source-language\" : \"JavaScript JSX ES6 module\",",
+          "        \"capture-percentage\" : 100,",
+          "        \"had-failures\" : false,",
+          "        \"had-recoverable-errors\" : false,",
+          "        \"had-abstract-syntax-trees\" : true",
+          "      }",
+          "    }",
+          "  ]",
+          "}"
+        ],
+        "start-time": "2026-01-06T11:47:29.3670272-05:00",
+        "end-time": "2026-01-06T11:47:29.4481133-05:00",
+        "duration": 81086100
+      },
+      {
+        "command-line": "C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-analyze --dir C:\\Spades\\idir --strip-path C:\\Spades --ticker-mode none --recommended-security-checkers --enable-scan-transparency-data",
+        "cwd": "C:\\Spades",
+        "env": {
+          "COVERITY_CLI_IGNORE_CONFIG": "commit.connect.ca-certs-file",
+          "COVERITY_CONNECT_USER_NAME": "tjchrisi",
+          "COVERITY_CONNECT_USER_PASSWORD": "HP912dj!@#$%^"
+        },
+        "stdout-tail": [
+          "    HTML                       : 2",
+          "    JavaScript                 : 13",
+          "    Python 3                   : 2",
+          "    Text                       : 7",
+          "Total LoC input to cov-analyze : 2466",
+          "Functions analyzed             : 881",
+          "Paths analyzed                 : 14356",
+          "Time taken by analysis         : 00:12:39",
+          "Defect occurrences found       : 0",
+          ""
+        ],
+        "start-time": "2026-01-06T11:47:29.5120621-05:00",
+        "end-time": "2026-01-06T12:00:09.3781731-05:00",
+        "duration": 759866111000
+      }
+    ]
+  }
+}

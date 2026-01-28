@@ -1,0 +1,348 @@
+1767718059.874: DM started: dm_pid=16912
+1767718059.874: DM command line: C:/Users/TracyChrisinger/AppData/Roaming/BlackDuck/desktop/controller/installedtools/coverity-analysis/2025.3.0/bin/cov-internal-dm.exe --AM-port 59961 --log-file C:/Spades/idir/output/distributor.log -j 14 --AW-timeout 36000 C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-analyze.exe --worker --message-size-limit 104857600
+1767718059.874: Connecting to AM at 127.0.0.1:59961
+1767718059.889: Connected to AM: (local) 127.0.0.1:59962 - 127.0.0.1:59961 (remote)
+1767718059.889: Listening for DWs at 127.0.0.1:59963
+1767718059.889: Setting up for 14 local workers and 0 remote workers.
+1767718059.889: Starting DW 1 with command line: C:/Users/TracyChrisinger/AppData/Roaming/BlackDuck/desktop/controller/installedtools/coverity-analysis/2025.3.0/bin/cov-internal-dw.exe --DM-port 59963 --DW-id 1
+1767718060.046: DW 1 started: dw_pid=43252
+1767718060.046: Starting DW 2 with command line: C:/Users/TracyChrisinger/AppData/Roaming/BlackDuck/desktop/controller/installedtools/coverity-analysis/2025.3.0/bin/cov-internal-dw.exe --DM-port 59963 --DW-id 2
+1767718060.046: DW 2 started: dw_pid=31156
+1767718060.046: Starting DW 3 with command line: C:/Users/TracyChrisinger/AppData/Roaming/BlackDuck/desktop/controller/installedtools/coverity-analysis/2025.3.0/bin/cov-internal-dw.exe --DM-port 59963 --DW-id 3
+1767718060.061: DW 3 started: dw_pid=74680
+1767718060.061: Starting DW 4 with command line: C:/Users/TracyChrisinger/AppData/Roaming/BlackDuck/desktop/controller/installedtools/coverity-analysis/2025.3.0/bin/cov-internal-dw.exe --DM-port 59963 --DW-id 4
+1767718060.061: DW 4 started: dw_pid=39060
+1767718060.061: Starting DW 5 with command line: C:/Users/TracyChrisinger/AppData/Roaming/BlackDuck/desktop/controller/installedtools/coverity-analysis/2025.3.0/bin/cov-internal-dw.exe --DM-port 59963 --DW-id 5
+1767718060.077: DW 5 started: dw_pid=34692
+1767718060.077: Starting DW 6 with command line: C:/Users/TracyChrisinger/AppData/Roaming/BlackDuck/desktop/controller/installedtools/coverity-analysis/2025.3.0/bin/cov-internal-dw.exe --DM-port 59963 --DW-id 6
+1767718060.108: DW 6 started: dw_pid=50564
+1767718060.108: Starting DW 7 with command line: C:/Users/TracyChrisinger/AppData/Roaming/BlackDuck/desktop/controller/installedtools/coverity-analysis/2025.3.0/bin/cov-internal-dw.exe --DM-port 59963 --DW-id 7
+1767718060.124: DW 7 started: dw_pid=60644
+1767718060.124: Starting DW 8 with command line: C:/Users/TracyChrisinger/AppData/Roaming/BlackDuck/desktop/controller/installedtools/coverity-analysis/2025.3.0/bin/cov-internal-dw.exe --DM-port 59963 --DW-id 8
+1767718060.124: DW 8 started: dw_pid=24676
+1767718060.124: Starting DW 9 with command line: C:/Users/TracyChrisinger/AppData/Roaming/BlackDuck/desktop/controller/installedtools/coverity-analysis/2025.3.0/bin/cov-internal-dw.exe --DM-port 59963 --DW-id 9
+1767718060.155: DW 9 started: dw_pid=40148
+1767718060.155: Starting DW 10 with command line: C:/Users/TracyChrisinger/AppData/Roaming/BlackDuck/desktop/controller/installedtools/coverity-analysis/2025.3.0/bin/cov-internal-dw.exe --DM-port 59963 --DW-id 10
+1767718060.155: DW 10 started: dw_pid=70012
+1767718060.155: Starting DW 11 with command line: C:/Users/TracyChrisinger/AppData/Roaming/BlackDuck/desktop/controller/installedtools/coverity-analysis/2025.3.0/bin/cov-internal-dw.exe --DM-port 59963 --DW-id 11
+1767718060.155: DW 11 started: dw_pid=49340
+1767718060.155: Starting DW 12 with command line: C:/Users/TracyChrisinger/AppData/Roaming/BlackDuck/desktop/controller/installedtools/coverity-analysis/2025.3.0/bin/cov-internal-dw.exe --DM-port 59963 --DW-id 12
+1767718060.171: DW 12 started: dw_pid=72880
+1767718060.171: Starting DW 13 with command line: C:/Users/TracyChrisinger/AppData/Roaming/BlackDuck/desktop/controller/installedtools/coverity-analysis/2025.3.0/bin/cov-internal-dw.exe --DM-port 59963 --DW-id 13
+1767718060.202: DW 13 started: dw_pid=60084
+1767718060.202: Starting DW 14 with command line: C:/Users/TracyChrisinger/AppData/Roaming/BlackDuck/desktop/controller/installedtools/coverity-analysis/2025.3.0/bin/cov-internal-dw.exe --DM-port 59963 --DW-id 14
+1767718060.218: DW 14 started: dw_pid=38700
+1767718060.218: DW 1 log: 1767718060.088: Connecting to DM on 127.0.0.1:59963
+1767718060.218: DW 1 log: 1767718060.088: Connected to the DM: (local) 127.0.0.1:59964 - 127.0.0.1:59963 (remote)
+1767718060.218: DW 1 log: 1767718060.088: Sending DWDM_INIT: dw_id=1, benchmark=0
+1767718060.218: DW 2 log: 1767718060.103: Connecting to DM on 127.0.0.1:59963
+1767718060.218: DW 2 log: 1767718060.103: Connected to the DM: (local) 127.0.0.1:59965 - 127.0.0.1:59963 (remote)
+1767718060.218: DW 2 log: 1767718060.103: Sending DWDM_INIT: dw_id=2, benchmark=0
+1767718060.218: DW 3 log: 1767718060.109: Connecting to DM on 127.0.0.1:59963
+1767718060.218: DW 3 log: 1767718060.109: Connected to the DM: (local) 127.0.0.1:59966 - 127.0.0.1:59963 (remote)
+1767718060.218: DW 3 log: 1767718060.109: Sending DWDM_INIT: dw_id=3, benchmark=0
+1767718060.218: DW 4 log: 1767718060.119: Connecting to DM on 127.0.0.1:59963
+1767718060.218: DW 4 log: 1767718060.119: Connected to the DM: (local) 127.0.0.1:59967 - 127.0.0.1:59963 (remote)
+1767718060.218: DW 4 log: 1767718060.119: Sending DWDM_INIT: dw_id=4, benchmark=0
+1767718060.218: DW 5 log: 1767718060.132: Connecting to DM on 127.0.0.1:59963
+1767718060.218: DW 5 log: 1767718060.132: Connected to the DM: (local) 127.0.0.1:59968 - 127.0.0.1:59963 (remote)
+1767718060.218: DW 5 log: 1767718060.132: Sending DWDM_INIT: dw_id=5, benchmark=0
+1767718060.218: DW 6 log: 1767718060.158: Connecting to DM on 127.0.0.1:59963
+1767718060.218: DW 6 log: 1767718060.158: Connected to the DM: (local) 127.0.0.1:59969 - 127.0.0.1:59963 (remote)
+1767718060.218: DW 6 log: 1767718060.158: Sending DWDM_INIT: dw_id=6, benchmark=0
+1767718060.218: DW 7 log: 1767718060.160: Connecting to DM on 127.0.0.1:59963
+1767718060.218: DW 7 log: 1767718060.160: Connected to the DM: (local) 127.0.0.1:59971 - 127.0.0.1:59963 (remote)
+1767718060.218: DW 7 log: 1767718060.160: Sending DWDM_INIT: dw_id=7, benchmark=0
+1767718060.218: DW 8 log: 1767718060.161: Connecting to DM on 127.0.0.1:59963
+1767718060.218: DW 8 log: 1767718060.161: Connected to the DM: (local) 127.0.0.1:59970 - 127.0.0.1:59963 (remote)
+1767718060.218: DW 8 log: 1767718060.161: Sending DWDM_INIT: dw_id=8, benchmark=0
+1767718060.218: DW 9 log: 1767718060.183: Connecting to DM on 127.0.0.1:59963
+1767718060.218: DW 9 log: 1767718060.183: Connected to the DM: (local) 127.0.0.1:59972 - 127.0.0.1:59963 (remote)
+1767718060.218: DW 9 log: 1767718060.183: Sending DWDM_INIT: dw_id=9, benchmark=0
+1767718060.218: DW 10 log: 1767718060.205: Connecting to DM on 127.0.0.1:59963
+1767718060.218: Received a connection from a DW: 127.0.0.1:59964
+1767718060.218: Received a connection from a DW: 127.0.0.1:59965
+1767718060.218: Received a connection from a DW: 127.0.0.1:59966
+1767718060.218: Received DWDM_INIT: dw_id=1, benchmark=0
+1767718060.218: Sending DMDW_INIT to DW 1: aw_command_line=["C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-analyze.exe","--worker","--message-size-limit","104857600"], dw_env=[], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1767718060.218: DW 1 log: 1767718060.213: Received DMDW_INIT: aw_command_line=["C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-analyze.exe","--worker","--message-size-limit","104857600"], dw_env=[], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1767718060.218: Received a connection from a DW: 127.0.0.1:59967
+1767718060.218: Received DWDM_INIT: dw_id=2, benchmark=0
+1767718060.218: Sending DMDW_INIT to DW 2: aw_command_line=["C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-analyze.exe","--worker","--message-size-limit","104857600"], dw_env=[], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1767718060.218: DW 2 log: 1767718060.213: Received DMDW_INIT: aw_command_line=["C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-analyze.exe","--worker","--message-size-limit","104857600"], dw_env=[], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1767718060.218: Received a connection from a DW: 127.0.0.1:59968
+1767718060.218: Received DWDM_INIT: dw_id=3, benchmark=0
+1767718060.218: Sending DMDW_INIT to DW 3: aw_command_line=["C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-analyze.exe","--worker","--message-size-limit","104857600"], dw_env=[], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1767718060.218: DW 3 log: 1767718060.219: Received DMDW_INIT: aw_command_line=["C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-analyze.exe","--worker","--message-size-limit","104857600"], dw_env=[], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1767718060.218: Received a connection from a DW: 127.0.0.1:59969
+1767718060.218: Received DWDM_INIT: dw_id=4, benchmark=0
+1767718060.218: Sending DMDW_INIT to DW 4: aw_command_line=["C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-analyze.exe","--worker","--message-size-limit","104857600"], dw_env=[], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1767718060.218: DW 4 log: 1767718060.213: Received DMDW_INIT: aw_command_line=["C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-analyze.exe","--worker","--message-size-limit","104857600"], dw_env=[], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1767718060.218: Received a connection from a DW: 127.0.0.1:59971
+1767718060.218: Received DWDM_INIT: dw_id=5, benchmark=0
+1767718060.218: Sending DMDW_INIT to DW 5: aw_command_line=["C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-analyze.exe","--worker","--message-size-limit","104857600"], dw_env=[], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1767718060.218: DW 5 log: 1767718060.211: Received DMDW_INIT: aw_command_line=["C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-analyze.exe","--worker","--message-size-limit","104857600"], dw_env=[], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1767718060.218: Received a connection from a DW: 127.0.0.1:59970
+1767718060.218: Received DWDM_INIT: dw_id=6, benchmark=0
+1767718060.218: Sending DMDW_INIT to DW 6: aw_command_line=["C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-analyze.exe","--worker","--message-size-limit","104857600"], dw_env=[], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1767718060.218: DW 6 log: 1767718060.221: Received DMDW_INIT: aw_command_line=["C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-analyze.exe","--worker","--message-size-limit","104857600"], dw_env=[], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1767718060.218: Received a connection from a DW: 127.0.0.1:59972
+1767718060.218: Received DWDM_INIT: dw_id=7, benchmark=0
+1767718060.218: Sending DMDW_INIT to DW 7: aw_command_line=["C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-analyze.exe","--worker","--message-size-limit","104857600"], dw_env=[], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1767718060.218: Received DWDM_INIT: dw_id=8, benchmark=0
+1767718060.218: Sending DMDW_INIT to DW 8: aw_command_line=["C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-analyze.exe","--worker","--message-size-limit","104857600"], dw_env=[], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1767718060.218: DW 7 log: 1767718060.207: Received DMDW_INIT: aw_command_line=["C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-analyze.exe","--worker","--message-size-limit","104857600"], dw_env=[], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1767718060.218: DW 8 log: 1767718060.208: Received DMDW_INIT: aw_command_line=["C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-analyze.exe","--worker","--message-size-limit","104857600"], dw_env=[], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1767718060.218: Received DWDM_INIT: dw_id=9, benchmark=0
+1767718060.218: Sending DMDW_INIT to DW 9: aw_command_line=["C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-analyze.exe","--worker","--message-size-limit","104857600"], dw_env=[], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1767718060.218: DW 9 log: 1767718060.215: Received DMDW_INIT: aw_command_line=["C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-analyze.exe","--worker","--message-size-limit","104857600"], dw_env=[], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1767718060.218: DW 1 log: 1767718060.213: Started listening for AW at 127.0.0.1:59974
+1767718060.218: DW 2 log: 1767718060.213: Started listening for AW at 127.0.0.1:59973
+1767718060.218: DW 3 log: 1767718060.219: Started listening for AW at 127.0.0.1:59975
+1767718060.218: DW 1 log: 1767718060.213: Starting AW with command line (COVERITY_DW_PORT=59974): C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-analyze.exe --worker --message-size-limit 104857600
+1767718060.218: DW 2 log: 1767718060.213: Starting AW with command line (COVERITY_DW_PORT=59973): C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-analyze.exe --worker --message-size-limit 104857600
+1767718060.218: DW 3 log: 1767718060.219: Starting AW with command line (COVERITY_DW_PORT=59975): C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-analyze.exe --worker --message-size-limit 104857600
+1767718060.218: DW 4 log: 1767718060.213: Started listening for AW at 127.0.0.1:59977
+1767718060.218: DW 5 log: 1767718060.211: Started listening for AW at 127.0.0.1:59976
+1767718060.218: DW 4 log: 1767718060.213: Starting AW with command line (COVERITY_DW_PORT=59977): C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-analyze.exe --worker --message-size-limit 104857600
+1767718060.218: DW 5 log: 1767718060.211: Starting AW with command line (COVERITY_DW_PORT=59976): C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-analyze.exe --worker --message-size-limit 104857600
+1767718060.218: DW 6 log: 1767718060.221: Started listening for AW at 127.0.0.1:59978
+1767718060.218: DW 6 log: 1767718060.221: Starting AW with command line (COVERITY_DW_PORT=59978): C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-analyze.exe --worker --message-size-limit 104857600
+1767718060.218: DW 7 log: 1767718060.207: Started listening for AW at 127.0.0.1:59979
+1767718060.218: DW 8 log: 1767718060.208: Started listening for AW at 127.0.0.1:59981
+1767718060.218: DW 9 log: 1767718060.215: Started listening for AW at 127.0.0.1:59980
+1767718060.218: DW 7 log: 1767718060.207: Starting AW with command line (COVERITY_DW_PORT=59979): C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-analyze.exe --worker --message-size-limit 104857600
+1767718060.218: DW 8 log: 1767718060.208: Starting AW with command line (COVERITY_DW_PORT=59981): C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-analyze.exe --worker --message-size-limit 104857600
+1767718060.218: DW 9 log: 1767718060.215: Starting AW with command line (COVERITY_DW_PORT=59980): C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-analyze.exe --worker --message-size-limit 104857600
+1767718060.218: Received a connection from a DW: 127.0.0.1:59982
+1767718060.218: DW 10 log: 1767718060.205: Connected to the DM: (local) 127.0.0.1:59982 - 127.0.0.1:59963 (remote)
+1767718060.218: DW 10 log: 1767718060.205: Sending DWDM_INIT: dw_id=10, benchmark=0
+1767718060.218: Received DWDM_INIT: dw_id=10, benchmark=0
+1767718060.218: Sending DMDW_INIT to DW 10: aw_command_line=["C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-analyze.exe","--worker","--message-size-limit","104857600"], dw_env=[], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1767718060.218: DW 10 log: 1767718060.205: Received DMDW_INIT: aw_command_line=["C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-analyze.exe","--worker","--message-size-limit","104857600"], dw_env=[], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1767718060.218: DW 10 log: 1767718060.205: Started listening for AW at 127.0.0.1:59983
+1767718060.218: DW 10 log: 1767718060.205: Starting AW with command line (COVERITY_DW_PORT=59983): C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-analyze.exe --worker --message-size-limit 104857600
+1767718060.233: DW 11 log: 1767718060.229: Connecting to DM on 127.0.0.1:59963
+1767718060.233: DW 13 log: 1767718060.234: Connecting to DM on 127.0.0.1:59963
+1767718060.233: Received a connection from a DW: 127.0.0.1:59984
+1767718060.233: DW 11 log: 1767718060.229: Connected to the DM: (local) 127.0.0.1:59984 - 127.0.0.1:59963 (remote)
+1767718060.233: DW 11 log: 1767718060.229: Sending DWDM_INIT: dw_id=11, benchmark=0
+1767718060.233: Received DWDM_INIT: dw_id=11, benchmark=0
+1767718060.233: Sending DMDW_INIT to DW 11: aw_command_line=["C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-analyze.exe","--worker","--message-size-limit","104857600"], dw_env=[], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1767718060.249: DW 13 log: 1767718060.234: Connected to the DM: (local) 127.0.0.1:59985 - 127.0.0.1:59963 (remote)
+1767718060.249: Received a connection from a DW: 127.0.0.1:59985
+1767718060.249: DW 11 log: 1767718060.229: Received DMDW_INIT: aw_command_line=["C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-analyze.exe","--worker","--message-size-limit","104857600"], dw_env=[], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1767718060.249: DW 13 log: 1767718060.234: Sending DWDM_INIT: dw_id=13, benchmark=0
+1767718060.249: Received DWDM_INIT: dw_id=13, benchmark=0
+1767718060.249: Sending DMDW_INIT to DW 13: aw_command_line=["C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-analyze.exe","--worker","--message-size-limit","104857600"], dw_env=[], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1767718060.249: DW 13 log: 1767718060.234: Received DMDW_INIT: aw_command_line=["C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-analyze.exe","--worker","--message-size-limit","104857600"], dw_env=[], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1767718060.249: DW 11 log: 1767718060.229: Started listening for AW at 127.0.0.1:59986
+1767718060.249: DW 11 log: 1767718060.229: Starting AW with command line (COVERITY_DW_PORT=59986): C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-analyze.exe --worker --message-size-limit 104857600
+1767718060.249: DW 13 log: 1767718060.234: Started listening for AW at 127.0.0.1:59987
+1767718060.249: DW 13 log: 1767718060.234: Starting AW with command line (COVERITY_DW_PORT=59987): C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-analyze.exe --worker --message-size-limit 104857600
+1767718060.249: DW 12 log: 1767718060.243: Connecting to DM on 127.0.0.1:59963
+1767718060.249: Received a connection from a DW: 127.0.0.1:59988
+1767718060.249: DW 12 log: 1767718060.243: Connected to the DM: (local) 127.0.0.1:59988 - 127.0.0.1:59963 (remote)
+1767718060.249: DW 12 log: 1767718060.243: Sending DWDM_INIT: dw_id=12, benchmark=0
+1767718060.249: Received DWDM_INIT: dw_id=12, benchmark=0
+1767718060.249: Sending DMDW_INIT to DW 12: aw_command_line=["C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-analyze.exe","--worker","--message-size-limit","104857600"], dw_env=[], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1767718060.249: DW 12 log: 1767718060.243: Received DMDW_INIT: aw_command_line=["C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-analyze.exe","--worker","--message-size-limit","104857600"], dw_env=[], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1767718060.249: DW 12 log: 1767718060.243: Started listening for AW at 127.0.0.1:59989
+1767718060.249: DW 12 log: 1767718060.243: Starting AW with command line (COVERITY_DW_PORT=59989): C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-analyze.exe --worker --message-size-limit 104857600
+1767718060.249: DW 4 log: 1767718060.244: AW started: aw_pid=64812
+1767718060.249: DW 6 log: 1767718060.252: AW started: aw_pid=16544
+1767718060.249: DW 8 log: 1767718060.239: AW started: aw_pid=27944
+1767718060.249: DW 2 log: 1767718060.244: AW started: aw_pid=62372
+1767718060.249: DW 7 log: 1767718060.238: AW started: aw_pid=32432
+1767718060.249: DW 3 log: 1767718060.250: AW started: aw_pid=66944
+1767718060.249: DW 10 log: 1767718060.236: AW started: aw_pid=46876
+1767718060.249: DW 1 log: 1767718060.244: AW started: aw_pid=48516
+1767718060.264: DW 5 log: 1767718060.257: AW started: aw_pid=64680
+1767718060.264: DW 11 log: 1767718060.260: AW started: aw_pid=17084
+1767718060.264: DW 9 log: 1767718060.261: AW started: aw_pid=66880
+1767718060.264: DW 13 log: 1767718060.265: AW started: aw_pid=45936
+1767718060.264: DW 12 log: 1767718060.258: AW started: aw_pid=25684
+1767718060.280: DW 14 log: 1767718060.279: Connecting to DM on 127.0.0.1:59963
+1767718060.296: Received a connection from a DW: 127.0.0.1:59990
+1767718060.296: DW 14 log: 1767718060.279: Connected to the DM: (local) 127.0.0.1:59990 - 127.0.0.1:59963 (remote)
+1767718060.296: DW 14 log: 1767718060.279: Sending DWDM_INIT: dw_id=14, benchmark=0
+1767718060.296: Received DWDM_INIT: dw_id=14, benchmark=0
+1767718060.296: Stopping to listen for new DWs
+1767718060.296: Sending DMDW_INIT to DW 14: aw_command_line=["C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-analyze.exe","--worker","--message-size-limit","104857600"], dw_env=[], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1767718060.296: DW 14 log: 1767718060.295: Received DMDW_INIT: aw_command_line=["C:\\Users\\TracyChrisinger\\AppData\\Roaming\\BlackDuck\\desktop\\controller\\installedtools\\coverity-analysis\\2025.3.0\\bin\\cov-analyze.exe","--worker","--message-size-limit","104857600"], dw_env=[], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1767718060.296: DW 14 log: 1767718060.295: Started listening for AW at 127.0.0.1:59991
+1767718060.296: DW 14 log: 1767718060.295: Starting AW with command line (COVERITY_DW_PORT=59991): C:\Users\TracyChrisinger\AppData\Roaming\BlackDuck\desktop\controller\installedtools\coverity-analysis\2025.3.0\bin\cov-analyze.exe --worker --message-size-limit 104857600
+1767718060.327: DW 14 log: 1767718060.326: AW started: aw_pid=67676
+1767718060.358: DW 2 log: 1767718060.353: DW 2 received connection from AW: (local) 127.0.0.1:59973 - 127.0.0.1:59993 (remote)
+1767718060.358: DW 5 log: 1767718060.351: DW 5 received connection from AW: (local) 127.0.0.1:59976 - 127.0.0.1:59992 (remote)
+1767718060.358: DW 11 log: 1767718060.354: DW 11 received connection from AW: (local) 127.0.0.1:59986 - 127.0.0.1:59994 (remote)
+1767718060.358: DW 1 log: 1767718060.353: DW 1 received connection from AW: (local) 127.0.0.1:59974 - 127.0.0.1:59995 (remote)
+1767718060.436: DW 3 log: 1767718060.437: DW 3 received connection from AW: (local) 127.0.0.1:59975 - 127.0.0.1:60000 (remote)
+1767718060.436: DW 4 log: 1767718060.431: DW 4 received connection from AW: (local) 127.0.0.1:59977 - 127.0.0.1:59999 (remote)
+1767718060.436: DW 6 log: 1767718060.439: DW 6 received connection from AW: (local) 127.0.0.1:59978 - 127.0.0.1:59996 (remote)
+1767718060.436: DW 9 log: 1767718060.433: DW 9 received connection from AW: (local) 127.0.0.1:59980 - 127.0.0.1:59997 (remote)
+1767718060.436: DW 10 log: 1767718060.423: DW 10 received connection from AW: (local) 127.0.0.1:59983 - 127.0.0.1:59998 (remote)
+1767718060.436: DW 7 log: 1767718060.425: DW 7 received connection from AW: (local) 127.0.0.1:59979 - 127.0.0.1:60001 (remote)
+1767718060.436: DW 8 log: 1767718060.426: DW 8 received connection from AW: (local) 127.0.0.1:59981 - 127.0.0.1:60002 (remote)
+1767718060.436: DW 12 log: 1767718060.430: DW 12 received connection from AW: (local) 127.0.0.1:59989 - 127.0.0.1:60003 (remote)
+1767718060.436: DW 13 log: 1767718060.437: DW 13 received connection from AW: (local) 127.0.0.1:59987 - 127.0.0.1:60004 (remote)
+1767718060.561: DW 14 log: 1767718060.560: DW 14 received connection from AW: (local) 127.0.0.1:59991 - 127.0.0.1:60005 (remote)
+1767718360.233: dm-summary: elapsed_time_ms=300359, am_to_dm_wus=3601, dm_to_am_wurs=3600
+1767718360.233: dw-summary: dw_id=1, state=connected, wus_outstanding=1, wus_sent=508, wurs_received=507, active_ms=251826, idle_ms=48189
+1767718360.233: dw-summary: dw_id=2, state=connected, wus_outstanding=0, wus_sent=395, wurs_received=395, active_ms=56998, idle_ms=243017
+1767718360.233: dw-summary: dw_id=3, state=connected, wus_outstanding=0, wus_sent=376, wurs_received=376, active_ms=72311, idle_ms=227704
+1767718360.233: dw-summary: dw_id=4, state=connected, wus_outstanding=0, wus_sent=421, wurs_received=421, active_ms=21114, idle_ms=278901
+1767718360.233: dw-summary: dw_id=5, state=connected, wus_outstanding=0, wus_sent=342, wurs_received=342, active_ms=10036, idle_ms=289979
+1767718360.233: dw-summary: dw_id=6, state=connected, wus_outstanding=0, wus_sent=130, wurs_received=130, active_ms=10753, idle_ms=289262
+1767718360.233: dw-summary: dw_id=7, state=connected, wus_outstanding=0, wus_sent=334, wurs_received=334, active_ms=7786, idle_ms=292229
+1767718360.233: dw-summary: dw_id=8, state=connected, wus_outstanding=0, wus_sent=191, wurs_received=191, active_ms=8036, idle_ms=291979
+1767718360.233: dw-summary: dw_id=9, state=connected, wus_outstanding=0, wus_sent=208, wurs_received=208, active_ms=8454, idle_ms=291561
+1767718360.233: dw-summary: dw_id=10, state=connected, wus_outstanding=0, wus_sent=125, wurs_received=125, active_ms=9002, idle_ms=291013
+1767718360.233: dw-summary: dw_id=11, state=connected, wus_outstanding=0, wus_sent=77, wurs_received=77, active_ms=8050, idle_ms=291950
+1767718360.233: dw-summary: dw_id=12, state=connected, wus_outstanding=0, wus_sent=211, wurs_received=211, active_ms=6001, idle_ms=293983
+1767718360.249: dw-summary: dw_id=13, state=connected, wus_outstanding=0, wus_sent=238, wurs_received=238, active_ms=5767, idle_ms=294233
+1767718360.249: dw-summary: dw_id=14, state=connected, wus_outstanding=0, wus_sent=45, wurs_received=45, active_ms=6672, idle_ms=293281
+1767718660.249: dm-summary: elapsed_time_ms=600375, am_to_dm_wus=7064, dm_to_am_wurs=7062
+1767718660.249: dw-summary: dw_id=1, state=connected, wus_outstanding=1, wus_sent=888, wurs_received=887, active_ms=531953, idle_ms=68078
+1767718660.249: dw-summary: dw_id=2, state=connected, wus_outstanding=1, wus_sent=750, wurs_received=749, active_ms=283293, idle_ms=316738
+1767718660.249: dw-summary: dw_id=3, state=connected, wus_outstanding=0, wus_sent=588, wurs_received=588, active_ms=262686, idle_ms=337345
+1767718660.249: dw-summary: dw_id=4, state=connected, wus_outstanding=0, wus_sent=656, wurs_received=656, active_ms=167083, idle_ms=432948
+1767718660.249: dw-summary: dw_id=5, state=connected, wus_outstanding=0, wus_sent=581, wurs_received=581, active_ms=169832, idle_ms=430199
+1767718660.249: dw-summary: dw_id=6, state=connected, wus_outstanding=0, wus_sent=415, wurs_received=415, active_ms=136409, idle_ms=463622
+1767718660.249: dw-summary: dw_id=7, state=connected, wus_outstanding=0, wus_sent=662, wurs_received=662, active_ms=98693, idle_ms=501338
+1767718660.249: dw-summary: dw_id=8, state=connected, wus_outstanding=0, wus_sent=492, wurs_received=492, active_ms=156021, idle_ms=444010
+1767718660.249: dw-summary: dw_id=9, state=connected, wus_outstanding=0, wus_sent=420, wurs_received=420, active_ms=124908, idle_ms=475123
+1767718660.249: dw-summary: dw_id=10, state=connected, wus_outstanding=0, wus_sent=448, wurs_received=448, active_ms=92159, idle_ms=507872
+1767718660.249: dw-summary: dw_id=11, state=connected, wus_outstanding=0, wus_sent=162, wurs_received=162, active_ms=124143, idle_ms=475873
+1767718660.249: dw-summary: dw_id=12, state=connected, wus_outstanding=0, wus_sent=421, wurs_received=421, active_ms=91516, idle_ms=508484
+1767718660.249: dw-summary: dw_id=13, state=connected, wus_outstanding=0, wus_sent=385, wurs_received=385, active_ms=100002, idle_ms=499998
+1767718660.249: dw-summary: dw_id=14, state=connected, wus_outstanding=0, wus_sent=196, wurs_received=196, active_ms=91157, idle_ms=508796
+1767718800.374: AM closed the connection, DM shutting down
+1767718800.389: Disconnecting DW 1
+1767718800.389: Disconnecting DW 2
+1767718800.405: Disconnecting DW 3
+1767718800.405: Disconnecting DW 4
+1767718800.405: Disconnecting DW 5
+1767718800.421: Disconnecting DW 6
+1767718800.436: Disconnecting DW 7
+1767718800.452: Disconnecting DW 8
+1767718800.468: Disconnecting DW 9
+1767718800.483: Disconnecting DW 10
+1767718800.499: Disconnecting DW 11
+1767718800.514: Disconnecting DW 13
+1767718800.530: Disconnecting DW 12
+1767718800.561: Disconnecting DW 14
+1767718800.577: DW 1 log: 1767718800.384: DW 1: the DM closed the connection, DW shutting down
+1767718800.577: DW 2 log: 1767718800.384: DW 2: the DM closed the connection, DW shutting down
+1767718800.577: DW 3 log: 1767718800.406: DW 3: the DM closed the connection, DW shutting down
+1767718800.577: DW 4 log: 1767718800.400: DW 4: the DM closed the connection, DW shutting down
+1767718800.577: DW 5 log: 1767718800.398: DW 5: the DM closed the connection, DW shutting down
+1767718800.577: DW 6 log: 1767718800.424: DW 6: the DM closed the connection, DW shutting down
+1767718800.577: DW 7 log: 1767718800.425: DW 7: the DM closed the connection, DW shutting down
+1767718800.577: DW 8 log: 1767718800.442: DW 8: the DM closed the connection, DW shutting down
+1767718800.577: DW 9 log: 1767718800.465: DW 9: the DM closed the connection, DW shutting down
+1767718800.577: DW 10 log: 1767718800.470: DW 10: the DM closed the connection, DW shutting down
+1767718800.577: DW 11 log: 1767718800.510: DW 11: the DM closed the connection, DW shutting down
+1767718800.577: DW 12 log: 1767718800.524: DW 12: the DM closed the connection, DW shutting down
+1767718800.577: DW 13 log: 1767718800.515: DW 13: the DM closed the connection, DW shutting down
+1767718800.577: DW 14 log: 1767718800.560: DW 14: the DM closed the connection, DW shutting down
+1767718800.577: DW 1 log: 1767718800.384: DW 1 summary: aw_starts=1, wurs_sent=1004, total_awms=652161, total_dwms=658613
+1767718800.577: DW 1 log: 1767718800.384: Disconnecting AW
+1767718800.577: DW 2 log: 1767718800.384: DW 2 summary: aw_starts=1, wurs_sent=849, total_awms=363589, total_dwms=367702
+1767718800.577: DW 2 log: 1767718800.384: Disconnecting AW
+1767718800.593: DW 3 log: 1767718800.406: DW 3 summary: aw_starts=1, wurs_sent=644, total_awms=262642, total_dwms=265469
+1767718800.593: DW 3 log: 1767718800.406: Disconnecting AW
+1767718800.593: DW 4 log: 1767718800.400: DW 4 summary: aw_starts=1, wurs_sent=781, total_awms=165894, total_dwms=168923
+1767718800.593: DW 4 log: 1767718800.400: Disconnecting AW
+1767718800.593: DW 5 log: 1767718800.398: DW 5 summary: aw_starts=1, wurs_sent=735, total_awms=168607, total_dwms=171403
+1767718800.593: DW 5 log: 1767718800.398: Disconnecting AW
+1767718800.593: DW 6 log: 1767718800.424: DW 6 summary: aw_starts=1, wurs_sent=504, total_awms=138481, total_dwms=142379
+1767718800.593: DW 6 log: 1767718800.424: Disconnecting AW
+1767718800.593: DW 7 log: 1767718800.425: DW 7 summary: aw_starts=1, wurs_sent=752, total_awms=95671, total_dwms=98128
+1767718800.593: DW 7 log: 1767718800.425: Disconnecting AW
+1767718800.593: DW 8 log: 1767718800.442: DW 8 summary: aw_starts=1, wurs_sent=556, total_awms=152204, total_dwms=156058
+1767718800.593: DW 8 log: 1767718800.442: Disconnecting AW
+1767718800.593: DW 9 log: 1767718800.465: DW 9 summary: aw_starts=1, wurs_sent=445, total_awms=123175, total_dwms=125365
+1767718800.593: DW 9 log: 1767718800.465: Disconnecting AW
+1767718800.593: DW 10 log: 1767718800.470: DW 10 summary: aw_starts=1, wurs_sent=461, total_awms=90174, total_dwms=92878
+1767718800.593: DW 10 log: 1767718800.470: Disconnecting AW
+1767718800.593: DW 11 log: 1767718800.510: DW 11 summary: aw_starts=1, wurs_sent=174, total_awms=120878, total_dwms=124313
+1767718800.593: DW 11 log: 1767718800.510: Disconnecting AW
+1767718800.593: DW 12 log: 1767718800.524: DW 12 summary: aw_starts=1, wurs_sent=431, total_awms=88502, total_dwms=91419
+1767718800.593: DW 12 log: 1767718800.524: Disconnecting AW
+1767718800.593: DW 13 log: 1767718800.515: DW 13 summary: aw_starts=1, wurs_sent=397, total_awms=98068, total_dwms=99942
+1767718800.593: DW 13 log: 1767718800.515: Disconnecting AW
+1767718800.593: DW 14 log: 1767718800.560: DW 14 summary: aw_starts=1, wurs_sent=214, total_awms=88359, total_dwms=91169
+1767718800.593: DW 14 log: 1767718800.560: Disconnecting AW
+1767718800.686: DW 8 log: 1767718800.676: AW exited with code 0
+1767718800.686: DW 8 log: AW peak mem bytes: 491380736
+1767718800.686: DW 8 log: 
+1767718800.686: DW 5 log: 1767718800.679: AW exited with code 0
+1767718800.686: DW 5 log: AW peak mem bytes: 489242624
+1767718800.686: DW 5 log: 
+1767718800.686: DW 7 log: 1767718800.675: AW exited with code 0
+1767718800.686: DW 7 log: AW peak mem bytes: 1027407872
+1767718800.686: DW 7 log: 
+1767718800.686: DW 4 log: 1767718800.681: AW exited with code 0
+1767718800.686: DW 4 log: AW peak mem bytes: 1041825792
+1767718800.686: DW 4 log: 
+1767718800.686: DW 10 log: 1767718800.673: AW exited with code 0
+1767718800.686: DW 10 log: AW peak mem bytes: 480018432
+1767718800.686: DW 10 log: 
+1767718800.733: DW 1 log: 1767718800.681: AW exited with code 0
+1767718800.733: DW 3 log: 1767718800.687: AW exited with code 0
+1767718800.733: DW 6 log: 1767718800.721: AW exited with code 0
+1767718800.733: DW 9 log: 1767718800.683: AW exited with code 0
+1767718800.733: DW 4 exited with code 0
+1767718800.733: DW 5 exited with code 0
+1767718800.733: DW 7 exited with code 0
+1767718800.733: DW 8 exited with code 0
+1767718800.733: DW 10 exited with code 0
+1767718800.733: DW 1 log: AW peak mem bytes: 1063436288
+1767718800.733: DW 1 log: 
+1767718800.733: DW 3 log: AW peak mem bytes: 1059835904
+1767718800.733: DW 3 log: 
+1767718800.733: DW 6 log: AW peak mem bytes: 1038479360
+1767718800.733: DW 6 log: 
+1767718800.733: DW 9 log: AW peak mem bytes: 513425408
+1767718800.733: DW 9 log: 
+1767718800.733: DW 13 log: 1767718800.734: AW exited with code 0
+1767718800.733: DW 1 exited with code 0
+1767718800.733: DW 3 exited with code 0
+1767718800.733: DW 6 exited with code 0
+1767718800.733: DW 9 exited with code 0
+1767718800.733: DW 13 log: AW peak mem bytes: 470069248
+1767718800.733: DW 13 log: 
+1767718800.733: DW 11 log: 1767718800.729: AW exited with code 0
+1767718800.733: DW 12 log: 1767718800.727: AW exited with code 0
+1767718800.733: DW 13 exited with code 0
+1767718800.733: DW 11 log: AW peak mem bytes: 513699840
+1767718800.733: DW 11 log: 
+1767718800.733: DW 12 log: AW peak mem bytes: 535969792
+1767718800.733: DW 12 log: 
+1767718800.764: DW 2 log: 1767718800.744: AW exited with code 0
+1767718800.764: DW 11 exited with code 0
+1767718800.764: DW 12 exited with code 0
+1767718800.764: DW 2 log: AW peak mem bytes: 1069912064
+1767718800.764: DW 2 log: 
+1767718800.764: DW 14 log: 1767718800.763: AW exited with code 0
+1767718800.764: DW 2 exited with code 0
+1767718800.764: DW 14 log: AW peak mem bytes: 1026019328
+1767718800.764: DW 14 log: 
+1767718800.764: DW 14 exited with code 0
+1767718800.764: dm-summary: elapsed_time_ms=740890, am_to_dm_wus=7947, dm_to_am_wurs=7947
+1767718800.764: dw-summary: dw_id=1, state=inactive, wus_outstanding=0, wus_sent=1004, wurs_received=1004, active_ms=662122, idle_ms=77971
+1767718800.764: dw-summary: dw_id=2, state=inactive, wus_outstanding=0, wus_sent=849, wurs_received=849, active_ms=369225, idle_ms=340259
+1767718800.764: dw-summary: dw_id=3, state=inactive, wus_outstanding=0, wus_sent=644, wurs_received=644, active_ms=267201, idle_ms=438033
+1767718800.764: dw-summary: dw_id=4, state=inactive, wus_outstanding=0, wus_sent=781, wurs_received=781, active_ms=170645, idle_ms=529558
+1767718800.764: dw-summary: dw_id=5, state=inactive, wus_outstanding=0, wus_sent=735, wurs_received=735, active_ms=172627, idle_ms=527873
+1767718800.764: dw-summary: dw_id=6, state=inactive, wus_outstanding=0, wus_sent=504, wurs_received=504, active_ms=143285, idle_ms=560793
+1767718800.764: dw-summary: dw_id=7, state=inactive, wus_outstanding=0, wus_sent=752, wurs_received=752, active_ms=100458, idle_ms=599338
+1767718800.764: dw-summary: dw_id=8, state=inactive, wus_outstanding=0, wus_sent=556, wurs_received=556, active_ms=157274, idle_ms=542335
+1767718800.764: dw-summary: dw_id=9, state=inactive, wus_outstanding=0, wus_sent=445, wurs_received=445, active_ms=126299, idle_ms=573216
+1767718800.764: dw-summary: dw_id=10, state=inactive, wus_outstanding=0, wus_sent=461, wurs_received=461, active_ms=93737, idle_ms=605794
+1767718800.764: dw-summary: dw_id=11, state=inactive, wus_outstanding=0, wus_sent=174, wurs_received=174, active_ms=125002, idle_ms=574498
+1767718800.764: dw-summary: dw_id=12, state=inactive, wus_outstanding=0, wus_sent=431, wurs_received=431, active_ms=92500, idle_ms=606375
+1767718800.764: dw-summary: dw_id=13, state=inactive, wus_outstanding=0, wus_sent=397, wurs_received=397, active_ms=100830, idle_ms=597857
+1767718800.764: dw-summary: dw_id=14, state=inactive, wus_outstanding=0, wus_sent=214, wurs_received=214, active_ms=91844, idle_ms=606765
+1767718800.780: DM exiting with code 0

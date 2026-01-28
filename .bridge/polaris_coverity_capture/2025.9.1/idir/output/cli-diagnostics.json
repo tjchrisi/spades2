@@ -1,0 +1,267 @@
+{
+  "type": "Coverity CLI Diagnostics Data",
+  "version": 1,
+  "general": {
+    "coverity-static-analysis-version": "2025.9.1"
+  },
+  "capture": {
+    "primary-capture-mode": "Auto",
+    "command-line": "C:\\Users\\TracyChrisinger\\.blackduck\\bridge\\tools\\cov-thin-client\\2025.9.1\\bin\\coverity.exe capture --dir C:\\Spades\\.bridge\\polaris_coverity_capture\\2025.9.1\\idir -o analyze.location=connect",
+    "working-directory": "C:\\Spades",
+    "project-directory": "C:\\Spades",
+    "intermediate-directory": "C:\\Spades\\.bridge\\polaris_coverity_capture\\2025.9.1\\idir",
+    "configuration-file-path": "C:\\Spades\\coverity.yaml",
+    "configuration": {
+      "command-line-overrides": [
+        "--config-override",
+        "analyze.location=connect"
+      ],
+      "file-configuration": {
+        "analyze": {
+          "location": "local"
+        },
+        "commit": {
+          "connect": {
+            "stream": "Spades",
+            "url": "https://coverity.field-test.blackduck.com"
+          }
+        }
+      },
+      "effective-configuration": {
+        "analyze": {
+          "location": "connect"
+        },
+        "commit": null,
+        "caching": {
+          "bytecode": true,
+          "tu": false,
+          "wur": true
+        }
+      },
+      "configuration-hash": "c79bdb4aae5433a143feac6924c86562bd073f0227c43c7b5410b4e6cf316511"
+    },
+    "capture-summary": {
+      "files-captured": 30,
+      "ignored": 35,
+      "lines-of-code": 4410,
+      "succeeded": 30
+    },
+    "capture-rate": 100,
+    "command-info": [
+      {
+        "command-line": "C:\\Users\\TracyChrisinger\\.blackduck\\bridge\\tools\\cov-thin-client\\2025.9.1\\bin\\cov-manage-emit --dir C:\\Spades\\.bridge\\polaris_coverity_capture\\2025.9.1\\idir check-compatible",
+        "cwd": "C:\\Spades",
+        "env": {
+          "COVERITY_CACHE_API_TOKEN_FILE": "C:\\Users\\TRACYC~1\\AppData\\Local\\Temp\\polaris_coverity_cache2318104393\\.authKey",
+          "COVERITY_CACHE_KEY": "ef468091-28be-476c-af46-8f189bc496e7",
+          "COVERITY_CACHE_URL": "https://poc.polaris.blackduck.com/api/cache",
+          "COVERITY_CLI_CAPTURE_ZIP_ARCHIVE": "C:\\Spades\\.bridge\\polaris_coverity_capture\\idir.zip",
+          "COVERITY_CLI_POLARIS_CLIENT": "true",
+          "COVERITY_CLI_POLARIS_SIGMA": "C:\\Users\\TracyChrisinger\\.blackduck\\bridge\\tools\\sigma\\2025.11.0\\sigma.exe",
+          "COVERITY_CONNECT_USER_NAME": "tjchrisi",
+          "COVERITY_CONNECT_USER_PASSWORD": "HP912dj!@#$%^",
+          "COVERITY_NO_LOG_ENVIRONMENT_VARIABLES": "1"
+        },
+        "stdout-tail": [
+          "Intermediate directory C:/Spades/.bridge/polaris_coverity_capture/2025.9.1/idir is compatible"
+        ],
+        "start-time": "2026-01-06T12:22:09.4178996-05:00",
+        "end-time": "2026-01-06T12:22:09.4704007-05:00",
+        "duration": 52501100
+      },
+      {
+        "command-line": "C:\\Users\\TracyChrisinger\\.blackduck\\bridge\\tools\\cov-thin-client\\2025.9.1\\bin\\cov-manage-emit --dir C:\\Spades\\.bridge\\polaris_coverity_capture\\2025.9.1\\idir reset-host-name",
+        "cwd": "C:\\Spades",
+        "env": {
+          "COVERITY_CACHE_API_TOKEN_FILE": "C:\\Users\\TRACYC~1\\AppData\\Local\\Temp\\polaris_coverity_cache2318104393\\.authKey",
+          "COVERITY_CACHE_KEY": "ef468091-28be-476c-af46-8f189bc496e7",
+          "COVERITY_CACHE_URL": "https://poc.polaris.blackduck.com/api/cache",
+          "COVERITY_CLI_CAPTURE_ZIP_ARCHIVE": "C:\\Spades\\.bridge\\polaris_coverity_capture\\idir.zip",
+          "COVERITY_CLI_POLARIS_CLIENT": "true",
+          "COVERITY_CLI_POLARIS_SIGMA": "C:\\Users\\TracyChrisinger\\.blackduck\\bridge\\tools\\sigma\\2025.11.0\\sigma.exe",
+          "COVERITY_CONNECT_USER_NAME": "tjchrisi",
+          "COVERITY_CONNECT_USER_PASSWORD": "HP912dj!@#$%^",
+          "COVERITY_NO_LOG_ENVIRONMENT_VARIABLES": "1"
+        },
+        "start-time": "2026-01-06T12:22:06.8833947-05:00",
+        "end-time": "2026-01-06T12:22:09.4173878-05:00",
+        "duration": 2533993100
+      },
+      {
+        "command-line": "C:\\Users\\TracyChrisinger\\.blackduck\\bridge\\tools\\cov-thin-client\\2025.9.1\\bin\\cov-internal-manage-cache check",
+        "cwd": "C:\\Spades",
+        "env": {
+          "COVERITY_CACHE_API_TOKEN_FILE": "C:\\Users\\TRACYC~1\\AppData\\Local\\Temp\\polaris_coverity_cache2318104393\\.authKey",
+          "COVERITY_CACHE_KEY": "ef468091-28be-476c-af46-8f189bc496e7",
+          "COVERITY_CACHE_URL": "https://poc.polaris.blackduck.com/api/cache",
+          "COVERITY_CLI_CAPTURE_ZIP_ARCHIVE": "C:\\Spades\\.bridge\\polaris_coverity_capture\\idir.zip",
+          "COVERITY_CLI_POLARIS_CLIENT": "true",
+          "COVERITY_CLI_POLARIS_SIGMA": "C:\\Users\\TracyChrisinger\\.blackduck\\bridge\\tools\\sigma\\2025.11.0\\sigma.exe",
+          "COVERITY_CONNECT_USER_NAME": "tjchrisi",
+          "COVERITY_CONNECT_USER_PASSWORD": "HP912dj!@#$%^",
+          "COVERITY_NO_LOG_ENVIRONMENT_VARIABLES": "1"
+        },
+        "start-time": "2026-01-06T12:22:09.4766385-05:00",
+        "end-time": "2026-01-06T12:22:13.1853472-05:00",
+        "duration": 3708708700
+      },
+      {
+        "command-line": "C:\\Users\\TracyChrisinger\\.blackduck\\bridge\\tools\\cov-thin-client\\2025.9.1\\bin\\cov-manage-emit --dir C:\\Spades\\.bridge\\polaris_coverity_capture\\2025.9.1\\idir list-capture-diagnostics",
+        "cwd": "C:\\Spades",
+        "env": {
+          "COVERITY_CACHE_API_TOKEN_FILE": "C:\\Users\\TRACYC~1\\AppData\\Local\\Temp\\polaris_coverity_cache2318104393\\.authKey",
+          "COVERITY_CACHE_KEY": "ef468091-28be-476c-af46-8f189bc496e7",
+          "COVERITY_CACHE_URL": "https://poc.polaris.blackduck.com/api/cache",
+          "COVERITY_CLI_CAPTURE_ZIP_ARCHIVE": "C:\\Spades\\.bridge\\polaris_coverity_capture\\idir.zip",
+          "COVERITY_CLI_POLARIS_CLIENT": "true",
+          "COVERITY_CLI_POLARIS_SIGMA": "C:\\Users\\TracyChrisinger\\.blackduck\\bridge\\tools\\sigma\\2025.11.0\\sigma.exe",
+          "COVERITY_CONNECT_USER_NAME": "tjchrisi",
+          "COVERITY_CONNECT_USER_PASSWORD": "HP912dj!@#$%^",
+          "COVERITY_NO_LOG_ENVIRONMENT_VARIABLES": "1"
+        },
+        "stdout-tail": [
+          "        \"id\" : 42,",
+          "        \"source-language\" : \"Text data\",",
+          "        \"capture-percentage\" : 100,",
+          "        \"had-failures\" : false,",
+          "        \"had-recoverable-errors\" : false,",
+          "        \"had-abstract-syntax-trees\" : false",
+          "      }",
+          "    }",
+          "  ]",
+          "}"
+        ],
+        "start-time": "2026-01-06T12:22:13.2742916-05:00",
+        "end-time": "2026-01-06T12:22:13.3358218-05:00",
+        "duration": 61530200
+      },
+      {
+        "command-line": "C:\\Users\\TracyChrisinger\\.blackduck\\bridge\\tools\\cov-thin-client\\2025.9.1\\bin\\cov-internal-capture-files --dir C:\\Spades\\.bridge\\polaris_coverity_capture\\2025.9.1\\idir -c C:\\Spades\\.bridge\\polaris_coverity_capture\\2025.9.1\\idir\\coverity-cli\\buildless-compiler-configs\\coverity_config.xml --ticker-mode none --append-log --capture-list-file C:\\Spades\\.bridge\\polaris_coverity_capture\\2025.9.1\\idir\\coverity-cli\\capture-file-list-1648752770 --record-with-source",
+        "cwd": "C:\\Spades",
+        "env": {
+          "COVERITY_CACHE_API_TOKEN_FILE": "C:\\Users\\TRACYC~1\\AppData\\Local\\Temp\\polaris_coverity_cache2318104393\\.authKey",
+          "COVERITY_CACHE_KEY": "ef468091-28be-476c-af46-8f189bc496e7",
+          "COVERITY_CACHE_URL": "https://poc.polaris.blackduck.com/api/cache",
+          "COVERITY_CLI_CAPTURE_ZIP_ARCHIVE": "C:\\Spades\\.bridge\\polaris_coverity_capture\\idir.zip",
+          "COVERITY_CLI_POLARIS_CLIENT": "true",
+          "COVERITY_CLI_POLARIS_SIGMA": "C:\\Users\\TracyChrisinger\\.blackduck\\bridge\\tools\\sigma\\2025.11.0\\sigma.exe",
+          "COVERITY_CONNECT_USER_NAME": "tjchrisi",
+          "COVERITY_CONNECT_USER_PASSWORD": "HP912dj!@#$%^",
+          "COVERITY_NO_LOG_ENVIRONMENT_VARIABLES": "1"
+        },
+        "stdout-tail": [
+          "[INFO] Buildless capture started.",
+          "[INFO] Emitting 25 Files.",
+          "[INFO] Buildless capture completed."
+        ],
+        "start-time": "2026-01-06T12:22:13.7228777-05:00",
+        "end-time": "2026-01-06T12:22:22.7900104-05:00",
+        "duration": 9067132700
+      },
+      {
+        "command-line": "C:\\Users\\TracyChrisinger\\.blackduck\\bridge\\tools\\cov-thin-client\\2025.9.1\\bin\\cov-manage-emit @@C:\\Spades\\.bridge\\polaris_coverity_capture\\2025.9.1\\idir\\coverity-cli\\delete-unwanted-tus-action-3391134396",
+        "cwd": "C:\\Spades",
+        "env": {
+          "COVERITY_CACHE_API_TOKEN_FILE": "C:\\Users\\TRACYC~1\\AppData\\Local\\Temp\\polaris_coverity_cache2318104393\\.authKey",
+          "COVERITY_CACHE_KEY": "ef468091-28be-476c-af46-8f189bc496e7",
+          "COVERITY_CACHE_URL": "https://poc.polaris.blackduck.com/api/cache",
+          "COVERITY_CLI_CAPTURE_ZIP_ARCHIVE": "C:\\Spades\\.bridge\\polaris_coverity_capture\\idir.zip",
+          "COVERITY_CLI_POLARIS_CLIENT": "true",
+          "COVERITY_CLI_POLARIS_SIGMA": "C:\\Users\\TracyChrisinger\\.blackduck\\bridge\\tools\\sigma\\2025.11.0\\sigma.exe",
+          "COVERITY_CONNECT_USER_NAME": "tjchrisi",
+          "COVERITY_CONNECT_USER_PASSWORD": "HP912dj!@#$%^",
+          "COVERITY_NO_LOG_ENVIRONMENT_VARIABLES": "1"
+        },
+        "start-time": "2026-01-06T12:22:22.7900104-05:00",
+        "end-time": "2026-01-06T12:22:22.8511513-05:00",
+        "duration": 61140900
+      },
+      {
+        "command-line": "C:\\Users\\TracyChrisinger\\.blackduck\\bridge\\tools\\cov-thin-client\\2025.9.1\\bin\\cov-manage-emit --dir C:\\Spades\\.bridge\\polaris_coverity_capture\\2025.9.1\\idir list-capture-diagnostics",
+        "cwd": "C:\\Spades",
+        "env": {
+          "COVERITY_CACHE_API_TOKEN_FILE": "C:\\Users\\TRACYC~1\\AppData\\Local\\Temp\\polaris_coverity_cache2318104393\\.authKey",
+          "COVERITY_CACHE_KEY": "ef468091-28be-476c-af46-8f189bc496e7",
+          "COVERITY_CACHE_URL": "https://poc.polaris.blackduck.com/api/cache",
+          "COVERITY_CLI_CAPTURE_ZIP_ARCHIVE": "C:\\Spades\\.bridge\\polaris_coverity_capture\\idir.zip",
+          "COVERITY_CLI_POLARIS_CLIENT": "true",
+          "COVERITY_CLI_POLARIS_SIGMA": "C:\\Users\\TracyChrisinger\\.blackduck\\bridge\\tools\\sigma\\2025.11.0\\sigma.exe",
+          "COVERITY_CONNECT_USER_NAME": "tjchrisi",
+          "COVERITY_CONNECT_USER_PASSWORD": "HP912dj!@#$%^",
+          "COVERITY_NO_LOG_ENVIRONMENT_VARIABLES": "1"
+        },
+        "stdout-tail": [
+          "        \"id\" : 42,",
+          "        \"source-language\" : \"Text data\",",
+          "        \"capture-percentage\" : 100,",
+          "        \"had-failures\" : false,",
+          "        \"had-recoverable-errors\" : false,",
+          "        \"had-abstract-syntax-trees\" : false",
+          "      }",
+          "    }",
+          "  ]",
+          "}"
+        ],
+        "start-time": "2026-01-06T12:22:22.8517016-05:00",
+        "end-time": "2026-01-06T12:22:22.907101-05:00",
+        "duration": 55399400
+      },
+      {
+        "command-line": "C:\\Users\\TracyChrisinger\\.blackduck\\bridge\\tools\\cov-thin-client\\2025.9.1\\bin\\cov-run-sigma --project-dir C:\\Spades --dir C:\\Spades\\.bridge\\polaris_coverity_capture\\2025.9.1\\idir --coverity-config C:\\Users\\TRACYC~1\\AppData\\Local\\Temp\\cov-run-sigma-config-786707080\\coverity.yaml --sigma-binary-path C:\\Users\\TracyChrisinger\\.blackduck\\bridge\\tools\\sigma\\2025.11.0\\sigma.exe --enable-telemetry",
+        "cwd": "C:\\Spades",
+        "env": {
+          "COVERITY_CACHE_API_TOKEN_FILE": "C:\\Users\\TRACYC~1\\AppData\\Local\\Temp\\polaris_coverity_cache2318104393\\.authKey",
+          "COVERITY_CACHE_KEY": "ef468091-28be-476c-af46-8f189bc496e7",
+          "COVERITY_CACHE_URL": "https://poc.polaris.blackduck.com/api/cache",
+          "COVERITY_CLI_CAPTURE_ZIP_ARCHIVE": "C:\\Spades\\.bridge\\polaris_coverity_capture\\idir.zip",
+          "COVERITY_CLI_POLARIS_CLIENT": "true",
+          "COVERITY_CLI_POLARIS_SIGMA": "C:\\Users\\TracyChrisinger\\.blackduck\\bridge\\tools\\sigma\\2025.11.0\\sigma.exe",
+          "COVERITY_CONNECT_USER_NAME": "tjchrisi",
+          "COVERITY_CONNECT_USER_PASSWORD": "HP912dj!@#$%^",
+          "COVERITY_NO_LOG_ENVIRONMENT_VARIABLES": "1"
+        },
+        "stdout-tail": [
+          "cov-run-sigma version 2025.9.1 on Windows 11 Enterprise, 64-bit (build 26100)",
+          "Internal version numbers: ea39687f36 p-2025.9-push-60",
+          ""
+        ],
+        "start-time": "2026-01-06T12:22:22.9086757-05:00",
+        "end-time": "2026-01-06T12:22:30.4651653-05:00",
+        "duration": 7556489600
+      },
+      {
+        "command-line": "C:\\Users\\TracyChrisinger\\.blackduck\\bridge\\tools\\cov-thin-client\\2025.9.1\\bin\\cov-manage-emit --dir C:\\Spades\\.bridge\\polaris_coverity_capture\\2025.9.1\\idir list-capture-diagnostics",
+        "cwd": "C:\\Spades",
+        "env": {
+          "COVERITY_CACHE_API_TOKEN_FILE": "C:\\Users\\TRACYC~1\\AppData\\Local\\Temp\\polaris_coverity_cache2318104393\\.authKey",
+          "COVERITY_CACHE_KEY": "ef468091-28be-476c-af46-8f189bc496e7",
+          "COVERITY_CACHE_URL": "https://poc.polaris.blackduck.com/api/cache",
+          "COVERITY_CLI_CAPTURE_ZIP_ARCHIVE": "C:\\Spades\\.bridge\\polaris_coverity_capture\\idir.zip",
+          "COVERITY_CLI_POLARIS_CLIENT": "true",
+          "COVERITY_CLI_POLARIS_SIGMA": "C:\\Users\\TracyChrisinger\\.blackduck\\bridge\\tools\\sigma\\2025.11.0\\sigma.exe",
+          "COVERITY_CONNECT_USER_NAME": "tjchrisi",
+          "COVERITY_CONNECT_USER_PASSWORD": "HP912dj!@#$%^",
+          "COVERITY_NO_LOG_ENVIRONMENT_VARIABLES": "1"
+        },
+        "stdout-tail": [
+          "        \"id\" : 47,",
+          "        \"source-language\" : \"Text data\",",
+          "        \"capture-percentage\" : 100,",
+          "        \"had-failures\" : false,",
+          "        \"had-recoverable-errors\" : false,",
+          "        \"had-abstract-syntax-trees\" : false",
+          "      }",
+          "    }",
+          "  ]",
+          "}"
+        ],
+        "start-time": "2026-01-06T12:22:30.5385876-05:00",
+        "end-time": "2026-01-06T12:22:30.59898-05:00",
+        "duration": 60392400
+      }
+    ]
+  },
+  "analysis": {
+    "configuration": {}
+  }
+}

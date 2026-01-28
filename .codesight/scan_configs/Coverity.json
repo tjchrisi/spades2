@@ -1,0 +1,59 @@
+{
+  "configId": {
+    "id": "5b2f5c45-2f6a-4d41-9ec8-27998fcddd18"
+  },
+  "scanType": {
+    "type": 5,
+    "name": "Coverity (.yaml, .json)",
+    "description": "Runs a comprehensive static analysis using coverity.yaml or coverity.json (if available). This is the preferred method for configuring new Coverity scans."
+  },
+  "coverityConfig": {
+    "installationLocation": {
+      "source": {
+        "type": 8
+      }
+    },
+    "configFilePath": {
+      "source": {
+        "type": 8
+      }
+    },
+    "additionalCaptureArguments": {
+      "source": {
+        "type": 8
+      }
+    },
+    "additionalAnalysisArguments": {
+      "source": {
+        "type": 8
+      }
+    }
+  },
+  "bridgeConfig": {},
+  "buildConfig": {
+    "buildCommand": {
+      "source": {
+        "type": 8
+      }
+    },
+    "cleanCommand": {
+      "source": {
+        "type": 8
+      }
+    }
+  },
+  "workingDirectory": {
+    "value": "c:\\Spades",
+    "source": {
+      "type": 8
+    }
+  },
+  "scanMode": {
+    "name": "All Files"
+  },
+  "path": {
+    "source": {
+      "type": 8
+    }
+  }
+}

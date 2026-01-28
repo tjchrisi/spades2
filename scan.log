@@ -1,0 +1,316 @@
+INFO:__main__:Logging at level INFO to c:\spades\scan.log
+INFO:__main__:Using local caching: pigeon-cache.db
+INFO:utils:Successful connection to the LLM endpoint.
+INFO:__main__:Using single-file LLM: claude-sonnet-4 at https://llm.labs.blackduck.com/
+INFO:__main__:Using agent LLM: o3-mini at https://llm.labs.blackduck.com/
+INFO:__main__:##########################################
+INFO:__main__:# SINGLE-FILE ANALYSIS
+INFO:__main__:##########################################
+INFO:__main__:Identified 0 files for analysis
+INFO:__main__:Default analysis enabled
+INFO:utils:Successfully analyzed 100.0% of files
+INFO:__main__:##########################################
+INFO:__main__:# DATAFLOW AGENT
+INFO:__main__:##########################################
+INFO:agents.sast:Running 0 tasks...
+INFO:__main__:##########################################
+INFO:__main__:# OVERSIGHT AGENT
+INFO:__main__:##########################################
+INFO:__main__:Performing additional triage for each result...
+INFO:agents.sast:Running 0 tasks...
+INFO:__main__:Reviewing content of each result...
+INFO:__main__:##########################################
+INFO:__main__:# REPORTING
+INFO:__main__:##########################################
+INFO:__main__:Generating SARIF report for 0 issues...
+INFO:__main__:Writing SARIF report to C:\spades\report.json
+INFO:__main__:Logging at level INFO to c:\spades\scan.log
+INFO:__main__:Using local caching: pigeon-cache.db
+INFO:utils:Successful connection to the LLM endpoint.
+INFO:__main__:Using single-file LLM: claude-sonnet-4 at https://llm.labs.blackduck.com/
+INFO:__main__:Using agent LLM: o3-mini at https://llm.labs.blackduck.com/
+INFO:__main__:##########################################
+INFO:__main__:# SINGLE-FILE ANALYSIS
+INFO:__main__:##########################################
+INFO:__main__:Identified 0 files for analysis
+INFO:__main__:Default analysis enabled
+INFO:utils:Successfully analyzed 100.0% of files
+INFO:__main__:##########################################
+INFO:__main__:# DATAFLOW AGENT
+INFO:__main__:##########################################
+INFO:agents.sast:Running 0 tasks...
+INFO:__main__:##########################################
+INFO:__main__:# OVERSIGHT AGENT
+INFO:__main__:##########################################
+INFO:__main__:Performing additional triage for each result...
+INFO:agents.sast:Running 0 tasks...
+INFO:__main__:Reviewing content of each result...
+INFO:__main__:##########################################
+INFO:__main__:# REPORTING
+INFO:__main__:##########################################
+INFO:__main__:Generating SARIF report for 0 issues...
+INFO:__main__:Writing SARIF report to C:\spades\scan-results.sarif
+INFO:__main__:Logging at level INFO to c:\spades\scan.log
+INFO:__main__:Using local caching: C:\spades\cache.db
+INFO:utils:Successful connection to the LLM endpoint.
+INFO:__main__:Using single-file LLM: claude-sonnet-4 at https://llm.labs.blackduck.com/
+INFO:__main__:Using agent LLM: o3-mini at https://llm.labs.blackduck.com/
+INFO:__main__:##########################################
+INFO:__main__:# SINGLE-FILE ANALYSIS
+INFO:__main__:##########################################
+INFO:__main__:Identified 0 files for analysis
+INFO:__main__:Default analysis enabled
+INFO:utils:Successfully analyzed 100.0% of files
+INFO:__main__:##########################################
+INFO:__main__:# DATAFLOW AGENT
+INFO:__main__:##########################################
+INFO:agents.sast:Running 0 tasks...
+INFO:__main__:##########################################
+INFO:__main__:# OVERSIGHT AGENT
+INFO:__main__:##########################################
+INFO:__main__:Performing additional triage for each result...
+INFO:agents.sast:Running 0 tasks...
+INFO:__main__:Reviewing content of each result...
+INFO:__main__:##########################################
+INFO:__main__:# EXPLOIT AGENT
+INFO:__main__:##########################################
+INFO:__main__:Analyzing security posture, 0-days, and attack chains
+INFO:__main__:##########################################
+INFO:__main__:# REPORTING
+INFO:__main__:##########################################
+INFO:__main__:Generating SARIF report for 0 issues...
+INFO:__main__:Writing SARIF report to C:\spades\scan-results.sarif
+INFO:__main__:Generating summary report
+INFO:__main__:Writing summary report to c:\spades\summary-report.txt
+INFO:__main__:Logging at level INFO to c:\spades\scan.log
+INFO:__main__:Using local caching: C:\spades\cache.db
+INFO:utils:Successful connection to the LLM endpoint.
+INFO:__main__:Using single-file LLM: claude-sonnet-4 at https://llm.labs.blackduck.com/
+INFO:__main__:Using agent LLM: o3-mini at https://llm.labs.blackduck.com/
+INFO:__main__:##########################################
+INFO:__main__:# SINGLE-FILE ANALYSIS
+INFO:__main__:##########################################
+INFO:__main__:Only including paths ['C:\\Spades']
+INFO:__main__:Identified 0 files for analysis
+INFO:__main__:Default analysis enabled
+INFO:utils:Successfully analyzed 100.0% of files
+INFO:__main__:##########################################
+INFO:__main__:# DATAFLOW AGENT
+INFO:__main__:##########################################
+INFO:agents.sast:Running 0 tasks...
+INFO:__main__:##########################################
+INFO:__main__:# OVERSIGHT AGENT
+INFO:__main__:##########################################
+INFO:__main__:Performing additional triage for each result...
+INFO:agents.sast:Running 0 tasks...
+INFO:__main__:Reviewing content of each result...
+INFO:__main__:##########################################
+INFO:__main__:# EXPLOIT AGENT
+INFO:__main__:##########################################
+INFO:__main__:Analyzing security posture, 0-days, and attack chains
+INFO:__main__:##########################################
+INFO:__main__:# REPORTING
+INFO:__main__:##########################################
+INFO:__main__:Generating SARIF report for 0 issues...
+INFO:__main__:Writing SARIF report to C:\spades\scan-results.sarif
+INFO:__main__:Generating summary report
+INFO:__main__:Writing summary report to c:\spades\summary-report.txt
+INFO:__main__:Logging at level INFO to c:\spades\scan.log
+INFO:__main__:Using local caching: C:\spades\cache.db
+INFO:utils:Successful connection to the LLM endpoint.
+INFO:__main__:Using single-file LLM: claude-sonnet-4 at https://llm.labs.blackduck.com/
+INFO:__main__:Using agent LLM: o3-mini at https://llm.labs.blackduck.com/
+INFO:__main__:##########################################
+INFO:__main__:# SINGLE-FILE ANALYSIS
+INFO:__main__:##########################################
+INFO:__main__:Only including paths ['C:\\Spades']
+INFO:__main__:Identified 0 files for analysis
+INFO:__main__:Default analysis enabled
+INFO:utils:Successfully analyzed 100.0% of files
+INFO:__main__:##########################################
+INFO:__main__:# DATAFLOW AGENT
+INFO:__main__:##########################################
+INFO:agents.sast:Running 0 tasks...
+INFO:__main__:##########################################
+INFO:__main__:# OVERSIGHT AGENT
+INFO:__main__:##########################################
+INFO:__main__:Performing additional triage for each result...
+INFO:agents.sast:Running 0 tasks...
+INFO:__main__:Reviewing content of each result...
+INFO:__main__:##########################################
+INFO:__main__:# EXPLOIT AGENT
+INFO:__main__:##########################################
+INFO:__main__:Analyzing security posture, 0-days, and attack chains
+INFO:__main__:##########################################
+INFO:__main__:# REPORTING
+INFO:__main__:##########################################
+INFO:__main__:Generating SARIF report for 0 issues...
+INFO:__main__:Writing SARIF report to C:\spades\scan-results.sarif
+INFO:__main__:Generating summary report
+INFO:__main__:Writing summary report to c:\spades\summary-report.txt
+INFO:__main__:Logging at level INFO to c:\spades\scan.log
+INFO:__main__:Using local caching: C:\spades\cache.db
+INFO:utils:Successful connection to the LLM endpoint.
+INFO:__main__:Using single-file LLM: claude-sonnet-4 at https://llm.labs.blackduck.com/
+INFO:__main__:Using agent LLM: o3-mini at https://llm.labs.blackduck.com/
+INFO:__main__:##########################################
+INFO:__main__:# SINGLE-FILE ANALYSIS
+INFO:__main__:##########################################
+INFO:__main__:Identified 0 files for analysis
+INFO:__main__:Default analysis enabled
+INFO:utils:Successfully analyzed 100.0% of files
+INFO:__main__:##########################################
+INFO:__main__:# DATAFLOW AGENT
+INFO:__main__:##########################################
+INFO:agents.sast:Running 0 tasks...
+INFO:__main__:##########################################
+INFO:__main__:# OVERSIGHT AGENT
+INFO:__main__:##########################################
+INFO:__main__:Performing additional triage for each result...
+INFO:agents.sast:Running 0 tasks...
+INFO:__main__:Reviewing content of each result...
+INFO:__main__:##########################################
+INFO:__main__:# EXPLOIT AGENT
+INFO:__main__:##########################################
+INFO:__main__:Analyzing security posture, 0-days, and attack chains
+INFO:__main__:##########################################
+INFO:__main__:# REPORTING
+INFO:__main__:##########################################
+INFO:__main__:Generating SARIF report for 0 issues...
+INFO:__main__:Writing SARIF report to C:\spades\scan-results.sarif
+INFO:__main__:Generating summary report
+INFO:__main__:Writing summary report to c:\spades\summary-report.txt
+INFO:__main__:Logging at level INFO to c:\spades\scan.log
+INFO:__main__:Using local caching: C:\spades\cache.db
+INFO:utils:Successful connection to the LLM endpoint.
+INFO:__main__:Using single-file LLM: claude-sonnet-4 at https://llm.labs.blackduck.com/
+INFO:__main__:Using agent LLM: o3-mini at https://llm.labs.blackduck.com/
+INFO:__main__:##########################################
+INFO:__main__:# SINGLE-FILE ANALYSIS
+INFO:__main__:##########################################
+INFO:__main__:Identified 0 files for analysis
+INFO:__main__:Default analysis enabled
+INFO:utils:Successfully analyzed 100.0% of files
+INFO:__main__:##########################################
+INFO:__main__:# DATAFLOW AGENT
+INFO:__main__:##########################################
+INFO:agents.sast:Running 0 tasks...
+INFO:__main__:##########################################
+INFO:__main__:# OVERSIGHT AGENT
+INFO:__main__:##########################################
+INFO:__main__:Performing additional triage for each result...
+INFO:agents.sast:Running 0 tasks...
+INFO:__main__:Reviewing content of each result...
+INFO:__main__:##########################################
+INFO:__main__:# EXPLOIT AGENT
+INFO:__main__:##########################################
+INFO:__main__:Analyzing security posture, 0-days, and attack chains
+INFO:__main__:##########################################
+INFO:__main__:# REPORTING
+INFO:__main__:##########################################
+INFO:__main__:Generating SARIF report for 0 issues...
+INFO:__main__:Writing SARIF report to C:\spades\scan-results.sarif
+INFO:__main__:Generating summary report
+INFO:__main__:Writing summary report to c:\spades\summary-report.txt
+INFO:__main__:Logging at level INFO to c:\spades\scan.log
+INFO:__main__:Using local caching: C:\spades\cache.db
+INFO:utils:Successful connection to the LLM endpoint.
+INFO:__main__:Using single-file LLM: claude-sonnet-4 at https://llm.labs.blackduck.com/
+INFO:__main__:Using agent LLM: o3-mini at https://llm.labs.blackduck.com/
+INFO:__main__:##########################################
+INFO:__main__:# SINGLE-FILE ANALYSIS
+INFO:__main__:##########################################
+INFO:__main__:Identified 0 files for analysis
+INFO:__main__:Default analysis enabled
+INFO:utils:Successfully analyzed 100.0% of files
+INFO:__main__:##########################################
+INFO:__main__:# DATAFLOW AGENT
+INFO:__main__:##########################################
+INFO:agents.sast:Running 0 tasks...
+INFO:__main__:##########################################
+INFO:__main__:# OVERSIGHT AGENT
+INFO:__main__:##########################################
+INFO:__main__:Performing additional triage for each result...
+INFO:agents.sast:Running 0 tasks...
+INFO:__main__:Reviewing content of each result...
+INFO:__main__:##########################################
+INFO:__main__:# EXPLOIT AGENT
+INFO:__main__:##########################################
+INFO:__main__:Analyzing security posture, 0-days, and attack chains
+INFO:__main__:##########################################
+INFO:__main__:# REPORTING
+INFO:__main__:##########################################
+INFO:__main__:Generating SARIF report for 0 issues...
+INFO:__main__:Writing SARIF report to C:\spades\scan-results.sarif
+INFO:__main__:Generating summary report
+INFO:__main__:Writing summary report to c:\spades\summary-report.txt
+INFO:__main__:Logging at level INFO to c:\spades\scan.log
+INFO:__main__:Using local caching: C:\spades\cache.db
+INFO:utils:Successful connection to the LLM endpoint.
+INFO:__main__:Using single-file LLM: claude-sonnet-4 at https://llm.labs.blackduck.com/
+INFO:__main__:Using agent LLM: o3-mini at https://llm.labs.blackduck.com/
+INFO:__main__:##########################################
+INFO:__main__:# SINGLE-FILE ANALYSIS
+INFO:__main__:##########################################
+INFO:__main__:Only including paths ['**/*.js;**/*.jsx;**/*.ts;**/*.tsx;**/*.py']
+INFO:__main__:Identified 0 files for analysis
+INFO:__main__:Default analysis enabled
+INFO:utils:Successfully analyzed 100.0% of files
+INFO:__main__:##########################################
+INFO:__main__:# DATAFLOW AGENT
+INFO:__main__:##########################################
+INFO:agents.sast:Running 0 tasks...
+INFO:__main__:##########################################
+INFO:__main__:# OVERSIGHT AGENT
+INFO:__main__:##########################################
+INFO:__main__:Performing additional triage for each result...
+INFO:agents.sast:Running 0 tasks...
+INFO:__main__:Reviewing content of each result...
+INFO:__main__:##########################################
+INFO:__main__:# EXPLOIT AGENT
+INFO:__main__:##########################################
+INFO:__main__:Analyzing security posture, 0-days, and attack chains
+INFO:__main__:##########################################
+INFO:__main__:# REPORTING
+INFO:__main__:##########################################
+INFO:__main__:Generating SARIF report for 0 issues...
+INFO:__main__:Writing SARIF report to C:\spades\scan-results.sarif
+INFO:__main__:Generating summary report
+INFO:__main__:Writing summary report to c:\spades\summary-report.txt
+INFO:__main__:Logging at level DEBUG to c:\spades\scan.log
+DEBUG:__main__:config: Munch({'SCAN': Munch({'target': 'C:\\cpades\\word-master', 'include_paths': '**/*.js;**/*.jsx;**/*.ts;**/*.tsx;**/*.py', 'exclude_paths': None, 'extra_extensions': None, 'report_file': 'C:\\spades\\scan-results.sarif', 'summary_report_file': 'c:\\spades\\summary-report.txt', 'sca_report_file': 'sca-results.json', 'crypto_report_file': 'crypto-results.sarif', 'log_file': 'c:\\spades\\scan.log', 'cache_file': 'C:\\spades\\cache.db', 'config': '.pigeon', 'llm_uri': 'https://llm.labs.blackduck.com/', 'llm_key': '********', 'llm_model': 'claude-sonnet-4', 'llm_model_agent': 'o3-mini', 'llm_model_sca': 'gpt-4o', 'llm_tag': 'pecker', 'temperature': 1.0, 'llm_limit': 10, 'agent_limit': 10, 'noscan_prompt': 'prompts/no_scan.prompt', 'dataflow_prompt': 'prompts/dataflow.prompt', 'oversight_triage_prompt': 'prompts/oversight_triage.prompt', 'oversight_review_prompt': 'prompts/oversight_review.prompt', 'oversight_embedding_enabled': False, 'oversight_rules_file': None, 'oversight_embedding_model': 'text-embedding-3-small', 'oversight_cve_detection': True, 'exec_summary_prompt': 'prompts/exec_summary.prompt', 'export_results': None, 'import_results': None, 'result_limit': None, 'dataflow': True, 'oversight': True, 'exploit': True, 'poc_kit': False, 'poc_kit_install_dir': './poc_kit', 'sca': False, 'crypto': False, 'crypto_inventory': False, 'misra': False, 'git_diff': False, 'disable_default': False, 'ignore_test_files': True, 'show_triage': False, 'caching': True, 'cache_database': None, 'merge_keys': False, 'project_name': 'pigeon_default', 'mode': 'static', 'log_level': 'DEBUG', 'connectivity_check': True})})
+INFO:__main__:Using local caching: C:\spades\cache.db
+INFO:httpx:HTTP Request: POST https://llm.labs.blackduck.com/chat/completions "HTTP/1.1 200 OK"
+INFO:utils:Successful connection to the LLM endpoint.
+INFO:__main__:Using single-file LLM: claude-sonnet-4 at https://llm.labs.blackduck.com/
+INFO:__main__:Using agent LLM: o3-mini at https://llm.labs.blackduck.com/
+INFO:__main__:##########################################
+INFO:__main__:# SINGLE-FILE ANALYSIS
+INFO:__main__:##########################################
+INFO:__main__:Only including paths ['**/*.js;**/*.jsx;**/*.ts;**/*.tsx;**/*.py']
+INFO:__main__:Identified 0 files for analysis
+INFO:__main__:Default analysis enabled
+INFO:utils:Successfully analyzed 100.0% of files
+INFO:__main__:##########################################
+INFO:__main__:# DATAFLOW AGENT
+INFO:__main__:##########################################
+INFO:agents.sast:Running 0 tasks...
+INFO:__main__:##########################################
+INFO:__main__:# OVERSIGHT AGENT
+INFO:__main__:##########################################
+INFO:__main__:Performing additional triage for each result...
+INFO:agents.sast:Running 0 tasks...
+INFO:__main__:Reviewing content of each result...
+INFO:__main__:##########################################
+INFO:__main__:# EXPLOIT AGENT
+INFO:__main__:##########################################
+INFO:__main__:Analyzing security posture, 0-days, and attack chains
+INFO:httpx:HTTP Request: POST https://llm.labs.blackduck.com/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://llm.labs.blackduck.com/chat/completions "HTTP/1.1 200 OK"
+INFO:__main__:##########################################
+INFO:__main__:# REPORTING
+INFO:__main__:##########################################
+INFO:__main__:Generating SARIF report for 0 issues...
+INFO:__main__:Writing SARIF report to C:\spades\scan-results.sarif
+INFO:__main__:Generating summary report
+INFO:__main__:Writing summary report to c:\spades\summary-report.txt

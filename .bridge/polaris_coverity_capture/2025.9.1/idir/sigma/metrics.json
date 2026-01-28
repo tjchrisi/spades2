@@ -1,0 +1,27 @@
+{
+  "V1": {
+    "file_metrics": {
+      "files_discovered": 2394,
+      "files_analyzed": 27,
+      "skipped_files_code_exclusion": 2328,
+      "skipped_files_scm_ignored": 0,
+      "skipped_files_too_large": 0,
+      "skipped_files_others": 39,
+      "files_by_language": {
+        "HTML": 2,
+        "JSON": 5,
+        "Markdown": 3,
+        "YAML": 1,
+        "JSX": 5,
+        "Python": 1,
+        "JavaScript": 7,
+        "CSS": 3
+      }
+    },
+    "defect_metrics": {},
+    "performance": {
+      "total_duration_microseconds": 2390456.0,
+      "total_duration": "2 seconds"
+    }
+  }
+}

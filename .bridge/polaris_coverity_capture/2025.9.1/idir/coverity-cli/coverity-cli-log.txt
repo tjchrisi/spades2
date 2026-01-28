@@ -1,0 +1,33 @@
+[INFO] Using lightweight capture with thin client.
+[INFO] Executing command: C:\Users\TracyChrisinger\.blackduck\bridge\tools\cov-thin-client\2025.9.1\bin\cov-internal-manage-cache check
+[INFO] Caching is enabled.
+[INFO] Telemetry is enabled
+[INFO] Executing command: C:\Users\TracyChrisinger\.blackduck\bridge\tools\cov-thin-client\2025.9.1\bin\cov-manage-emit --dir C:\Spades\.bridge\polaris_coverity_capture\2025.9.1\idir list-capture-diagnostics
+[INFO] Executing action no-op: nothing to do for initialization
+[INFO] Executing action no-op: skipping compiler configuration
+[INFO] Executing action no-op: no compilers need to be unconfigured
+[INFO] Executing action no-op: compiler configurations loaded
+[INFO] Executing action Emit files using buildless capture: C:\Users\TracyChrisinger\.blackduck\bridge\tools\cov-thin-client\2025.9.1\bin\cov-internal-capture-files --dir C:\Spades\.bridge\polaris_coverity_capture\2025.9.1\idir -c C:\Spades\.bridge\polaris_coverity_capture\2025.9.1\idir\coverity-cli\buildless-compiler-configs\coverity_config.xml --ticker-mode none --append-log --capture-list-file C:\Spades\.bridge\polaris_coverity_capture\2025.9.1\idir\coverity-cli\capture-file-list-1648752770 --record-with-source
+[INFO] Buildless capture started.
+[INFO] Emitting 25 Files.
+[INFO] Buildless capture completed.
+[INFO] Executing action Delete unwanted TUs: C:\Users\TracyChrisinger\.blackduck\bridge\tools\cov-thin-client\2025.9.1\bin\cov-manage-emit @@C:\Spades\.bridge\polaris_coverity_capture\2025.9.1\idir\coverity-cli\delete-unwanted-tus-action-3391134396
+[INFO] Executing action Action cleanup: Unwanted TUs action cleanup
+[INFO] Executing action deleteResidualTUs C:\Spades\.bridge\polaris_coverity_capture\2025.9.1\idir
+[INFO] Executing command: C:\Users\TracyChrisinger\.blackduck\bridge\tools\cov-thin-client\2025.9.1\bin\cov-manage-emit --dir C:\Spades\.bridge\polaris_coverity_capture\2025.9.1\idir list-capture-diagnostics
+[INFO] Executing action Invalidate capture results
+[INFO] Executing action Invoke cov-run-sigma: C:\Users\TracyChrisinger\.blackduck\bridge\tools\cov-thin-client\2025.9.1\bin\cov-run-sigma --project-dir C:\Spades --dir C:\Spades\.bridge\polaris_coverity_capture\2025.9.1\idir --coverity-config C:\Users\TRACYC~1\AppData\Local\Temp\cov-run-sigma-config-786707080\coverity.yaml --sigma-binary-path C:\Users\TracyChrisinger\.blackduck\bridge\tools\sigma\2025.11.0\sigma.exe --enable-telemetry
+cov-run-sigma version 2025.9.1 on Windows 11 Enterprise, 64-bit (build 26100)
+Internal version numbers: ea39687f36 p-2025.9-push-60
+
+[INFO] Executing action Action cleanup: Coverity configuration for Sigma
+[INFO] Executing command: C:\Users\TracyChrisinger\.blackduck\bridge\tools\cov-thin-client\2025.9.1\bin\cov-manage-emit --dir C:\Spades\.bridge\polaris_coverity_capture\2025.9.1\idir list-capture-diagnostics
+Capture summary:
+    SUCCEEDED: 30
+    INCOMPLETE: 0
+    FAILED: 0
+    IGNORED: 35
+    FILES CAPTURED: 30
+    LINES OF CODE: 4410
+[INFO] Capture phase took 17.42s.
+[INFO] To analyze your project, type 'C:\Users\TracyChrisinger\.blackduck\bridge\tools\cov-thin-client\2025.9.1\bin\coverity.exe analyze --dir C:\Spades\.bridge\polaris_coverity_capture\2025.9.1\idir -o analyze.location=connect'.
