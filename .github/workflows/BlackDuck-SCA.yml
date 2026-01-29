@@ -66,47 +66,26 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
           # --- SARIF generation (Black Duck parameters) ---
-          # Enable SARIF report creation
           blackduck_reports_sarif_create: true
-          # Force a space-free, known path for the SARIF file
           blackduck_reports_sarif_file_path: ".bridge/sarif/result.sarif"
 
-          # Optional: let the action upload to Security tab itself (requires success & non-PR).
-          # We prefer to upload explicitly using the CodeQL uploader below, so leave this off:
+          # We upload to Code Scanning ourselves below
           blackducksca_upload_sarif_report: false
 
           # Optional enforcement once you’re ready:
           # blackducksca_scan_failure_severities: "CRITICAL,HIGH"
 
-          # Optional extra diagnostics (archived in the last step)
+          # Optional extra diagnostics (archived later)
           # blackducksca_include_diagnostics: true
         env:
-          # Predictable naming
           DETECT_PROJECT_NAME: ${{ github.event.repository.name }}
           DETECT_PROJECT_VERSION_NAME: ${{ github.ref_name }}
 
-      # Collect any SARIF created (including our explicit path) into a directory for upload
-      - name: Gather SARIF reports
-        run: |
-          set -euxo pipefail
-          mkdir -p .bridge/sarif
-          found=0
-          while IFS= read -r -d '' f; do
-            cp -v "$f" ".bridge/sarif/$(basename "$f")"
-            found=1
-          done < <(find .bridge -type f -name "*.sarif" -print0 || true)
-          if [ "$found" -eq 0 ]; then
-            echo "No SARIF files found under .bridge/"
-            exit 1
-          fi
-          echo "Collected SARIF files:"
-          ls -la .bridge/sarif
-
-      # Upload SARIF to the Security tab (official GitHub uploader)
+      # Upload the exact SARIF file we configured above
       - name: Upload SARIF to Security tab
         uses: github/codeql-action/upload-sarif@v3
         with:
-          sarif_file: .bridge/sarif
+          sarif_file: .bridge/sarif/result.sarif
 
       # (Optional) Print small log heads to aid triage
       - name: Show Bridge and Detect logs (head)
