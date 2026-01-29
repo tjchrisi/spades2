@@ -46,15 +46,36 @@ jobs:
           esac
           echo "BLACKDUCK_URL looks good: $URL"
 
-      # Temporary guard; safe to remove later when no workflows reference the legacy path
-      - name: Guard - create legacy SARIF directory (temporary)
+      # --- STRONG GUARD ---
+      # Create the legacy SARIF directory and a minimal SARIF file so any internal artifact
+      # upload inside the Black Duck action cannot fail due to missing root/file.
+      # We will still publish the "real" SARIF to the Security tab via upload-sarif below.
+      - name: Guard - create legacy SARIF dir and placeholder SARIF
         run: |
-          mkdir -p ".bridge/Blackduck SCA SARIF Generator"
-          : > ".bridge/Blackduck SCA SARIF Generator/.keep"
+          set -euxo pipefail
+          legacy_dir=".bridge/Blackduck SCA SARIF Generator"
+          mkdir -p "$legacy_dir"
+          # Minimal valid SARIF skeleton; safe placeholder if uploader expects a file
+          cat > "$legacy_dir/report.sarif.json" <<'EOF'
+          {
+            "version": "2.1.0",
+            "runs": [
+              {
+                "tool": { "driver": { "name": "Black Duck (placeholder)" } },
+                "results": []
+              }
+            ],
+            "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json"
+          }
+          EOF
+          # Also drop a keep file to ensure directory is never empty
+          : > "$legacy_dir/.keep"
 
       - name: DEBUG - reached Black Duck step
         run: echo "About to run Black Duck SCA step..."
 
+      # ---- Black Duck SCA Scan ----
+      # Use supported SCA inputs; generate SARIF but do NOT let the action upload to Code Scanning.
       - name: Black Duck SCA Scan
         uses: blackduck-inc/black-duck-security-scan@v2.1.1
         with:
@@ -65,19 +86,14 @@ jobs:
           blackducksca_prcomment_enabled: true
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
-          # Generate SARIF; we upload to Code Scanning explicitly below
+          # Generate SARIF; upload to Security tab ourselves
           blackducksca_reports_sarif_create: true
           blackducksca_upload_sarif_report: false
-
-          # Optional enforcement:
-          # blackducksca_scan_failure_severities: "CRITICAL,HIGH"
-          # Optional extra diagnostics:
-          # blackducksca_include_diagnostics: true
         env:
           DETECT_PROJECT_NAME: ${{ github.event.repository.name }}
           DETECT_PROJECT_VERSION_NAME: ${{ github.ref_name }}
 
-      # Normalize SARIFs into .bridge/sarif (skip copying a file onto itself)
+      # Gather SARIF robustly: copy any *.sarif under .bridge into .bridge/sarif (skip self-copies)
       - name: Gather SARIF reports
         run: |
           set -euxo pipefail
@@ -106,15 +122,12 @@ jobs:
           echo "Collected SARIF files in $dest:"
           ls -la "$dest"
 
-      # Publish to Security → Code scanning
       - name: Upload SARIF to Security tab
         uses: github/codeql-action/upload-sarif@v3
         with:
           sarif_file: .bridge/sarif
 
-      # ---------------------------
-      # ✅ OPTIONAL: archive SARIFs
-      # ---------------------------
+      # Optional: separate downloadable SARIF artifact (does not fail if missing)
       - name: Archive SARIF (optional)
         if: always()
         uses: actions/upload-artifact@v4
@@ -123,7 +136,6 @@ jobs:
           path: ".bridge/sarif/*.sarif"
           if-no-files-found: ignore
 
-      # Quick log heads for triage
       - name: Show Bridge and Detect logs (head)
         if: always()
         run: |
@@ -132,7 +144,6 @@ jobs:
           echo "----- detect.log (head) -----" || true
           sed -n '1,200p' ./detect.log || true
 
-      # Safe, broad log/archive capture (never points to a brittle single path)
       - name: Archive Black Duck Scan Logs
         if: always()
         uses: actions/upload-artifact@v4
