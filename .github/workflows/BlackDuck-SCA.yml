@@ -27,6 +27,7 @@ jobs:
           java-version: '17'
 
       - name: Build (skip tests if Maven project)
+        shell: bash
         run: |
           if [ -f pom.xml ]; then
             mvn -B -DskipTests package
@@ -35,6 +36,7 @@ jobs:
           fi
 
       - name: Preflight - Validate BLACKDUCK_URL format
+        shell: bash
         run: |
           URL="${{ vars.BLACKDUCK_URL }}"
           if [ -z "$URL" ]; then
@@ -46,8 +48,9 @@ jobs:
           esac
           echo "BLACKDUCK_URL looks good: $URL"
 
-      # Temporary guard—prevents failures if any internal uploader targets the legacy path
+      # Temporary guard to avoid internal artifact uploader failures that target the legacy dir.
       - name: Guard - create legacy SARIF directory (temporary)
+        shell: bash
         run: |
           mkdir -p ".bridge/Blackduck SCA SARIF Generator"
           : > ".bridge/Blackduck SCA SARIF Generator/.keep"
@@ -66,13 +69,10 @@ jobs:
           blackducksca_prcomment_enabled: true
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
-          # Generate SARIF (the action will create SARIF only on non-PR events)
+          # Ask the action to generate SARIF (it will do so only on non-PR runs)
           blackducksca_reports_sarif_create: true
-          # We'll upload to the Security tab explicitly
+          # We will upload to the Security tab explicitly
           blackducksca_upload_sarif_report: false
-
-          # Optional policy gate:
-          # blackducksca_scan_failure_severities: "CRITICAL,HIGH"
         env:
           DETECT_PROJECT_NAME: ${{ github.event.repository.name }}
           DETECT_PROJECT_VERSION_NAME: ${{ github.ref_name }}
@@ -80,29 +80,30 @@ jobs:
       # ----- SARIF handling only for NON-PR events -----
       - name: Gather SARIF reports (non-PR only)
         if: ${{ github.event_name != 'pull_request' }}
+        shell: bash
         run: |
           set -euxo pipefail
           dest=".bridge/sarif"
           mkdir -p "$dest"
 
-          # If SARIFs already exist in dest, just list them
+          # If SARIFs already in dest, just list and exit
           if ls "$dest"/*.sarif >/dev/null 2>&1; then
             echo "SARIF already present in $dest:"
             ls -la "$dest"/*.sarif
-          else
-            found=0
-            while IFS= read -r -d '' f; do
-              bn=$(basename "$f")
-              if [ "$f" != "$dest/$bn" ]; then
-                cp -v "$f" "$dest/$bn"
-              fi
-              found=1
-            done < <(find .bridge -type f -name "*.sarif" ! -path ".bridge/sarif/*" -print0 || true)
+            exit 0
+          fi
 
-            if [ "$found" -eq 0 ]; then
-              echo "No SARIF files found under .bridge/"
-              exit 1
-            fi
+          found=0
+          # Collect any SARIFs produced under .bridge into dest; avoid copying onto itself
+          while IFS= read -r -d '' f; do
+            bn=$(basename "$f")
+            [ "$f" = "$dest/$bn" ] || cp -v "$f" "$dest/$bn"
+            found=1
+          done < <(find .bridge -type f -name "*.sarif" ! -path ".bridge/sarif/*" -print0 || true)
+
+          if [ "$found" -eq 0 ]; then
+            echo "No SARIF files found under .bridge/"
+            exit 1
           fi
 
           echo "Collected SARIF files in $dest:"
@@ -125,6 +126,7 @@ jobs:
       # -------- Logs & diagnostics (always safe to capture) --------
       - name: Show Bridge and Detect logs (head)
         if: always()
+        shell: bash
         run: |
           echo "----- bridge.log (head) -----" || true
           sed -n '1,200p' ./.bridge/bridge.log || true
@@ -140,4 +142,3 @@ jobs:
             .bridge/**
             detect.log
           if-no-files-found: ignore
-``
