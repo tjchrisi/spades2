@@ -7,7 +7,6 @@ on:
     branches: [ main, develop ]
   workflow_dispatch:
 
-# Needed for Code Scanning uploads and PR comments
 permissions:
   contents: write
   security-events: write
@@ -27,7 +26,6 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-      # Build if it's a Maven project (safe no-op otherwise)
       - name: Build (skip tests if Maven project)
         run: |
           if [ -f pom.xml ]; then
@@ -36,7 +34,6 @@ jobs:
             echo "No Maven project detected; skipping build."
           fi
 
-      # Sanity check the BD URL (must be base host; no trailing /sca)
       - name: Preflight - Validate BLACKDUCK_URL format
         run: |
           URL="${{ vars.BLACKDUCK_URL }}"
@@ -49,11 +46,15 @@ jobs:
           esac
           echo "BLACKDUCK_URL looks good: $URL"
 
+      # Temporary guard; safe to remove later when no workflows reference the legacy path
+      - name: Guard - create legacy SARIF directory (temporary)
+        run: |
+          mkdir -p ".bridge/Blackduck SCA SARIF Generator"
+          : > ".bridge/Blackduck SCA SARIF Generator/.keep"
+
       - name: DEBUG - reached Black Duck step
         run: echo "About to run Black Duck SCA step..."
 
-      # ---- Black Duck SCA Scan ----
-      # Use supported SCA inputs only (blackducksca_*). Generate SARIF; we'll upload it ourselves.
       - name: Black Duck SCA Scan
         uses: blackduck-inc/black-duck-security-scan@v2.1.1
         with:
@@ -64,30 +65,25 @@ jobs:
           blackducksca_prcomment_enabled: true
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
-          # Generate SARIF but don't let the action upload it to Code Scanning
+          # Generate SARIF; we upload to Code Scanning explicitly below
           blackducksca_reports_sarif_create: true
           blackducksca_upload_sarif_report: false
 
-          # Optional policy enforcement once you're ready:
+          # Optional enforcement:
           # blackducksca_scan_failure_severities: "CRITICAL,HIGH"
-
-          # Optional: extra diagnostics
+          # Optional extra diagnostics:
           # blackducksca_include_diagnostics: true
         env:
           DETECT_PROJECT_NAME: ${{ github.event.repository.name }}
           DETECT_PROJECT_VERSION_NAME: ${{ github.ref_name }}
 
-      # Collect SARIF robustly:
-      # - Put all discovered *.sarif under .bridge/sarif
-      # - Do NOT error if the file is already in the destination
-      # - Fail clearly if no SARIF exists anywhere under .bridge
+      # Normalize SARIFs into .bridge/sarif (skip copying a file onto itself)
       - name: Gather SARIF reports
         run: |
           set -euxo pipefail
           dest=".bridge/sarif"
           mkdir -p "$dest"
 
-          # If SARIFs already exist in dest, just list them
           if ls "$dest"/*.sarif >/dev/null 2>&1; then
             echo "SARIF already present in $dest:"
             ls -la "$dest"/*.sarif
@@ -95,7 +91,6 @@ jobs:
             found=0
             while IFS= read -r -d '' f; do
               bn=$(basename "$f")
-              # Skip copy if source is already the same file in destination
               if [ "$f" != "$dest/$bn" ]; then
                 cp -v "$f" "$dest/$bn"
               fi
@@ -111,13 +106,24 @@ jobs:
           echo "Collected SARIF files in $dest:"
           ls -la "$dest"
 
-      # Upload SARIF(s) to GitHub Advanced Security (Security → Code scanning)
+      # Publish to Security → Code scanning
       - name: Upload SARIF to Security tab
         uses: github/codeql-action/upload-sarif@v3
         with:
           sarif_file: .bridge/sarif
 
-      # Print small log heads for quick triage (always)
+      # ---------------------------
+      # ✅ OPTIONAL: archive SARIFs
+      # ---------------------------
+      - name: Archive SARIF (optional)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: blackduck-sarif
+          path: ".bridge/sarif/*.sarif"
+          if-no-files-found: ignore
+
+      # Quick log heads for triage
       - name: Show Bridge and Detect logs (head)
         if: always()
         run: |
@@ -126,7 +132,7 @@ jobs:
           echo "----- detect.log (head) -----" || true
           sed -n '1,200p' ./detect.log || true
 
-      # Archive anything created under .bridge and detect.log (safe glob; never points to a single file)
+      # Safe, broad log/archive capture (never points to a brittle single path)
       - name: Archive Black Duck Scan Logs
         if: always()
         uses: actions/upload-artifact@v4
