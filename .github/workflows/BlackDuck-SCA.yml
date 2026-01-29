@@ -59,3 +59,62 @@ jobs:
           blackducksca_prcomment_enabled: true
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
+          # Create SARIF report, but upload it ourselves (more robust)
+          blackducksca_reports_sarif_create: true
+          blackducksca_upload_sarif_report: false
+
+          # --- Optional enforcement: fail only for specified severities
+          # blackducksca_scan_failure_severities: "CRITICAL,HIGH"
+          # or to NEVER fail the build based on findings:
+          # blackducksca_scan_failure_severities: "NONE"
+
+          # --- Optional: include extra diagnostics (if supported by your version)
+          # blackducksca_include_diagnostics: true
+        env:
+          # Predictable naming
+          DETECT_PROJECT_NAME: ${{ github.event.repository.name }}
+          DETECT_PROJECT_VERSION_NAME: ${{ github.ref_name }}
+
+      # Collect SARIF from any bridge/BD location into a space-free folder
+      - name: Gather SARIF reports
+        run: |
+          set -euxo pipefail
+          mkdir -p .bridge/sarif
+          found=0
+          while IFS= read -r -d '' f; do
+            cp -v "$f" ".bridge/sarif/$(basename "$f")"
+            found=1
+          done < <(find .bridge -type f -name "*.sarif" -print0 || true)
+          if [ "$found" -eq 0 ]; then
+            echo "No SARIF files found under .bridge/"
+            # Fail explicitly so the absence is clear
+            exit 1
+          fi
+          echo "Collected SARIF files:"
+          ls -la .bridge/sarif
+
+      # Publish to the Security tab (supports a directory)
+      - name: Upload SARIF to Security tab
+        uses: github/codeql-action/upload-sarif@v3
+        with:
+          sarif_file: .bridge/sarif
+
+      # Print first 300 lines of logs to aid triage when failures occur
+      - name: Show Bridge/Detect logs (best-effort)
+        if: always()
+        run: |
+          echo "----- bridge.log (head) -----" || true
+          sed -n '1,300p' ./.bridge/bridge.log || true
+          echo "----- detect.log (head) -----" || true
+          sed -n '1,300p' ./detect.log || true
+
+      # Always archive logs for deeper troubleshooting
+      - name: Archive Black Duck Scan Logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: blackduck-logs
+          path: |
+            ".bridge/**"
+            "detect.log"
+          if-no-files-found: ignore
