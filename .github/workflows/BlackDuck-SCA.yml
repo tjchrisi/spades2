@@ -46,60 +46,46 @@ jobs:
           esac
           echo "BLACKDUCK_URL looks good: $URL"
 
-      # --- STRONG GUARD ---
-      # Create the legacy SARIF directory and a minimal SARIF file so any internal artifact
-      # upload inside the Black Duck action cannot fail due to missing root/file.
-      # We will still publish the "real" SARIF to the Security tab via upload-sarif below.
-      - name: Guard - create legacy SARIF dir and placeholder SARIF
+      # Temporary guard—prevents failures if any internal uploader targets the legacy path
+      - name: Guard - create legacy SARIF directory (temporary)
         run: |
-          set -euxo pipefail
-          legacy_dir=".bridge/Blackduck SCA SARIF Generator"
-          mkdir -p "$legacy_dir"
-          # Minimal valid SARIF skeleton; safe placeholder if uploader expects a file
-          cat > "$legacy_dir/report.sarif.json" <<'EOF'
-          {
-            "version": "2.1.0",
-            "runs": [
-              {
-                "tool": { "driver": { "name": "Black Duck (placeholder)" } },
-                "results": []
-              }
-            ],
-            "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json"
-          }
-          EOF
-          # Also drop a keep file to ensure directory is never empty
-          : > "$legacy_dir/.keep"
+          mkdir -p ".bridge/Blackduck SCA SARIF Generator"
+          : > ".bridge/Blackduck SCA SARIF Generator/.keep"
 
       - name: DEBUG - reached Black Duck step
         run: echo "About to run Black Duck SCA step..."
 
       # ---- Black Duck SCA Scan ----
-      # Use supported SCA inputs; generate SARIF but do NOT let the action upload to Code Scanning.
       - name: Black Duck SCA Scan
         uses: blackduck-inc/black-duck-security-scan@v2.1.1
         with:
           blackducksca_url:   ${{ vars.BLACKDUCK_URL }}
           blackducksca_token: ${{ secrets.BLACKDUCK_API_TOKEN }}
 
-          # Optional: PR comments
+          # PR comments on PR runs
           blackducksca_prcomment_enabled: true
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
-          # Generate SARIF; upload to Security tab ourselves
+          # Generate SARIF (the action will create SARIF only on non-PR events)
           blackducksca_reports_sarif_create: true
+          # We'll upload to the Security tab explicitly
           blackducksca_upload_sarif_report: false
+
+          # Optional policy gate:
+          # blackducksca_scan_failure_severities: "CRITICAL,HIGH"
         env:
           DETECT_PROJECT_NAME: ${{ github.event.repository.name }}
           DETECT_PROJECT_VERSION_NAME: ${{ github.ref_name }}
 
-      # Gather SARIF robustly: copy any *.sarif under .bridge into .bridge/sarif (skip self-copies)
-      - name: Gather SARIF reports
+      # ----- SARIF handling only for NON-PR events -----
+      - name: Gather SARIF reports (non-PR only)
+        if: ${{ github.event_name != 'pull_request' }}
         run: |
           set -euxo pipefail
           dest=".bridge/sarif"
           mkdir -p "$dest"
 
+          # If SARIFs already exist in dest, just list them
           if ls "$dest"/*.sarif >/dev/null 2>&1; then
             echo "SARIF already present in $dest:"
             ls -la "$dest"/*.sarif
@@ -122,20 +108,21 @@ jobs:
           echo "Collected SARIF files in $dest:"
           ls -la "$dest"
 
-      - name: Upload SARIF to Security tab
+      - name: Upload SARIF to Security tab (non-PR only)
+        if: ${{ github.event_name != 'pull_request' }}
         uses: github/codeql-action/upload-sarif@v3
         with:
           sarif_file: .bridge/sarif
 
-      # Optional: separate downloadable SARIF artifact (does not fail if missing)
-      - name: Archive SARIF (optional)
-        if: always()
+      - name: Archive SARIF (optional, non-PR only)
+        if: ${{ always() && github.event_name != 'pull_request' }}
         uses: actions/upload-artifact@v4
         with:
           name: blackduck-sarif
           path: ".bridge/sarif/*.sarif"
           if-no-files-found: ignore
 
+      # -------- Logs & diagnostics (always safe to capture) --------
       - name: Show Bridge and Detect logs (head)
         if: always()
         run: |
@@ -153,3 +140,4 @@ jobs:
             .bridge/**
             detect.log
           if-no-files-found: ignore
+``
