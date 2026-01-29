@@ -7,7 +7,7 @@ on:
     branches: [ main, develop ]
   workflow_dispatch:
 
-# Required to upload SARIF to the Security tab and comment on PRs
+# Needed for SARIF uploads to the Security tab and PR comments
 permissions:
   contents: write
   security-events: write
@@ -48,34 +48,35 @@ jobs:
         run: echo "About to run Black Duck SCA step…"
 
       # ---- Black Duck SCA Scan ----
-      # Generate SARIF but DO NOT use the action's internal uploader (we'll upload explicitly)
+      # Generate SARIF but DO NOT let the action upload SARIF or artifacts internally.
       - name: Black Duck SCA Scan
         uses: blackduck-inc/black-duck-security-scan@v2.1.1
         with:
+          # Required
           blackducksca_url:   ${{ vars.BLACKDUCK_URL }}
           blackducksca_token: ${{ secrets.BLACKDUCK_API_TOKEN }}
 
-          # Enable PR comments (optional)
+          # Optional: PR comments
           blackducksca_prcomment_enabled: true
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
-          # Create SARIF report, but upload it ourselves (more robust)
+          # Create SARIF locally under .bridge/...
           blackducksca_reports_sarif_create: true
+
+          # Fully disable internal uploads (Security tab + artifact)
           blackducksca_upload_sarif_report: false
+          blackducksca_upload_sarif_artifact: false
 
-          # --- Optional enforcement: fail only for specified severities
+          # Optional policy gate once you're ready to enforce:
           # blackducksca_scan_failure_severities: "CRITICAL,HIGH"
-          # or to NEVER fail the build based on findings:
-          # blackducksca_scan_failure_severities: "NONE"
 
-          # --- Optional: include extra diagnostics (if supported by your version)
+          # Optional extra diagnostics (archive via artifact step)
           # blackducksca_include_diagnostics: true
         env:
-          # Predictable naming
           DETECT_PROJECT_NAME: ${{ github.event.repository.name }}
           DETECT_PROJECT_VERSION_NAME: ${{ github.ref_name }}
 
-      # Collect SARIF from any bridge/BD location into a space-free folder
+      # Normalize SARIF into a space-free folder, then upload to Security tab
       - name: Gather SARIF reports
         run: |
           set -euxo pipefail
@@ -87,28 +88,26 @@ jobs:
           done < <(find .bridge -type f -name "*.sarif" -print0 || true)
           if [ "$found" -eq 0 ]; then
             echo "No SARIF files found under .bridge/"
-            # Fail explicitly so the absence is clear
             exit 1
           fi
           echo "Collected SARIF files:"
           ls -la .bridge/sarif
 
-      # Publish to the Security tab (supports a directory)
       - name: Upload SARIF to Security tab
         uses: github/codeql-action/upload-sarif@v3
         with:
           sarif_file: .bridge/sarif
 
-      # Print first 300 lines of logs to aid triage when failures occur
+      # Print small log heads to aid triage
       - name: Show Bridge/Detect logs (best-effort)
         if: always()
         run: |
           echo "----- bridge.log (head) -----" || true
-          sed -n '1,300p' ./.bridge/bridge.log || true
+          sed -n '1,200p' ./.bridge/bridge.log || true
           echo "----- detect.log (head) -----" || true
-          sed -n '1,300p' ./detect.log || true
+          sed -n '1,200p' ./detect.log || true
 
-      # Always archive logs for deeper troubleshooting
+      # Always archive logs for deep troubleshooting
       - name: Archive Black Duck Scan Logs
         if: always()
         uses: actions/upload-artifact@v4
@@ -118,3 +117,4 @@ jobs:
             ".bridge/**"
             "detect.log"
           if-no-files-found: ignore
+``
