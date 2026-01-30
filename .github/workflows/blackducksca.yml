@@ -1,0 +1,60 @@
+name: Black Duck SCA
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+  workflow_dispatch:
+
+# Required to upload SARIF to the Security tab and comment on PRs
+permissions:
+  contents: write
+  security-events: write
+  pull-requests: write
+
+jobs:
+  sca:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      # Build if it's a Maven project (safe no-op otherwise)
+      - name: Build (skip tests if Maven project)
+        run: bash -lc 'if [ -f pom.xml ]; then mvn -B -DskipTests package; else echo "No Maven project detected; skipping build."; fi'
+
+      # Preflight: URL must be base host (no trailing /sca)
+      - name: Preflight — Validate BLACKDUCK_URL format
+        run: |
+          URL="${{ vars.BLACKDUCK_URL }}"
+          if [[ -z "$URL" ]]; then
+            echo "BLACKDUCK_URL is empty"; exit 1
+          fi
+          if [[ "$URL" == */sca ]]; then
+            echo "BLACKDUCK_URL must be the BASE host (no trailing /sca). Current: $URL"
+            exit 1
+          fi
+          echo "BLACKDUCK_URL looks good: $URL"
+
+      - name: DEBUG — reached Black Duck step
+        run: echo "About to run Black Duck SCA step…"
+
+      # ---- Black Duck SCA Scan ----
+      # Generate SARIF but DO NOT use the action's internal uploader (we'll upload explicitly)
+      - name: Black Duck SCA Scan
+        uses: blackduck-inc/black-duck-security-scan@v2.1.1
+        with:
+          blackducksca_url:   ${{ vars.BLACKDUCK_URL }}
+          blackducksca_token: ${{ secrets.BLACKDUCK_API_TOKEN }}
+
+          # Enable PR comments (optional)
+          blackducksca_prcomment_enabled: true
+          github_token: ${{ secrets.GITHUB_TOKEN }}
