@@ -48,13 +48,6 @@ jobs:
           esac
           echo "BLACKDUCK_URL looks good: $URL"
 
-      # Temporary guard to avoid internal artifact uploader failures that target the legacy dir.
-      - name: Guard - create legacy SARIF directory (temporary)
-        shell: bash
-        run: |
-          mkdir -p ".bridge/Blackduck SCA SARIF Generator"
-          : > ".bridge/Blackduck SCA SARIF Generator/.keep"
-
       - name: DEBUG - reached Black Duck step
         run: echo "About to run Black Duck SCA step..."
 
@@ -71,11 +64,19 @@ jobs:
 
           # Ask the action to generate SARIF (it will do so only on non-PR runs)
           blackducksca_reports_sarif_create: true
-          # We will upload to the Security tab explicitly
+          # We will upload to the Security tab explicitly in this workflow
           blackducksca_upload_sarif_report: false
         env:
           DETECT_PROJECT_NAME: ${{ github.event.repository.name }}
           DETECT_PROJECT_VERSION_NAME: ${{ github.ref_name }}
+
+      # OPTIONAL: quick diagnostic to confirm where the SARIF landed
+      - name: DEBUG - list .bridge after scan
+        if: always()
+        shell: bash
+        run: |
+          echo "Tree under .bridge (depth 3):"
+          find .bridge -maxdepth 3 -type f -print || true
 
       # ----- SARIF handling only for NON-PR events -----
       - name: Gather SARIF reports (non-PR only)
@@ -86,20 +87,20 @@ jobs:
           dest=".bridge/sarif"
           mkdir -p "$dest"
 
-          # If SARIFs already in dest, just list and exit
-          if ls "$dest"/*.sarif >/dev/null 2>&1; then
+          # If SARIF already in dest, just list and exit
+          if ls "$dest"/*.sarif "$dest"/*.sarif.json >/dev/null 2>&1; then
             echo "SARIF already present in $dest:"
-            ls -la "$dest"/*.sarif
+            ls -la "$dest"/*.sarif "$dest"/*.sarif.json || true
             exit 0
           fi
 
           found=0
-          # Collect any SARIFs produced under .bridge into dest; avoid copying onto itself
+          # Collect any SARIFs (.sarif or .sarif.json) produced under .bridge into dest; avoid copying onto itself
           while IFS= read -r -d '' f; do
             bn=$(basename "$f")
             [ "$f" = "$dest/$bn" ] || cp -v "$f" "$dest/$bn"
             found=1
-          done < <(find .bridge -type f -name "*.sarif" ! -path ".bridge/sarif/*" -print0 || true)
+          done < <(find .bridge -type f \( -name "*.sarif" -o -name "*.sarif.json" \) ! -path ".bridge/sarif/*" -print0 || true)
 
           if [ "$found" -eq 0 ]; then
             echo "No SARIF files found under .bridge/"
@@ -113,6 +114,7 @@ jobs:
         if: ${{ github.event_name != 'pull_request' }}
         uses: github/codeql-action/upload-sarif@v3
         with:
+          # You can upload a directory; the action will find SARIF files
           sarif_file: .bridge/sarif
 
       - name: Archive SARIF (optional, non-PR only)
@@ -120,7 +122,9 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: blackduck-sarif
-          path: ".bridge/sarif/*.sarif"
+          path: |
+            .bridge/sarif/*.sarif
+            .bridge/sarif/*.sarif.json
           if-no-files-found: ignore
 
       # -------- Logs & diagnostics (always safe to capture) --------
