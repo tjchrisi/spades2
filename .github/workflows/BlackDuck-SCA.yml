@@ -62,9 +62,9 @@ jobs:
           blackducksca_prcomment_enabled: true
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
-          # Ask the action to generate SARIF (it will do so only on non-PR runs)
+          # Generate SARIF (Bridge will only emit SARIF for non-PR runs)
           blackducksca_reports_sarif_create: true
-          # We'll upload to the Security tab explicitly in this workflow
+          # We'll control upload to Security tab explicitly here
           blackducksca_upload_sarif_report: false
         env:
           DETECT_PROJECT_NAME: ${{ github.event.repository.name }}
@@ -75,61 +75,26 @@ jobs:
         if: always()
         shell: bash
         run: |
-          echo "Tree under .bridge (depth 3):"
+          echo "Files under .bridge (depth 3):"
           find .bridge -maxdepth 3 -type f -print || true
 
-      # ----- SARIF handling only for NON-PR events -----
-      - name: Gather SARIF reports (non-PR only)
-        if: ${{ github.event_name != 'pull_request' }}
-        shell: bash
-        run: |
-          set -euxo pipefail
-          dest=".bridge/sarif"
-          mkdir -p "$dest"
-
-          # If SARIF already in dest, just list and exit
-          if ls "$dest"/*.sarif "$dest"/*.sarif.json >/dev/null 2>&1; then
-            echo "SARIF already present in $dest:"
-            ls -la "$dest"/*.sarif "$dest"/*.sarif.json || true
-            exit 0
-          fi
-
-          found=0
-          # Collect any SARIFs (.sarif or .sarif.json) produced under .bridge into dest; avoid copying onto itself
-          while IFS= read -r -d '' f; do
-            bn=$(basename "$f")
-            [ "$f" = "$dest/$bn" ] || cp -v "$f" "$dest/$bn"
-            found=1
-          done < <(find .bridge -type f \( -name "*.sarif" -o -name "*.sarif.json" \) ! -path ".bridge/sarif/*" -print0 || true)
-
-          if [ "$found" -eq 0 ]; then
-            echo "No SARIF files found under .bridge/"
-            echo "Here are candidate files under .bridge:"
-            find .bridge -type f -maxdepth 3 -print || true
-            exit 1
-          fi
-
-          echo "Collected SARIF files in $dest:"
-          ls -la "$dest"
-
+      # ----- Publish to Security tab (non-PR only) -----
       - name: Upload SARIF to Security tab (non-PR only)
         if: ${{ github.event_name != 'pull_request' }}
         uses: github/codeql-action/upload-sarif@v3
         with:
-          # You can upload a directory; the action will find SARIF files
-          sarif_file: .bridge/sarif
+          sarif_file: .bridge/blackduck_sca_sarif_generator/report.sarif.json
 
-      - name: Archive SARIF (optional, non-PR only)
-        if: ${{ always() && github.event_name != 'pull_request' }}
+      # ----- Archive SARIF as artifact (non-PR only) -----
+      - name: Upload Black Duck SARIF artifact (non-PR only)
+        if: ${{ github.event_name != 'pull_request' }}
         uses: actions/upload-artifact@v4
         with:
           name: blackduck-sarif
-          path: |
-            .bridge/sarif/*.sarif
-            .bridge/sarif/*.sarif.json
-          if-no-files-found: ignore
+          path: .bridge/blackduck_sca_sarif_generator/report.sarif.json
+          if-no-files-found: error
 
-      # -------- Logs & diagnostics (always safe to capture) --------
+      # -------- Logs & diagnostics (always captured) --------
       - name: Show Bridge and Detect logs (head)
         if: always()
         shell: bash
