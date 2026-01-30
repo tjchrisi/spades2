@@ -64,7 +64,7 @@ jobs:
 
           # Ask the action to generate SARIF (it will do so only on non-PR runs)
           blackducksca_reports_sarif_create: true
-          # We will upload to the Security tab explicitly in this workflow
+          # We'll upload to the Security tab explicitly in this workflow
           blackducksca_upload_sarif_report: false
         env:
           DETECT_PROJECT_NAME: ${{ github.event.repository.name }}
@@ -104,6 +104,8 @@ jobs:
 
           if [ "$found" -eq 0 ]; then
             echo "No SARIF files found under .bridge/"
+            echo "Here are candidate files under .bridge:"
+            find .bridge -type f -maxdepth 3 -print || true
             exit 1
           fi
 
