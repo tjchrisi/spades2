@@ -1,0 +1,25 @@
+name: Black Duck SCA (baseline)
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+jobs:
+  bd-scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Black Duck SCA Scan (baseline, longer waits)
+        uses: blackduck-inc/black-duck-security-scan@v2.1.1  # pin a stable tag
+        with:
+          blackducksca_url: ${{ vars.BLACKDUCK_URL }}
+          blackducksca_token: ${{ secrets.BLACKDUCK_API_TOKEN }}
+          # (disable extras first; add them back later)
+          blackducksca_prComment_enabled: false
+          blackducksca_fixpr_enabled: false
+          blackducksca_reports_sarif_create: false
+        env:
+          DETECT_PROJECT_NAME: ${{ github.event.repository.name }}
+          DETECT_WAIT_FOR_RESULTS: "true"
+          DETECT_REPORT_TIMEOUT: "1800"
+          BLACKDUCK_TIMEOUT: "900"
