@@ -1,0 +1,65 @@
+name: Black Duck SCA
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  # PR comments & (optional) SARIF upload need these:
+  pull-requests: write
+  security-events: write
+
+jobs:
+  scan:
+    name: Black Duck SCA Scan
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+
+      # --- (Optional) Build step(s) so Detect can see dependencies ---
+      # - name: Build (Java/Maven example)
+      #   run: mvn -B -DskipTests package
+
+      - name: Black Duck SCA Scan (PR comments + SARIF)
+        uses: blackduck-inc/black-duck-security-scan@v2.1.1
+        with:
+          # --- Required server settings ---
+          blackducksca_url: ${{ vars.BLACKDUCK_URL }}          # set as a "Repository variable"
+          blackducksca_token: ${{ secrets.BLACKDUCK_API_TOKEN }}# set as a "Repository secret"
+
+          # --- Developer feedback features ---
+          blackducksca_prComment_enabled: true                  # post summary as a PR comment
+          blackducksca_reports_sarif_create: true               # create SARIF & upload to Security tab
+
+          # --- (Optional) Fix PRs: open upgrade PRs for vulnerable components ---
+          # blackducksca_fixpr_enabled: true
+
+          # --- (Optional) Policy gate: fail when policy violations exist (BLOCKER by default) ---
+          # blackducksca_scan_failure_severities: 'BLOCKER'
+
+        env:
+          # Project naming (simple default—repo name)
+          DETECT_PROJECT_NAME: ${{ github.event.repository.name }}
+
+          # --- Make scans more resilient on busy servers ---
+          DETECT_WAIT_FOR_RESULTS: "true"
+          DETECT_REPORT_TIMEOUT: "1800"   # 30 minutes for server-side processing
+          BLACKDUCK_TIMEOUT: "900"        # 15 minutes for API waits
+
+          # --- (Optional) If you need to override project version ---
+          # DETECT_PROJECT_VERSION_NAME: ${{ github.ref_name }}
+
+      # --- (Optional) Always publish diagnostic bundle when job fails (helps debugging) ---
+      - name: Upload diagnostics on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: blackduck-diagnostics
+          path: |
+            .bridge/**/*
+            **/blackduck/**/*
+          if-no-files-found: ignore
